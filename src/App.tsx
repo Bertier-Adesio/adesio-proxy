@@ -4,6 +4,9 @@ import {
   Search, Bell, User, Box, ArrowRight, Activity, Cloud
 } from 'lucide-react';
 import IngestionEngine from './components/IngestionEngine';
+import CatalogManager from './components/CatalogManager';
+import LiveSyncSettings from './components/LiveSyncSettings';
+import AdesioAssist from './components/AdesioAssist';
 import './index.css';
 
 const MODULES = [
@@ -161,6 +164,9 @@ export default function App() {
         <div className="page-content">
           {activeModule === 'dashboard' ? <DashboardView /> 
            : activeModule === 'ingestion' ? <IngestionEngine /> 
+           : activeModule === 'catalog' ? <CatalogManager />
+           : activeModule === 'assist' ? <AdesioAssist />
+           : activeModule === 'integrations' ? <LiveSyncSettings />
            : <DefaultView title={activeTitle} />}
         </div>
       </main>

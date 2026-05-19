@@ -8,6 +8,7 @@ import CatalogManager from './components/CatalogManager';
 import LiveSyncSettings from './components/LiveSyncSettings';
 import AdesioAssist from './components/AdesioAssist';
 import WeChatIntegration from './components/WeChatIntegration';
+import TelemetryBilling from './components/TelemetryBilling';
 import './index.css';
 
 const MODULES = [
@@ -169,6 +170,7 @@ export default function App() {
            : activeModule === 'assist' ? <AdesioAssist />
            : activeModule === 'integrations' ? <LiveSyncSettings />
            : activeModule === 'wechat' ? <WeChatIntegration />
+           : activeModule === 'telemetry' ? <TelemetryBilling />
            : <DefaultView title={activeTitle} />}
         </div>
       </main>

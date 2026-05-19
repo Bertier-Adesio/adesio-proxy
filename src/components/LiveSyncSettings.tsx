@@ -27,7 +27,7 @@ export default function LiveSyncSettings() {
         <button 
           onClick={() => setActiveTab('sftp')}
           style={{ padding: '8px 16px', background: 'transparent', color: activeTab === 'sftp' ? 'var(--accent-primary)' : 'var(--text-secondary)', border: 'none', borderBottom: activeTab === 'sftp' ? '2px solid var(--accent-primary)' : '2px solid transparent', cursor: 'pointer', fontWeight: 600, fontSize: '0.95rem', display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '-13px' }}>
-          <Server size={18} /> Automated Nightly Fetch (SFTP)
+          <Server size={18} /> Inbound Fetch (API / SFTP)
         </button>
         <button 
           onClick={() => setActiveTab('api')}
@@ -69,30 +69,49 @@ export default function LiveSyncSettings() {
         </div>
       )}
 
-      {/* SFTP CONTENT */}
+      {/* INBOUND FETCH CONTENT */}
       {activeTab === 'sftp' && (
         <div className="card" style={{ padding: '32px', display: 'flex', flexDirection: 'column', gap: '24px' }}>
           <div>
-            <h3 style={{ fontSize: '1.2rem', fontWeight: 600, marginBottom: '8px' }}>Secure FTP Configuration</h3>
-            <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>Configure Adesio to automatically pull your lightweight dynamic CSV (MPN, Stock, Lead Time, Price) from your ERP's secure FTP drop zone every night.</p>
+            <h3 style={{ fontSize: '1.2rem', fontWeight: 600, marginBottom: '8px' }}>Automated Inbound Fetch</h3>
+            <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>Configure Adesio to automatically pull your dynamic data (MPN, Stock, Lead Time, Price) from your REST API or secure FTP drop zone.</p>
           </div>
           
+          <div style={{ display: 'flex', gap: '16px', marginBottom: '8px' }}>
+            <label style={{ display: 'flex', alignItems: 'center', gap: '8px', cursor: 'pointer' }}>
+              <input type="radio" name="fetchType" defaultChecked style={{ accentColor: 'var(--accent-primary)' }} />
+              <span style={{ fontSize: '0.9rem', fontWeight: 500 }}>REST API Endpoint</span>
+            </label>
+            <label style={{ display: 'flex', alignItems: 'center', gap: '8px', cursor: 'pointer' }}>
+              <input type="radio" name="fetchType" style={{ accentColor: 'var(--accent-primary)' }} />
+              <span style={{ fontSize: '0.9rem', fontWeight: 500 }}>Secure FTP (SFTP)</span>
+            </label>
+          </div>
+
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px' }}>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-              <label style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--text-secondary)' }}>Host URI</label>
-              <input type="text" defaultValue="sftp.manufacturer.com" style={{ padding: '10px 12px', background: 'rgba(255,255,255,0.05)', border: '1px solid var(--border-color)', borderRadius: '6px', color: 'var(--text-primary)' }} />
+              <label style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--text-secondary)' }}>Endpoint URL</label>
+              <input type="text" defaultValue="https://api.manufacturer.com/v1/inventory" style={{ padding: '10px 12px', background: 'rgba(255,255,255,0.05)', border: '1px solid var(--border-color)', borderRadius: '6px', color: 'var(--text-primary)' }} />
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-              <label style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--text-secondary)' }}>Port</label>
-              <input type="text" defaultValue="22" style={{ padding: '10px 12px', background: 'rgba(255,255,255,0.05)', border: '1px solid var(--border-color)', borderRadius: '6px', color: 'var(--text-primary)' }} />
+              <label style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--text-secondary)' }}>Authentication Method</label>
+              <select style={{ padding: '10px 12px', background: 'var(--panel-bg)', border: '1px solid var(--border-color)', borderRadius: '6px', color: 'var(--text-primary)' }}>
+                <option>Bearer Token</option>
+                <option>Basic Auth</option>
+                <option>API Key (Header)</option>
+              </select>
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-              <label style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--text-secondary)' }}>Username</label>
-              <input type="text" defaultValue="adesio_sync_service" style={{ padding: '10px 12px', background: 'rgba(255,255,255,0.05)', border: '1px solid var(--border-color)', borderRadius: '6px', color: 'var(--text-primary)' }} />
+              <label style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--text-secondary)' }}>Auth Token / Key</label>
+              <input type="password" defaultValue="************************" style={{ padding: '10px 12px', background: 'rgba(255,255,255,0.05)', border: '1px solid var(--border-color)', borderRadius: '6px', color: 'var(--text-primary)' }} />
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-              <label style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--text-secondary)' }}>Path</label>
-              <input type="text" defaultValue="/exports/daily_inventory.csv" style={{ padding: '10px 12px', background: 'rgba(255,255,255,0.05)', border: '1px solid var(--border-color)', borderRadius: '6px', color: 'var(--text-primary)' }} />
+              <label style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--text-secondary)' }}>Sync Frequency</label>
+              <select style={{ padding: '10px 12px', background: 'var(--panel-bg)', border: '1px solid var(--border-color)', borderRadius: '6px', color: 'var(--text-primary)' }}>
+                <option>Hourly</option>
+                <option>Every 6 Hours</option>
+                <option>Daily (Midnight UTC)</option>
+              </select>
             </div>
           </div>
           

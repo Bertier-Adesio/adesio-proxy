@@ -7,6 +7,7 @@ import IngestionEngine from './components/IngestionEngine';
 import CatalogManager from './components/CatalogManager';
 import LiveSyncSettings from './components/LiveSyncSettings';
 import AdesioAssist from './components/AdesioAssist';
+import WeChatIntegration from './components/WeChatIntegration';
 import './index.css';
 
 const MODULES = [
@@ -167,6 +168,7 @@ export default function App() {
            : activeModule === 'catalog' ? <CatalogManager />
            : activeModule === 'assist' ? <AdesioAssist />
            : activeModule === 'integrations' ? <LiveSyncSettings />
+           : activeModule === 'wechat' ? <WeChatIntegration />
            : <DefaultView title={activeTitle} />}
         </div>
       </main>

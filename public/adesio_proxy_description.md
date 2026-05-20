@@ -73,8 +73,13 @@ A specialized module acknowledging the importance of the APAC market. It provide
 ### 9. 👤 User Details
 A profile administration portal showing operator info, APAC region gate details, and catalog API authority credentials.
 
-### 10. 🛡️ Role-Based Access Control (RBAC)
+It consists of three core functional tabs:
+
+#### 👤 User Profile Details
+Maintains operator metadata, assigned regional cloud gateways (such as Alibaba APAC), and active API authority scopes.
+
+#### 🛡️ Role-Based Access Control (RBAC)
 A secure permissions checklist granting or restricting operational authority (e.g., catalog writes, AI enrichment triggers) per user role.
 
-### 11. 🔒 Security Best Practices
+#### 🔒 Security Best Practices
 Integration compliance status covering SHA256 signature verification, WeChat IAM mappings, and HTTPS-only enforce protocols.

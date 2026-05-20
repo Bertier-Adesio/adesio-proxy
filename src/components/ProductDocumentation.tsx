@@ -17,6 +17,7 @@ interface DocContent {
   playbook: { title: string; intro?: string; steps: { num: string; title: string; desc: string }[] };
   benefits: { title: string; intro?: string; items: { title: string; desc: string }[] };
   modules: { title: string; list: { title: string; desc: string }[] };
+  settings: { title: string; list: { title: string; desc: string }[] };
 }
 
 // Fallback hardcoded documentation to ensure app resilience
@@ -72,14 +73,19 @@ const FALLBACK_DOC: DocContent = {
       { title: '3. Adesio Assist (AI Enrichment)', desc: 'An advanced extraction pipeline that flags parts with missing parametric specifications. Operators can trigger a bulk ingestion run that retrieves datasheet documents, processes them using high-fidelity OCR models, and utilizes LLMs to extract precise technical parameters (e.g., Operating Temperature, Voltage, Package Type) directly into the Master Catalog of Parts.' },
       { title: '4. Catalog Manager', desc: 'The central database view (Master Catalog of Parts). It offers a high-density, Bloomberg-style datagrid for managing thousands of SKUs. Users can filter by lifecycle, stock, or missing data, and make inline edits to ensure data integrity before syndication.' },
       { title: '5. LiveSync Settings', desc: 'The routing matrix for outbound data. Users configure their live API endpoints, legacy SFTP connections, and webhook payloads for their downstream partners. It ensures that when a price changes in Adesio, it is instantly reflected on Octopart or DigiKey.' },
-      { title: '6. WeChat Integration (Omnichannel)', desc: 'A dedicated module built for the APAC market. It provides secure Identity & Access Management (IAM) and an interactive simulator to preview component catalog rendering in real-time inside WeChat Mini-Programs for localized buyers.' },
-      { title: '7. Telemetry & Billing', desc: 'A dual-sided observability suite. It tracks back-office operations using telemetry hooks (uploads, manual overrides) and monitors external developer API traffic. It visualizes global search demand hotspots and calculates precise monthly usage-based billing.' }
+      { title: '6. Telemetry & Billing', desc: 'A dual-sided observability suite. It tracks back-office operations using telemetry hooks (uploads, manual overrides) and monitors external developer API traffic. It visualizes global search demand hotspots and calculates precise monthly usage-based billing.' }
+    ]
+  },
+  settings: {
+    title: '⚙️ Platform Settings',
+    list: [
+      { title: '1. WeChat Integration (Omnichannel)', desc: 'A dedicated module built for the APAC market. It provides secure Identity & Access Management (IAM) and an interactive simulator to preview component catalog rendering in real-time inside WeChat Mini-Programs for localized buyers.' }
     ]
   }
 };
 
 export default function ProductDocumentation({ isOpen, onClose }: ProductDocumentationProps) {
-  const [activeTab, setActiveTab] = useState<'overview' | 'challenge' | 'audience' | 'playbook' | 'benefits' | 'modules'>('overview');
+  const [activeTab, setActiveTab] = useState<'overview' | 'challenge' | 'audience' | 'playbook' | 'benefits' | 'modules' | 'settings'>('overview');
   const [doc, setDoc] = useState<DocContent>(FALLBACK_DOC);
 
   useEffect(() => {
@@ -223,6 +229,24 @@ export default function ProductDocumentation({ isOpen, onClose }: ProductDocumen
               list: list.length > 0 ? list : FALLBACK_DOC.modules.list 
             };
           }
+          else if (rawTitle.includes('Settings')) {
+            const list: { title: string; desc: string }[] = [];
+            // Split by ### headers
+            const settingsRaw = body.split(/\n?###\s+/);
+            settingsRaw.forEach(sRaw => {
+              const sLines = sRaw.split('\n');
+              const sTitle = sLines[0].trim();
+              const sDesc = sLines.slice(1).join('\n').trim();
+              if (sTitle.length > 0) {
+                list.push({ title: sTitle, desc: sDesc });
+              }
+            });
+
+            newDoc.settings = { 
+              title: ensureEmoji(rawTitle, '⚙️'), 
+              list: list.length > 0 ? list : FALLBACK_DOC.settings.list 
+            };
+          }
         });
 
         // Set state securely
@@ -232,7 +256,8 @@ export default function ProductDocumentation({ isOpen, onClose }: ProductDocumen
           audience: newDoc.audience || FALLBACK_DOC.audience,
           playbook: newDoc.playbook || FALLBACK_DOC.playbook,
           benefits: newDoc.benefits || FALLBACK_DOC.benefits,
-          modules: newDoc.modules || FALLBACK_DOC.modules
+          modules: newDoc.modules || FALLBACK_DOC.modules,
+          settings: newDoc.settings || FALLBACK_DOC.settings
         });
       })
       .catch((err) => {
@@ -248,6 +273,7 @@ export default function ProductDocumentation({ isOpen, onClose }: ProductDocumen
     { id: 'playbook', label: 'How It Works', icon: <Wand2 size={16} /> },
     { id: 'benefits', label: 'Ecosystem Benefits', icon: <TrendingUp size={16} /> },
     { id: 'modules', label: 'Platform Modules', icon: <LayoutDashboard size={16} /> },
+    { id: 'settings', label: 'Platform Settings', icon: <Settings size={16} /> },
   ] as const;
 
   // Helper to map dynamic module titles to correct Lucide icons
@@ -719,6 +745,100 @@ export default function ProductDocumentation({ isOpen, onClose }: ProductDocumen
                           marginTop: '8px'
                         }}>
                           {doc.modules.list.map((mod, idx) => {
+                            const iconConfig = getModuleIcon(mod.title);
+                            return (
+                              <div 
+                                key={idx}
+                                style={{
+                                  padding: '18px',
+                                  background: 'rgba(255, 255, 255, 0.02)',
+                                  border: '1px solid rgba(255, 255, 255, 0.05)',
+                                  borderRadius: '10px',
+                                  display: 'flex',
+                                  gap: '16px',
+                                  alignItems: 'flex-start',
+                                  transition: 'all 0.2s'
+                                }}
+                                onMouseEnter={(e) => {
+                                  e.currentTarget.style.border = '1px solid rgba(255, 255, 255, 0.1)';
+                                  e.currentTarget.style.background = 'rgba(255, 255, 255, 0.03)';
+                                }}
+                                onMouseLeave={(e) => {
+                                  e.currentTarget.style.border = '1px solid rgba(255, 255, 255, 0.05)';
+                                  e.currentTarget.style.background = 'rgba(255, 255, 255, 0.02)';
+                                }}
+                              >
+                                <div style={{
+                                  padding: '10px',
+                                  borderRadius: '8px',
+                                  background: 'rgba(255, 255, 255, 0.03)',
+                                  border: '1px solid rgba(255, 255, 255, 0.05)',
+                                  display: 'flex',
+                                  alignItems: 'center',
+                                  justifyContent: 'center',
+                                  flexShrink: 0
+                                }}>
+                                  {iconConfig.icon}
+                                </div>
+                                <div style={{ flex: 1 }}>
+                                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '6px' }}>
+                                    <h4 style={{ color: 'white', margin: 0, fontSize: '0.95rem', fontWeight: 600 }}>{mod.title}</h4>
+                                    <span style={{
+                                      fontSize: '0.7rem',
+                                      padding: '2px 8px',
+                                      borderRadius: '12px',
+                                      background: 'rgba(16, 185, 129, 0.1)',
+                                      color: '#10b981',
+                                      fontWeight: 600,
+                                      border: '1px solid rgba(16, 185, 129, 0.2)'
+                                    }}>
+                                      Active
+                                    </span>
+                                  </div>
+                                  <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem', margin: 0, lineHeight: 1.5 }}>
+                                    {mod.desc}
+                                  </p>
+                                </div>
+                              </div>
+                            );
+                          })}
+                        </div>
+                      </div>
+                    )}
+
+                    {/* PLATFORM SETTINGS */}
+                    {activeTab === 'settings' && (
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
+                        <div>
+                          <span style={{
+                            padding: '4px 10px',
+                            background: 'rgba(168, 85, 247, 0.1)',
+                            border: '1px solid rgba(168, 85, 247, 0.2)',
+                            borderRadius: '20px',
+                            color: '#a855f7',
+                            fontSize: '0.75rem',
+                            fontWeight: 600,
+                            letterSpacing: '0.05em',
+                            textTransform: 'uppercase'
+                          }}>
+                            Platform Settings
+                          </span>
+                          <h2 style={{ fontSize: '1.75rem', fontWeight: 700, color: 'white', marginTop: '12px', marginBottom: '8px', letterSpacing: '-0.02em' }}>
+                            {doc.settings.title}
+                          </h2>
+                          <div style={{ width: '40px', height: '3px', background: '#a855f7', borderRadius: '2px' }} />
+                        </div>
+
+                        <div className="custom-scrollbar" style={{
+                          display: 'grid',
+                          gridTemplateColumns: 'repeat(1, 1fr)',
+                          gap: '16px',
+                          maxHeight: '400px',
+                          overflowY: 'auto',
+                          paddingRight: '8px',
+                          marginTop: '8px'
+                        }}>
+                          {doc.settings.list.map((mod, idx) => {
                             const iconConfig = getModuleIcon(mod.title);
                             return (
                               <div 

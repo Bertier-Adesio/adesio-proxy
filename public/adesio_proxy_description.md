@@ -61,8 +61,12 @@ The central database view (Master Catalog of Parts). It offers a high-density, B
 ### 5. ⚡ LiveSync Settings
 The routing matrix for outbound data. Users configure their live API endpoints, legacy SFTP connections, and webhook payloads for their downstream partners. It ensures that when a price changes in Adesio, it is instantly reflected on Octopart or DigiKey.
 
-### 6. 💬 WeChat Integration (Omnichannel)
-A specialized module acknowledging the importance of the APAC market. It provides Identity & Access Management (IAM) and an interactive simulator to visualize how the syndicated component data will render inside a WeChat Mini-Program for localized buyers.
-
-### 7. 📈 Telemetry & Billing
+### 6. 📈 Telemetry & Billing
 A dual-sided analytics engine. It tracks internal user activity via PostHog (file uploads, edits) and monitors inbound/outbound partner API calls via Google Analytics. It visualizes geographic intent data (where components are being searched globally) and calculates dynamic monthly billing based on exact event volumes.
+
+---
+
+## ⚙️ Platform Settings
+
+### 1. 💬 WeChat Integration (Omnichannel)
+A specialized module acknowledging the importance of the APAC market. It provides Identity & Access Management (IAM) and an interactive simulator to visualize how the syndicated component data will render inside a WeChat Mini-Program for localized buyers.

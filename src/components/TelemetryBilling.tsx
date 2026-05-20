@@ -30,13 +30,13 @@ export default function TelemetryBilling() {
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px' }}>
         {/* POSTHOG METRIC */}
-        <div className="card" style={{ padding: '24px', borderTop: '4px solid #f54e00' }}>
+        <div className="card" style={{ padding: '24px', borderTop: '4px solid var(--chart-1)' }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '16px' }}>
             <div>
               <h3 style={{ color: 'var(--text-primary)', fontSize: '1.1rem', fontWeight: 600 }}>Internal User Activity</h3>
               <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem', marginTop: '4px' }}>Tracked via PostHog Events</p>
             </div>
-            <Activity size={24} color="#f54e00" />
+            <Activity size={24} color="var(--chart-1)" />
           </div>
           <div style={{ fontSize: '2.2rem', fontWeight: 700, color: 'var(--text-primary)' }}>{telemetry.metrics.userActivity.toLocaleString()}</div>
           <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginTop: '8px', display: 'flex', alignItems: 'center', gap: '16px' }}>
@@ -46,13 +46,13 @@ export default function TelemetryBilling() {
         </div>
 
         {/* GOOGLE ANALYTICS METRIC */}
-        <div className="card" style={{ padding: '24px', borderTop: '4px solid #fbbc04' }}>
+        <div className="card" style={{ padding: '24px', borderTop: '4px solid var(--chart-2)' }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '16px' }}>
             <div>
               <h3 style={{ color: 'var(--text-primary)', fontSize: '1.1rem', fontWeight: 600 }}>Partner API Syncs</h3>
               <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem', marginTop: '4px' }}>Tracked via Google Analytics (Measurement Protocol)</p>
             </div>
-            <Database size={24} color="#fbbc04" />
+            <Database size={24} color="var(--chart-2)" />
           </div>
           <div style={{ fontSize: '2.2rem', fontWeight: 700, color: 'var(--text-primary)' }}>{telemetry.metrics.apiSyncs.toLocaleString()}</div>
           <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginTop: '8px', display: 'flex', alignItems: 'center', gap: '16px' }}>
@@ -72,12 +72,12 @@ export default function TelemetryBilling() {
             <AreaChart data={telemetry.usageData} margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
               <defs>
                 <linearGradient id="colorApi" x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="5%" stopColor="#fbbc04" stopOpacity={0.3}/>
-                  <stop offset="95%" stopColor="#fbbc04" stopOpacity={0}/>
+                  <stop offset="5%" stopColor="var(--chart-2)" stopOpacity={0.3}/>
+                  <stop offset="95%" stopColor="var(--chart-2)" stopOpacity={0}/>
                 </linearGradient>
                 <linearGradient id="colorUser" x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="5%" stopColor="#f54e00" stopOpacity={0.3}/>
-                  <stop offset="95%" stopColor="#f54e00" stopOpacity={0}/>
+                  <stop offset="5%" stopColor="var(--chart-1)" stopOpacity={0.3}/>
+                  <stop offset="95%" stopColor="var(--chart-1)" stopOpacity={0}/>
                 </linearGradient>
               </defs>
               <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.1)" vertical={false} />
@@ -87,8 +87,8 @@ export default function TelemetryBilling() {
                 contentStyle={{ backgroundColor: 'var(--panel-bg)', borderColor: 'var(--border-color)', borderRadius: '8px', color: 'var(--text-primary)' }}
                 itemStyle={{ color: 'var(--text-primary)' }}
               />
-              <Area type="monotone" dataKey="partnerApi" name="GA: Partner API Calls" stroke="#fbbc04" fillOpacity={1} fill="url(#colorApi)" />
-              <Area type="monotone" dataKey="userEvents" name="PostHog: User Events" stroke="#f54e00" fillOpacity={1} fill="url(#colorUser)" />
+              <Area type="monotone" dataKey="partnerApi" name="GA: Partner API Calls" stroke="var(--chart-2)" fillOpacity={1} fill="url(#colorApi)" />
+              <Area type="monotone" dataKey="userEvents" name="PostHog: User Events" stroke="var(--chart-1)" fillOpacity={1} fill="url(#colorUser)" />
             </AreaChart>
           </ResponsiveContainer>
         </div>

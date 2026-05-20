@@ -11,35 +11,155 @@
     "apac": 23
   },
   "usageData": [
-    { "name": "Day 1", "partnerApi": 11000, "userEvents": 2100 },
-    { "name": "Day 2", "partnerApi": 12500, "userEvents": 2400 },
-    { "name": "Day 3", "partnerApi": 13200, "userEvents": 2300 },
-    { "name": "Day 4", "partnerApi": 15000, "userEvents": 2800 },
-    { "name": "Day 5", "partnerApi": 14500, "userEvents": 3100 },
-    { "name": "Day 6", "partnerApi": 12000, "userEvents": 2200 },
-    { "name": "Day 7", "partnerApi": 11500, "userEvents": 2000 },
-    { "name": "Day 8", "partnerApi": 13000, "userEvents": 2500 },
-    { "name": "Day 9", "partnerApi": 14500, "userEvents": 2700 },
-    { "name": "Day 10", "partnerApi": 16000, "userEvents": 3000 },
-    { "name": "Day 11", "partnerApi": 17200, "userEvents": 3300 },
-    { "name": "Day 12", "partnerApi": 18500, "userEvents": 3500 },
-    { "name": "Day 13", "partnerApi": 14000, "userEvents": 2600 },
-    { "name": "Day 14", "partnerApi": 12500, "userEvents": 2100 },
-    { "name": "Day 15", "partnerApi": 15000, "userEvents": 2900 },
-    { "name": "Day 16", "partnerApi": 16500, "userEvents": 3100 },
-    { "name": "Day 17", "partnerApi": 17800, "userEvents": 3400 },
-    { "name": "Day 18", "partnerApi": 19000, "userEvents": 3700 },
-    { "name": "Day 19", "partnerApi": 20500, "userEvents": 3900 },
-    { "name": "Day 20", "partnerApi": 16000, "userEvents": 2900 },
-    { "name": "Day 21", "partnerApi": 14500, "userEvents": 2500 },
-    { "name": "Day 22", "partnerApi": 17000, "userEvents": 3200 },
-    { "name": "Day 23", "partnerApi": 18500, "userEvents": 3500 },
-    { "name": "Day 24", "partnerApi": 19200, "userEvents": 3600 },
-    { "name": "Day 25", "partnerApi": 21000, "userEvents": 4000 },
-    { "name": "Day 26", "partnerApi": 22500, "userEvents": 4200 },
-    { "name": "Day 27", "partnerApi": 17500, "userEvents": 3100 },
-    { "name": "Day 28", "partnerApi": 15500, "userEvents": 2800 },
-    { "name": "Day 29", "partnerApi": 19000, "userEvents": 3600 },
-    { "name": "Day 30", "partnerApi": 21500, "userEvents": 4100 }
+    {
+      "name": "Day 1",
+      "partnerApi": 15794,
+      "userEvents": 2841
+    },
+    {
+      "name": "Day 2",
+      "partnerApi": 16217,
+      "userEvents": 2837
+    },
+    {
+      "name": "Day 3",
+      "partnerApi": 10471,
+      "userEvents": 1862
+    },
+    {
+      "name": "Day 4",
+      "partnerApi": 10228,
+      "userEvents": 1667
+    },
+    {
+      "name": "Day 5",
+      "partnerApi": 11600,
+      "userEvents": 1945
+    },
+    {
+      "name": "Day 6",
+      "partnerApi": 3908,
+      "userEvents": 532
+    },
+    {
+      "name": "Day 7",
+      "partnerApi": 4242,
+      "userEvents": 776
+    },
+    {
+      "name": "Day 8",
+      "partnerApi": 10376,
+      "userEvents": 1871
+    },
+    {
+      "name": "Day 9",
+      "partnerApi": 11866,
+      "userEvents": 2058
+    },
+    {
+      "name": "Day 10",
+      "partnerApi": 10959,
+      "userEvents": 2039
+    },
+    {
+      "name": "Day 11",
+      "partnerApi": 12632,
+      "userEvents": 1839
+    },
+    {
+      "name": "Day 12",
+      "partnerApi": 16649,
+      "userEvents": 3423
+    },
+    {
+      "name": "Day 13",
+      "partnerApi": 4890,
+      "userEvents": 794
+    },
+    {
+      "name": "Day 14",
+      "partnerApi": 5309,
+      "userEvents": 732
+    },
+    {
+      "name": "Day 15",
+      "partnerApi": 11710,
+      "userEvents": 1906
+    },
+    {
+      "name": "Day 16",
+      "partnerApi": 14206,
+      "userEvents": 1980
+    },
+    {
+      "name": "Day 17",
+      "partnerApi": 14094,
+      "userEvents": 2512
+    },
+    {
+      "name": "Day 18",
+      "partnerApi": 13583,
+      "userEvents": 2468
+    },
+    {
+      "name": "Day 19",
+      "partnerApi": 14765,
+      "userEvents": 2291
+    },
+    {
+      "name": "Day 20",
+      "partnerApi": 5088,
+      "userEvents": 852
+    },
+    {
+      "name": "Day 21",
+      "partnerApi": 5544,
+      "userEvents": 779
+    },
+    {
+      "name": "Day 22",
+      "partnerApi": 19080,
+      "userEvents": 3542
+    },
+    {
+      "name": "Day 23",
+      "partnerApi": 13513,
+      "userEvents": 2320
+    },
+    {
+      "name": "Day 24",
+      "partnerApi": 15071,
+      "userEvents": 2338
+    },
+    {
+      "name": "Day 25",
+      "partnerApi": 15024,
+      "userEvents": 2389
+    },
+    {
+      "name": "Day 26",
+      "partnerApi": 14431,
+      "userEvents": 2393
+    },
+    {
+      "name": "Day 27",
+      "partnerApi": 5873,
+      "userEvents": 880
+    },
+    {
+      "name": "Day 28",
+      "partnerApi": 5990,
+      "userEvents": 995
+    },
+    {
+      "name": "Day 29",
+      "partnerApi": 16478,
+      "userEvents": 2420
+    },
+    {
+      "name": "Day 30",
+      "partnerApi": 21989,
+      "userEvents": 3768
+    }
   ]
 }

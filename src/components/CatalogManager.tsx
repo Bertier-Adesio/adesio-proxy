@@ -92,7 +92,7 @@ export default function CatalogManager() {
           </div>
         ) : (
           <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left' }}>
-            <thead style={{ position: 'sticky', top: 0, background: 'var(--panel-bg)', zIndex: 10 }}>
+            <thead style={{ position: 'sticky', top: 0, background: 'rgba(20, 22, 30, 0.95)', backdropFilter: 'blur(12px)', zIndex: 10 }}>
               <tr style={{ borderBottom: '1px solid var(--border-color)' }}>
               <th style={{ padding: '16px', color: 'var(--text-secondary)', fontWeight: 500, fontSize: '0.85rem' }}>MPN</th>
               

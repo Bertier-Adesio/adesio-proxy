@@ -352,8 +352,13 @@ export default function App() {
                           borderLeft: isActive 
                             ? '2px solid var(--accent-primary)' 
                             : '1px solid rgba(255,255,255,0.06)',
+                          borderTop: 'none',
+                          borderRight: 'none',
+                          borderBottom: 'none',
                           borderTopLeftRadius: 0,
                           borderBottomLeftRadius: 0,
+                          borderTopRightRadius: 0,
+                          borderBottomRightRadius: 0,
                           background: isActive ? 'rgba(108, 92, 231, 0.08)' : 'transparent',
                           display: 'flex',
                           alignItems: 'center',

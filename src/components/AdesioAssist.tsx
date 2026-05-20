@@ -28,7 +28,7 @@ export default function AdesioAssist() {
 
   useEffect(() => {
     if (step === 'processing') {
-      const timers: NodeJS.Timeout[] = [];
+      const timers: ReturnType<typeof setTimeout>[] = [];
       
       if (isLargeBatch) {
         timers.push(setTimeout(() => { setProgress(2); setCurrentStage('Parsing CSV and validating 1,452 URLs...'); setEta('ETA: 14m 30s'); }, 800));

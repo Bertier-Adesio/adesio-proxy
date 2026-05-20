@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { 
   Upload, LayoutDashboard, Database, Wand2, Settings, BarChart, MessageCircle,
-  Search, Bell, Box, ArrowRight, Activity, Cloud, Globe, FileText,
+  Search, Bell, Box, ArrowRight, Activity, Cloud, FileText,
   User
 } from 'lucide-react';
 import IngestionEngine from './components/IngestionEngine';
@@ -26,7 +26,6 @@ const NAVIGATION_SECTIONS = [
       { id: 'ingestion', label: 'AI Ingestion Engine', icon: <Upload size={20} /> },
       { id: 'catalog', label: 'Catalog Manager', icon: <Database size={20} /> },
       { id: 'assist', label: 'Adesio Assist', icon: <Wand2 size={20} /> },
-      { id: 'map', label: 'Global Network Map', icon: <Globe size={20} /> },
     ]
   },
   {
@@ -260,8 +259,15 @@ export default function App() {
     <div className="app-container">
       <aside className="sidebar">
         <div className="sidebar-header">
-          <Box className="logo-icon" size={28} />
-          <span className="logo-text">Adesio Sync</span>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+            <div style={{ background: 'linear-gradient(135deg, var(--color-cpi), #A855F7)', padding: '6px', borderRadius: '8px', display: 'flex' }}>
+              <Box color="white" size={20} />
+            </div>
+            <span style={{ fontSize: '1.2rem', fontWeight: 800, letterSpacing: '-0.02em', color: 'white' }}>Adesio Proxy</span>
+          </div>
+          <div style={{ fontSize: '0.65rem', color: '#c084fc', textTransform: 'uppercase', letterSpacing: '0.05em', fontWeight: 700, marginTop: '12px', padding: '4px 8px', background: 'rgba(168, 85, 247, 0.15)', borderRadius: '4px', display: 'inline-block', width: 'fit-content', border: '1px solid rgba(168, 85, 247, 0.3)' }}>
+            AI PIM & Syndication
+          </div>
         </div>
         
         <div className="sidebar-nav">
@@ -279,54 +285,58 @@ export default function App() {
                         key={module.id}
                         onClick={() => setActiveModule('profile')}
                         style={{
-                          margin: '4px 0',
-                          padding: '10px 14px',
+                          margin: '4px 0 12px 0',
+                          padding: '12px 16px',
                           background: isActive 
-                            ? 'linear-gradient(90deg, rgba(108, 92, 231, 0.15) 0%, rgba(168, 85, 247, 0.05) 100%)' 
-                            : 'rgba(255,255,255,0.02)',
+                            ? 'linear-gradient(135deg, rgba(108, 92, 231, 0.15) 0%, rgba(168, 85, 247, 0.05) 100%)' 
+                            : 'rgba(255,255,255,0.03)',
                           border: isActive
                             ? '1px solid rgba(108, 92, 231, 0.3)' 
-                            : '1px solid rgba(255,255,255,0.05)',
-                          borderRadius: '10px',
+                            : '1px solid rgba(255,255,255,0.08)',
+                          borderRadius: '12px',
                           display: 'flex',
                           alignItems: 'center',
                           gap: '12px',
                           cursor: 'pointer',
-                          transition: 'all 0.2s ease-in-out'
+                          transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+                          boxShadow: isActive ? '0 4px 20px rgba(0,0,0,0.2)' : 'none'
                         }}
                         onMouseEnter={(e) => {
                           if (!isActive) {
-                            e.currentTarget.style.background = 'rgba(255,255,255,0.04)';
-                            e.currentTarget.style.borderColor = 'rgba(255,255,255,0.1)';
+                            e.currentTarget.style.background = 'rgba(255,255,255,0.06)';
+                            e.currentTarget.style.borderColor = 'rgba(255,255,255,0.15)';
+                            e.currentTarget.style.transform = 'translateY(-1px)';
                           }
                         }}
                         onMouseLeave={(e) => {
                           if (!isActive) {
-                            e.currentTarget.style.background = 'rgba(255,255,255,0.02)';
-                            e.currentTarget.style.borderColor = 'rgba(255,255,255,0.05)';
+                            e.currentTarget.style.background = 'rgba(255,255,255,0.03)';
+                            e.currentTarget.style.borderColor = 'rgba(255,255,255,0.08)';
+                            e.currentTarget.style.transform = 'none';
                           }
                         }}
                       >
                         <div style={{
-                          width: '32px',
-                          height: '32px',
-                          borderRadius: '50%',
+                          width: '36px',
+                          height: '36px',
+                          borderRadius: '10px',
                           background: 'linear-gradient(135deg, var(--color-cpi), var(--color-partcheck))',
                           color: 'white',
                           fontWeight: 'bold',
                           display: 'flex',
                           alignItems: 'center',
                           justifyContent: 'center',
-                          fontSize: '0.85rem',
-                          flexShrink: 0
+                          fontSize: '0.9rem',
+                          flexShrink: 0,
+                          boxShadow: '0 2px 10px rgba(108, 92, 231, 0.4)'
                         }}>
                           A
                         </div>
                         <div style={{ flex: 1, overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
-                          <span style={{ fontSize: '0.8rem', fontWeight: 600, color: 'white', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                          <span style={{ fontSize: '0.85rem', fontWeight: 600, color: 'white', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
                             Supplier Admin
                           </span>
-                          <span style={{ fontSize: '0.65rem', color: 'var(--text-secondary)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                          <span style={{ fontSize: '0.7rem', color: 'var(--text-secondary)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
                             Alibaba Front-Office
                           </span>
                         </div>
@@ -350,25 +360,36 @@ export default function App() {
           ))}
         </div>
 
-        <div className="sidebar-footer" style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-          <span>v2.0 Multi-Cloud Build</span>
+        <div className="sidebar-footer" style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+          <div style={{ height: '1px', background: 'linear-gradient(90deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 100%)', width: '100%', marginBottom: '4px' }}></div>
+          <span style={{ color: 'var(--text-secondary)', fontWeight: 500 }}>v2.0 Multi-Cloud Build</span>
           <button 
             onClick={() => setShowDocModal(true)}
             style={{ 
-              background: 'none', 
-              border: 'none', 
-              color: 'var(--accent-primary)', 
+              background: 'rgba(108, 92, 231, 0.1)', 
+              border: '1px solid rgba(108, 92, 231, 0.2)', 
+              color: '#c084fc', 
               textDecoration: 'none', 
               display: 'flex', 
               alignItems: 'center', 
-              gap: '6px', 
+              gap: '8px', 
               cursor: 'pointer',
-              padding: 0,
+              padding: '8px 12px',
+              borderRadius: '8px',
               fontFamily: 'inherit',
-              fontSize: 'inherit'
+              fontSize: '0.8rem',
+              fontWeight: 600,
+              transition: 'all 0.2s',
+              width: '100%'
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.background = 'rgba(108, 92, 231, 0.2)';
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.background = 'rgba(108, 92, 231, 0.1)';
             }}
           >
-            <FileText size={14} /> Product Documentation
+            <FileText size={16} /> Product Documentation
           </button>
         </div>
       </aside>

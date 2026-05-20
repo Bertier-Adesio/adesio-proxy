@@ -5,6 +5,7 @@ import {
   LayoutDashboard, Upload, Database, Settings, BarChart, MessageCircle, Globe, CheckCircle, ArrowRight,
   User, Shield, Lock
 } from 'lucide-react';
+import InteractiveMap from './InteractiveMap';
 
 interface ProductDocumentationProps {
   isOpen: boolean;
@@ -85,7 +86,7 @@ const FALLBACK_DOC: DocContent = {
 };
 
 export default function ProductDocumentation({ isOpen, onClose }: ProductDocumentationProps) {
-  const [activeTab, setActiveTab] = useState<'overview' | 'challenge' | 'audience' | 'playbook' | 'benefits' | 'modules'>('overview');
+  const [activeTab, setActiveTab] = useState<'overview' | 'challenge' | 'audience' | 'playbook' | 'benefits' | 'modules' | 'map'>('overview');
   const [doc, setDoc] = useState<DocContent>(FALLBACK_DOC);
 
   useEffect(() => {
@@ -254,6 +255,7 @@ export default function ProductDocumentation({ isOpen, onClose }: ProductDocumen
     { id: 'playbook', label: 'How It Works', icon: <Wand2 size={16} /> },
     { id: 'benefits', label: 'Ecosystem Benefits', icon: <TrendingUp size={16} /> },
     { id: 'modules', label: 'Platform Modules', icon: <LayoutDashboard size={16} /> },
+    { id: 'map', label: 'Interactive Map', icon: <Globe size={16} /> },
   ] as const;
 
   // Helper to map dynamic module titles to correct Lucide icons
@@ -301,10 +303,10 @@ export default function ProductDocumentation({ isOpen, onClose }: ProductDocumen
             transition={{ type: 'spring', damping: 25, stiffness: 220 }}
             style={{
               position: 'relative',
-              width: '100%',
-              maxWidth: '1100px',
-              height: '80vh',
-              maxHeight: '900px',
+              width: '95vw',
+              maxWidth: '1400px',
+              height: '88vh',
+              maxHeight: '960px',
               background: 'rgba(16, 16, 24, 0.9)',
               border: '1px solid rgba(255, 255, 255, 0.08)',
               borderRadius: '16px',
@@ -435,11 +437,15 @@ export default function ProductDocumentation({ isOpen, onClose }: ProductDocumen
               </div>
 
               {/* Content Panel */}
-              <div className="custom-scrollbar" style={{
+              <div className={activeTab === 'map' ? '' : 'custom-scrollbar'} style={{
                 flex: 1,
-                padding: '32px 40px',
-                overflowY: 'auto',
-                background: 'rgba(10, 10, 15, 0.2)'
+                padding: activeTab === 'map' ? '0' : '24px 32px',
+                overflowY: activeTab === 'map' ? 'hidden' : 'auto',
+                overflowX: 'hidden',
+                background: 'rgba(10, 10, 15, 0.2)',
+                display: 'flex',
+                flexDirection: 'column',
+                minHeight: 0
               }}>
                 <AnimatePresence mode="wait">
                   <motion.div
@@ -448,6 +454,7 @@ export default function ProductDocumentation({ isOpen, onClose }: ProductDocumen
                     animate={{ opacity: 1, x: 0 }}
                     exit={{ opacity: 0, x: -10 }}
                     transition={{ duration: 0.15, ease: 'easeOut' }}
+                    style={activeTab === 'map' ? { flex: 1, display: 'flex', flexDirection: 'column', minHeight: 0, height: '100%' } : {}}
                   >
                     {/* HUB OVERVIEW */}
                     {activeTab === 'overview' && (
@@ -786,6 +793,13 @@ export default function ProductDocumentation({ isOpen, onClose }: ProductDocumen
                             );
                           })}
                         </div>
+                      </div>
+                    )}
+
+                    {/* INTERACTIVE MAP */}
+                    {activeTab === 'map' && (
+                      <div style={{ flex: 1, display: 'flex', flexDirection: 'column', minHeight: 0, height: '100%' }}>
+                        <InteractiveMap compact />
                       </div>
                     )}
                   </motion.div>

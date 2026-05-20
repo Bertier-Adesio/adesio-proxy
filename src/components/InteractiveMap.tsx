@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { 
   Upload, LayoutDashboard, Database, Wand2, Settings, BarChart, MessageCircle, 
-  Cloud, Shield, Cpu, Network, Server, FileJson, Search, Share2 
+  Cloud, Shield, Cpu, Network, Server, FileJson, Search, Share2, X
 } from 'lucide-react';
 
 // --- DATA MODEL ---
@@ -134,7 +134,7 @@ function ActivityIcon(props: any) {
   );
 }
 
-export default function InteractiveMap() {
+export default function InteractiveMap({ compact = false }: { compact?: boolean }) {
   const [activeTab, setActiveTab] = useState('modules');
   const [selectedItem, setSelectedItem] = useState<any>(null);
 
@@ -143,13 +143,26 @@ export default function InteractiveMap() {
   };
 
   return (
-    <div className="flex flex-col h-full font-sans rounded-xl overflow-hidden" style={{ color: 'var(--text-primary)' }}>
+    <div className="flex flex-col font-sans rounded-xl overflow-hidden" style={{ color: 'var(--text-primary)', height: '100%', minHeight: 0 }}>
       
-      <header className="border-b px-6 py-4 flex flex-col sm:flex-row justify-between items-center z-10" style={{ borderColor: 'var(--border-color)', background: 'var(--panel-bg)' }}>
-        <div>
-          <h1 className="text-2xl font-bold tracking-tight">Adesio Sync <span style={{ color: 'var(--accent-primary)' }} className="font-medium">Interactive Map</span></h1>
-          <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>Supplier App PRD Architecture Visualization</p>
-        </div>
+      <header className="border-b flex flex-col sm:flex-row justify-between items-center z-10 flex-shrink-0"
+        style={{
+          borderColor: 'var(--border-color)',
+          background: 'var(--panel-bg)',
+          padding: compact ? '12px 20px' : '16px 24px'
+        }}
+      >
+        {!compact && (
+          <div>
+            <h1 className="text-2xl font-bold tracking-tight">Adesio Sync <span style={{ color: 'var(--accent-primary)' }} className="font-medium">Interactive Map</span></h1>
+            <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>Supplier App PRD Architecture Visualization</p>
+          </div>
+        )}
+        {compact && (
+          <div>
+            <p className="text-sm font-semibold" style={{ color: 'var(--text-secondary)' }}>Supplier App PRD Architecture Visualization</p>
+          </div>
+        )}
         <div className="flex space-x-2 mt-4 sm:mt-0 p-1 rounded-lg border" style={{ background: 'rgba(0,0,0,0.2)', borderColor: 'var(--border-color)' }}>
           <button 
             onClick={() => {setActiveTab('modules'); setSelectedItem(null);}}
@@ -169,22 +182,37 @@ export default function InteractiveMap() {
       </header>
 
       {/* MAIN CONTENT AREA */}
-      <div className="flex-1 overflow-hidden flex flex-col lg:flex-row">
+      <div className="flex-1 overflow-hidden flex flex-col lg:flex-row" style={{ minHeight: 0 }}>
         
         {/* INTERACTIVE MAP AREA */}
         <div className="flex-1 overflow-y-auto p-6">
           {activeTab === 'modules' ? (
-            <ModulesMap onSelect={handleSelect} selectedId={selectedItem?.id} />
+            <ModulesMap onSelect={handleSelect} selectedId={selectedItem?.id} isSidebarOpen={selectedItem !== null} />
           ) : (
-            <ArchitectureMap onSelect={handleSelect} selectedId={selectedItem?.id} />
+            <ArchitectureMap onSelect={handleSelect} selectedId={selectedItem?.id} isSidebarOpen={selectedItem !== null} />
           )}
         </div>
 
         {/* DETAILS SIDEBAR */}
-        <div className={`w-full lg:w-96 border-l overflow-y-auto transition-transform duration-300 ${selectedItem ? 'translate-x-0' : 'translate-x-full lg:translate-x-0 lg:hidden'}`} style={{ background: 'var(--panel-bg)', borderColor: 'var(--border-color)' }}>
+        <div className={`w-full lg:w-80 border-l overflow-y-auto transition-transform duration-300 ${selectedItem ? 'translate-x-0' : 'translate-x-full lg:translate-x-0 lg:hidden'}`} style={{ background: 'var(--panel-bg)', borderColor: 'var(--border-color)' }}>
           {selectedItem ? (
-            <div className="p-6">
-              <div className="flex items-center space-x-3 mb-4">
+            <div className="p-6 relative">
+              <button 
+                onClick={() => setSelectedItem(null)}
+                style={{
+                  position: 'absolute',
+                  top: '16px',
+                  right: '16px',
+                  background: 'none',
+                  border: 'none',
+                  color: 'var(--text-secondary)',
+                  cursor: 'pointer'
+                }}
+                className="hover:text-white transition-colors"
+              >
+                <X size={18} />
+              </button>
+              <div className="flex items-center space-x-3 mb-4 pr-6">
                 <div className={`p-3 rounded-lg ${selectedItem.color || ''}`} style={{ background: 'rgba(255,255,255,0.05)' }}>
                   {selectedItem.icon || <FileJson size={24} />}
                 </div>
@@ -228,26 +256,31 @@ export default function InteractiveMap() {
 }
 
 // --- MODULES VIEW COMPONENT ---
-function ModulesMap({ onSelect, selectedId }: { onSelect: any, selectedId: any }) {
+function ModulesMap({ onSelect, selectedId, isSidebarOpen }: { onSelect: any, selectedId: any, isSidebarOpen: boolean }) {
   return (
-    <div className="max-w-5xl mx-auto py-8">
-      <div className="text-center mb-10">
+    <div className="max-w-4xl mx-auto py-6">
+      <div className="text-center mb-8">
         <h2 className="text-2xl font-bold">Supplier User Journey</h2>
         <p className="mt-2" style={{ color: 'var(--text-secondary)' }}>From raw data ingestion to global syndication</p>
       </div>
       
       <div className="relative">
         {/* Connecting Line */}
-        <div className="absolute left-1/2 top-0 bottom-0 w-1 transform -translate-x-1/2 hidden md:block z-0" style={{ background: 'var(--border-color)' }}></div>
+        {!isSidebarOpen && (
+          <div className="absolute left-1/2 top-0 bottom-0 w-1 transform -translate-x-1/2 hidden md:block z-0" style={{ background: 'var(--border-color)' }}></div>
+        )}
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 relative z-10">
+        <div className={`grid grid-cols-1 ${isSidebarOpen ? '' : 'md:grid-cols-2'} gap-6 relative z-10`}>
           {projectData.modules.map((mod, index) => (
             <div 
               key={mod.id} 
               onClick={() => onSelect(mod)}
               className={`
                 cursor-pointer p-6 rounded-xl border-2 transition-all duration-200
-                ${index % 2 === 0 ? 'md:col-start-1 md:mr-8' : 'md:col-start-2 md:ml-8 mt-8 md:mt-16'}
+                ${isSidebarOpen 
+                  ? '' 
+                  : (index % 2 === 0 ? 'md:col-start-1 md:mr-4' : 'md:col-start-2 md:ml-4 mt-4 md:mt-12')
+                }
               `}
               style={{ 
                 background: 'var(--panel-bg)', 
@@ -273,15 +306,15 @@ function ModulesMap({ onSelect, selectedId }: { onSelect: any, selectedId: any }
 }
 
 // --- ARCHITECTURE VIEW COMPONENT ---
-function ArchitectureMap({ onSelect, selectedId }: { onSelect: any, selectedId: any }) {
+function ArchitectureMap({ onSelect, selectedId, isSidebarOpen }: { onSelect: any, selectedId: any, isSidebarOpen: boolean }) {
   return (
-    <div className="max-w-6xl mx-auto py-4">
+    <div className="max-w-5xl mx-auto py-4">
       <div className="text-center mb-8">
         <h2 className="text-2xl font-bold">Multi-Cloud Geographic Architecture</h2>
         <p className="mt-2" style={{ color: 'var(--text-secondary)' }}>Alibaba Cloud (APAC Front-Office) synced with Google Cloud (Global Back-Office)</p>
       </div>
 
-      <div className="flex flex-col lg:flex-row items-stretch justify-center gap-6">
+      <div className={`flex flex-col ${isSidebarOpen ? '' : 'lg:flex-row'} items-stretch justify-center gap-6`}>
         
         {/* ALIBABA CLOUD */}
         <div className="flex-1 rounded-2xl border-2 p-6" style={{ background: 'rgba(0, 194, 168, 0.05)', borderColor: 'rgba(0, 194, 168, 0.2)' }}>
@@ -305,7 +338,7 @@ function ArchitectureMap({ onSelect, selectedId }: { onSelect: any, selectedId: 
         </div>
 
         {/* BRIDGE */}
-        <div className="flex lg:flex-col items-center justify-center py-8 lg:py-0 lg:px-4">
+        <div className={`flex ${isSidebarOpen ? 'flex-col lg:px-4 py-4' : 'lg:flex-col py-8 lg:py-0 lg:px-4'} items-center justify-center`}>
           <div 
             onClick={() => onSelect(projectData.architecture.bridge)}
             className={`
@@ -316,12 +349,12 @@ function ArchitectureMap({ onSelect, selectedId }: { onSelect: any, selectedId: 
               borderColor: selectedId === projectData.architecture.bridge.id ? 'var(--color-ssm)' : 'var(--border-color)'
             }}
           >
-            <div className="hidden lg:block w-1 h-12 mb-2" style={{ background: 'var(--border-color)' }}></div>
-            <div className="block lg:hidden h-1 w-12 mr-2" style={{ background: 'var(--border-color)' }}></div>
+            <div className={`${isSidebarOpen ? 'block' : 'hidden lg:block'} w-1 h-12 mb-2`} style={{ background: 'var(--border-color)' }}></div>
+            <div className={`${isSidebarOpen ? 'hidden' : 'block lg:hidden'} h-1 w-12 mr-2`} style={{ background: 'var(--border-color)' }}></div>
             <Network size={32} style={{ color: 'var(--color-ssm)' }} />
             <span className="font-bold mt-2 text-center text-sm" style={{ color: 'var(--color-ssm)' }}>{projectData.architecture.bridge.title}</span>
-            <div className="block lg:hidden h-1 w-12 ml-2" style={{ background: 'var(--border-color)' }}></div>
-            <div className="hidden lg:block w-1 h-12 mt-2" style={{ background: 'var(--border-color)' }}></div>
+            <div className={`${isSidebarOpen ? 'hidden' : 'block lg:hidden'} h-1 w-12 ml-2`} style={{ background: 'var(--border-color)' }}></div>
+            <div className={`${isSidebarOpen ? 'block' : 'hidden lg:block'} w-1 h-12 mt-2`} style={{ background: 'var(--border-color)' }}></div>
           </div>
         </div>
 

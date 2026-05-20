@@ -20,6 +20,13 @@
     
     --accent-primary: var(--color-cpi);
     --sidebar-width: 260px;
+
+    /* Adesio_POE Chart Colors */
+    --chart-1: #A2C0FF;
+    --chart-2: #80E5D1;
+    --chart-3: #F9D8A6;
+    --chart-4: #D3B8FF;
+    --chart-5: #FFB3B8;
   }
 
   body {
@@ -147,6 +154,51 @@
   .badge-green { @apply badge-ssm; }
   .badge-yellow { background-color: rgba(245, 158, 11, 0.15); color: #f59e0b; border-color: rgba(245, 158, 11, 0.3); }
   .badge-red { background-color: rgba(239, 68, 68, 0.15); color: #ef4444; border-color: rgba(239, 68, 68, 0.3); }
+}
+
+/* AI Search Bar Animations */
+@keyframes shimmer {
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+@keyframes glow-pulse {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
+
+.ai-search-shimmer {
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(162, 192, 255, 0.1),
+    transparent
+  );
+  background-size: 200% 100%;
+  animation: shimmer 3s infinite;
+}
+
+.ai-glow {
+  animation: glow-pulse 2s ease-in-out infinite;
+}
+
+/* Respect user's motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
 
 /* Premium Custom Scrollbars */

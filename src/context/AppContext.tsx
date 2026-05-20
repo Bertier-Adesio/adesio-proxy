@@ -144,9 +144,15 @@ export function AppProvider({ children }: { children: ReactNode }) {
   };
 
   const updateCatalogItem = (id: string | number, updates: Partial<CatalogItem>) => {
-    setCatalog((prev) =>
-      prev.map((item) => (item.id === id ? { ...item, ...updates } : item))
-    );
+    setCatalog((prev) => {
+      // First try matching by id, then fall back to MPN string match
+      const byId = prev.find((item) => item.id === id);
+      if (byId) {
+        return prev.map((item) => (item.id === id ? { ...item, ...updates } : item));
+      }
+      // MPN fallback
+      return prev.map((item) => (item.mpn === id ? { ...item, ...updates } : item));
+    });
   };
 
   const updateSettings = (updates: Partial<AppSettings>) => {

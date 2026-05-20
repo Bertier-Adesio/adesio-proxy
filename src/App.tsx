@@ -16,6 +16,7 @@ import { useAppContext } from './context/AppContext';
 import { motion, AnimatePresence } from 'framer-motion';
 import { AreaChart, Area, XAxis, YAxis, Tooltip as RechartsTooltip, ResponsiveContainer } from 'recharts';
 import ProductDocumentation from './components/ProductDocumentation';
+import logoImage from './assets/logo.png';
 import './index.css';
 
 const NAVIGATION_SECTIONS = [
@@ -107,7 +108,9 @@ function DashboardView() {
               <span>Missing MVP Fields</span>
               <strong className="text-3xl font-bold font-mono text-white tracking-tight">{missingCount}</strong>
             </div>
-            <button style={{ marginTop: '12px', padding: '10px', background: 'var(--accent-primary)', color: 'white', border: 'none', borderRadius: '6px', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}>
+            <button 
+              onClick={() => window.dispatchEvent(new CustomEvent('navigate', { detail: 'assist' }))}
+              style={{ marginTop: '12px', padding: '10px', background: 'var(--accent-primary)', color: 'white', border: 'none', borderRadius: '6px', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}>
               <Wand2 size={16} /> Enrich with Adesio Assist
             </button>
           </div>
@@ -241,8 +244,17 @@ function DefaultView({ title }: { title: string }) {
 }
 
 export default function App() {
-  const [activeModule, setActiveModule] = useState('dashboard');
+  const [activeModule, setActiveModule] = useState('home');
   const [showDocModal, setShowDocModal] = useState(false);
+
+  useEffect(() => {
+    if (activeModule === 'home') {
+      const timer = setTimeout(() => {
+        setActiveModule('dashboard');
+      }, 3500);
+      return () => clearTimeout(timer);
+    }
+  }, [activeModule]);
 
   useEffect(() => {
     const handleNavigate = (e: Event) => {
@@ -258,16 +270,8 @@ export default function App() {
   return (
     <div className="app-container">
       <aside className="sidebar">
-        <div className="sidebar-header">
-          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-            <div style={{ background: 'linear-gradient(135deg, var(--color-cpi), #A855F7)', padding: '6px', borderRadius: '8px', display: 'flex' }}>
-              <Box color="white" size={20} />
-            </div>
-            <span style={{ fontSize: '1.2rem', fontWeight: 800, letterSpacing: '-0.02em', color: 'white' }}>Adesio Proxy</span>
-          </div>
-          <div style={{ fontSize: '0.65rem', color: '#c084fc', textTransform: 'uppercase', letterSpacing: '0.05em', fontWeight: 700, marginTop: '12px', padding: '4px 8px', background: 'rgba(168, 85, 247, 0.15)', borderRadius: '4px', display: 'inline-block', width: 'fit-content', border: '1px solid rgba(168, 85, 247, 0.3)' }}>
-            AI PIM & Syndication
-          </div>
+        <div className="sidebar-header" style={{ padding: '24px 20px', borderBottom: '1px solid var(--border-color)', marginBottom: '16px' }}>
+          <img src={logoImage} alt="Adesio" style={{ height: '28px', width: 'auto', display: 'block' }} />
         </div>
         
         <div className="sidebar-nav">
@@ -407,7 +411,43 @@ export default function App() {
         </header>
 
         <div className="page-content">
-          {activeModule === 'dashboard' ? <DashboardView /> 
+          {activeModule === 'home' ? (
+            <motion.div 
+              initial={{ opacity: 0, backgroundColor: "#000" }}
+              animate={{ opacity: 1, backgroundColor: "transparent" }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 1 }}
+              style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100%', position: 'relative', overflow: 'hidden' }}
+            >
+              <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to bottom, rgba(168, 85, 247, 0.05), transparent)', opacity: 0.5 }} />
+              <div style={{ textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', position: 'relative', zIndex: 10 }}>
+                <motion.img 
+                  src={logoImage}
+                  alt="Adesio" 
+                  style={{ height: '7rem', width: 'auto', margin: '0 auto 1rem auto', filter: 'drop-shadow(0 20px 13px rgba(0, 0, 0, 0.3))' }}
+                  initial={{ opacity: 0, scale: 0.8, filter: 'brightness(2) blur(10px)' }}
+                  animate={{ opacity: 1, scale: 1, filter: 'brightness(1) blur(0px)' }}
+                  transition={{ delay: 0.2, duration: 1.5, ease: "easeOut" }}
+                />
+                <motion.h1 
+                  style={{ fontSize: '3rem', fontWeight: 700, letterSpacing: '-0.025em', backgroundClip: 'text', WebkitBackgroundClip: 'text', color: 'transparent', backgroundImage: 'linear-gradient(to right, #f8fafc, rgba(248, 250, 252, 0.7))' }}
+                  initial={{ opacity: 0, y: 20, filter: 'blur(5px)' }}
+                  animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}
+                  transition={{ delay: 1.2, duration: 1 }}
+                >
+                  Welcome to Adesio
+                </motion.h1>
+                <motion.p 
+                  style={{ color: 'var(--text-secondary)', fontSize: '1.25rem', maxWidth: '28rem', marginTop: '1rem' }}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ delay: 2, duration: 1 }}
+                >
+                  Parts and Suppliers Management System
+                </motion.p>
+              </div>
+            </motion.div>
+          ) : activeModule === 'dashboard' ? <DashboardView /> 
            : activeModule === 'ingestion' ? <IngestionEngine /> 
            : activeModule === 'catalog' ? <CatalogManager />
            : activeModule === 'assist' ? <AdesioAssist />

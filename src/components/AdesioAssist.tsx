@@ -53,8 +53,9 @@ export default function AdesioAssist() {
   }, [step, isLargeBatch]);
 
   const handleApproveAll = () => {
-    updateCatalogItem(7, { package: 'QFN-16' });
-    updateCatalogItem(5, { package: 'SMD', rohs: true });
+    // Use MPN-based lookup rather than hardcoded catalog IDs
+    updateCatalogItem('EFM8BB50F16G-A-QFN16', { package: 'QFN-16' });
+    updateCatalogItem('CLMUD-FKC-CH1NP1561BB7T4S3', { package: 'SMD', rohs: true });
     setStep('queue');
   };
 
@@ -63,7 +64,7 @@ export default function AdesioAssist() {
       {/* HEADER */}
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <div>
-          <h2 style={{ fontSize: '1.5rem', fontWeight: 600, color: 'var(--text-primary)' }}>Adesio Assist (AI Enrichment)</h2>
+          <h2 style={{ fontSize: '1.5rem', fontWeight: 600, color: 'var(--text-primary)' }}>Adesio Assist</h2>
           <p style={{ color: 'var(--text-secondary)', marginTop: '4px' }}>Automatically extract technical parameters from PDF datasheets to enrich your Master Catalog.</p>
         </div>
       </div>

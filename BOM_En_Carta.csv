@@ -1,0 +1,20 @@
+Reference;Value;Datasheet;Qty;DNP;MPN;Manufacturer
+C1;100u;~;1;;8,65E+11;WE
+C2,C3;10u;~;2;;CL21A106KQFNNNF;Samsung
+C4;68n;at least 6V 10nF;1;;CC0603KPX7R9BB683;Yageo
+C5;68n;at least 6V 10nF;1;DNP;CC0603KPX7R9BB683;Yageo
+C6;10n;at least 6V 10nF;1;;C0603C103J5RAC;Kemet
+D1,D2;BZT52C5V1-7-F;~;2;;BZT52C5V1-7-F;Diodes Inc
+D3,D4;CLMUDxxx;;2;;CLMUD-FKC-CH1NP1561BB7T4S3;CREE LED
+D5;LED;~;1;;150060VS75000;Wurth Elektronik
+IC1;EFM8BB50F16G-A-QFN16;https://www.silabs.com/documents/public/data-sheets/efm8bb50-datasheet.pdf;1;;EFM8BB50F16G-A-QFN16;Silicon Labs
+J1,J3,J4;Conn_01x04_Pin;~;3;;-- mixed values --;-- mixed values --
+J5;Conn_01x02_Pin;~;1;;;
+J6;Conn_02x05_Odd_Even;~;1;;;
+Q1;2N7002K;https://www.diodes.com/assets/Datasheets/ds30896.pdf;1;;2N7002K;onsemi
+R4,R5,R6,R7,R8,R9,R19;1.5k;~;7;;CRGCQ0603J1K5;TE Connectivity
+R10,R11,R12,R13,R14,R15;10k;~;6;DNP;CRG0603F10K/10;TE Connectivity
+R18,R21,R23,R24;5.1k;~;4;;CRCW06035K10FKEBC;Vishay
+R22;10k;~;1;;CRG0603F10K/10;TE Connectivity
+S1;C&K_PTS526SM15SMTR2LFS;;1;;PTS525SM15SMTR2LFS;C & K
+U1;TMP1075DSG;https://www.ti.com/lit/gpn/tmp1075;1;;TMP1075DSGT;Texas Instruments

@@ -13,9 +13,9 @@ export default function AdesioAssist() {
   const [eta, setEta] = useState('');
 
   const autoDetectedUrls = [
-    { id: 3, mpn: 'STM32F103C8T6', url: 'https://st.com/resource/en/datasheet/stm32f103c8.pdf', status: 'pending' },
-    { id: 1, mpn: 'CRCW040210K0FKED', url: 'https://vishay.com/docs/20035/dcrcw.pdf', status: 'pending' },
-    { id: 15, mpn: 'IRFZ44N', url: 'https://infineon.com/dgdl/irfz44n.pdf', status: 'pending' }
+    { id: 7, mpn: 'EFM8BB50F16G-A-QFN16', url: 'https://www.silabs.com/documents/public/data-sheets/efm8bb50-datasheet.pdf', status: 'pending' },
+    { id: 5, mpn: 'CLMUD-FKC-CH1NP1561BB7T4S3', url: 'https://cree-led.com/media/documents/DS228.pdf', status: 'pending' },
+    { id: 14, mpn: 'STM32G474RET6', url: 'https://www.st.com/resource/en/datasheet/stm32g474re.pdf', status: 'pending' }
   ];
 
   const handleStartExtraction = (largeBatch = false) => {
@@ -53,8 +53,8 @@ export default function AdesioAssist() {
   }, [step, isLargeBatch]);
 
   const handleApproveAll = () => {
-    updateCatalogItem(3, { package: 'LQFP-48' });
-    updateCatalogItem(1, { rohs: true, package: '0402' });
+    updateCatalogItem(7, { package: 'QFN-16' });
+    updateCatalogItem(5, { package: 'SMD', rohs: true });
     setStep('queue');
   };
 
@@ -203,9 +203,9 @@ export default function AdesioAssist() {
             <div className="card" style={{ padding: '24px' }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderBottom: '1px solid var(--border-color)', paddingBottom: '16px', marginBottom: '16px' }}>
                 <div>
-                  <h4 style={{ fontSize: '1.1rem', fontWeight: 600, color: 'var(--text-primary)' }}>STM32F103C8T6</h4>
+                  <h4 style={{ fontSize: '1.1rem', fontWeight: 600, color: 'var(--text-primary)' }}>EFM8BB50F16G-A-QFN16</h4>
                   <div style={{ fontSize: '0.8rem', color: 'var(--accent-primary)', marginTop: '4px', display: 'flex', alignItems: 'center', gap: '4px' }}>
-                    <LinkIcon size={12} /> st.com/resource/en/datasheet/stm32f103c8.pdf
+                    <LinkIcon size={12} /> silabs.com/documents/public/data-sheets/efm8bb50-datasheet.pdf
                   </div>
                 </div>
                 <span style={{ background: 'rgba(16, 185, 129, 0.1)', color: '#10b981', padding: '4px 12px', borderRadius: '12px', fontSize: '0.8rem', fontWeight: 600 }}>Success</span>
@@ -213,16 +213,25 @@ export default function AdesioAssist() {
               
               <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', padding: '8px 12px', background: 'var(--panel-bg)', borderRadius: '6px' }}>
-                  <span style={{ color: 'var(--text-secondary)' }}>Operating Temp</span>
-                  <span style={{ color: '#10b981', fontWeight: 500 }}>-40°C to 85°C</span>
+                  <span style={{ color: 'var(--text-secondary)' }}>Operating Voltage</span>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                    <span style={{ color: '#10b981', fontWeight: 500 }}>1.8V to 5.5V</span>
+                    <span style={{ fontSize: '0.75rem', background: 'rgba(255,255,255,0.05)', padding: '2px 6px', borderRadius: '4px' }}>99%</span>
+                  </div>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', padding: '8px 12px', background: 'var(--panel-bg)', borderRadius: '6px' }}>
-                  <span style={{ color: 'var(--text-secondary)' }}>Package</span>
-                  <span style={{ color: '#10b981', fontWeight: 500 }}>LQFP-48</span>
+                  <span style={{ color: 'var(--text-secondary)' }}>Flash Size</span>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                    <span style={{ color: '#10b981', fontWeight: 500 }}>16 KB</span>
+                    <span style={{ fontSize: '0.75rem', background: 'rgba(255,255,255,0.05)', padding: '2px 6px', borderRadius: '4px' }}>99%</span>
+                  </div>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', padding: '8px 12px', background: 'var(--panel-bg)', borderRadius: '6px' }}>
-                  <span style={{ color: 'var(--text-secondary)' }}>Core</span>
-                  <span style={{ color: '#10b981', fontWeight: 500 }}>ARM Cortex-M3</span>
+                  <span style={{ color: 'var(--text-secondary)' }}>Max Clock Speed</span>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                    <span style={{ color: '#10b981', fontWeight: 500 }}>50 MHz</span>
+                    <span style={{ fontSize: '0.75rem', background: 'rgba(255,255,255,0.05)', padding: '2px 6px', borderRadius: '4px' }}>98%</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -231,9 +240,9 @@ export default function AdesioAssist() {
             <div className="card" style={{ padding: '24px' }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderBottom: '1px solid var(--border-color)', paddingBottom: '16px', marginBottom: '16px' }}>
                 <div>
-                  <h4 style={{ fontSize: '1.1rem', fontWeight: 600, color: 'var(--text-primary)' }}>CRCW040210K0FKED</h4>
+                  <h4 style={{ fontSize: '1.1rem', fontWeight: 600, color: 'var(--text-primary)' }}>CLMUD-FKC-CH1NP1561BB7T4S3</h4>
                   <div style={{ fontSize: '0.8rem', color: 'var(--accent-primary)', marginTop: '4px', display: 'flex', alignItems: 'center', gap: '4px' }}>
-                    <LinkIcon size={12} /> vishay.com/docs/20035/dcrcw.pdf
+                    <LinkIcon size={12} /> cree-led.com/media/documents/DS228.pdf
                   </div>
                 </div>
                 <span style={{ background: 'rgba(16, 185, 129, 0.1)', color: '#10b981', padding: '4px 12px', borderRadius: '12px', fontSize: '0.8rem', fontWeight: 600 }}>Success</span>
@@ -241,16 +250,25 @@ export default function AdesioAssist() {
               
               <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', padding: '8px 12px', background: 'var(--panel-bg)', borderRadius: '6px' }}>
-                  <span style={{ color: 'var(--text-secondary)' }}>Tolerance</span>
-                  <span style={{ color: '#10b981', fontWeight: 500 }}>±1%</span>
+                  <span style={{ color: 'var(--text-secondary)' }}>Viewing Angle</span>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                    <span style={{ color: '#10b981', fontWeight: 500 }}>130°</span>
+                    <span style={{ fontSize: '0.75rem', background: 'rgba(255,255,255,0.05)', padding: '2px 6px', borderRadius: '4px' }}>95%</span>
+                  </div>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', padding: '8px 12px', background: 'var(--panel-bg)', borderRadius: '6px' }}>
-                  <span style={{ color: 'var(--text-secondary)' }}>Power Rating</span>
-                  <span style={{ color: '#10b981', fontWeight: 500 }}>1/16W</span>
+                  <span style={{ color: 'var(--text-secondary)' }}>Forward Current</span>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                    <span style={{ color: '#10b981', fontWeight: 500 }}>25mA</span>
+                    <span style={{ fontSize: '0.75rem', background: 'rgba(255,255,255,0.05)', padding: '2px 6px', borderRadius: '4px' }}>96%</span>
+                  </div>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', padding: '8px 12px', background: 'var(--panel-bg)', borderRadius: '6px' }}>
-                  <span style={{ color: 'var(--text-secondary)' }}>RoHS Status</span>
-                  <span style={{ color: '#10b981', fontWeight: 500 }}>Compliant</span>
+                  <span style={{ color: 'var(--text-secondary)' }}>Dominant Wavelength</span>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                    <span style={{ color: '#10b981', fontWeight: 500 }}>R:619nm G:520nm B:465nm</span>
+                    <span style={{ fontSize: '0.75rem', background: 'rgba(255,255,255,0.05)', padding: '2px 6px', borderRadius: '4px' }}>94%</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -259,9 +277,9 @@ export default function AdesioAssist() {
             <div className="card" style={{ padding: '24px', borderColor: 'rgba(239, 68, 68, 0.3)' }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderBottom: '1px solid var(--border-color)', paddingBottom: '16px', marginBottom: '16px' }}>
                 <div>
-                  <h4 style={{ fontSize: '1.1rem', fontWeight: 600, color: 'var(--text-primary)' }}>IRFZ44N</h4>
+                  <h4 style={{ fontSize: '1.1rem', fontWeight: 600, color: 'var(--text-primary)' }}>STM32G474RET6</h4>
                   <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', marginTop: '4px', display: 'flex', alignItems: 'center', gap: '4px', textDecoration: 'line-through' }}>
-                    <LinkIcon size={12} /> infineon.com/dgdl/irfz44n.pdf
+                    <LinkIcon size={12} /> st.com/resource/en/datasheet/stm32g474re.pdf
                   </div>
                 </div>
                 <span style={{ background: 'rgba(239, 68, 68, 0.1)', color: '#ef4444', padding: '4px 12px', borderRadius: '12px', fontSize: '0.8rem', fontWeight: 600 }}>Failed</span>
@@ -270,9 +288,9 @@ export default function AdesioAssist() {
               <div style={{ display: 'flex', alignItems: 'flex-start', gap: '12px', padding: '16px', background: 'rgba(239, 68, 68, 0.05)', borderRadius: '8px', border: '1px solid rgba(239, 68, 68, 0.2)' }}>
                 <AlertCircle size={20} color="#ef4444" style={{ flexShrink: 0, marginTop: '2px' }} />
                 <div>
-                  <div style={{ fontWeight: 600, color: '#ef4444', marginBottom: '4px' }}>Error 404: Document Not Found</div>
+                  <div style={{ fontWeight: 600, color: '#ef4444', marginBottom: '4px' }}>Error: PDF Encrypted</div>
                   <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
-                    The target URL returned a 404 status code. The manufacturer may have moved or removed the datasheet. Please provide an updated URL.
+                    The target PDF datasheet requires a password or has DRM restrictions preventing Mistral AI from extracting the layout blocks.
                   </div>
                 </div>
               </div>

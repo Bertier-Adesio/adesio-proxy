@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import { Search, Filter, Edit2, Zap, Save, Download, MoreHorizontal, X, ExternalLink, FileText } from 'lucide-react';
+import { Search, Filter, Edit2, Zap, Save, Download, MoreHorizontal, X, ExternalLink, FileText, Loader2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useAppContext, CatalogItem } from '../context/AppContext';
 
 export default function CatalogManager() {
   const [view, setView] = useState<'static' | 'dynamic'>('dynamic');
-  const { catalog, updateCatalogItem } = useAppContext();
+  const { catalog, updateCatalogItem, isLoadingCatalog } = useAppContext();
   
   const [editingId, setEditingId] = useState<string | number | null>(null);
   const [editValues, setEditValues] = useState<Partial<CatalogItem>>({});
@@ -81,12 +81,19 @@ export default function CatalogManager() {
 
       {/* Data Grid */}
       <motion.div 
-        className="card" style={{ padding: '0', flex: 1, overflow: 'auto' }}
+        className="card" style={{ padding: '0', flex: 1, overflow: 'auto', display: 'flex', flexDirection: 'column' }}
         initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, ease: 'easeOut', delay: 0.2 }}
       >
-        <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left' }}>
-          <thead style={{ position: 'sticky', top: 0, background: 'var(--panel-bg)', zIndex: 10 }}>
-            <tr style={{ borderBottom: '1px solid var(--border-color)' }}>
+        {isLoadingCatalog ? (
+          <div style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '300px', color: 'var(--text-secondary)' }}>
+            <Loader2 className="animate-spin mb-4" size={32} style={{ color: 'var(--accent-primary)' }} />
+            <p className="font-semibold">Simulating database fetch...</p>
+            <p className="text-xs opacity-60 mt-1">Fetching records from Master Catalog</p>
+          </div>
+        ) : (
+          <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left' }}>
+            <thead style={{ position: 'sticky', top: 0, background: 'var(--panel-bg)', zIndex: 10 }}>
+              <tr style={{ borderBottom: '1px solid var(--border-color)' }}>
               <th style={{ padding: '16px', color: 'var(--text-secondary)', fontWeight: 500, fontSize: '0.85rem' }}>MPN</th>
               
               {view === 'static' ? (
@@ -173,6 +180,7 @@ export default function CatalogManager() {
             )})}
           </tbody>
         </table>
+        )}
         {view === 'dynamic' && (
           <div style={{ padding: '12px 16px', background: 'rgba(59, 130, 246, 0.05)', color: 'var(--accent-primary)', fontSize: '0.85rem', display: 'flex', alignItems: 'center', gap: '8px', borderTop: '1px solid rgba(59, 130, 246, 0.2)' }}>
             <Zap size={14} /> LiveSync enabled. Edits to this grid are pushed instantly via your active connectors.

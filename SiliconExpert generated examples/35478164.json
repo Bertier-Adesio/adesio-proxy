@@ -1,0 +1,2164 @@
+{
+  "Status": {
+    "Code": "0",
+    "Message": "Successful Operation",
+    "Success": "true",
+    "RequestID": "756463797144667"
+  },
+  "Results": {
+    "ResultDto": {
+      "RequestedComID": "35478164",
+      "SummaryData": {
+        "DataProviderID": "35478164",
+        "PartNumber": "AD-5467",
+        "Manufacturer": "Analog Devices",
+        "ManufacturerID": "198",
+        "AMLStatus": "",
+        "PartDescription": "Transistor - Mock Description 42",
+        "Datasheet": "http://download.siliconexpert.com/pdfs2/2025/4/12/14/44/12/8695387356/ltf_/manual/littelfusepowersemiconductorsdsi3016adatasheet.pdf",
+        "OnlineSupplierDatasheetURL": "https://www.littelfuse.com/assetdocs/littelfuse-power-semiconductors-dsi30-16a-datasheet?assetguid=615a4cea-ba79-4459-9127-b5552a508010",
+        "RadHard": "",
+        "DoseLevel": "",
+        "TaxonomyPath": "Diodes, Transistors and Thyristors > Rectifiers > Rectifiers",
+        "TaxonomyPathIDs": "104161 > 104246 > 1813",
+        "SmallImageURL": "http://download.siliconexpert.com/pdfs/2017/12/4/8/21/14/225/ixy_/manual/to-220ac.jpg",
+        "ECCN": "EAR99",
+        "EUECCN": "EU99",
+        "UNSPSC": "32121701",
+        "TARIC": "8541100000",
+        "OtherSources": "4",
+        "LastCheckDate": "Oct 08, 2025",
+        "PartMarking": "",
+        "IntroductionDate": "Oct 25, 2000",
+        "ESDClass": "N/A",
+        "ESDSourceofInformation": "http://download.siliconexpert.com/pdfs2/2019/2/24/10/51/44/531819/ixy_/manual/dsi30-12ac.pdf",
+        "AuthorizedDistributors": "11",
+        "GenericName": "",
+        "FamilyName": "DSI30-16A",
+        "AECNumber": "N/R",
+        "AECQualified": "No",
+        "Automotive": "No",
+        "AECPDF": "http://download.siliconexpert.com/pdfs2/2024/4/24/17/56/31/519230/ltf_/manual/media.pdf",
+        "AutomotiveSource": "",
+        "PPAPSource": "",
+        "IsoTs16949Source": "",
+        "Iso26262Source": "",
+        "SupplierCageCode": "75915",
+        "EURoHS": "Yes",
+        "RoHSVersion": "2011/65/EU, 2015/863",
+        "ScheduleB": "8541100080",
+        "HTSUSA": "8541100080",
+        "PPAP": "No",
+        "CountriesOfOrigin": {
+          "CountryOfOrigin": [
+            {
+              "Country": "Germany",
+              "Source": "http://download.siliconexpert.com/pdfs2/2022/6/19/18/1/28/234817/ltf_/manual/89217_spcn.pdf"
+            },
+            {
+              "Country": "Korea (Republic of)",
+              "Source": ""
+            }
+          ]
+        },
+        "USChinaTariffImpact": "Possibly Impacted Later",
+        "PLName": "Rectifiers",
+        "MaskPart": "DSI3016A%",
+        "GidepAlerts": "4"
+      },
+      "DesignResourcesData": {
+        "PinOutData": {
+          "PinOutDataSource": ""
+        },
+        "RefDesignData": {
+          "RefDesign": []
+        }
+      },
+      "CrossData": {
+        "CrossDto": [
+          {
+            "CrossComId": "421079609",
+            "CrossPartNumber": "GP3016-BP",
+            "CrossManufacturer": "Micro Commercial Components",
+            "CrossType": "C/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "421079629",
+            "CrossPartNumber": "GP3016-BP-HF",
+            "CrossManufacturer": "Micro Commercial Components",
+            "CrossType": "C/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "405811847",
+            "CrossPartNumber": "VS-20ETS16THM3",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "34845012",
+            "CrossPartNumber": "APT15DQ120KG",
+            "CrossManufacturer": "Microchip Technology",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "34844973",
+            "CrossPartNumber": "APT15D120K",
+            "CrossManufacturer": "Microchip Technology",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "1853860309",
+            "CrossPartNumber": "GP1515",
+            "CrossManufacturer": "Yangzhou Yangjie Electronic Technology Co., Ltd",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "424111284",
+            "CrossPartNumber": "UGA15120",
+            "CrossManufacturer": "Taiwan Semiconductor",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "421079607",
+            "CrossPartNumber": "GP1515-BP",
+            "CrossManufacturer": "Micro Commercial Components",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "26554707",
+            "CrossPartNumber": "STTH3012D",
+            "CrossManufacturer": "STMicroelectronics",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "61041066",
+            "CrossPartNumber": "STTH15S12D",
+            "CrossManufacturer": "STMicroelectronics",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "34844926",
+            "CrossPartNumber": "APT15D120KG",
+            "CrossManufacturer": "Microchip Technology",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "34844930",
+            "CrossPartNumber": "APT30DQ120K",
+            "CrossManufacturer": "Microchip Technology",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "424119488",
+            "CrossPartNumber": "UGA15120H",
+            "CrossManufacturer": "Taiwan Semiconductor",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "421079615",
+            "CrossPartNumber": "GP1515-BP-HF",
+            "CrossManufacturer": "Micro Commercial Components",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "34844981",
+            "CrossPartNumber": "APT30DQ120KG",
+            "CrossManufacturer": "Microchip Technology",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "1851271936",
+            "CrossPartNumber": "UGA15120 C0G",
+            "CrossManufacturer": "Taiwan Semiconductor",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "48158463",
+            "CrossPartNumber": "VS-20ETS16-M3",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "C/Downgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "34506343",
+            "CrossPartNumber": "20ETS16FPPBF",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "C/Downgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "43288583",
+            "CrossPartNumber": "VS-20ETS16PbF",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "C/Downgrade",
+            "Comment": ""
+          }
+        ]
+      },
+      "AverageInventory": "489",
+      "FranchisedInventoryData": {
+        "FranchisedInventoryDto": [
+          {
+            "Distributor": "Verical",
+            "Quantity": "2853",
+            "BuyNowLink": "https://www.verical.com/pd/ixys-rectifier-DSI30-16A-780388",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Verical",
+            "Quantity": "5191",
+            "BuyNowLink": "https://www.verical.com/pd/littelfuse-rectifier-DSI30-16A-12069328",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Verical",
+            "Quantity": "6181",
+            "BuyNowLink": "https://www.verical.com/pd/littelfuse-rectifier-DSI30-16A-12069328",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Arrow Europe",
+            "Quantity": "11939",
+            "BuyNowLink": "https://www.arrow.com/en/products/dsi30-16a/littelfuse",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Arrow North America",
+            "Quantity": "2736",
+            "BuyNowLink": "https://www.arrow.com/en/products/dsi30-16a/littelfuse",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Chip1Stop",
+            "Quantity": "3578",
+            "BuyNowLink": "https://www.chip1stop.com/product/detail?partId=LITT-0345862",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Chip1Stop",
+            "Quantity": "14849",
+            "BuyNowLink": "https://www.chip1stop.com/product/detail?partId=LITT-0350792",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Mouser Electronics",
+            "Quantity": "2073",
+            "BuyNowLink": "https://www.mouser.com/ProductDetail/IXYS/DSI30-16A?qs=t7yjd2JO%2fgSus6cNmVk60w%3d%3d",
+            "LastUpdated": "2 Days"
+          },
+          {
+            "Distributor": "Newark",
+            "Quantity": "12772",
+            "BuyNowLink": "https://www.newark.com/ixys-semiconductor/dsi30-16a/rectifier-single-30a-1-6kv-to/dp/02AC9668",
+            "LastUpdated": "2 Days"
+          },
+          {
+            "Distributor": "Digi-Key",
+            "Quantity": "11279",
+            "BuyNowLink": "https://www.digikey.com/en/products/detail/ixys/DSI30-16A/1651387?utm_source=oemstrade&utm_medium=aggregator&utm_campaign=buynow",
+            "LastUpdated": "3 Days"
+          },
+          {
+            "Distributor": "Element14",
+            "Quantity": "7111",
+            "BuyNowLink": "https://au.element14.com/ixys-semiconductor/dsi30-16a/rectifier-single-30a-1-6kv-to/dp/2674736",
+            "LastUpdated": "4 Days"
+          },
+          {
+            "Distributor": "Allied Electronics",
+            "Quantity": "11385",
+            "BuyNowLink": "https://us.rs-online.com/product/littelfuse/dsi30-16a/75576721/?utm_source=findchips&utm_medium=part_sourcing&utm_campaign=partsourcing_findchips_IMP_EX_GR",
+            "LastUpdated": "7 Days"
+          },
+          {
+            "Distributor": "Element14",
+            "Quantity": "2482",
+            "BuyNowLink": "https://sg.element14.com/ixys-semiconductor/dsi30-16a/rectifier-single-30a-1-6kv-to/dp/2674736?CMP=GRHB-OEMSECRETS",
+            "LastUpdated": "> 1 Week"
+          },
+          {
+            "Distributor": "Allied Electronics",
+            "Quantity": "901",
+            "BuyNowLink": "https://uk.rs-online.com/web/p/schottky-diodes-rectifiers/9200880/?cm_mmc=aff-_-uk-_-oemsecrets-_-9200880",
+            "LastUpdated": "> 1 Week"
+          },
+          {
+            "Distributor": "Newark",
+            "Quantity": "10647",
+            "BuyNowLink": "https://www.newark.com/ixys-semiconductor/dsi30-16a/rectifier-single-30a-1-6kv-to/dp/02AC9668?CMP=AFC-OEMSECRETS",
+            "LastUpdated": "> 1 Week"
+          },
+          {
+            "Distributor": "Allied Electronics",
+            "Quantity": "3542",
+            "BuyNowLink": "https://uk.rs-online.com/web/p/schottky-diodes-rectifiers/7614013/?cm_mmc=aff-_-uk-_-oemsecrets-_-7614013",
+            "LastUpdated": "> 1 Week"
+          },
+          {
+            "Distributor": "Farnell",
+            "Quantity": "2130",
+            "BuyNowLink": "https://uk.farnell.com/ixys-semiconductor/dsi30-16a/rectifier-single-30a-1-6kv-to/dp/2674736?CMP=GRHB-OEMSECRETS",
+            "LastUpdated": "> 1 Week"
+          },
+          {
+            "Distributor": "Allied Electronics",
+            "Quantity": "552",
+            "BuyNowLink": "https://us.rs-online.com/product/littelfuse/dsi30-16a/75576721/?utm_source=oemsecrets&utm_medium=part_sourcing&utm_campaign=partsourcing_oemsecrets_IMP_EX_GR",
+            "LastUpdated": "> 1 Week"
+          },
+          {
+            "Distributor": "Allied Electronics",
+            "Quantity": "6322",
+            "BuyNowLink": "https://uk.rs-online.com/web/p/schottky-diodes-rectifiers/7614013P/?cm_mmc=aff-_-uk-_-oemsecrets-_-7614013P",
+            "LastUpdated": "> 1 Week"
+          },
+          {
+            "Distributor": "Allied Electronics",
+            "Quantity": "4788",
+            "BuyNowLink": "https://uk.rs-online.com/web/p/schottky-diodes-rectifiers/7614013P/?cm_mmc=aff-_-uk-_-findchip-_-7614013P-_-instock&utm_source=supplyFrame&utm_medium=buyNow",
+            "LastUpdated": "> 1 Week"
+          },
+          {
+            "Distributor": "Allied Electronics",
+            "Quantity": "8628",
+            "BuyNowLink": "https://uk.rs-online.com/web/p/schottky-diodes-rectifiers/7614013/?cm_mmc=aff-_-uk-_-findchip-_-7614013-_-instock&utm_source=supplyFrame&utm_medium=buyNow",
+            "LastUpdated": "> 1 Week"
+          },
+          {
+            "Distributor": "Allied Electronics",
+            "Quantity": "7200",
+            "BuyNowLink": "https://uk.rs-online.com/web/p/schottky-diodes-rectifiers/9200880/?cm_mmc=aff-_-uk-_-findchip-_-9200880-_-instock&utm_source=supplyFrame&utm_medium=buyNow",
+            "LastUpdated": "> 1 Week"
+          },
+          {
+            "Distributor": "Farnell",
+            "Quantity": "9897",
+            "BuyNowLink": "https://uk.farnell.com/ixys-semiconductor/dsi30-16a/rectifier-single-30a-1-6kv-to/dp/2674736",
+            "LastUpdated": "> 1 Week"
+          },
+          {
+            "Distributor": "Future Electronics",
+            "Quantity": "8174",
+            "BuyNowLink": "https://www.futureelectronics.com//p/semiconductors--discretes--diodes--standard-rectifiers/dsi30-16a-littelfuse-–-ixys-2515757",
+            "LastUpdated": "> 1 Week"
+          }
+        ]
+      },
+      "FullCounterfeitData": {
+        "CounterfeitOverallRisk": "50 %",
+        "OverallCounterfeitRiskGrade": "Medium",
+        "PartNumCounterfeitReportsCount": "null Report(s)",
+        "ManCounterfeitReportsCount": "12 Report(s)",
+        "ManCounterfeitReports": [
+          {
+            "MPN": "IXFT58N20Q",
+            "Supplier": "IXYS CORP",
+            "NotificationDate": "Jan 23, 2019",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "EVIDENCE OF REMARKING. BLACKTOP HAS BEEN REMOVED.",
+            "Source": "http://download.siliconexpert.com/pdfs2/2019/2/27/15/52/39/900185/ixy_/manual/9182.pdf"
+          },
+          {
+            "MPN": "1SMB58CAT3G",
+            "Supplier": "On Semiconductor Corp",
+            "NotificationDate": "Nov 17, 2010",
+            "CounterfitMethods": "Different Supplier, New Parts   (Unknown Third party manufacturer looklike part using the data of different supplier than the affected one)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [E5Z-A-11-001]"
+          }
+        ],
+        "PlCounterfeitReportsCount": "12 Report(s)",
+        "PlCounterfeitReports": [
+          {
+            "MPN": "DPAD1",
+            "Supplier": "Vishay",
+            "NotificationDate": "Jul 15, 2015",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [AAN-U-15-268]"
+          },
+          {
+            "MPN": "DPAD5",
+            "Supplier": "Vishay",
+            "NotificationDate": "Jul 15, 2015",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [AAN-U-15-268]"
+          },
+          {
+            "MPN": "B5817WS-TP",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Mar 03, 2014",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "MCC Products Counterfeiter Report",
+            "Source": "http://download.siliconexpert.com/pdfs/2014/3/3/17/54/11/113/mco_/auto/833counterfeit20report.pdf"
+          },
+          {
+            "MPN": "MURS160T3",
+            "Supplier": "ON SEMICONDUCTOR",
+            "NotificationDate": "Dec 04, 2009",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "Marking on device and internal x ray",
+            "Source": "http://download.siliconexpert.com/pdfs/2015/8/27/1/18/58/179/ons_/manual/382.pdf"
+          },
+          {
+            "MPN": "MURS160",
+            "Supplier": "ON SEMICONDUCTOR",
+            "NotificationDate": "Dec 04, 2009",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "Marking on device and internal x ray",
+            "Source": "http://download.siliconexpert.com/pdfs/2015/8/27/1/18/58/179/ons_/manual/382.pdf"
+          },
+          {
+            "MPN": "IDB10S60C",
+            "Supplier": "INFINEON TECHNOLOGIES AG",
+            "NotificationDate": "May 11, 2015",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "LEADS ARE CONTAMINATED BY OXIDATION.",
+            "Source": "http://download.siliconexpert.com/pdfs/2015/5/19/12/43/36/132/smn_/manual/8045.pdf"
+          },
+          {
+            "MPN": "IDB10S60CATMA1",
+            "Supplier": "INFINEON TECHNOLOGIES AG",
+            "NotificationDate": "May 11, 2015",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "LEADS ARE CONTAMINATED BY OXIDATION.",
+            "Source": "http://download.siliconexpert.com/pdfs/2015/5/19/12/43/36/132/smn_/manual/8045.pdf"
+          },
+          {
+            "MPN": "IDB10S60CXT",
+            "Supplier": "INFINEON TECHNOLOGIES AG",
+            "NotificationDate": "May 11, 2015",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "LEADS ARE CONTAMINATED BY OXIDATION.",
+            "Source": "http://download.siliconexpert.com/pdfs/2015/5/19/12/43/36/132/smn_/manual/8045.pdf"
+          },
+          {
+            "MPN": "MEK350-02DA",
+            "Supplier": "IXYS",
+            "NotificationDate": "Jul 15, 2015",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [AAN-U-15-268]"
+          },
+          {
+            "MPN": "ER3G",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Jun 19, 2017",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "MCC Products Counterfeiter Report",
+            "Source": "http://download.siliconexpert.com/pdfs2/2017/7/31/15/41/23/387/mco_/auto/430counterfeit20report.pdf"
+          },
+          {
+            "MPN": "SR3200",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Jun 19, 2017",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "MCC Products Counterfeiter Report",
+            "Source": "http://download.siliconexpert.com/pdfs2/2017/7/31/15/41/23/387/mco_/auto/430counterfeit20report.pdf"
+          },
+          {
+            "MPN": "SR3200-AP",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Jun 19, 2017",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "MCC Products Counterfeiter Report",
+            "Source": "http://download.siliconexpert.com/pdfs2/2017/7/31/15/41/23/387/mco_/auto/430counterfeit20report.pdf"
+          },
+          {
+            "MPN": "SR3200-TP",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Jun 19, 2017",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "MCC Products Counterfeiter Report",
+            "Source": "http://download.siliconexpert.com/pdfs2/2017/7/31/15/41/23/387/mco_/auto/430counterfeit20report.pdf"
+          },
+          {
+            "MPN": "SR3200-BP",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Jun 19, 2017",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "MCC Products Counterfeiter Report",
+            "Source": "http://download.siliconexpert.com/pdfs2/2017/7/31/15/41/23/387/mco_/auto/430counterfeit20report.pdf"
+          },
+          {
+            "MPN": "ER3G-TP",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Jun 19, 2017",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "MCC Products Counterfeiter Report",
+            "Source": "http://download.siliconexpert.com/pdfs2/2017/7/31/15/41/23/387/mco_/auto/430counterfeit20report.pdf"
+          },
+          {
+            "MPN": "B5817WS-TP",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Jun 19, 2017",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "MCC Products Counterfeiter Report",
+            "Source": "http://download.siliconexpert.com/pdfs2/2017/7/31/15/41/23/387/mco_/auto/430counterfeit20report.pdf"
+          },
+          {
+            "MPN": "B5817WS",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Jun 19, 2017",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "MCC Products Counterfeiter Report",
+            "Source": "http://download.siliconexpert.com/pdfs2/2017/7/31/15/41/23/387/mco_/auto/430counterfeit20report.pdf"
+          },
+          {
+            "MPN": "ER3MB-TP",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Jun 19, 2017",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "MCC Products Counterfeiter Report",
+            "Source": "http://download.siliconexpert.com/pdfs2/2017/7/31/15/41/23/387/mco_/auto/430counterfeit20report.pdf"
+          },
+          {
+            "MPN": "SK4200L-TP",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Jun 19, 2017",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "MCC Products Counterfeiter Report",
+            "Source": "http://download.siliconexpert.com/pdfs2/2017/7/31/15/41/23/387/mco_/auto/430counterfeit20report.pdf"
+          },
+          {
+            "MPN": "ES1ME-TP",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Jun 19, 2017",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "MCC Products Counterfeiter Report",
+            "Source": "http://download.siliconexpert.com/pdfs2/2017/7/31/15/41/23/387/mco_/auto/430counterfeit20report.pdf"
+          },
+          {
+            "MPN": "FEP16DTD",
+            "Supplier": "ON Semiconductor (AKA Fairchild)",
+            "NotificationDate": "Feb 26, 2019",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [CEW-A-19-03]"
+          },
+          {
+            "MPN": "BYW77P-200",
+            "Supplier": "ST MICROELECTRONICS",
+            "NotificationDate": "Dec 11, 2014",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "LEADS ARE DAMAGED.",
+            "Source": "http://download.siliconexpert.com/pdfs/2015/9/2/8/50/53/659/st_/manual/7997.pdf"
+          },
+          {
+            "MPN": "1N5819",
+            "Supplier": "On Semiconductor Corp",
+            "NotificationDate": "Mar 28, 2016",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [BVZ-A-16-01]"
+          },
+          {
+            "MPN": "1N5819RL",
+            "Supplier": "On Semiconductor Corp",
+            "NotificationDate": "Mar 28, 2016",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [BVZ-A-16-01]"
+          },
+          {
+            "MPN": "BYW77P-200",
+            "Supplier": "ST MICROELECTRONICS",
+            "NotificationDate": "Dec 11, 2014",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "LEADS ARE DAMAGED.",
+            "Source": "http://download.siliconexpert.com/pdfs/2015/3/5/9/14/20/644/st_/manual/7997.pdf"
+          },
+          {
+            "MPN": "B5817WS",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Dec 31, 2014",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "MCC Products Counterfeiter Report",
+            "Source": "http://download.siliconexpert.com/pdfs/2014/1/5/19/37/10/242/mco_/auto/435counterfeit20report.pdf"
+          },
+          {
+            "MPN": "B5817WS-TP",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Dec 31, 2014",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "MCC Products Counterfeiter Report",
+            "Source": "http://download.siliconexpert.com/pdfs/2014/1/5/19/37/10/242/mco_/auto/435counterfeit20report.pdf"
+          },
+          {
+            "MPN": "B5817WS-TP",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Dec 01, 2015",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "",
+            "Source": ""
+          },
+          {
+            "MPN": "SK4200L-TP",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Dec 01, 2015",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "",
+            "Source": ""
+          },
+          {
+            "MPN": "ER3MB-TP",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Dec 01, 2015",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "",
+            "Source": ""
+          },
+          {
+            "MPN": "ER3G-TP",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Dec 01, 2015",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "",
+            "Source": ""
+          },
+          {
+            "MPN": "ES1ME-TP",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Dec 01, 2015",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "",
+            "Source": ""
+          },
+          {
+            "MPN": "SR3200",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Dec 01, 2015",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "",
+            "Source": ""
+          },
+          {
+            "MPN": "SR3200-TP",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Dec 01, 2015",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "",
+            "Source": ""
+          },
+          {
+            "MPN": "SR3200-AP",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Dec 01, 2015",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "",
+            "Source": ""
+          },
+          {
+            "MPN": "SR3200-BP",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Dec 01, 2015",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "",
+            "Source": ""
+          },
+          {
+            "MPN": "ER3G",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Dec 01, 2015",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "",
+            "Source": ""
+          },
+          {
+            "MPN": "B5817WS",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Dec 01, 2015",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "",
+            "Source": ""
+          }
+        ],
+        "CurrentLifecycleStatus": "Active",
+        "TimeSinceMarketIntroduction": "25 Year(s)",
+        "AuthorizedDistributorswithStockCount": "11 Distributor(s)",
+        "AuthorizedDistributorswithStockReports": [
+          {
+            "Date": "AUG_2025",
+            "AvgQuantity": "8404",
+            "Inventory": "Mouser Electronics||~||Farnell||~||Newark||~||Digi-Key||~||Arrow North America||~||Arrow Quote||~||Arrow Europe||~||Chip1Stop||~||Verical||~||"
+          },
+          {
+            "Date": "SEP_2025",
+            "AvgQuantity": "8206",
+            "Inventory": "Mouser Electronics||~||Element14||~||Digi-Key||~||Arrow North America||~||Arrow Quote||~||Arrow Europe||~||Chip1Stop||~||Verical||~||Allied Electronics||~||"
+          },
+          {
+            "Date": "OCT_2025",
+            "AvgQuantity": "12514",
+            "Inventory": "Mouser Electronics||~||Farnell||~||Element14||~||Newark||~||Digi-Key||~||Arrow North America||~||Arrow Quote||~||Arrow Europe||~||Chip1Stop||~||Verical||~||Allied Electronics||~||"
+          },
+          {
+            "Date": "OCT_2025",
+            "AvgQuantity": "12884",
+            "Inventory": "Mouser Electronics||~||Farnell||~||Element14||~||Newark||~||Digi-Key||~||Arrow North America||~||Arrow Quote||~||Arrow Europe||~||Chip1Stop||~||Verical||~||Allied Electronics||~||"
+          },
+          {
+            "Date": "OCT_2025",
+            "AvgQuantity": "12588",
+            "Inventory": "Mouser Electronics||~||Farnell||~||Element14||~||Newark||~||Digi-Key||~||Arrow North America||~||Arrow Quote||~||Arrow Europe||~||Chip1Stop||~||Verical||~||Allied Electronics||~||"
+          }
+        ],
+        "HistoricalShortagesInventoryReported": "Yes",
+        "IsPopularPart": "Yes"
+      },
+      "Qualifications": {
+        "ESDQualification": {
+          "ESDProtection": "Unknown",
+          "MaximumESDProtectionVoltage": "N/A",
+          "ESDClass": "N/A",
+          "SourceOfInformation": "http://download.siliconexpert.com/pdfs2/2019/2/24/10/51/44/531819/ixy_/manual/dsi30-12ac.pdf"
+        }
+      },
+      "LifeCycleData": {
+        "PartStatus": "Active",
+        "LifeCycleComment": "",
+        "LTBDate": "",
+        "Source": "http://download.siliconexpert.com/pdfs2/2021/4/19/12/30/44/907572/ixy_/manual/pgurl_dsi30-16a.pdf",
+        "EstimatedYearsToEOL": "5.5",
+        "EstimatedEOLDate": "2031",
+        "PartLifecycleStage": "Mature",
+        "MinimumEstimatedYearsToEOL": "4.1",
+        "MaximumEstimatedYearsToEOL": "18.2",
+        "LifeCycleRiskGrade": "Medium",
+        "OverallRisk": "40.3%",
+        "OverallRiskGrade": "Low",
+        "PartLifecycleCode": "3"
+      },
+      "ManufacturingData": {
+        "MSL": "N/R",
+        "LeadFinishPlating": "Sn|SnAgCu",
+        "TerminalBaseMaterial": "N/A",
+        "MaximumReflowTemperature": "N/R",
+        "ReflowSolderTime": "N/R",
+        "NumberOfReflowCycle": "",
+        "Standard": "",
+        "MaximumWaveTemperature": "N/A °C",
+        "WaveSolderTime": "N/A Sec",
+        "UnderPlatingMaterial": "N/A",
+        "ReflowTempSource": "",
+        "WaveTempSource": "https://download.siliconexpert.com/pdfs2/2019/2/24/10/51/44/531819/ixy_/manual/dsi30-12ac.pdf",
+        "UnderPlatingPorosityFree": ""
+      },
+      "PackagingData": {
+        "PackagingSuffix": "",
+        "Packaging": "",
+        "QuantityOfPackaging": "",
+        "ReelDiameter": "",
+        "ReelWidth": "",
+        "TapePitch": "",
+        "TapeWidth": "",
+        "FeedHolePitch": "",
+        "HoleCenterToComponentCenter": "",
+        "LeadClinchHeight": "",
+        "ComponentOrientation": "",
+        "PackagingDocument": "https://download.siliconexpert.com/pdfs2/2025/4/12/14/44/12/8695387356/ltf_/manual/littelfusepowersemiconductorsdsi3016adatasheet.pdf",
+        "TapeMaterial": "",
+        "TapeType": ""
+      },
+      "AllPackageData": {
+        "Feature": [
+          {
+            "FeatureName": "Supplier Package",
+            "FeatureValue": "TO-220AC",
+            "FeatureUnit": "",
+            "FeatureId": "22"
+          },
+          {
+            "FeatureName": "Basic Package Type",
+            "FeatureValue": "Through Hole",
+            "FeatureUnit": "",
+            "FeatureId": "602"
+          },
+          {
+            "FeatureName": "Pin Count",
+            "FeatureValue": "2",
+            "FeatureUnit": "",
+            "FeatureId": "23"
+          },
+          {
+            "FeatureName": "Lead Shape",
+            "FeatureValue": "Through Hole",
+            "FeatureUnit": "",
+            "FeatureId": "462"
+          },
+          {
+            "FeatureName": "PCB",
+            "FeatureValue": "2",
+            "FeatureUnit": "",
+            "FeatureId": "24"
+          },
+          {
+            "FeatureName": "Tab",
+            "FeatureValue": "Tab",
+            "FeatureUnit": "",
+            "FeatureId": "25"
+          },
+          {
+            "FeatureName": "Pin Pitch",
+            "FeatureValue": "5.33(Max)",
+            "FeatureUnit": "mm",
+            "FeatureId": "31"
+          },
+          {
+            "FeatureName": "Package Length",
+            "FeatureValue": "10.66(Max)",
+            "FeatureUnit": "mm",
+            "FeatureId": "26"
+          },
+          {
+            "FeatureName": "Package Width",
+            "FeatureValue": "4.82(Max)",
+            "FeatureUnit": "mm",
+            "FeatureId": "27"
+          },
+          {
+            "FeatureName": "Package Height",
+            "FeatureValue": "9.66(Max)",
+            "FeatureUnit": "mm",
+            "FeatureId": "28"
+          },
+          {
+            "FeatureName": "Package Diameter",
+            "FeatureValue": "N/R",
+            "FeatureUnit": "mm",
+            "FeatureId": "30"
+          },
+          {
+            "FeatureName": "Seated Plane Height",
+            "FeatureValue": "22.86(Max)",
+            "FeatureUnit": "mm",
+            "FeatureId": "29"
+          },
+          {
+            "FeatureName": "Mounting",
+            "FeatureValue": "Through Hole",
+            "FeatureUnit": "",
+            "FeatureId": "35"
+          },
+          {
+            "FeatureName": "Package Material",
+            "FeatureValue": "Plastic",
+            "FeatureUnit": "",
+            "FeatureId": "32"
+          },
+          {
+            "FeatureName": "Package Description",
+            "FeatureValue": "Transistor Outline Package",
+            "FeatureUnit": "",
+            "FeatureId": "461"
+          },
+          {
+            "FeatureName": "Package Family Name",
+            "FeatureValue": "TO",
+            "FeatureUnit": "",
+            "FeatureId": "603"
+          },
+          {
+            "FeatureName": "Jedec",
+            "FeatureValue": "TO-220AC",
+            "FeatureUnit": "",
+            "FeatureId": "36"
+          },
+          {
+            "FeatureName": "Package Outline",
+            "FeatureValue": "https://download.siliconexpert.com/pdfs2/2019/2/24/10/51/44/531819/ixy_/manual/dsi30-12ac.pdf",
+            "FeatureUnit": "",
+            "FeatureId": "39"
+          }
+        ]
+      },
+      "PackageData": {
+        "SupplierPackage": "TO-220AC",
+        "PinCount": "2",
+        "PCB": "2",
+        "Tab": "Tab",
+        "PackageDiameter": "N/R",
+        "Mounting": "Through Hole",
+        "PackageLength": "10.66(Max) mm",
+        "PackageWidth": "4.82(Max) mm",
+        "PackageHeight": "9.66(Max) mm",
+        "PackageDescription": "Transistor Outline Package",
+        "PackageMaterial": "Plastic",
+        "StandardPackageName": "TO",
+        "SeatedPlaneHeight": "22.86(Max) mm",
+        "PinPitch": "5.33(Max) mm",
+        "Jedec": "TO-220AC",
+        "PackageOutline": "https://download.siliconexpert.com/pdfs2/2019/2/24/10/51/44/531819/ixy_/manual/dsi30-12ac.pdf",
+        "PackageCase": "",
+        "LeadShape": "Through Hole",
+        "BasicPackageType": "Through Hole",
+        "PackageWeight": "",
+        "MinimumSeatedPlaneHeight": "",
+        "PackageOrientation": ""
+      },
+      "ParametricData": {
+        "Features": [
+          {
+            "FeatureName": "Average Rectified Forward Current",
+            "FeatureValue": "",
+            "FeatureUnit": "A",
+            "FeatureID": "18887600"
+          },
+          {
+            "FeatureName": "Cathode Polarity",
+            "FeatureValue": "",
+            "FeatureUnit": "",
+            "FeatureID": "2238005"
+          },
+          {
+            "FeatureName": "Configuration",
+            "FeatureValue": "Single",
+            "FeatureUnit": "",
+            "FeatureID": "53302",
+            "FeatureValueDetails": {
+              "Value": "Single",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Material",
+            "FeatureValue": "",
+            "FeatureUnit": "",
+            "FeatureID": "90681"
+          },
+          {
+            "FeatureName": "Maximum Continuous Forward Current",
+            "FeatureValue": "30",
+            "FeatureUnit": "A",
+            "FeatureID": "53306",
+            "FeatureValueDetails": {
+              "Value": "30",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "A",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Maximum DC Reverse Voltage",
+            "FeatureValue": "",
+            "FeatureUnit": "V",
+            "FeatureID": "3180901"
+          },
+          {
+            "FeatureName": "Maximum Diode Capacitance",
+            "FeatureValue": "",
+            "FeatureUnit": "pF",
+            "FeatureID": "90644"
+          },
+          {
+            "FeatureName": "Maximum Forward Voltage",
+            "FeatureValue": "1.60@60A",
+            "FeatureUnit": "V",
+            "FeatureID": "53308",
+            "FeatureValueDetails": {
+              "Value": "1.6",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "V",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Maximum Junction Ambient Thermal Resistance",
+            "FeatureValue": "",
+            "FeatureUnit": "°C/W",
+            "FeatureID": "68565"
+          },
+          {
+            "FeatureName": "Maximum Junction Case Thermal Resistance",
+            "FeatureValue": "",
+            "FeatureUnit": "°C/W",
+            "FeatureID": "68564"
+          },
+          {
+            "FeatureName": "Maximum Operating Temperature",
+            "FeatureValue": "150",
+            "FeatureUnit": "°C",
+            "FeatureID": "59814",
+            "FeatureValueDetails": {
+              "Value": "150",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "°C",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Maximum Power Dissipation",
+            "FeatureValue": "160000",
+            "FeatureUnit": "mW",
+            "FeatureID": "66160",
+            "FeatureValueDetails": {
+              "Value": "160000",
+              "Multiplier": "m",
+              "MultiplierValue": ".001",
+              "Unit": "W",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Maximum RMS Reverse Voltage",
+            "FeatureValue": "",
+            "FeatureUnit": "V",
+            "FeatureID": "7666486"
+          },
+          {
+            "FeatureName": "Maximum Storage Temperature",
+            "FeatureValue": "150",
+            "FeatureUnit": "°C",
+            "FeatureID": "69194",
+            "FeatureValueDetails": {
+              "Value": "150",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "°C",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Minimum Operating Temperature",
+            "FeatureValue": "-40",
+            "FeatureUnit": "°C",
+            "FeatureID": "58202",
+            "FeatureValueDetails": {
+              "Value": "40",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "°C",
+              "Sign": "-"
+            }
+          },
+          {
+            "FeatureName": "Minimum Storage Temperature",
+            "FeatureValue": "-40",
+            "FeatureUnit": "°C",
+            "FeatureID": "68847",
+            "FeatureValueDetails": {
+              "Value": "40",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "°C",
+              "Sign": "-"
+            }
+          },
+          {
+            "FeatureName": "Operating Junction Temperature",
+            "FeatureValue": "-40 to 175",
+            "FeatureUnit": "°C",
+            "FeatureID": "61152",
+            "FeatureValueDetails": {
+              "Value": "40 to 175",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "°C to °C",
+              "Sign": "- to "
+            }
+          },
+          {
+            "FeatureName": "Peak Non-Repetitive Forward Surge Current",
+            "FeatureValue": "325",
+            "FeatureUnit": "A",
+            "FeatureID": "60436",
+            "FeatureValueDetails": {
+              "Value": "325",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "A",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Peak Reverse Current",
+            "FeatureValue": "40",
+            "FeatureUnit": "uA",
+            "FeatureID": "53309",
+            "FeatureValueDetails": {
+              "Value": "40",
+              "Multiplier": "u",
+              "MultiplierValue": ".000001",
+              "Unit": "A",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Peak Reverse Recovery Time",
+            "FeatureValue": "",
+            "FeatureUnit": "ns",
+            "FeatureID": "53310"
+          },
+          {
+            "FeatureName": "Peak Reverse Repetitive Voltage",
+            "FeatureValue": "1600",
+            "FeatureUnit": "V",
+            "FeatureID": "53303",
+            "FeatureValueDetails": {
+              "Value": "1600",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "V",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Process Technology",
+            "FeatureValue": "",
+            "FeatureUnit": "",
+            "FeatureID": "15662278"
+          },
+          {
+            "FeatureName": "Repetitive Peak Forward Current",
+            "FeatureValue": "",
+            "FeatureUnit": "A",
+            "FeatureID": "18887599"
+          },
+          {
+            "FeatureName": "Speed",
+            "FeatureValue": "",
+            "FeatureUnit": "",
+            "FeatureID": "71230"
+          },
+          {
+            "FeatureName": "Supplier Temperature Grade",
+            "FeatureValue": "",
+            "FeatureUnit": "",
+            "FeatureID": "59826"
+          },
+          {
+            "FeatureName": "Tradename",
+            "FeatureValue": "",
+            "FeatureUnit": "",
+            "FeatureID": "88268"
+          },
+          {
+            "FeatureName": "Type",
+            "FeatureValue": "",
+            "FeatureUnit": "",
+            "FeatureID": "53300"
+          },
+          {
+            "FeatureName": "Typical Junction Capacitance",
+            "FeatureValue": "",
+            "FeatureUnit": "pF",
+            "FeatureID": "68563"
+          },
+          {
+            "FeatureName": "Typical Reverse Recovery Charge",
+            "FeatureValue": "",
+            "FeatureUnit": "nC",
+            "FeatureID": "68566"
+          }
+        ]
+      },
+      "PCNData": {
+        "PCNDto": {
+          "LastPCNNumber": "C0561",
+          "LastPCNDate": "Mar 19, 2025",
+          "LastPCNTypeOfChange": "Assembly Process,Labeling",
+          "LastPCNSource": "http://download.siliconexpert.com/pdfs2/2025/4/9/22/2/50/28727393/ltf_/manual/id-7687899-pcn.c0561.pdf",
+          "LastTimeBuyDate": "",
+          "LastShipDate": "",
+          "LastEOLNumber": "",
+          "LastEOLDate": "",
+          "LastEOLSource": ""
+        }
+      },
+      "PCNDetails": {
+        "PCNDto": [
+          {
+            "PCNNumber": "C0561",
+            "TypeOfChange": "Assembly Process,Labeling",
+            "DescriptionOfChange": "Existing cover replacement with NO LOGO version to improve our supply chain and better meet customer demands.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs2/2025/4/9/22/2/50/28727393/ltf_/manual/id-7687899-pcn.c0561.pdf",
+            "NotificationDate": "Mar 19, 2025",
+            "EffectiveDate": "Mar 19, 2025",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "437588946122131"
+          },
+          {
+            "PCNNumber": "ESW490-58",
+            "TypeOfChange": "Materials",
+            "DescriptionOfChange": "Littelfuse would like to notify you that we have qualified alternative Epoxy Molding Compound (EMC) material for various IXYS Brand Thyristor & Diode Discrete Packages to serve the Business Continuity Plan (BCP).",
+            "PcnSource": "http://download.siliconexpert.com/pdfs2/2024/5/12/13/45/51/1665/ltf_/manual/ltlfuwic_esw49058_05122024_.pdf",
+            "NotificationDate": "May 10, 2024",
+            "EffectiveDate": "Aug 10, 2024",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "437588915596008"
+          },
+          {
+            "PCNNumber": "PCN47-IDM-24",
+            "TypeOfChange": "PCN Cancelled",
+            "DescriptionOfChange": "Based on Supplier communication, This PCN is invalid and the PCN to consider is the one sent on March 13.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs2/2024/6/18/20/39/7/286936/ltf_/manual/ltlfuwic_pcn47idm24.pdf",
+            "NotificationDate": "Mar 07, 2024",
+            "EffectiveDate": "Mar 07, 2024",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "437588926283804"
+          },
+          {
+            "PCNNumber": "ESW490-46",
+            "TypeOfChange": "Assembly Site",
+            "DescriptionOfChange": "Littelfuse would like to notify you that we qualified alternate assembly location fo IXYS Power Thyristor & Diode TO-220AB_AC package products with BCP consideration",
+            "PcnSource": "http://download.siliconexpert.com/pdfs2/2022/11/3/12/22/1/468799/ltf_/manual/ltlfuwic_esw49046_11032022_.pdf",
+            "NotificationDate": "Nov 01, 2022",
+            "EffectiveDate": "Feb 01, 2023",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "437588875832708"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "We are excited to announce that Littelfuse, Inc. acquired C&K on July 19, 2022.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs2/2023/5/7/17/6/51/284625/ltf_/manual/91463_spcn.pdf",
+            "NotificationDate": "Jul 20, 2022",
+            "EffectiveDate": "Jul 19, 2022",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "437588889664099"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Labeling,Marking Molding",
+            "DescriptionOfChange": "Notification of Marking/Label Change with SAP Go-alive for Power Discrete Products",
+            "PcnSource": "http://download.siliconexpert.com/pdfs2/2022/6/23/16/44/48/795487/ltf_/manual/ltlfuwic_clb30i1200pztrl_06232022_.pdf",
+            "NotificationDate": "Jun 20, 2022",
+            "EffectiveDate": "Jun 20, 2022",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "437588864625757"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Alert",
+            "DescriptionOfChange": "Alert - We want to share with you a brief update on the Littelfuse power semiconductor manufacturing site in Lampertheim, Germany. The site recently experienced an electrical fire that occurred at the power distribution panel on the subfloor of the fab.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs2/2022/6/19/18/1/28/234817/ltf_/manual/89217_spcn.pdf",
+            "NotificationDate": "Mar 17, 2022",
+            "EffectiveDate": "Mar 17, 2022",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "437588864423887"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Assembly Site",
+            "DescriptionOfChange": "Littelfuse would like to notify you that we plan to qualify alternate assembly location for IXYS Power Thyristor & Diode Discrete products with BCP (Business Continuous Plan) consideration.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs2/2021/5/18/9/6/13/768112/ltf_/manual/cla100e1200hb.pdf",
+            "NotificationDate": "May 05, 2021",
+            "EffectiveDate": "May 05, 2021",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "9114034936"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Assembly Site",
+            "DescriptionOfChange": "Alternate Assembly Location for IXYS Power Thyristor & Diode Discrete Product Family",
+            "PcnSource": "http://download.siliconexpert.com/pdfs2/2021/5/27/0/5/35/88635/ltf_/manual/ltlfuwic_cla100e1200hb_05262021_.pdf",
+            "NotificationDate": "May 05, 2021",
+            "EffectiveDate": "May 05, 2021",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "9114391156"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Labeling,Packing,Vendor Acquisition",
+            "DescriptionOfChange": "With the integration of IXYS Semiconductor and Integrated Circuits Division (ICD) products into Littelfuse, we are moving packaging labels to Littelfuse standard label formats. Implementation of this change will begin the week of February 22, 2021. You can expect to receive products with both Littelfuse and IXYS branding during the implementation phase.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs2/2022/2/1/18/58/54/81866/ixy_/manual/ltlfuwic_ixys_02162021_.pdf",
+            "NotificationDate": "Feb 08, 2021",
+            "EffectiveDate": "Feb 22, 2021",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "9131518273"
+          },
+          {
+            "PCNNumber": "USA2019 - 001",
+            "TypeOfChange": "Labeling,Marking Molding",
+            "DescriptionOfChange": "Archive - North American customers only:Assembled Device Marking Format Changes and Outer Box/Bag Label Format Changes",
+            "PcnSource": "http://download.siliconexpert.com/pdfs2/2020/8/26/18/0/45/187354/ixy_/manual/ixys_usa2019001_08262020_.pdf",
+            "NotificationDate": "Aug 01, 2019",
+            "EffectiveDate": "Aug 01, 2019",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "9099533407"
+          },
+          {
+            "PCNNumber": "USA2019 - 001",
+            "TypeOfChange": "Labeling,Marking Molding",
+            "DescriptionOfChange": "Assembled Device Marking Format Changes and Outer Box/Bag Label Format Changes",
+            "PcnSource": "http://download.siliconexpert.com/pdfs2/2019/8/20/17/19/37/996242/ixy_/manual/pcn_usa2019_001.pdf",
+            "NotificationDate": "Jul 31, 2019",
+            "EffectiveDate": "Jul 31, 2019",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "9074809572"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "CHICAGO--(BUSINESS WIRE)-- Littelfuse, Inc. (NASDAQ:LFUS) today announced the completion of its acquisition of IXYS Corporation (NASDAQ:IXYS). IXYS is a global pioneer in the power semiconductor market with a focus on medium- to highvoltage power semiconductors across the industrial, communications, consumer and medical device markets",
+            "PcnSource": "http://download.siliconexpert.com/pdfs2/2018/1/28/17/46/54/442/ltf_/auto/2561887296685410download.cfmcompanyidlfusfileid968916filekey1.pdf",
+            "NotificationDate": "Jan 17, 2018",
+            "EffectiveDate": "Jan 17, 2018",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "9029819402"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Labeling,Marking Molding,Vendor Acquisition",
+            "DescriptionOfChange": "As we continue to integrate the Hamlin Sensors business into Littelfuse Inc., we would like to notify you of an update on printing logo on the reed switches boxes come from our Philippines plant",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2015/10/11/0/30/36/859/ltf_/manual/44363_spcn.pdf",
+            "NotificationDate": "Sep 23, 2015",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "8975165061"
+          },
+          {
+            "PCNNumber": "USA2015-001",
+            "TypeOfChange": "Marking Molding",
+            "DescriptionOfChange": "An approved assembly subcontractor for IXYS Corporation will change the method they use to mark molded plastic packages; Laser marking will replace ink marking. The change to laser marking will be phased in throughout 2015 on a lot by lot basis.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2015/6/9/7/30/0/695/ixy_/manual/ixys_usa2015001_06082015_.pdf",
+            "NotificationDate": "Jan 07, 2015",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "8967376535"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "Hamlin has been acquired by Littelfuse.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2013/4/22/23/51/56/944/ltf_/manual/pcn_fullacquisition_littelfuse_hamlin.pdf",
+            "NotificationDate": "Apr 15, 2013",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "83467494"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "ACCEL ELEKTRONIKA has been acquired by Littelfuse.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2012/6/25/0/9/18/960/ltf_/manual/pcn_fullacquisition_littelfuse_accelelektronika.pdf",
+            "NotificationDate": "Jun 01, 2012",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "43969044"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "Cole Hersee has been acquired by Littelfuse.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2011/1/17/1/27/58/937/ltf_/manual/pcn_acquisition_fullacquisition_littelfuse_colehersee.pdf",
+            "NotificationDate": "Dec 22, 2010",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "22891125"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "ABB SSAC has been acquired by SymCom.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2011/6/26/4/7/8/89/smcm_/manual/pcn_fullacquisition_symcom_abbssac.pdf",
+            "NotificationDate": "Jul 08, 2010",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "28008639"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "Zilog has Been Acquired by IXYS.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2009/12/16/0/45/0/656/ixy_/manual/pcnfullacquisitionixyszilog.pdf",
+            "NotificationDate": "Dec 07, 2009",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "10666812"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "Paradigm Technologies has been acquired by IXYS.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2010/4/28/0/32/38/551/ixy_/manual/pcn_fullacquistion_ixys_paradigmtechnologies.pdf",
+            "NotificationDate": "Jan 01, 2009",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "13862203"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "Startco Engineering has been acquired by Littelfuse",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2009/5/11/2/26/39/ltf_/manual/pcn_full acquistion_littelfuse_startco engineering.pdf",
+            "NotificationDate": "Sep 17, 2008",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "3731682"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "Shock Block, Inc has been Acquired by Littelfuse.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2010/11/25/4/48/2/723/ltf_/manual/pcn_acquisition_fullacquisition_littelfuse_shockblockinc.pdf",
+            "NotificationDate": "Mar 03, 2008",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "20857546"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "Song Long Electronics Co., Ltd has been Acquired by Littelfuse.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2010/11/25/4/48/2/630/ltf_/manual/pcn_acquisition_fullacquisition_littelfuse_songlongelectronicscoltd.pdf",
+            "NotificationDate": "Jun 21, 2006",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "20857545"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "Catalina Performance Accessories Inc has been Acquired by Littelfuse.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2010/11/25/4/48/2/536/ltf_/manual/pcn_acquisition_fullacquisition_littelfuse_catalinaperformanceaccessoriesinc.pdf",
+            "NotificationDate": "Jun 13, 2006",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "20857544"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "Concord Semiconductor has been acquired by Littelfuse.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2010/9/8/5/35/13/225/ltf_/manual/pcn_fullacquistion_littelfuse_concordsemiconductor.pdf",
+            "NotificationDate": "Feb 22, 2006",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "18615439"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "SurgX Corporation has been Acquired by Littelfuse.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2010/11/25/4/48/2/427/ltf_/manual/pcn_acquisition_fullacquisition_littelfuse_surgxcorporation.pdf",
+            "NotificationDate": "Feb 03, 2006",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "20857543"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "Littelfuse acquires Pudenz",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2009/4/29/4/47/43/ltf_/manual/pcn_full acquistion_littelfuse_pudenz.pdf",
+            "NotificationDate": "Sep 30, 2005",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "3626480"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "Littelfuse acquires Wickmann",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2009/4/29/4/47/52/ltf_/manual/pcn_full acquistion_littelfuse_wickmann.pdf",
+            "NotificationDate": "Sep 30, 2005",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "3626481"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "Heinrich Industrie AG has been Acquired by Littelfuse.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2010/11/25/4/48/2/333/ltf_/manual/pcn_acquisition_fullacquisition_littelfuse_heinrichindustrieag.pdf",
+            "NotificationDate": "May 05, 2004",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "20857542"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "Littelfuse acquires Teccor Electronics",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2009/5/6/3/41/38/ltf_/manual/pcn_full acquistion_littelfuse_teccor electronics.pdf",
+            "NotificationDate": "Feb 03, 2004",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "3724702"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "MicroWave Technology has been acquired by IXYS.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2009/5/6/3/38/6/ixy_/manual/pcn_full acquistion_ixys_microwave technology.pdf",
+            "NotificationDate": "Sep 12, 2003",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "3724691"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "Semitron Corporation has been Acquired by Littelfuse.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2010/11/25/4/48/2/239/ltf_/manual/pcn_acquisition_fullacquisition_littelfuse_semitroncorporation.pdf",
+            "NotificationDate": "Jul 19, 2002",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "20857541"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "Clare has been acquired by IXYS.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2009/5/6/3/37/47/ixy_/manual/pcn_full acquistion_ixys_clare.pdf",
+            "NotificationDate": "Jun 10, 2002",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "3724690"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "Westcode Semiconductors Has Been Acquired by IXYS.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2009/9/7/15/43/37/443/ixy_/manual/pcn_full acquisition_ixys_westcode semiconductors.pdf",
+            "NotificationDate": "Jan 01, 2002",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "7171241"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "Directed Energy Has Been Acquired By IXYS.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2009/9/7/15/43/38/115/ixy_/manual/pcn_full acquisition_ixys_directed energy.pdf",
+            "NotificationDate": "May 01, 2000",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "7171242"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "EFEN GmbH has been Acquired by Wickmann.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2010/11/25/4/48/21/989/wic_/manual/pcn_acquisition_fullacquisition_wickmann_efengmbh.pdf",
+            "NotificationDate": "Jan 01, 1985",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "20857677"
+          }
+        ]
+      },
+      "EnvironmentalDto": {
+        "RoHSStatus": "Compliant",
+        "RoHSVersion": "2011/65/EU, 2015/863",
+        "Source": "http://download.siliconexpert.com/pdfs2/2022/12/7/15/5/13/17591/ltf_/manual/rohs2directive.pdf",
+        "SourceType": "Certificate of Compliance",
+        "Exemption": "N/A",
+        "ExemptionType": "",
+        "ExemptionCodes": "",
+        "ExemptionExpirationDate": "",
+        "RohsIdentifier": "NO",
+        "LeadFree": "Unknown",
+        "RareEarthElementInformation": "",
+        "ConflictMineralStatus": "DRC Conflict Undeterminable",
+        "ConflictMineralStatement": "http://download.siliconexpert.com/pdfs/2010/5/20/10/27/1/649/ltf_/auto/littelfuse-conflict-free-materials-statement.pdf",
+        "EICCMembership": "No",
+        "EICCTemplate": "http://download.siliconexpert.com/pdfs2/2025/2/10/17/16/9/4677837133/ltf_/manual/rmi_cmrt6.4lfinterimcompanylevel01152025.xlsx",
+        "EICCTemplateVersion": "Version 6.40",
+        "ConflictMineralsPolicy": "",
+        "ConflictMineralsSustainabilityReport": "",
+        "SDForm": "http://download.siliconexpert.com/pdfs/2014/12/3/6/35/49/859/ltf_/manual/7sec-lfus-1437749-14-10406.pdf",
+        "HalgonFree": "",
+        "ChinaRoHS": {
+          "ChinaRoHSStatus": "",
+          "CadmiumConcentration": "N/A",
+          "CadmiumFlag": "N/A",
+          "ChromiumConcentration": "N/A",
+          "ChromiumFlag": "N/A",
+          "LeadConcentration": "N/A",
+          "LeadFlag": "N/A",
+          "MercuryConcentration": "N/A",
+          "MercuryFlag": "N/A",
+          "PBBConcentration": "N/A",
+          "PBBFlag": "N/A",
+          "PBDEConcentration": "N/A",
+          "PBDEFlag": "N/A",
+          "EPUP": "N/A",
+          "ItemSubitemName": "",
+          "SourceType": "",
+          "CachedSource": "",
+          "LiveSupplierSource": ""
+        },
+        "TSCA": {
+          "Status": "Unknown",
+          "SourceType": "NO_DOC"
+        },
+        "ODC": "",
+        "Green": "",
+        "WEEE": {
+          "comId": 18527166,
+          "weeeStatus": "Out of Scope",
+          "sourcePdf": "http://download.siliconexpert.com/pdfs/2013/4/3/8/11/47/697/eurle_/manual/lexuriserv.douriojl2012197fullenpdf.douriojl2012197fullenpdf.pdf",
+          "sourceType": "WEEE Directive"
+        },
+        "PFOA": "",
+        "IEC62474": "",
+        "CaliforniaProposition65": "Compliant",
+        "PFOS-EUDirective-2006122EC": "",
+        "PersistentOrganicPollutants-POPs": "Unknown",
+        "PersistentOrganicPollutants-POPsData": {
+          "sourceType": "NO_DOC",
+          "sourcePdf": ""
+        },
+        "AD-DSL": "",
+        "NAS411": "",
+        "ELV": "Unknown",
+        "Phthalates": "",
+        "BisPhenolA_BPA": "",
+        "InorganicPhosphorus": "",
+        "CaliforniaProposition65Dto": {
+          "Status": "Compliant",
+          "SourceType": "COC & Vendor base Prop65",
+          "SourcePath": "http://download.siliconexpert.com/pdfs2/2023/5/29/13/19/33/26361/ltf_/manual/ltf.pdf"
+        },
+        "ReachRestrictionAnnexXVII": {
+          "Status": "Unknown",
+          "SourceType": "NO_DOC"
+        },
+        "TSCASection": {
+          "TSCAPBTSection6h": {
+            "Status": "Unknown",
+            "SourceType": "NO_DOC",
+            "SourcePath": ""
+          }
+        },
+        "standardConflictMineralData": {
+          "ConflictMineralStatus": "DRC Conflict Undeterminable",
+          "ConflictMineralStatement": "",
+          "EICCMembership": "No",
+          "EICCTemplate": "http://download.siliconexpert.com/pdfs2/2025/2/10/17/16/9/4677837133/ltf_/manual/rmi_cmrt6.4lfinterimcompanylevel01152025.xlsx",
+          "EICCTemplateVersion": "Version 6.40",
+          "ConflictMineralsPolicy": "",
+          "ConflictMineralsSustainabilityReport": ""
+        },
+        "extendedConflictMineralData": {
+          "CobaltStatus": "CAHRA-Conflict Undeterminable",
+          "MicaStatus": "CAHRA-Conflict Undeterminable",
+          "RMIMembership": "No",
+          "EMRTTemplate": "http://download.siliconexpert.com/pdfs2/2023/2/22/10/54/13/8103/ltf_/manual/littelfuseinc.-interimcompanylevelemrt1.11.xlsx",
+          "EMRTTemplateVersion": "Version 1.11",
+          "CertificationofCompliance": ""
+        }
+      },
+      "PricingData": {
+        "MinimumPrice": "1.07",
+        "AveragePrice": "1.7852",
+        "MinLeadtime": "21 Week(s)",
+        "Maxleadtime": "21 Week(s)",
+        "LastUpdatedate": "Oct 16,2025"
+      },
+      "ReplacementData": {
+        "ReplacementDto": {
+          "ReplacementComId": "19655107",
+          "ReplacementPartNumber": "DSI30-16ASN",
+          "ReplacementType": "D",
+          "Comment": "Difference in: Package"
+        }
+      },
+      "ReachData": {
+        "ReachDto": {
+          "CachedSource": "http://download.siliconexpert.com/pdfs/2018/2/8/4/55/4/726/ixy_/manual/ixysreach-181-letteroff.1-3-2018.pdf",
+          "ContainsSVHC": "N/A",
+          "SVHCExceedThresholdLimit": "No",
+          "SVHCListVersion": "Jan 15, 2018",
+          "SVHCListVersionNumber": "181",
+          "SubstanceIdentification": "",
+          "SubstanceLocation": "",
+          "SubstanceConcentration": "",
+          "SourceType": "COC & Vendor base",
+          "ReachStatus": "Unaffected",
+          "CASNumber": "",
+          "SVHCDateOfInclusion": "",
+          "EchaNotification": "",
+          "NotificationComment": "",
+          "SupportingDocument": ""
+        }
+      },
+      "GidepData": [
+        {
+          "TypeOfChange": "Product Information Summary ,Product Change Notice (PC)",
+          "GIDEPDescription": "Littelfuse is issuing this notice to announce have qualified alternative Epoxy Molding Compound (EMC) material for various IXYS Brand Thyristor & Diode Discrete Packages part numbers listed. No form, fit or function change.Reason for Change: To serve the Business Continuity Plan (BCP).",
+          "NotificationDate": "May 10, 24",
+          "DocumentNumber": "Please Contact GIDEP for Document # X1-PC-2024-1153"
+        },
+        {
+          "TypeOfChange": "Product Information Summary ,Product Change Notice (PC)",
+          "GIDEPDescription": "Littelfuse is issuing this notification to announce have qualified alternative Epoxy Molding Compound (EMC) material for the listed IXYS brand thyristor and diode discrete part numbers.Reason for Change: To serve the Business Continuity Plan (BCP).",
+          "NotificationDate": "May 10, 24",
+          "DocumentNumber": "Please Contact GIDEP for Document # X1-PC-2024-1162"
+        },
+        {
+          "TypeOfChange": "Product Information Summary ,Product Change Notice (PC)",
+          "GIDEPDescription": "Littelfuse is issuing this notification to announce the qualification of an alternate assembly location for the listed IXYS power thyristor and diode TO-220AB_AC package products with BCP consideration. Reason for Change: Due to an alternate assembly location.",
+          "NotificationDate": "Nov 01, 22",
+          "DocumentNumber": "Please Contact GIDEP for Document # X1-C-23-0336"
+        },
+        {
+          "TypeOfChange": "Product Information Summary ,Product Change Notice (PC)",
+          "GIDEPDescription": "Littelfuse has issued this notification to announce a plan to qualify alternate assembly location for IXYS Power Thyristor -and- Diode Discrete products with BCP (Business Continuous Plan) consideration. Reason for Change: Alternate assembly location for IXYS power thyristor -and- diode discrete product family.",
+          "NotificationDate": "May 05, 21",
+          "DocumentNumber": "Please Contact GIDEP for Document # X1-C-21-2094"
+        },
+        {
+          "TypeOfChange": "null ,null",
+          "GIDEPDescription": "",
+          "NotificationDate": "&nbsp;",
+          "DocumentNumber": "Please Contact GIDEP for Document # null"
+        }
+      ],
+      "RiskData": {
+        "RohsRisk": "Low",
+        "MultiSourcingRisk": "Low",
+        "InventoryRisk": "Low",
+        "LifecycleRisk": "Medium",
+        "PredictedObsolescenceYear": "2031",
+        "LifecycleStage": "Mature",
+        "YearsEOL": "5.5",
+        "NumberOfDistributors": "11",
+        "NumberOfOtherSources": "4",
+        "CrossesPartCategory": "YES",
+        "SEGrade": "5",
+        "LastUpdateDate": "October, 2025",
+        "YeolComment": "The part has surpassed a significant portion of its expected lifespan"
+      },
+      "History": {
+        "Datasheet": [
+          {
+            "date": "Nov 28, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2023/9/4/20/39/3/787866/ltf_/auto/media.pdf"
+          },
+          {
+            "date": "Nov 28, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2023/9/8/19/42/45/81554/ltf_/auto/media.pdf"
+          },
+          {
+            "date": "Nov 28, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2023/8/23/0/32/33/43748/ltf_/auto/media.pdf"
+          },
+          {
+            "date": "Nov 28, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2023/8/26/20/10/23/61217/ltf_/auto/media.pdf"
+          },
+          {
+            "date": "Nov 28, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2023/9/7/8/32/14/306439/ltf_/auto/media.pdf"
+          },
+          {
+            "date": "Nov 28, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2023/9/7/8/35/5/36388/ltf_/auto/media.pdf"
+          },
+          {
+            "date": "Nov 28, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2023/9/19/16/8/17/130226/ltf_/auto/media.pdf"
+          },
+          {
+            "date": "Nov 28, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2023/9/19/15/17/28/289896/ltf_/auto/media.pdf"
+          },
+          {
+            "date": "Nov 28, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2024/4/5/2/3/51/237237/ltf_/manual/media.pdf"
+          },
+          {
+            "date": "Nov 28, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2023/9/5/21/54/15/94148/ltf_/auto/enamelittelfuse-power-semiconductors-dsi30-16a-datasheet.pdf"
+          },
+          {
+            "date": "Nov 28, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2024/4/18/19/37/36/514738/ltf_/manual/media.pdf"
+          },
+          {
+            "date": "Nov 28, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2023/8/25/22/58/52/125444/ltf_/auto/media.pdf"
+          },
+          {
+            "date": "Nov 28, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2024/4/24/17/56/31/519230/ltf_/manual/media.pdf"
+          },
+          {
+            "date": "Nov 28, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2025/4/12/14/44/12/8695387356/ltf_/manual/littelfusepowersemiconductorsdsi3016adatasheet.pdf"
+          }
+        ],
+        "Lifecycle": [
+          {
+            "Date": "",
+            "Lifecycle": "Active",
+            "ManufacturerName": "Littelfuse",
+            "PartNumber": "DSI30-16A",
+            "ReasonOfChange": "Exists in latest Datasheet",
+            "SourceName": "Supplier's Datasheet",
+            "SourceURL": "http://download.siliconexpert.com/pdfs2/2021/4/19/12/30/44/907572/ixy_/manual/pgurl_dsi30-16a.pdf"
+          },
+          {
+            "Date": "Aug 28, 2017",
+            "Lifecycle": "Acquired",
+            "ManufacturerName": "IXYS",
+            "PartNumber": "DSI30-16A",
+            "ReasonOfChange": "Supplier Acquisition",
+            "SourceName": "Product Change Notice (PCN)",
+            "SourceURL": "http://download.siliconexpert.com/pdfs/2017/8/29/3/40/36/408/ltf_/manual/lfus20170827.pdf"
+          },
+          {
+            "Date": "",
+            "Lifecycle": "Active",
+            "ManufacturerName": "IXYS",
+            "PartNumber": "DSI30-16A",
+            "ReasonOfChange": "Obtained from supplier's website",
+            "SourceName": "Supplier Website",
+            "SourceURL": "http://download.siliconexpert.com/pdfs2/2021/4/19/12/30/44/907572/ixy_/manual/pgurl_dsi30-16a.pdf"
+          },
+          {
+            "Date": "Oct 25, 2000",
+            "Lifecycle": "Introduction Date",
+            "ManufacturerName": "IXYS",
+            "PartNumber": "DSI30-16A",
+            "ReasonOfChange": "",
+            "SourceName": "",
+            "SourceURL": ""
+          }
+        ]
+      },
+      "ProductImage": {
+        "ProductImageSmall": "http://download.siliconexpert.com/pdfs/2017/12/4/8/21/14/225/ixy_/manual/to-220ac.jpg",
+        "ProductImageLarge": "http://download.siliconexpert.com/pdfs/2017/12/4/8/20/18/751/ixy_/manual/to-220ac.jpg",
+        "ProductImageOriginal": "http://download.siliconexpert.com/pdfs/2017/12/4/8/20/46/705/ixy_/manual/to-220ac.jpg"
+      },
+      "PriceBreaksData": {
+        "PriceBreaksDto": [
+          {
+            "PriceBreaK": "1",
+            "AveragePrice": "3.1279",
+            "MinPrice": "1.659"
+          },
+          {
+            "PriceBreaK": "5",
+            "AveragePrice": "2.0847",
+            "MinPrice": "2.0847"
+          },
+          {
+            "PriceBreaK": "6",
+            "AveragePrice": "1.2758",
+            "MinPrice": "1.2758"
+          },
+          {
+            "PriceBreaK": "10",
+            "AveragePrice": "1.7734",
+            "MinPrice": "1.088"
+          },
+          {
+            "PriceBreaK": "25",
+            "AveragePrice": "1.2015",
+            "MinPrice": "1.084"
+          },
+          {
+            "PriceBreaK": "50",
+            "AveragePrice": "1.6955",
+            "MinPrice": "1.2186"
+          },
+          {
+            "PriceBreaK": "100",
+            "AveragePrice": "1.5808",
+            "MinPrice": "1.1559"
+          },
+          {
+            "PriceBreaK": "500",
+            "AveragePrice": "2.1509",
+            "MinPrice": "1.54183"
+          },
+          {
+            "PriceBreaK": "1000",
+            "AveragePrice": "1.2482",
+            "MinPrice": "1.0704"
+          },
+          {
+            "PriceBreaK": "2000",
+            "AveragePrice": "1.1826",
+            "MinPrice": "1.1826"
+          },
+          {
+            "PriceBreaK": "2500",
+            "AveragePrice": "1.23",
+            "MinPrice": "1.23"
+          },
+          {
+            "PriceBreaK": "5000",
+            "AveragePrice": "1.12",
+            "MinPrice": "1.12"
+          },
+          {
+            "PriceBreaK": "250",
+            "AveragePrice": "1.1",
+            "MinPrice": "1.1"
+          },
+          {
+            "PriceBreaK": "31",
+            "AveragePrice": "2.31",
+            "MinPrice": "2.31"
+          },
+          {
+            "PriceBreaK": "33",
+            "AveragePrice": "2.142",
+            "MinPrice": "2.142"
+          },
+          {
+            "PriceBreaK": "28",
+            "AveragePrice": "2.534",
+            "MinPrice": "2.534"
+          },
+          {
+            "PriceBreaK": "750",
+            "AveragePrice": "1.18",
+            "MinPrice": "1.18"
+          },
+          {
+            "PriceBreaK": "29",
+            "AveragePrice": "2.478",
+            "MinPrice": "2.478"
+          },
+          {
+            "PriceBreaK": "34",
+            "AveragePrice": "2.114",
+            "MinPrice": "2.114"
+          },
+          {
+            "PriceBreaK": "200",
+            "AveragePrice": "1.42",
+            "MinPrice": "1.42"
+          },
+          {
+            "PriceBreaK": "1500",
+            "AveragePrice": "1.07",
+            "MinPrice": "1.07"
+          },
+          {
+            "PriceBreaK": "150",
+            "AveragePrice": "1.11",
+            "MinPrice": "1.11"
+          },
+          {
+            "PriceBreaK": "1250",
+            "AveragePrice": "1.16",
+            "MinPrice": "1.16"
+          }
+        ]
+      },
+      "PriceAndLeadTimeHistory": [
+        {
+          "MinimumPrice": "1.07",
+          "AveragePrice": "1.7705",
+          "MinLeadtime": "21 Week(s)",
+          "Maxleadtime": "21 Week(s)",
+          "LastUpdatedate": "Oct 9,2025"
+        },
+        {
+          "MinimumPrice": "1.07",
+          "AveragePrice": "1.695",
+          "MinLeadtime": "21 Week(s)",
+          "Maxleadtime": "21 Week(s)",
+          "LastUpdatedate": "Oct 2,2025"
+        },
+        {
+          "MinimumPrice": "1.038",
+          "AveragePrice": "1.6657",
+          "MinLeadtime": "21 Week(s)",
+          "Maxleadtime": "21 Week(s)",
+          "LastUpdatedate": "Sep 25,2025"
+        },
+        {
+          "MinimumPrice": "1.07",
+          "AveragePrice": "1.6953",
+          "MinLeadtime": "21 Week(s)",
+          "Maxleadtime": "21 Week(s)",
+          "LastUpdatedate": "Sep 18,2025"
+        },
+        {
+          "MinimumPrice": "1.07",
+          "AveragePrice": "1.748",
+          "MinLeadtime": "21 Week(s)",
+          "Maxleadtime": "21 Week(s)",
+          "LastUpdatedate": "Sep 11,2025"
+        },
+        {
+          "MinimumPrice": "1.07",
+          "AveragePrice": "1.7759",
+          "MinLeadtime": "21 Week(s)",
+          "Maxleadtime": "21 Week(s)",
+          "LastUpdatedate": "Sep 4,2025"
+        },
+        {
+          "MinimumPrice": "1.07",
+          "AveragePrice": "1.7822",
+          "MinLeadtime": "21 Week(s)",
+          "Maxleadtime": "21 Week(s)",
+          "LastUpdatedate": "Aug 28,2025"
+        },
+        {
+          "MinimumPrice": "1.0704",
+          "AveragePrice": "1.7267",
+          "MinLeadtime": "21 Week(s)",
+          "Maxleadtime": "21 Week(s)",
+          "LastUpdatedate": "Aug 21,2025"
+        },
+        {
+          "MinimumPrice": "1.0704",
+          "AveragePrice": "1.7351",
+          "MinLeadtime": "21 Week(s)",
+          "Maxleadtime": "21 Week(s)",
+          "LastUpdatedate": "Aug 14,2025"
+        },
+        {
+          "MinimumPrice": "1.0704",
+          "AveragePrice": "1.6641",
+          "MinLeadtime": "21 Week(s)",
+          "Maxleadtime": "21 Week(s)",
+          "LastUpdatedate": "Aug 7,2025"
+        },
+        {
+          "MinimumPrice": "1.0704",
+          "AveragePrice": "1.6395",
+          "MinLeadtime": "21 Week(s)",
+          "Maxleadtime": "21 Week(s)",
+          "LastUpdatedate": "Jul 31,2025"
+        },
+        {
+          "MinimumPrice": "1.0704",
+          "AveragePrice": "1.7607",
+          "MinLeadtime": "21 Week(s)",
+          "Maxleadtime": "21 Week(s)",
+          "LastUpdatedate": "Jul 24,2025"
+        },
+        {
+          "MinimumPrice": "1.0704",
+          "AveragePrice": "1.7833",
+          "MinLeadtime": "21 Week(s)",
+          "Maxleadtime": "21 Week(s)",
+          "LastUpdatedate": "Jul 17,2025"
+        },
+        {
+          "MinimumPrice": "1.0704",
+          "AveragePrice": "1.7842",
+          "MinLeadtime": "21 Week(s)",
+          "Maxleadtime": "21 Week(s)",
+          "LastUpdatedate": "Jul 10,2025"
+        },
+        {
+          "MinimumPrice": "1.0704",
+          "AveragePrice": "1.8318",
+          "MinLeadtime": "21 Week(s)",
+          "Maxleadtime": "21 Week(s)",
+          "LastUpdatedate": "Jul 3,2025"
+        },
+        {
+          "MinimumPrice": "1.026",
+          "AveragePrice": "1.8573",
+          "MinLeadtime": "21 Week(s)",
+          "Maxleadtime": "21 Week(s)",
+          "LastUpdatedate": "Jun 26,2025"
+        },
+        {
+          "MinimumPrice": "1.085",
+          "AveragePrice": "1.9119",
+          "MinLeadtime": "21 Week(s)",
+          "Maxleadtime": "21 Week(s)",
+          "LastUpdatedate": "Jun 19,2025"
+        },
+        {
+          "MinimumPrice": "1.085",
+          "AveragePrice": "1.8549",
+          "MinLeadtime": "21 Week(s)",
+          "Maxleadtime": "21 Week(s)",
+          "LastUpdatedate": "Jun 12,2025"
+        },
+        {
+          "MinimumPrice": "1.084",
+          "AveragePrice": "1.8729",
+          "MinLeadtime": "21 Week(s)",
+          "Maxleadtime": "21 Week(s)",
+          "LastUpdatedate": "Jun 5,2025"
+        }
+      ],
+      "ResilienceRatingdetails": {
+        "ResilienceRating": 10,
+        "AssuranceOfSupply": {
+          "lifecycleRiskDto": null,
+          "multiSourcingRiskDto": null,
+          "inventoryRiskDto": null,
+          "geoRiskDto": null,
+          "marketRiskDto": null
+        },
+        "Performance": {
+          "priceRiskDto": null,
+          "leadTimeRiskDto": null,
+          "obsolescenceRiskDto": null,
+          "manLeadTimeRiskDto": null
+        },
+        "Security": {
+          "rohsRiskDto": null,
+          "counterfeitRiskDto": null
+        }
+      }
+    }
+  }
+}

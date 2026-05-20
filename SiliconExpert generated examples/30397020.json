@@ -1,0 +1,2734 @@
+{
+  "Status": {
+    "Code": "0",
+    "Message": "Successful Operation",
+    "Success": "true",
+    "RequestID": "756416544934063"
+  },
+  "Results": {
+    "ResultDto": {
+      "RequestedComID": "30397020",
+      "SummaryData": {
+        "DataProviderID": "30397020",
+        "PartNumber": "AD-5208",
+        "Manufacturer": "Analog Devices",
+        "ManufacturerID": "188",
+        "AMLStatus": "",
+        "PartDescription": "Microcontroller - Mock Description 85",
+        "Datasheet": "http://download.siliconexpert.com/pdfs2/2025/6/19/19/44/38/1527803263/avx_/manual/x7rdielectric.pdf",
+        "OnlineSupplierDatasheetURL": "http://datasheets.kyocera-avx.com/X7RDielectric.pdf",
+        "RadHard": "",
+        "DoseLevel": "",
+        "TaxonomyPath": "Capacitors > Fixed Capacitors > Capacitor Ceramic Multilayer",
+        "TaxonomyPathIDs": "103730 > 104218 > 3617",
+        "SmallImageURL": "http://download.siliconexpert.com/pdfs2/2019/10/16/16/15/28/327127/avx_/manual/1812gc102k4z1a.jpg",
+        "ECCN": "EAR99",
+        "EUECCN": "EU99",
+        "UNSPSC": "32121506",
+        "TARIC": "8532240000",
+        "OtherSources": "17",
+        "LastCheckDate": "Oct 18, 2025",
+        "PartMarking": "",
+        "IntroductionDate": "Mar 18, 2000",
+        "ESDClass": "N/A",
+        "ESDSourceofInformation": "http://download.siliconexpert.com/pdfs2/2023/4/26/8/39/13/56958/avx_/manual/x7rdielectric.pdf",
+        "AuthorizedDistributors": "10",
+        "GenericName": "",
+        "FamilyName": "X7R Dielectric",
+        "AECNumber": "N/R",
+        "AECQualified": "No",
+        "Automotive": "No",
+        "AECPDF": "http://download.siliconexpert.com/pdfs2/2023/4/26/8/39/13/56958/avx_/manual/x7rdielectric.pdf",
+        "AutomotiveSource": "http://download.siliconexpert.com/pdfs/2012/11/17/16/46/50/323/avx_/auto/cx7r.pdf",
+        "PPAPSource": "http://download.siliconexpert.com/pdfs/2012/11/17/16/46/50/323/avx_/auto/cx7r.pdf",
+        "IsoTs16949Source": "http://download.siliconexpert.com/pdfs/2012/11/17/16/46/50/323/avx_/auto/cx7r.pdf",
+        "Iso26262Source": "http://download.siliconexpert.com/pdfs/2012/11/17/16/46/50/323/avx_/auto/cx7r.pdf",
+        "SupplierCageCode": "6KUV2",
+        "EURoHS": "Yes",
+        "RoHSVersion": "2011/65/EU, 2015/863",
+        "ScheduleB": "8532240020",
+        "HTSUSA": "8532240020",
+        "PPAP": "No",
+        "CountriesOfOrigin": {
+          "CountryOfOrigin": [
+            {
+              "Country": "China",
+              "Source": ""
+            },
+            {
+              "Country": "El Salvador",
+              "Source": ""
+            },
+            {
+              "Country": "United States of America",
+              "Source": ""
+            },
+            {
+              "Country": "Taiwan (Province of China)",
+              "Source": ""
+            },
+            {
+              "Country": "Malaysia",
+              "Source": ""
+            }
+          ]
+        },
+        "USChinaTariffImpact": "Less Likely Impacted",
+        "PLName": "Capacitor Ceramic Multilayer",
+        "MaskPart": "12065C104JAT%A",
+        "GidepAlerts": "0"
+      },
+      "DesignResourcesData": {
+        "PinOutData": {
+          "PinOutDataSource": ""
+        },
+        "RefDesignData": {
+          "RefDesign": []
+        }
+      },
+      "ChemicalData": {
+        "ChemicalDto": [
+          {
+            "TotalMassInGram": "0.0341",
+            "TotalMassSummationInGram": "0.0341",
+            "LocationName": "Ceramic",
+            "HomogenousMaterial": "Ceramic",
+            "HomogenousMaterialMass": "0.0302126",
+            "SubstanceIdentification": "Barium titanium oxide (BaTiO3)",
+            "NormalizedSubstance": "Barium titanium trioxide",
+            "SubstanceMass": "0.0302126",
+            "PPM": "1000000.0",
+            "CASNumber": "12047-27-7",
+            "MDSURL": "http://download.siliconexpert.com/pdfs2/2021/5/18/11/11/47/168713/avx_/manual/a81206x7rrohsmlccseriesipc1752arohsreach201fmd1.xlsx",
+            "ItemSubItem": "Ceramic"
+          },
+          {
+            "TotalMassInGram": "0.0341",
+            "TotalMassSummationInGram": "0.0341",
+            "LocationName": "Inner electrode",
+            "HomogenousMaterial": "Inner electrode",
+            "HomogenousMaterialMass": "0.0017391",
+            "SubstanceIdentification": "Nickel",
+            "NormalizedSubstance": "Nickel",
+            "SubstanceMass": "0.0017391",
+            "PPM": "1000000.0",
+            "CASNumber": "7440-02-0",
+            "MDSURL": "http://download.siliconexpert.com/pdfs2/2021/5/18/11/11/47/168713/avx_/manual/a81206x7rrohsmlccseriesipc1752arohsreach201fmd1.xlsx",
+            "ItemSubItem": "Inner electrode"
+          },
+          {
+            "TotalMassInGram": "0.0341",
+            "TotalMassSummationInGram": "0.0341",
+            "LocationName": "SURFACE PLATING",
+            "HomogenousMaterial": "Surface plating",
+            "HomogenousMaterialMass": "0.0001807",
+            "SubstanceIdentification": "Tin",
+            "NormalizedSubstance": "Tin",
+            "SubstanceMass": "1.807E-4",
+            "PPM": "1000000.0",
+            "CASNumber": "7440-31-5",
+            "MDSURL": "http://download.siliconexpert.com/pdfs2/2021/5/18/11/11/47/168713/avx_/manual/a81206x7rrohsmlccseriesipc1752arohsreach201fmd1.xlsx",
+            "ItemSubItem": "SURFACE PLATING"
+          },
+          {
+            "TotalMassInGram": "0.0341",
+            "TotalMassSummationInGram": "0.0341",
+            "LocationName": "Termination",
+            "HomogenousMaterial": "Termination",
+            "HomogenousMaterialMass": "0.0019164",
+            "SubstanceIdentification": "Copper",
+            "NormalizedSubstance": "Copper",
+            "SubstanceMass": "0.0019164",
+            "PPM": "1000000.0",
+            "CASNumber": "7440-50-8",
+            "MDSURL": "http://download.siliconexpert.com/pdfs2/2021/5/18/11/11/47/168713/avx_/manual/a81206x7rrohsmlccseriesipc1752arohsreach201fmd1.xlsx",
+            "ItemSubItem": "Termination"
+          },
+          {
+            "TotalMassInGram": "0.0341",
+            "TotalMassSummationInGram": "0.0341",
+            "LocationName": "Under plating",
+            "HomogenousMaterial": "Under Plating",
+            "HomogenousMaterialMass": "0.0000512",
+            "SubstanceIdentification": "Nickel",
+            "NormalizedSubstance": "Nickel",
+            "SubstanceMass": "5.12E-5",
+            "PPM": "1000000.0",
+            "CASNumber": "7440-02-0",
+            "MDSURL": "http://download.siliconexpert.com/pdfs2/2021/5/18/11/11/47/168713/avx_/manual/a81206x7rrohsmlccseriesipc1752arohsreach201fmd1.xlsx",
+            "ItemSubItem": "Under plating"
+          }
+        ]
+      },
+      "CrossData": {
+        "CrossDto": [
+          {
+            "CrossComId": "24541135",
+            "CrossPartNumber": "VJ1206Y104JXAMR",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "24541303",
+            "CrossPartNumber": "VJ1206Y104JXAMB",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "28729926",
+            "CrossPartNumber": "VJ1206Y104JXAMR3L",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "401884872",
+            "CrossPartNumber": "C1206C104J5RAC7215",
+            "CrossManufacturer": "KEMET Corporation",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "79187652",
+            "CrossPartNumber": "C1206X7R500-104JNU",
+            "CrossManufacturer": "Venkel",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "79187651",
+            "CrossPartNumber": "C1206X7R500-104JNR",
+            "CrossManufacturer": "Venkel",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "79187650",
+            "CrossPartNumber": "C1206X7R500-104JND",
+            "CrossManufacturer": "Venkel",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "77722296",
+            "CrossPartNumber": "CALC1206B500A104J-T4",
+            "CrossManufacturer": "Thin Film Technology",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "64738528",
+            "CrossPartNumber": "C1206C104J5RAC3810",
+            "CrossManufacturer": "KEMET Corporation",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "62524124",
+            "CrossPartNumber": "C1206T104J5RACTU",
+            "CrossManufacturer": "KEMET Corporation",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "61065473",
+            "CrossPartNumber": "C1206T104J5RAC",
+            "CrossManufacturer": "KEMET Corporation",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "55241398",
+            "CrossPartNumber": "C1206X7R500-104JNP",
+            "CrossManufacturer": "Venkel",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "51367651",
+            "CrossPartNumber": "C1206X7R500-104JNE",
+            "CrossManufacturer": "Venkel",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "46478199",
+            "CrossPartNumber": "VJ1206Y104JXAMP",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "45438913",
+            "CrossPartNumber": "CL31B104JBCNNNC",
+            "CrossManufacturer": "Samsung Electro-Mechanics",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "40713906",
+            "CrossPartNumber": "C1206C104J5RAC7867",
+            "CrossManufacturer": "KEMET Corporation",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "40235792",
+            "CrossPartNumber": "VJ1206Y104JXAAC",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "35814927",
+            "CrossPartNumber": "VJ1206Y104JXAT",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "32034255",
+            "CrossPartNumber": "C1206C104J5RAC7210",
+            "CrossManufacturer": "KEMET Corporation",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "30188996",
+            "CrossPartNumber": "C1206C104J5RAC9733",
+            "CrossManufacturer": "KEMET Corporation",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "28729934",
+            "CrossPartNumber": "VJ1206Y104JXAMT54",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "28729933",
+            "CrossPartNumber": "VJ1206Y104JXAMT3P",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "28729932",
+            "CrossPartNumber": "VJ1206Y104JXAMT3L",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "28729931",
+            "CrossPartNumber": "VJ1206Y104JXAMT2P",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "28729930",
+            "CrossPartNumber": "VJ1206Y104JXAMT1P",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "28729929",
+            "CrossPartNumber": "VJ1206Y104JXAMT08",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "28729928",
+            "CrossPartNumber": "VJ1206Y104JXAMR54",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "28729927",
+            "CrossPartNumber": "VJ1206Y104JXAMR3P",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "28729925",
+            "CrossPartNumber": "VJ1206Y104JXAMR2P",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "28729924",
+            "CrossPartNumber": "VJ1206Y104JXAMR14",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "28729923",
+            "CrossPartNumber": "VJ1206Y104JXAMR08",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "28729922",
+            "CrossPartNumber": "VJ1206Y104JXAMB54",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "28729921",
+            "CrossPartNumber": "VJ1206Y104JXAAT54",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "28729920",
+            "CrossPartNumber": "VJ1206Y104JXAAT3P",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "28729919",
+            "CrossPartNumber": "VJ1206Y104JXAAT3L",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "28729918",
+            "CrossPartNumber": "VJ1206Y104JXAAT1P",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "28729917",
+            "CrossPartNumber": "VJ1206Y104JXAAR54",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "28729916",
+            "CrossPartNumber": "VJ1206Y104JXAAR3P",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "28729915",
+            "CrossPartNumber": "VJ1206Y104JXAAR3L",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "28729913",
+            "CrossPartNumber": "VJ1206Y104JXAAB66",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "28729912",
+            "CrossPartNumber": "VJ1206Y104JXAAB54",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "24603539",
+            "CrossPartNumber": "C1206C104J5RACTM",
+            "CrossManufacturer": "KEMET Corporation",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "24580810",
+            "CrossPartNumber": "VJ1206Y104JXAAP",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "24551348",
+            "CrossPartNumber": "VJ1206Y104JXAMT",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "24571399",
+            "CrossPartNumber": "C1206C104J5RACTU",
+            "CrossManufacturer": "KEMET Corporation",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "24541174",
+            "CrossPartNumber": "VJ1206Y104JXAAT",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "24590786",
+            "CrossPartNumber": "C1206C104J5RAC",
+            "CrossManufacturer": "KEMET Corporation",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "24586378",
+            "CrossPartNumber": "VJ1206Y104JXAAR",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "24541438",
+            "CrossPartNumber": "VJ1206Y104JXAAB",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "46478198",
+            "CrossPartNumber": "VJ1206Y104JXAMC",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "A/Upgrade",
+            "Comment": ""
+          }
+        ]
+      },
+      "AverageInventory": "122091",
+      "FranchisedInventoryData": {
+        "FranchisedInventoryDto": [
+          {
+            "Distributor": "Verical",
+            "Quantity": "3518",
+            "BuyNowLink": "https://www.verical.com/pd/kyocera-avx-components-corporation-ceramic---multilayer-12065C104JAT2A-10851458",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Verical",
+            "Quantity": "5184",
+            "BuyNowLink": "https://www.verical.com/pd/kyocera-avx-components-corporation-ceramic---multilayer-12065C104JAT2A-10851458",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Arrow North America",
+            "Quantity": "3840",
+            "BuyNowLink": "https://www.arrow.com/en/products/12065c104jat2a/avx",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Chip1Stop",
+            "Quantity": "3421",
+            "BuyNowLink": "https://www.chip1stop.com/product/detail?partId=AVX1-0588939",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Chip1Stop",
+            "Quantity": "5403",
+            "BuyNowLink": "https://www.chip1stop.com/product/detail?partId=AVX1-0585566",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Newark",
+            "Quantity": "3038",
+            "BuyNowLink": "https://www.newark.com/kyocera-avx/12065c104jat2a/ceramic-capacitor-0-1uf-50v-x7r/dp/01H8455",
+            "LastUpdated": "2 Days"
+          },
+          {
+            "Distributor": "Future Electronics",
+            "Quantity": "5332",
+            "BuyNowLink": "https://www.futureelectronics.com//p/passives--capacitors--ceramic-capacitors--multilayer-ceramic-capacitors/12065c104jat2a-kyocera-avx-1247949",
+            "LastUpdated": "2 Days"
+          },
+          {
+            "Distributor": "Newark",
+            "Quantity": "11754",
+            "BuyNowLink": "https://www.newark.com/kyocera-avx/12065c104jat2a/ceramic-capacitor-0-1uf-50v-x7r/dp/26AC6013",
+            "LastUpdated": "3 Days"
+          },
+          {
+            "Distributor": "Avnet",
+            "Quantity": "10714",
+            "BuyNowLink": "https://www.avnet.com/americas/product/kyocera-avx/12065c104jat2a/evolve-463609/",
+            "LastUpdated": "6 Days"
+          },
+          {
+            "Distributor": "Newark",
+            "Quantity": "4125",
+            "BuyNowLink": "https://www.newark.com/kyocera-avx/12065c104jat2a/ceramic-capacitor-0-1uf-50v-x7r/dp/96M1508",
+            "LastUpdated": "6 Days"
+          },
+          {
+            "Distributor": "Mouser Electronics",
+            "Quantity": "7294",
+            "BuyNowLink": "https://www.mouser.com/ProductDetail/KYOCERA-AVX/12065C104JAT2A?qs=WcAEtQi8OAaJ86%252bh6ZFfEQ%3d%3d",
+            "LastUpdated": "6 Days"
+          },
+          {
+            "Distributor": "Allied Electronics",
+            "Quantity": "1495",
+            "BuyNowLink": "https://us.rs-online.com/product/avx/12065c104jat2a/70002117/?utm_source=findchips&utm_medium=part_sourcing&utm_campaign=partsourcing_findchips_IMP_EX_GR",
+            "LastUpdated": "6 Days"
+          },
+          {
+            "Distributor": "Avnet",
+            "Quantity": "4834",
+            "BuyNowLink": "https://www.avnet.com/americas/product/kyocera-avx/12065c104jat2a/evolve-36614083/?CMP=EMA_FindChips_inventoryfeedno_stock_VSE",
+            "LastUpdated": "6 Days"
+          },
+          {
+            "Distributor": "Avnet",
+            "Quantity": "12088",
+            "BuyNowLink": "https://www.avnet.com/americas/product/kyocera-avx/12065c104jat2a/evolve-36276151/?CMP=EMA_FindChips_inventoryfeedno_stock_VSE",
+            "LastUpdated": "6 Days"
+          },
+          {
+            "Distributor": "Rutronik",
+            "Quantity": "761",
+            "BuyNowLink": "https://www.rutronik24.com/product/kyoceraavx/12065c104jat2a/17689456.html",
+            "LastUpdated": "> 1 Week"
+          },
+          {
+            "Distributor": "Allied Electronics",
+            "Quantity": "10456",
+            "BuyNowLink": "https://uk.rs-online.com/web/p/mlccs-multilayer-ceramic-capacitors/1441626/?cm_mmc=aff-_-uk-_-findchip-_-1441626-_-instock&utm_source=supplyFrame&utm_medium=buyNow",
+            "LastUpdated": "> 1 Week"
+          },
+          {
+            "Distributor": "Farnell",
+            "Quantity": "6004",
+            "BuyNowLink": "https://uk.farnell.com/avx/12065c104jat2a/cap-0-1-f-50v-5-x7r-1206/dp/2280701",
+            "LastUpdated": "> 1 Week"
+          }
+        ]
+      },
+      "FullCounterfeitData": {
+        "CounterfeitOverallRisk": "50 %",
+        "OverallCounterfeitRiskGrade": "Medium",
+        "PartNumCounterfeitReportsCount": "null Report(s)",
+        "ManCounterfeitReportsCount": "7 Report(s)",
+        "ManCounterfeitReports": [
+          {
+            "MPN": "1206CC472KAT1A",
+            "Supplier": "AVX Corporation",
+            "NotificationDate": "Jul 02, 2020",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [J5-P-20-01]"
+          },
+          {
+            "MPN": "1206CC472KAT2A",
+            "Supplier": "AVX Corporation",
+            "NotificationDate": "Jul 02, 2020",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [J5-P-20-01]"
+          },
+          {
+            "MPN": "1206CC472KAT9A",
+            "Supplier": "AVX Corporation",
+            "NotificationDate": "Jul 02, 2020",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [J5-P-20-01]"
+          },
+          {
+            "MPN": "12061Z475KAT2A",
+            "Supplier": "AVX Corporation",
+            "NotificationDate": "May 16, 2019",
+            "CounterfitMethods": "Different Supplier, New Parts   (Unknown Third party manufacturer looklike part using the data of different supplier than the affected one)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [G6S-A-19-01]"
+          },
+          {
+            "MPN": "12061Z475KAT4A",
+            "Supplier": "AVX Corporation",
+            "NotificationDate": "May 16, 2019",
+            "CounterfitMethods": "Different Supplier, New Parts   (Unknown Third party manufacturer looklike part using the data of different supplier than the affected one)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [G6S-A-19-01]"
+          },
+          {
+            "MPN": "TAJA684K025A",
+            "Supplier": "AVX Corporation",
+            "NotificationDate": "Sep 17, 2019",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [X9-A-19-31]"
+          },
+          {
+            "MPN": "TAJA684K025K",
+            "Supplier": "AVX Corporation",
+            "NotificationDate": "Sep 17, 2019",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [X9-A-19-31]"
+          },
+          {
+            "MPN": "TAJA684K025R",
+            "Supplier": "AVX Corporation",
+            "NotificationDate": "Sep 17, 2019",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [X9-A-19-31]"
+          },
+          {
+            "MPN": "TAJA684K025A",
+            "Supplier": "AVX Corporation",
+            "NotificationDate": "Sep 17, 2019",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [X9-A-19-31]"
+          },
+          {
+            "MPN": "TAJA684K025K",
+            "Supplier": "AVX Corporation",
+            "NotificationDate": "Sep 17, 2019",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [X9-A-19-31]"
+          },
+          {
+            "MPN": "TPSV686M035R0150",
+            "Supplier": "AVX",
+            "NotificationDate": "Jul 15, 2015",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [AAN-U-15-268]"
+          },
+          {
+            "MPN": "TPSV686M035A0150",
+            "Supplier": "AVX",
+            "NotificationDate": "Jul 15, 2015",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [AAN-U-15-268]"
+          },
+          {
+            "MPN": "TPSV686M035H0150",
+            "Supplier": "AVX",
+            "NotificationDate": "Jul 15, 2015",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [AAN-U-15-268]"
+          },
+          {
+            "MPN": "18255C105JAT2A",
+            "Supplier": "AVX Corporation",
+            "NotificationDate": "Sep 17, 2019",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [X9-A-19-30]"
+          },
+          {
+            "MPN": "TAJE107M025#NJ",
+            "Supplier": "AVX Corporation",
+            "NotificationDate": "Jan 18, 2011",
+            "CounterfitMethods": "Different Supplier, New Parts   (Unknown Third party manufacturer looklike part using the data of different supplier than the affected one)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [CZ8-A-11-001]"
+          },
+          {
+            "MPN": "TAJB476K010YNJ",
+            "Supplier": "AVX Corporation",
+            "NotificationDate": "Sep 17, 2019",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [X9-A-19-32]"
+          }
+        ],
+        "PlCounterfeitReportsCount": "9 Report(s)",
+        "PlCounterfeitReports": [
+          {
+            "MPN": "GRM40Y5V105Z016AD",
+            "Supplier": "Murata Electronics North America",
+            "NotificationDate": "Sep 17, 2019",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [X9-A-19-33]"
+          },
+          {
+            "MPN": "GRM40Y5V105Z016AL",
+            "Supplier": "Murata Electronics North America",
+            "NotificationDate": "Sep 17, 2019",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [X9-A-19-33]"
+          },
+          {
+            "MPN": "GRM40Y5V105Z016A",
+            "Supplier": "Murata Electronics North America",
+            "NotificationDate": "Sep 17, 2019",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [X9-A-19-33]"
+          },
+          {
+            "MPN": "1206CC472KAT1A",
+            "Supplier": "AVX Corporation",
+            "NotificationDate": "Jul 02, 2020",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [J5-P-20-01]"
+          },
+          {
+            "MPN": "1206CC472KAT2A",
+            "Supplier": "AVX Corporation",
+            "NotificationDate": "Jul 02, 2020",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [J5-P-20-01]"
+          },
+          {
+            "MPN": "1206CC472KAT9A",
+            "Supplier": "AVX Corporation",
+            "NotificationDate": "Jul 02, 2020",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [J5-P-20-01]"
+          },
+          {
+            "MPN": "12061Z475KAT2A",
+            "Supplier": "AVX Corporation",
+            "NotificationDate": "May 16, 2019",
+            "CounterfitMethods": "Different Supplier, New Parts   (Unknown Third party manufacturer looklike part using the data of different supplier than the affected one)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [G6S-A-19-01]"
+          },
+          {
+            "MPN": "12061Z475KAT4A",
+            "Supplier": "AVX Corporation",
+            "NotificationDate": "May 16, 2019",
+            "CounterfitMethods": "Different Supplier, New Parts   (Unknown Third party manufacturer looklike part using the data of different supplier than the affected one)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [G6S-A-19-01]"
+          },
+          {
+            "MPN": "NMC0603NPO102J50TRPF",
+            "Supplier": "NIC Components",
+            "NotificationDate": "Mar 20, 2009",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "ALERT.Customers Beware, Counterfeit NIC Components products have been recently reported in the market.",
+            "Source": "http://download.siliconexpert.com/pdfs/2016/2/17/11/4/39/681/nic_/manual/nic.pdf"
+          },
+          {
+            "MPN": "CL31A106KBHNNNE",
+            "Supplier": "Samsung",
+            "NotificationDate": "Apr 09, 2021",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [BEJ-A-21-02]"
+          },
+          {
+            "MPN": "C2220C103KBGACAUTO",
+            "Supplier": "KEMET Electronics Ceramic Business Group",
+            "NotificationDate": "Aug 11, 2020",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [CJ5-A-20-01]"
+          },
+          {
+            "MPN": "GRM219R61C226ME15K",
+            "Supplier": "Murata",
+            "NotificationDate": "Jul 19, 2017",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [ABG-A-17-01]"
+          },
+          {
+            "MPN": "GRM219R61C226ME15L",
+            "Supplier": "Murata",
+            "NotificationDate": "Jul 19, 2017",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [ABG-A-17-01]"
+          },
+          {
+            "MPN": "18255C105JAT2A",
+            "Supplier": "AVX Corporation",
+            "NotificationDate": "Sep 17, 2019",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [X9-A-19-30]"
+          },
+          {
+            "MPN": "C4532X5R0J107M280KA",
+            "Supplier": "TDK Corp of America",
+            "NotificationDate": "Jul 02, 2020",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [J5-P-20-01]"
+          }
+        ],
+        "CurrentLifecycleStatus": "Active",
+        "TimeSinceMarketIntroduction": "25 Year(s)",
+        "AuthorizedDistributorswithStockCount": "9 Distributor(s)",
+        "AuthorizedDistributorswithStockReports": [
+          {
+            "Date": "AUG_2025",
+            "AvgQuantity": "2703069",
+            "Inventory": "Future Electronics||~||Mouser Electronics||~||Farnell||~||Newark||~||Verical||~||Chip1Stop||~||Avnet||~||"
+          },
+          {
+            "Date": "AUG_2025",
+            "AvgQuantity": "2235891",
+            "Inventory": "Future Electronics||~||Farnell||~||Verical||~||Rutronik||~||Chip1Stop||~||Avnet||~||"
+          },
+          {
+            "Date": "SEP_2025",
+            "AvgQuantity": "2757621",
+            "Inventory": "Future Electronics||~||Mouser Electronics||~||Farnell||~||Newark||~||Verical||~||Rutronik||~||Chip1Stop||~||Avnet||~||"
+          },
+          {
+            "Date": "SEP_2025",
+            "AvgQuantity": "2753203",
+            "Inventory": "Future Electronics||~||Mouser Electronics||~||Farnell||~||Newark||~||Verical||~||Rutronik||~||Chip1Stop||~||Avnet||~||"
+          },
+          {
+            "Date": "SEP_2025",
+            "AvgQuantity": "746997",
+            "Inventory": "Future Electronics||~||Mouser Electronics||~||Verical||~||Allied Electronics||~||Rutronik||~||Chip1Stop||~||Avnet||~||"
+          },
+          {
+            "Date": "OCT_2025",
+            "AvgQuantity": "2075550",
+            "Inventory": "Future Electronics||~||Mouser Electronics||~||Farnell||~||Newark||~||Verical||~||Allied Electronics||~||Rutronik||~||Chip1Stop||~||Avnet||~||"
+          }
+        ],
+        "HistoricalShortagesInventoryReported": "Yes",
+        "IsPopularPart": "Yes"
+      },
+      "Qualifications": {
+        "ESDQualification": {
+          "ESDProtection": "Unknown",
+          "MaximumESDProtectionVoltage": "N/A",
+          "ESDClass": "N/A",
+          "SourceOfInformation": "http://download.siliconexpert.com/pdfs2/2023/4/26/8/39/13/56958/avx_/manual/x7rdielectric.pdf"
+        },
+        "AgencyApprovals": {
+          "Agency": {
+            "Agnecy": "Not Qualified to UL",
+            "Standard": "N/R",
+            "StandardDetails": "N/R",
+            "FileNumber": "N/R"
+          }
+        },
+        "Reliability": {
+          "FitDetail": {
+            "FIT": "0.044",
+            "ConditionName": "Confidence Level/Temperature",
+            "ConditionValue": "90/50°C"
+          },
+          "MTBFDetail": {
+            "MTBF": "22700000000",
+            "ConditionName": "Confidence Level/Temperature",
+            "ConditionValue": "90/50°C"
+          },
+          "SourceOfInformation": "http://download.siliconexpert.com/pdfs2/2016/3/16/4/23/34/252/avx_/manual/avx.pdf",
+          "FlammabilityRating": "N/R"
+        },
+        "Flammability": {
+          "Flammability": "No",
+          "FlammabilityRating": "N/R",
+          "PDFURL": "http://download.siliconexpert.com/pdfs2/2021/6/14/15/4/5/406940/avx_/manual/ay_fwguidesiavx.comcontactussubmission.msg"
+        }
+      },
+      "LifeCycleData": {
+        "PartStatus": "Active",
+        "LifeCycleComment": "",
+        "LTBDate": "",
+        "Source": "http://download.siliconexpert.com/pdfs2/2025/10/9/17/43/17/115965/avx_/manual/pgurl_197348164.pdf",
+        "EstimatedYearsToEOL": "8.7",
+        "EstimatedEOLDate": "2034",
+        "PartLifecycleStage": "Mature",
+        "MinimumEstimatedYearsToEOL": "4.1",
+        "MaximumEstimatedYearsToEOL": "9",
+        "LifeCycleRiskGrade": "Medium",
+        "OverallRisk": "39.8%",
+        "OverallRiskGrade": "Low",
+        "PartLifecycleCode": "3"
+      },
+      "ManufacturingData": {
+        "MSL": "1",
+        "LeadFinishPlating": "Matte Sn",
+        "TerminalBaseMaterial": "Cu",
+        "MaximumReflowTemperature": "260 °C",
+        "ReflowSolderTime": "10 Sec",
+        "NumberOfReflowCycle": "3",
+        "Standard": "J-STD-020C",
+        "MaximumWaveTemperature": "260 °C",
+        "WaveSolderTime": "10 Sec",
+        "UnderPlatingMaterial": "Ni",
+        "ReflowTempSource": "https://download.siliconexpert.com/pdfs2/2024/12/22/11/55/27/7002715240/avx_/manual/avxreflowtemperature.pdf",
+        "WaveTempSource": "",
+        "UnderPlatingPorosityFree": ""
+      },
+      "PackagingData": {
+        "PackagingSuffix": "2",
+        "Packaging": "Tape and Reel",
+        "QuantityOfPackaging": "1000|2000|3000|4000|10000|15000|20000",
+        "ReelDiameter": "7 in",
+        "ReelWidth": "8.4 mm",
+        "TapePitch": "4 mm",
+        "TapeWidth": "8 mm",
+        "FeedHolePitch": "4 mm",
+        "HoleCenterToComponentCenter": "2 mm",
+        "LeadClinchHeight": "",
+        "ComponentOrientation": "",
+        "PackagingDocument": "https://download.siliconexpert.com/pdfs2/2019/11/20/5/16/45/599717/avx_/auto/surfacemount.pdf",
+        "TapeMaterial": "Paper",
+        "TapeType": ""
+      },
+      "AllPackageData": {
+        "Feature": [
+          {
+            "FeatureName": "Package/Case",
+            "FeatureValue": "1206",
+            "FeatureUnit": "",
+            "FeatureId": "59729"
+          },
+          {
+            "FeatureName": "Mounting",
+            "FeatureValue": "Surface Mount",
+            "FeatureUnit": "",
+            "FeatureId": "59727"
+          },
+          {
+            "FeatureName": "Termination Style",
+            "FeatureValue": "Pad",
+            "FeatureUnit": "",
+            "FeatureId": "73049"
+          },
+          {
+            "FeatureName": "Terminal Pitch",
+            "FeatureValue": "N/R",
+            "FeatureUnit": "mm",
+            "FeatureId": "59730"
+          },
+          {
+            "FeatureName": "Product Length",
+            "FeatureValue": "3.2",
+            "FeatureUnit": "mm",
+            "FeatureId": "59738"
+          },
+          {
+            "FeatureName": "Product Depth",
+            "FeatureValue": "1.6",
+            "FeatureUnit": "mm",
+            "FeatureId": "59739"
+          },
+          {
+            "FeatureName": "Product Height",
+            "FeatureValue": "0.94(Max)",
+            "FeatureUnit": "mm",
+            "FeatureId": "59740"
+          },
+          {
+            "FeatureName": "Product Diameter",
+            "FeatureValue": "N/R",
+            "FeatureUnit": "mm",
+            "FeatureId": "60857"
+          },
+          {
+            "FeatureName": "Seated Plane Height",
+            "FeatureValue": "N/R",
+            "FeatureUnit": "mm",
+            "FeatureId": "59830"
+          },
+          {
+            "FeatureName": "Product Weight",
+            "FeatureValue": "N/A",
+            "FeatureUnit": "g",
+            "FeatureId": "59733"
+          },
+          {
+            "FeatureName": "Length Tolerance",
+            "FeatureValue": "±0.3",
+            "FeatureUnit": "mm",
+            "FeatureId": "87917"
+          },
+          {
+            "FeatureName": "Depth Tolerance",
+            "FeatureValue": "±0.3",
+            "FeatureUnit": "mm",
+            "FeatureId": "87934"
+          },
+          {
+            "FeatureName": "Height Tolerance",
+            "FeatureValue": "N/A",
+            "FeatureUnit": "mm",
+            "FeatureId": "87951"
+          },
+          {
+            "FeatureName": "Diameter Tolerance",
+            "FeatureValue": "N/R",
+            "FeatureUnit": "mm",
+            "FeatureId": "87968"
+          },
+          {
+            "FeatureName": "Number of Terminals",
+            "FeatureValue": "2",
+            "FeatureUnit": "",
+            "FeatureId": "73801"
+          },
+          {
+            "FeatureName": "Size",
+            "FeatureValue": "3.2 X 1.6 X 0.94",
+            "FeatureUnit": "mm",
+            "FeatureId": "59793"
+          },
+          {
+            "FeatureName": "Maximum Product Length",
+            "FeatureValue": "3.5",
+            "FeatureUnit": "mm",
+            "FeatureId": "13466340"
+          },
+          {
+            "FeatureName": "Maximum Product Depth",
+            "FeatureValue": "1.9",
+            "FeatureUnit": "mm",
+            "FeatureId": "13466356"
+          },
+          {
+            "FeatureName": "Maximum Product Height",
+            "FeatureValue": "0.94",
+            "FeatureUnit": "mm",
+            "FeatureId": "13466372"
+          }
+        ]
+      },
+      "PackageData": {
+        "Feature": [
+          {
+            "FeatureName": "Package/Case",
+            "FeatureValue": "1206",
+            "FeatureUnit": "",
+            "FeatureId": "59729"
+          },
+          {
+            "FeatureName": "Mounting",
+            "FeatureValue": "Surface Mount",
+            "FeatureUnit": "",
+            "FeatureId": "59727"
+          },
+          {
+            "FeatureName": "Termination Style",
+            "FeatureValue": "Pad",
+            "FeatureUnit": "",
+            "FeatureId": "73049"
+          },
+          {
+            "FeatureName": "Terminal Pitch",
+            "FeatureValue": "N/R",
+            "FeatureUnit": "mm",
+            "FeatureId": "59730"
+          },
+          {
+            "FeatureName": "Product Length",
+            "FeatureValue": "3.2",
+            "FeatureUnit": "mm",
+            "FeatureId": "59738"
+          },
+          {
+            "FeatureName": "Product Depth",
+            "FeatureValue": "1.6",
+            "FeatureUnit": "mm",
+            "FeatureId": "59739"
+          },
+          {
+            "FeatureName": "Product Height",
+            "FeatureValue": "0.94(Max)",
+            "FeatureUnit": "mm",
+            "FeatureId": "59740"
+          },
+          {
+            "FeatureName": "Product Diameter",
+            "FeatureValue": "N/R",
+            "FeatureUnit": "mm",
+            "FeatureId": "60857"
+          },
+          {
+            "FeatureName": "Seated Plane Height",
+            "FeatureValue": "N/R",
+            "FeatureUnit": "mm",
+            "FeatureId": "59830"
+          },
+          {
+            "FeatureName": "Product Weight",
+            "FeatureValue": "N/A",
+            "FeatureUnit": "g",
+            "FeatureId": "59733"
+          },
+          {
+            "FeatureName": "Length Tolerance",
+            "FeatureValue": "±0.3",
+            "FeatureUnit": "mm",
+            "FeatureId": "87917"
+          },
+          {
+            "FeatureName": "Depth Tolerance",
+            "FeatureValue": "±0.3",
+            "FeatureUnit": "mm",
+            "FeatureId": "87934"
+          },
+          {
+            "FeatureName": "Height Tolerance",
+            "FeatureValue": "N/A",
+            "FeatureUnit": "mm",
+            "FeatureId": "87951"
+          },
+          {
+            "FeatureName": "Diameter Tolerance",
+            "FeatureValue": "N/R",
+            "FeatureUnit": "mm",
+            "FeatureId": "87968"
+          },
+          {
+            "FeatureName": "Number of Terminals",
+            "FeatureValue": "2",
+            "FeatureUnit": "",
+            "FeatureId": "73801"
+          },
+          {
+            "FeatureName": "Size",
+            "FeatureValue": "3.2 X 1.6 X 0.94",
+            "FeatureUnit": "mm",
+            "FeatureId": "59793"
+          },
+          {
+            "FeatureName": "Maximum Product Length",
+            "FeatureValue": "3.5",
+            "FeatureUnit": "mm",
+            "FeatureId": "13466340"
+          },
+          {
+            "FeatureName": "Maximum Product Depth",
+            "FeatureValue": "1.9",
+            "FeatureUnit": "mm",
+            "FeatureId": "13466356"
+          },
+          {
+            "FeatureName": "Maximum Product Height",
+            "FeatureValue": "0.94",
+            "FeatureUnit": "mm",
+            "FeatureId": "13466372"
+          },
+          {
+            "FeatureName": "Creepage Distance",
+            "FeatureValue": "",
+            "FeatureUnit": "mm",
+            "FeatureId": "7882425"
+          }
+        ]
+      },
+      "ParametricData": {
+        "Features": [
+          {
+            "FeatureName": "AC Rated Voltage",
+            "FeatureValue": "",
+            "FeatureUnit": "VAC",
+            "FeatureID": "8030011"
+          },
+          {
+            "FeatureName": "Capacitance Value",
+            "FeatureValue": "0.1uF",
+            "FeatureUnit": "",
+            "FeatureID": "59722",
+            "FeatureValueDetails": {
+              "Value": "0.1",
+              "Multiplier": "u",
+              "MultiplierValue": ".000001",
+              "Unit": "F",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Case Style",
+            "FeatureValue": "Ceramic Chip",
+            "FeatureUnit": "",
+            "FeatureID": "60965",
+            "FeatureValueDetails": {
+              "Value": "Ceramic Chip",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Construction",
+            "FeatureValue": "Flat",
+            "FeatureUnit": "",
+            "FeatureID": "59728",
+            "FeatureValueDetails": {
+              "Value": "Flat",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "DC Rated Voltage",
+            "FeatureValue": "50",
+            "FeatureUnit": "VDC",
+            "FeatureID": "8030010",
+            "FeatureValueDetails": {
+              "Value": "50",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "VDC",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Dielectric",
+            "FeatureValue": "X7R",
+            "FeatureUnit": "",
+            "FeatureID": "59723",
+            "FeatureValueDetails": {
+              "Value": "X7R",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Equivalent Series Resistance Type",
+            "FeatureValue": "",
+            "FeatureUnit": "",
+            "FeatureID": "85172"
+          },
+          {
+            "FeatureName": "Failure Rate",
+            "FeatureValue": "",
+            "FeatureUnit": "",
+            "FeatureID": "59734"
+          },
+          {
+            "FeatureName": "Fixed/Variable",
+            "FeatureValue": "Fixed",
+            "FeatureUnit": "",
+            "FeatureID": "13466388",
+            "FeatureValueDetails": {
+              "Value": "Fixed",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Lead Diameter",
+            "FeatureValue": "",
+            "FeatureUnit": "mm",
+            "FeatureID": "59829"
+          },
+          {
+            "FeatureName": "Lifetime",
+            "FeatureValue": "1000",
+            "FeatureUnit": "h",
+            "FeatureID": "30527527",
+            "FeatureValueDetails": {
+              "Value": "1000",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "h",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Maximum Dissipation Factor",
+            "FeatureValue": "10",
+            "FeatureUnit": "%",
+            "FeatureID": "85166",
+            "FeatureValueDetails": {
+              "Value": "10",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "%",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Maximum Operating Temperature",
+            "FeatureValue": "125",
+            "FeatureUnit": "°C",
+            "FeatureID": "60258",
+            "FeatureValueDetails": {
+              "Value": "125",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "°C",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Maximum Storage Temperature",
+            "FeatureValue": "",
+            "FeatureUnit": "°C",
+            "FeatureID": "69087"
+          },
+          {
+            "FeatureName": "Maximum Terminal Width",
+            "FeatureValue": "1.9",
+            "FeatureUnit": "mm",
+            "FeatureID": "87471",
+            "FeatureValueDetails": {
+              "Value": "1.9",
+              "Multiplier": "m",
+              "MultiplierValue": ".001",
+              "Unit": "m",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Microwave Application",
+            "FeatureValue": "No",
+            "FeatureUnit": "",
+            "FeatureID": "67247",
+            "FeatureValueDetails": {
+              "Value": "No",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Military Standard",
+            "FeatureValue": "",
+            "FeatureUnit": "",
+            "FeatureID": "59735"
+          },
+          {
+            "FeatureName": "Minimum Operating Temperature",
+            "FeatureValue": "-55",
+            "FeatureUnit": "°C",
+            "FeatureID": "60260",
+            "FeatureValueDetails": {
+              "Value": "55",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "°C",
+              "Sign": "-"
+            }
+          },
+          {
+            "FeatureName": "Minimum Storage Temperature",
+            "FeatureValue": "",
+            "FeatureUnit": "°C",
+            "FeatureID": "68740"
+          },
+          {
+            "FeatureName": "Negative Capacitance Tolerance",
+            "FeatureValue": "-5",
+            "FeatureUnit": "%",
+            "FeatureID": "13938309",
+            "FeatureValueDetails": {
+              "Value": "5",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "%",
+              "Sign": "-"
+            }
+          },
+          {
+            "FeatureName": "Operating Temperature",
+            "FeatureValue": "-55 to 125",
+            "FeatureUnit": "°C",
+            "FeatureID": "59731",
+            "FeatureValueDetails": {
+              "Value": "55 to 125",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "°C to °C",
+              "Sign": "- to"
+            }
+          },
+          {
+            "FeatureName": "Polarity",
+            "FeatureValue": "Non Polar",
+            "FeatureUnit": "",
+            "FeatureID": "13401405",
+            "FeatureValueDetails": {
+              "Value": "Non Polar",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Positive Capacitance Tolerance",
+            "FeatureValue": "5",
+            "FeatureUnit": "%",
+            "FeatureID": "13938333",
+            "FeatureValueDetails": {
+              "Value": "5",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "%",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Special Features",
+            "FeatureValue": "Temperature Stable Dielectric",
+            "FeatureUnit": "",
+            "FeatureID": "85357",
+            "FeatureValueDetails": {
+              "Value": "Temperature Stable Dielectric",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Suppression Class",
+            "FeatureValue": "",
+            "FeatureUnit": "",
+            "FeatureID": "74537"
+          },
+          {
+            "FeatureName": "Technology",
+            "FeatureValue": "Standard",
+            "FeatureUnit": "",
+            "FeatureID": "73320",
+            "FeatureValueDetails": {
+              "Value": "Standard",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Temperature Coefficient",
+            "FeatureValue": "±15%",
+            "FeatureUnit": "",
+            "FeatureID": "7607584",
+            "FeatureValueDetails": {
+              "Value": "15",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "%",
+              "Sign": "±"
+            }
+          },
+          {
+            "FeatureName": "Terminal Length",
+            "FeatureValue": "0.5",
+            "FeatureUnit": "mm",
+            "FeatureID": "7607594",
+            "FeatureValueDetails": {
+              "Value": "0.5",
+              "Multiplier": "m",
+              "MultiplierValue": ".001",
+              "Unit": "m",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Test Frequency",
+            "FeatureValue": "1K",
+            "FeatureUnit": "Hz",
+            "FeatureID": "13401393",
+            "FeatureValueDetails": {
+              "Value": "1",
+              "Multiplier": "K",
+              "MultiplierValue": "1000.0",
+              "Unit": "Hz",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Tolerance",
+            "FeatureValue": "5%",
+            "FeatureUnit": "",
+            "FeatureID": "59724",
+            "FeatureValueDetails": {
+              "Value": "5",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "%",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Tradename",
+            "FeatureValue": "",
+            "FeatureUnit": "",
+            "FeatureID": "74538"
+          },
+          {
+            "FeatureName": "Voltage",
+            "FeatureValue": "50VDC",
+            "FeatureUnit": "",
+            "FeatureID": "59725",
+            "FeatureValueDetails": {
+              "Value": "50",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "VDC",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Wire Form",
+            "FeatureValue": "",
+            "FeatureUnit": "",
+            "FeatureID": "60964"
+          }
+        ]
+      },
+      "PCNData": {
+        "PCNDto": {
+          "LastPCNNumber": "",
+          "LastPCNDate": "Dec 08, 2023",
+          "LastPCNTypeOfChange": "Product Code",
+          "LastPCNSource": "http://download.siliconexpert.com/pdfs2/2024/5/1/10/11/53/608768/avx_/manual/pcn120823.pdf",
+          "LastTimeBuyDate": "",
+          "LastShipDate": "",
+          "LastEOLNumber": "",
+          "LastEOLDate": "",
+          "LastEOLSource": ""
+        }
+      },
+      "PCNDetails": {
+        "PCNDto": [
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Product Code",
+            "DescriptionOfChange": "The thickness codes for the following list of PNs have been updated.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs2/2024/5/1/10/11/53/608768/avx_/manual/pcn120823.pdf",
+            "NotificationDate": "Dec 08, 2023",
+            "EffectiveDate": "Dec 08, 2023",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "437588914857819"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Product Code",
+            "DescriptionOfChange": "In order to maximize manufacturing synergies within KYOCERA AVX and KYOCERA Electronic Components Group, which combined their MLCC manufacturing and development resources in 2021, we will have a new global MLCC part numbering system.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs2/2023/5/2/8/17/41/945385/avx_/manual/0805ca0r5bat4a.pdf",
+            "NotificationDate": "Apr 04, 2023",
+            "EffectiveDate": "Apr 04, 2023",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "437588889361381"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Shipping",
+            "DescriptionOfChange": "AVX Corporation hereby notifies their intention to discontinue it's warehouse and shipping opertations in Atlanta, Georgia and consolidate those operations into the Greenville,S. Carolina facility.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2018/9/26/14/31/55/389983/avx_/manual/26173_spcn.pdf",
+            "NotificationDate": "Jun 01, 2011",
+            "EffectiveDate": "Jun 01, 2011",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "9049153694"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "American Technical Ceramics has been acquired by AVX.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2009/5/6/3/23/15/avx_/manual/pcn_full acquistion_avx_american technical ceramics.pdf",
+            "NotificationDate": "Jun 18, 2007",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "3724642"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "LCC Corporation has been acquired by AVX",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2010/11/25/4/48/2/98/avx_/manual/pcn_acquisition_fullacquisition_avx_lcccorporation.pdf",
+            "NotificationDate": "Jun 01, 2006",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "20857540"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "AVX acquires American KSS",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2009/4/29/4/39/39/avx_/manual/pcn_full acquistion_avx_american kss.pdf",
+            "NotificationDate": "Apr 01, 2004",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "3626423"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "ELCO has been acquired by AVX",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2010/10/24/5/26/42/129/avx_/manual/pcn_fullacquistion_avx_elco.pdf",
+            "NotificationDate": "Jan 01, 1990",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "19963176"
+          }
+        ]
+      },
+      "EnvironmentalDto": {
+        "RoHSStatus": "Compliant",
+        "RoHSVersion": "2011/65/EU, 2015/863",
+        "Source": "http://download.siliconexpert.com/pdfs2/2021/5/18/11/11/47/168713/avx_/manual/a81206x7rrohsmlccseriesipc1752arohsreach201fmd1.xlsx",
+        "SourceType": "Material Declaration",
+        "OtherSources": {
+          "Source": "http://download.siliconexpert.com/pdfs2/2024/12/26/9/40/7/4092129368/avx_/manual/rohs-hvkgm.pdf",
+          "SourceType": "Certificate of Compliance"
+        },
+        "Exemption": "No",
+        "ExemptionType": "",
+        "ExemptionCodes": "",
+        "ExemptionExpirationDate": "",
+        "RohsIdentifier": "YES",
+        "LeadFree": "Compliant",
+        "RareEarthElementInformation": "Rare Earth Free",
+        "ConflictMineralStatus": "DRC Conflict Undeterminable",
+        "ConflictMineralStatement": "",
+        "EICCMembership": "No",
+        "EICCTemplate": "http://download.siliconexpert.com/pdfs2/2024/12/30/14/8/34/5537420139/avx_/manual/avxcaps_diodes_cmrt_6.4.xlsx",
+        "EICCTemplateVersion": "Version 6.40",
+        "ConflictMineralsPolicy": "http://download.siliconexpert.com/pdfs/2016/10/14/12/43/40/509/avx_/manual/217164584310476avxflictminerals.pdf",
+        "ConflictMineralsSustainabilityReport": "",
+        "SDForm": "",
+        "HalgonFree": "Compliant",
+        "ChinaRoHS": {
+          "ChinaRoHSStatus": "Unaffected",
+          "CadmiumConcentration": "<100",
+          "CadmiumFlag": "O",
+          "ChromiumConcentration": "<1000",
+          "ChromiumFlag": "O",
+          "LeadConcentration": "<1000",
+          "LeadFlag": "O",
+          "MercuryConcentration": "<1000",
+          "MercuryFlag": "O",
+          "PBBConcentration": "<1000",
+          "PBBFlag": "O",
+          "PBDEConcentration": "<1000",
+          "PBDEFlag": "O",
+          "EPUP": "e",
+          "ItemSubitemName": "",
+          "SourceType": "",
+          "CachedSource": "",
+          "LiveSupplierSource": ""
+        },
+        "TSCA": {
+          "Status": "Compliant",
+          "SourceType": "COC & Vendor base TSCA",
+          "SourcePath": "http://download.siliconexpert.com/pdfs2/2022/11/1/11/34/54/97386/avx_/manual/kavxtscastatementseptember2022.pdf"
+        },
+        "ODC": "Not Affected",
+        "Green": "Compliant",
+        "WEEE": {
+          "comId": 23865142,
+          "weeeStatus": "Out of Scope",
+          "sourcePdf": "http://download.siliconexpert.com/pdfs/2013/4/3/8/11/47/697/eurle_/manual/lexuriserv.douriojl2012197fullenpdf.douriojl2012197fullenpdf.pdf",
+          "sourceType": "WEEE Directive"
+        },
+        "PFOA": "Not Affected",
+        "IEC62474": "Affected",
+        "IEC62474Data": {
+          "sourceType": "Material Declaration",
+          "sourcePdf": "http://download.siliconexpert.com/pdfs2/2021/5/18/11/11/47/168713/avx_/manual/a81206x7rrohsmlccseriesipc1752arohsreach201fmd1.xlsx",
+          "substances": {
+            "substanceId": 4928,
+            "substanceName": "Nickel",
+            "casNumber": "7440-02-0",
+            "regId": 1,
+            "features": {
+              "feature": [
+                {
+                  "featureName": "Basis",
+                  "featureValue": "R"
+                },
+                {
+                  "featureName": "Reporting threshold",
+                  "featureValue": "Intentionally Added"
+                },
+                {
+                  "featureName": "Reportable Application",
+                  "featureValue": "All, where prolonged skin contact is expected"
+                },
+                {
+                  "featureName": "Basis description",
+                  "featureValue": "[EU] REACH Regulation (EC) No.1907/2006 ANNEX XVII"
+                }
+              ]
+            }
+          }
+        },
+        "CaliforniaProposition65": "Exempted",
+        "PFOS-EUDirective-2006122EC": "Not Affected",
+        "PersistentOrganicPollutants-POPs": "Compliant",
+        "PersistentOrganicPollutants-POPsData": {
+          "sourceType": "COC & Vendor base POPs",
+          "sourcePdf": "http://download.siliconexpert.com/pdfs2/2021/10/9/13/10/29/778460/avx_/auto/pops-statement.pdf"
+        },
+        "AD-DSL": "Affected",
+        "NAS411": "Affected",
+        "ELV": "Compliant",
+        "Phthalates": "Not Affected",
+        "BisPhenolA_BPA": "Not Affected",
+        "InorganicPhosphorus": "Not Affected",
+        "CaliforniaProposition65Dto": {
+          "Status": "Exempted",
+          "SourceType": "COC & Vendor base CA Prop65",
+          "SourcePath": "http://download.siliconexpert.com/pdfs2/2024/10/7/10/40/6/4144/avx_/manual/avx-kyoceraprop65-x7r.pdf"
+        },
+        "ReachRestrictionAnnexXVII": {
+          "Status": "Compliant",
+          "SourceType": "COC & Vendor Base_Exception",
+          "SourcePath": "http://download.siliconexpert.com/pdfs2/2021/1/22/21/54/28/984133/avx_/manual/avx_reach_statement.pdf",
+          "Details": [
+            {
+              "SubstanceName": "Copper",
+              "CASNumber": "7440-50-8"
+            },
+            {
+              "SubstanceName": "Nickel",
+              "CASNumber": "7440-02-0"
+            },
+            {
+              "SubstanceName": "Tin",
+              "CASNumber": "7440-31-5"
+            }
+          ]
+        },
+        "GlobalPFASAssessment": {
+          "Status": "Not Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": "http://download.siliconexpert.com/pdfs2/2021/5/18/11/11/47/168713/avx_/manual/a81206x7rrohsmlccseriesipc1752arohsreach201fmd1.xlsx",
+          "Details": []
+        },
+        "TSCASection": {
+          "TSCAPBTSection6h": {
+            "Status": "Compliant",
+            "SourceType": "COC & Vendor base TSCA",
+            "SourcePath": "http://download.siliconexpert.com/pdfs2/2022/11/1/11/34/54/97386/avx_/manual/kavxtscastatementseptember2022.pdf"
+          },
+          "TSCAPFASSection8a7": {
+            "Status": "Not Affected",
+            "SourceType": "Material Declaration",
+            "SourcePath": "http://download.siliconexpert.com/pdfs2/2021/5/18/11/11/47/168713/avx_/manual/a81206x7rrohsmlccseriesipc1752arohsreach201fmd1.xlsx"
+          }
+        },
+        "InorganicPhosphorusData": {
+          "Status": "Not Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": "http://download.siliconexpert.com/pdfs2/2021/5/18/11/11/47/168713/avx_/manual/a81206x7rrohsmlccseriesipc1752arohsreach201fmd1.xlsx"
+        },
+        "ADDSLData": {
+          "Status": "Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": "http://download.siliconexpert.com/pdfs2/2021/5/18/11/11/47/168713/avx_/manual/a81206x7rrohsmlccseriesipc1752arohsreach201fmd1.xlsx",
+          "Substances": {
+            "substanceId": 4924,
+            "substanceName": "Copper",
+            "casNumber": "7440-50-8",
+            "regId": 18,
+            "features": [
+              {
+                "feature": [
+                  {
+                    "featureName": "IAEG ID",
+                    "featureValue": "IAEG009597"
+                  },
+                  {
+                    "featureName": "IAEG Regulatory Criteria",
+                    "featureValue": "I"
+                  }
+                ]
+              },
+              {
+                "feature": [
+                  {
+                    "featureName": "IAEG ID",
+                    "featureValue": "IAEG009597"
+                  },
+                  {
+                    "featureName": "IAEG Regulatory Criteria",
+                    "featureValue": "I"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "PhthalatesData": {
+          "Status": "Not Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": "http://download.siliconexpert.com/pdfs2/2021/5/18/11/11/47/168713/avx_/manual/a81206x7rrohsmlccseriesipc1752arohsreach201fmd1.xlsx"
+        },
+        "ODCData": {
+          "Status": "Not Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": "http://download.siliconexpert.com/pdfs2/2021/5/18/11/11/47/168713/avx_/manual/a81206x7rrohsmlccseriesipc1752arohsreach201fmd1.xlsx"
+        },
+        "PFOSEUDirective2006122ECData": {
+          "Status": "Not Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": "http://download.siliconexpert.com/pdfs2/2021/5/18/11/11/47/168713/avx_/manual/a81206x7rrohsmlccseriesipc1752arohsreach201fmd1.xlsx"
+        },
+        "BisPhenolABPAData": {
+          "Status": "Not Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": "http://download.siliconexpert.com/pdfs2/2021/5/18/11/11/47/168713/avx_/manual/a81206x7rrohsmlccseriesipc1752arohsreach201fmd1.xlsx"
+        },
+        "PFOAData": {
+          "Status": "Not Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": "http://download.siliconexpert.com/pdfs2/2021/5/18/11/11/47/168713/avx_/manual/a81206x7rrohsmlccseriesipc1752arohsreach201fmd1.xlsx"
+        },
+        "NAS411Data": {
+          "Status": "Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": "http://download.siliconexpert.com/pdfs2/2021/5/18/11/11/47/168713/avx_/manual/a81206x7rrohsmlccseriesipc1752arohsreach201fmd1.xlsx",
+          "Substances": {
+            "substanceId": 4928,
+            "substanceName": "Nickel",
+            "casNumber": "7440-02-0",
+            "regId": 19,
+            "features": {
+              "feature": [
+                {
+                  "featureName": "HMTL Category",
+                  "featureValue": "Restricted"
+                },
+                {
+                  "featureName": "Substance Group",
+                  "featureValue": "-"
+                }
+              ]
+            }
+          }
+        },
+        "standardConflictMineralData": {
+          "ConflictMineralStatus": "DRC Conflict Undeterminable",
+          "ConflictMineralStatement": "",
+          "EICCMembership": "No",
+          "EICCTemplate": "http://download.siliconexpert.com/pdfs2/2024/12/30/14/8/34/5537420139/avx_/manual/avxcaps_diodes_cmrt_6.4.xlsx",
+          "EICCTemplateVersion": "Version 6.40",
+          "ConflictMineralsPolicy": "http://download.siliconexpert.com/pdfs/2016/10/14/12/43/40/509/avx_/manual/217164584310476avxflictminerals.pdf",
+          "ConflictMineralsSustainabilityReport": ""
+        },
+        "extendedConflictMineralData": {
+          "CobaltStatus": "CAHRA-Conflict Free",
+          "MicaStatus": "Out of Scope",
+          "RMIMembership": "No",
+          "EMRTTemplate": "http://download.siliconexpert.com/pdfs2/2025/4/9/11/20/17/4061699823/avx_/manual/kavxcompany100724rmi_emrt_1.3.xlsx",
+          "EMRTTemplateVersion": "Version 1.30",
+          "CertificationofCompliance": ""
+        }
+      },
+      "PricingData": {
+        "MinimumPrice": "0.0129",
+        "AveragePrice": "0.0487",
+        "MinLeadtime": "12 Week(s)",
+        "Maxleadtime": "18 Week(s)",
+        "LastUpdatedate": "Oct 16,2025"
+      },
+      "ReplacementData": {
+        "ReplacementDto": [
+          {
+            "ReplacementComId": "24627343",
+            "ReplacementPartNumber": "12065C104JAT4A",
+            "ReplacementType": "A",
+            "Comment": "Difference in: Packaging"
+          },
+          {
+            "ReplacementComId": "68664916",
+            "ReplacementPartNumber": "12065C104JAT7A",
+            "ReplacementType": "A",
+            "Comment": "Difference in: Packaging"
+          },
+          {
+            "ReplacementComId": "68664912",
+            "ReplacementPartNumber": "12065C104JAT9A",
+            "ReplacementType": "A",
+            "Comment": "Difference in: Packaging"
+          },
+          {
+            "ReplacementComId": "23863426",
+            "ReplacementPartNumber": "12065C104JAT1A",
+            "ReplacementType": "A",
+            "Comment": "Difference in: Packaging"
+          },
+          {
+            "ReplacementComId": "424124735",
+            "ReplacementPartNumber": "12065C104J4T4A",
+            "ReplacementType": "B/Upgrade",
+            "Comment": "Difference in: AEC_Qualified"
+          },
+          {
+            "ReplacementComId": "424124738",
+            "ReplacementPartNumber": "12065C104J4U2A",
+            "ReplacementType": "B/Upgrade",
+            "Comment": "Difference in: AEC_Qualified"
+          },
+          {
+            "ReplacementComId": "424124741",
+            "ReplacementPartNumber": "12065C104J4U4A",
+            "ReplacementType": "B/Upgrade",
+            "Comment": "Difference in: AEC_Qualified"
+          },
+          {
+            "ReplacementComId": "35207332",
+            "ReplacementPartNumber": "12065C104J4T2A",
+            "ReplacementType": "B/Upgrade",
+            "Comment": "Difference in: AEC_Qualified"
+          },
+          {
+            "ReplacementComId": "1850131726",
+            "ReplacementPartNumber": "KGM31BR71H104JT",
+            "ReplacementType": "S",
+            "Comment": ""
+          }
+        ]
+      },
+      "ReachData": {
+        "ReachDto": {
+          "CachedSource": "http://download.siliconexpert.com/pdfs2/2021/5/18/11/11/47/168713/avx_/manual/a81206x7rrohsmlccseriesipc1752arohsreach201fmd1.xlsx",
+          "ContainsSVHC": "No",
+          "SVHCExceedThresholdLimit": "No",
+          "SVHCListVersion": "Jun 25, 2025",
+          "SVHCListVersionNumber": "250",
+          "SubstanceIdentification": "",
+          "SubstanceLocation": "",
+          "SubstanceConcentration": "",
+          "SourceType": "Material Declaration",
+          "ReachStatus": "Unaffected",
+          "CASNumber": "",
+          "SVHCDateOfInclusion": "",
+          "EchaNotification": "",
+          "NotificationComment": "",
+          "SupportingDocument": ""
+        }
+      },
+      "RiskData": {
+        "RohsRisk": "Low",
+        "MultiSourcingRisk": "Low",
+        "InventoryRisk": "Low",
+        "LifecycleRisk": "Medium",
+        "PredictedObsolescenceYear": "2034",
+        "LifecycleStage": "Mature",
+        "YearsEOL": "8.7",
+        "NumberOfDistributors": "9",
+        "NumberOfOtherSources": "17",
+        "CrossesPartCategory": "YES",
+        "SEGrade": "5",
+        "LastUpdateDate": "October, 2025",
+        "YeolComment": "The part has surpassed a significant portion of its expected lifespan"
+      },
+      "History": {
+        "Datasheet": [
+          {
+            "date": "Jun 27, 2025",
+            "url": "http://download.siliconexpert.com/pdfs2/2025/6/27/13/1/0/175663/avx_/manual/pgurl_190091912.pdf"
+          },
+          {
+            "date": "Jun 03, 2025",
+            "url": "http://download.siliconexpert.com/pdfs2/2025/6/19/19/44/38/1527803263/avx_/manual/x7rdielectric.pdf"
+          },
+          {
+            "date": "May 05, 2023",
+            "url": "http://download.siliconexpert.com/pdfs2/2023/5/18/5/45/22/45337/avx_/manual/x7rdielectric.pdf"
+          },
+          {
+            "date": "May 04, 2023",
+            "url": "http://download.siliconexpert.com/pdfs2/2024/11/15/21/20/29/795906/avx_/manual/x7rdielectric.pdf"
+          },
+          {
+            "date": "Mar 28, 2023",
+            "url": "http://download.siliconexpert.com/pdfs2/2023/4/26/8/39/13/56958/avx_/manual/x7rdielectric.pdf"
+          },
+          {
+            "date": "Jan 25, 2023",
+            "url": "http://download.siliconexpert.com/pdfs2/2023/2/20/8/25/45/983481/avx_/manual/x7rdielectric.pdf"
+          },
+          {
+            "date": "May 12, 2022",
+            "url": "http://download.siliconexpert.com/pdfs2/2022/5/15/4/56/12/55730/avx_/auto/x7rdielectric.pdf"
+          },
+          {
+            "date": "Feb 24, 2022",
+            "url": "http://download.siliconexpert.com/pdfs2/2022/3/1/13/47/18/313802/avx_/auto/x7rdielectric.pdf"
+          },
+          {
+            "date": "Dec 25, 2021",
+            "url": "http://download.siliconexpert.com/pdfs2/2021/12/25/15/27/57/89901/avx_/manual/06033c472kat2a.pdf"
+          },
+          {
+            "date": "Dec 24, 2021",
+            "url": "http://download.siliconexpert.com/pdfs2/2021/12/24/15/33/41/498425/avx_/manual/12061c334kaz2a.pdf"
+          },
+          {
+            "date": "Dec 17, 2021",
+            "url": "http://download.siliconexpert.com/pdfs2/2021/12/17/15/58/37/61449/avx_/manual/06031c471k4t2a.pdf"
+          },
+          {
+            "date": "Oct 04, 2021",
+            "url": "http://download.siliconexpert.com/pdfs2/2021/10/8/19/48/43/979156/avx_/manual/x7rdielectric.pdf"
+          },
+          {
+            "date": "Aug 02, 2021",
+            "url": "http://download.siliconexpert.com/pdfs2/2021/8/4/16/21/51/95079/avx_/manual/x7rdielectric.pdf"
+          },
+          {
+            "date": "Jul 16, 2021",
+            "url": "http://download.siliconexpert.com/pdfs2/2021/7/23/22/17/6/4909/avx_/manual/x7rdielectric.pdf"
+          },
+          {
+            "date": "Apr 28, 2021",
+            "url": "http://download.siliconexpert.com/pdfs2/2021/4/29/18/33/18/342465/avx_/manual/x7rdielectric-777024.pdf"
+          },
+          {
+            "date": "Dec 17, 2020",
+            "url": "http://download.siliconexpert.com/pdfs2/2020/12/27/1/49/44/739690/avx_/manual/x7rdielectric.pdf"
+          },
+          {
+            "date": "May 04, 2020",
+            "url": "http://download.siliconexpert.com/pdfs2/2020/5/6/15/37/3/328513/avx_/manual/x7rdielectric.pdf"
+          },
+          {
+            "date": "Dec 12, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2019/12/13/3/18/56/140761/avx_/auto/x7rdielectric.pdf"
+          },
+          {
+            "date": "Nov 08, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2019/11/9/21/5/6/665768/avx_/manual/x7rdielectric.pdf"
+          },
+          {
+            "date": "Oct 08, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2019/10/10/19/57/32/920266/avx_/auto/x7rdielectric.pdf"
+          },
+          {
+            "date": "May 15, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2019/5/16/16/35/18/12420/avx_/auto/x7rdielectric.pdf"
+          },
+          {
+            "date": "Apr 17, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2019/4/19/3/34/3/11157/avx_/manual/x7rdielectric.pdf"
+          },
+          {
+            "date": "Mar 25, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2019/3/28/6/8/23/181782/avx_/auto/x7rdielectric.pdf"
+          },
+          {
+            "date": "Mar 04, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2019/3/5/14/47/4/85620/avx_/manual/x7rdielectric.pdf"
+          },
+          {
+            "date": "Feb 25, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2019/3/3/7/54/4/174103/avx_/manual/x7rdielectric.pdf"
+          },
+          {
+            "date": "Jan 29, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2019/2/2/11/4/52/789900/avx_/manual/x7rdielectric.pdf"
+          },
+          {
+            "date": "Oct 25, 2018",
+            "url": "http://download.siliconexpert.com/pdfs/2018/11/1/0/55/9/832189/avx_/auto/x7rdielectric.pdf"
+          },
+          {
+            "date": "Oct 16, 2018",
+            "url": "http://download.siliconexpert.com/pdfs/2018/10/18/17/9/15/420853/avx_/auto/x7rdielectric.pdf"
+          },
+          {
+            "date": "Oct 05, 2018",
+            "url": "http://download.siliconexpert.com/pdfs/2018/10/11/15/25/27/795776/avx_/auto/x7rdielectric.pdf"
+          },
+          {
+            "date": "Sep 17, 2018",
+            "url": "http://download.siliconexpert.com/pdfs/2018/9/18/15/30/10/5367/avx_/manual/x7rdielectric.pdf"
+          },
+          {
+            "date": "Apr 27, 2018",
+            "url": "http://download.siliconexpert.com/pdfs/2018/4/29/10/33/26/879/avx_/manual/1919828050648244x7rdielectric.pdf"
+          },
+          {
+            "date": "Nov 15, 2017",
+            "url": "http://download.siliconexpert.com/pdfs/2017/11/16/8/46/0/924/avx_/manual/4864946019002808x7rdielectric.pdf"
+          },
+          {
+            "date": "Nov 03, 2017",
+            "url": "http://download.siliconexpert.com/pdfs2/2017/11/5/3/48/4/714/avx_/auto/283x7rdielectric.pdf"
+          },
+          {
+            "date": "Oct 12, 2017",
+            "url": "http://download.siliconexpert.com/pdfs/2017/10/16/5/2/32/956/avx_/manual/2169649778242059x7rdielectric.pdf"
+          },
+          {
+            "date": "Mar 25, 2014",
+            "url": "http://download.siliconexpert.com/pdfs/2014/4/24/9/50/35/656/avx_/manual/21cx7r.pdf"
+          },
+          {
+            "date": "Nov 15, 2012",
+            "url": "http://download.siliconexpert.com/pdfs/2012/11/17/16/46/50/323/avx_/auto/cx7r.pdf"
+          },
+          {
+            "date": "Oct 11, 2012",
+            "url": "http://download.siliconexpert.com/pdfs/2012/10/16/6/57/53/547/avx_/manual/cx7r.pdf"
+          },
+          {
+            "date": "Jun 10, 2010",
+            "url": "http://download.siliconexpert.com/pdfs/2011/4/21/9/37/12/646/avx_/manual/12105c474katma_2011-04-19_10-18-40_avx.pdf"
+          },
+          {
+            "date": "Jan 25, 2010",
+            "url": "http://download.siliconexpert.com/pdfs/2010/1/28/0/37/27/743/avx_/manual/cx7r.pdf"
+          },
+          {
+            "date": "Jul 07, 2009",
+            "url": "http://download.siliconexpert.com/pdfs/2009/7/8/20/43/49/610/avx_/auto/cx7r.pdf"
+          },
+          {
+            "date": "Apr 23, 2009",
+            "url": "http://download.siliconexpert.com/pdfs/2009/5/3/16/11/57/avx_/manual/cx7r.pdf"
+          },
+          {
+            "date": "Mar 24, 2009",
+            "url": "http://download.siliconexpert.com/pdfs/2009/3/25/7/53/35/avx_/manual/cx7r.pdf"
+          },
+          {
+            "date": "Feb 16, 2009",
+            "url": "http://download.siliconexpert.com/pdfs/2009/2/17/18/58/11/avx_/auto/cx7r.pdf"
+          },
+          {
+            "date": "Mar 24, 2008",
+            "url": "http://download.siliconexpert.com/pdfs/2008/03/29/urlc/avx/cx7r.pdf"
+          },
+          {
+            "date": "Sep 13, 2007",
+            "url": "http://download.siliconexpert.com/pdfs/2007/09/17/urlc/avx/cx7r.pdf"
+          },
+          {
+            "date": "Dec 04, 2006",
+            "url": "http://download.siliconexpert.com/pdfs/2006/12/21/pemco_a/isys/avx/ds/cx7r.pdf"
+          },
+          {
+            "date": "Sep 20, 2006",
+            "url": "http://download.siliconexpert.com/pdfs/2006/10/17/pemco_a/2/avx/capacitors-ceramic/cx7r.pdf"
+          },
+          {
+            "date": "Apr 19, 2006",
+            "url": "http://download.siliconexpert.com/pdfs/2006/06/04/pemco_a/1/avx/capacitors-ceramic/cx7r.pdf"
+          },
+          {
+            "date": "Feb 25, 2005",
+            "url": "http://download.siliconexpert.com/pdfs/2011/5/16/2/49/35/65/avx_/manual/x7rc.pdf"
+          },
+          {
+            "date": "Jan 07, 2005",
+            "url": "http://download.siliconexpert.com/pdfs/2005/02/01/pemco_a/1/avx/capacitors/cx7r.pdf"
+          },
+          {
+            "date": "Dec 09, 2004",
+            "url": "http://download.siliconexpert.com/pdfs/2005/01/04/pemco_a/1/avx/capacitors/cx7r.pdf"
+          },
+          {
+            "date": "Oct 26, 2004",
+            "url": "http://download.siliconexpert.com/pdfs/2004/11/09/pemco_a/1/avx/capacitors/cx7r.pdf"
+          },
+          {
+            "date": "Apr 28, 2004",
+            "url": "http://download.siliconexpert.com/pdfs2/2019/8/20/4/35/22/731233/avx_/manual/avxcd00346-1.pdf"
+          },
+          {
+            "date": "Apr 21, 2004",
+            "url": "http://download.siliconexpert.com/pdfs/2015/11/26/6/29/49/156/avx_/manual/avxcd00347-13.pdf"
+          },
+          {
+            "date": "Apr 11, 2003",
+            "url": "http://download.siliconexpert.com/pdfs/2004/0529/index/cs/avx/ds/cx7r.pdf"
+          },
+          {
+            "date": "Apr 11, 2003",
+            "url": "http://download.siliconexpert.com/pdfs/2018/3/30/10/1/38/715/avx_/manual/avxcs08922-1.pdf"
+          },
+          {
+            "date": "Feb 05, 2002",
+            "url": "http://download.siliconexpert.com/pdfs/quickdata/avx/cx7r.pdf"
+          },
+          {
+            "date": "Mar 18, 2000",
+            "url": "http://download.siliconexpert.com/pdfs/2014/11/10/3/51/51/445/avx_/manual/avxcs00453-1.pdf"
+          }
+        ],
+        "Lifecycle": [
+          {
+            "Date": "",
+            "Lifecycle": "Active",
+            "ManufacturerName": "KYOCERA AVX Components Corporation",
+            "PartNumber": "12065C104JAT2A",
+            "ReasonOfChange": "Obtained from supplier's website",
+            "SourceName": "Supplier Website",
+            "SourceURL": "http://download.siliconexpert.com/pdfs2/2025/10/9/17/43/17/115965/avx_/manual/pgurl_197348164.pdf"
+          },
+          {
+            "Date": "Mar 18, 2000",
+            "Lifecycle": "Introduction Date",
+            "ManufacturerName": "KYOCERA AVX Components Corporation",
+            "PartNumber": "12065C104JAT2A",
+            "ReasonOfChange": "",
+            "SourceName": "",
+            "SourceURL": ""
+          }
+        ]
+      },
+      "ProductImage": {
+        "ProductImageSmall": "http://download.siliconexpert.com/pdfs2/2019/10/16/16/15/28/327127/avx_/manual/1812gc102k4z1a.jpg",
+        "ProductImageLarge": "http://download.siliconexpert.com/pdfs2/2019/10/16/16/15/29/91055/avx_/manual/1812gc102k4z1a.jpg",
+        "ProductImageOriginal": "http://download.siliconexpert.com/pdfs2/2019/10/16/16/15/28/173955/avx_/manual/1812gc102k4z1a.jpg"
+      },
+      "ECADModelsData": {
+        "ECADModelsDto": {
+          "ECADURL": "https://vendor.ultralibrarian.com/siliconexpert/embedded?mfrName=KYOCERA+AVX&mfrPN=12065C104JAT2A"
+        }
+      },
+      "PriceBreaksData": {
+        "PriceBreaksDto": [
+          {
+            "PriceBreaK": "1",
+            "AveragePrice": "0.0753",
+            "MinPrice": "0.0469"
+          },
+          {
+            "PriceBreaK": "10",
+            "AveragePrice": "0.0938",
+            "MinPrice": "0.09385"
+          },
+          {
+            "PriceBreaK": "25",
+            "AveragePrice": "0.113",
+            "MinPrice": "0.113"
+          },
+          {
+            "PriceBreaK": "50",
+            "AveragePrice": "0.072",
+            "MinPrice": "0.052"
+          },
+          {
+            "PriceBreaK": "100",
+            "AveragePrice": "0.0754",
+            "MinPrice": "0.069"
+          },
+          {
+            "PriceBreaK": "1000",
+            "AveragePrice": "0.0637",
+            "MinPrice": "0.06373"
+          },
+          {
+            "PriceBreaK": "2083",
+            "AveragePrice": "0.0429",
+            "MinPrice": "0.0429"
+          },
+          {
+            "PriceBreaK": "4000",
+            "AveragePrice": "0.0305",
+            "MinPrice": "0.0146"
+          },
+          {
+            "PriceBreaK": "8000",
+            "AveragePrice": "0.0337",
+            "MinPrice": "0.0177"
+          },
+          {
+            "PriceBreaK": "12000",
+            "AveragePrice": "0.032",
+            "MinPrice": "0.0177"
+          },
+          {
+            "PriceBreaK": "16000",
+            "AveragePrice": "0.0239",
+            "MinPrice": "0.0176"
+          },
+          {
+            "PriceBreaK": "20000",
+            "AveragePrice": "0.0296",
+            "MinPrice": "0.0179"
+          },
+          {
+            "PriceBreaK": "24000",
+            "AveragePrice": "0.0472",
+            "MinPrice": "0.042"
+          },
+          {
+            "PriceBreaK": "32000",
+            "AveragePrice": "0.0174",
+            "MinPrice": "0.0174"
+          },
+          {
+            "PriceBreaK": "60000",
+            "AveragePrice": "0.0175",
+            "MinPrice": "0.0175"
+          },
+          {
+            "PriceBreaK": "100000",
+            "AveragePrice": "0.0508",
+            "MinPrice": "0.0508"
+          },
+          {
+            "PriceBreaK": "400000",
+            "AveragePrice": "0.1012",
+            "MinPrice": "0.10115"
+          },
+          {
+            "PriceBreaK": "1207",
+            "AveragePrice": "0.0492",
+            "MinPrice": "0.0492"
+          },
+          {
+            "PriceBreaK": "2500",
+            "AveragePrice": "0.0356",
+            "MinPrice": "0.0356"
+          },
+          {
+            "PriceBreaK": "200000",
+            "AveragePrice": "0.0504",
+            "MinPrice": "0.0504"
+          },
+          {
+            "PriceBreaK": "500",
+            "AveragePrice": "0.0649",
+            "MinPrice": "0.06494"
+          },
+          {
+            "PriceBreaK": "250",
+            "AveragePrice": "0.052",
+            "MinPrice": "0.052"
+          },
+          {
+            "PriceBreaK": "305",
+            "AveragePrice": "0.0425",
+            "MinPrice": "0.0425"
+          },
+          {
+            "PriceBreaK": "80000",
+            "AveragePrice": "0.0193",
+            "MinPrice": "0.0193"
+          },
+          {
+            "PriceBreaK": "48000",
+            "AveragePrice": "0.033",
+            "MinPrice": "0.033"
+          },
+          {
+            "PriceBreaK": "28000",
+            "AveragePrice": "0.058",
+            "MinPrice": "0.058"
+          },
+          {
+            "PriceBreaK": "2000",
+            "AveragePrice": "0.0624",
+            "MinPrice": "0.06239"
+          },
+          {
+            "PriceBreaK": "2033",
+            "AveragePrice": "0.0344",
+            "MinPrice": "0.0344"
+          },
+          {
+            "PriceBreaK": "2041",
+            "AveragePrice": "0.0343",
+            "MinPrice": "0.0343"
+          },
+          {
+            "PriceBreaK": "40000",
+            "AveragePrice": "0.0523",
+            "MinPrice": "0.0523"
+          },
+          {
+            "PriceBreaK": "5000",
+            "AveragePrice": "0.044",
+            "MinPrice": "0.044"
+          },
+          {
+            "PriceBreaK": "2017",
+            "AveragePrice": "0.0349",
+            "MinPrice": "0.0349"
+          },
+          {
+            "PriceBreaK": "2058",
+            "AveragePrice": "0.0335",
+            "MinPrice": "0.0335"
+          },
+          {
+            "PriceBreaK": "2075",
+            "AveragePrice": "0.0337",
+            "MinPrice": "0.0337"
+          },
+          {
+            "PriceBreaK": "2084",
+            "AveragePrice": "0.0336",
+            "MinPrice": "0.0336"
+          },
+          {
+            "PriceBreaK": "2110",
+            "AveragePrice": "0.0332",
+            "MinPrice": "0.0332"
+          },
+          {
+            "PriceBreaK": "1537",
+            "AveragePrice": "0.0408",
+            "MinPrice": "0.0408"
+          },
+          {
+            "PriceBreaK": "2137",
+            "AveragePrice": "0.0328",
+            "MinPrice": "0.0328"
+          },
+          {
+            "PriceBreaK": "2213",
+            "AveragePrice": "0.0316",
+            "MinPrice": "0.0316"
+          },
+          {
+            "PriceBreaK": "2203",
+            "AveragePrice": "0.0318",
+            "MinPrice": "0.0318"
+          },
+          {
+            "PriceBreaK": "2253",
+            "AveragePrice": "0.0311",
+            "MinPrice": "0.0311"
+          },
+          {
+            "PriceBreaK": "2146",
+            "AveragePrice": "0.0326",
+            "MinPrice": "0.0326"
+          },
+          {
+            "PriceBreaK": "1441",
+            "AveragePrice": "0.0484",
+            "MinPrice": "0.0484"
+          },
+          {
+            "PriceBreaK": "500000",
+            "AveragePrice": "0.0499",
+            "MinPrice": "0.0499"
+          },
+          {
+            "PriceBreaK": "1583",
+            "AveragePrice": "0.0442",
+            "MinPrice": "0.0442"
+          },
+          {
+            "PriceBreaK": "120000",
+            "AveragePrice": "0.051",
+            "MinPrice": "0.051"
+          },
+          {
+            "PriceBreaK": "160000",
+            "AveragePrice": "0.0103",
+            "MinPrice": "0.0103"
+          },
+          {
+            "PriceBreaK": "2156",
+            "AveragePrice": "0.0325",
+            "MinPrice": "0.0325"
+          },
+          {
+            "PriceBreaK": "2067",
+            "AveragePrice": "0.0336",
+            "MinPrice": "0.0336"
+          },
+          {
+            "PriceBreaK": "52000",
+            "AveragePrice": "0.015",
+            "MinPrice": "0.015"
+          },
+          {
+            "PriceBreaK": "2128",
+            "AveragePrice": "0.0329",
+            "MinPrice": "0.0329"
+          }
+        ]
+      },
+      "PriceAndLeadTimeHistory": [
+        {
+          "MinimumPrice": "0.0129",
+          "AveragePrice": "0.0499",
+          "MinLeadtime": "12 Week(s)",
+          "Maxleadtime": "16 Week(s)",
+          "LastUpdatedate": "Oct 9,2025"
+        },
+        {
+          "MinimumPrice": "0.0129",
+          "AveragePrice": "0.0501",
+          "MinLeadtime": "12 Week(s)",
+          "Maxleadtime": "16 Week(s)",
+          "LastUpdatedate": "Oct 2,2025"
+        },
+        {
+          "MinimumPrice": "0.0129",
+          "AveragePrice": "0.0499",
+          "MinLeadtime": "12 Week(s)",
+          "Maxleadtime": "16 Week(s)",
+          "LastUpdatedate": "Sep 25,2025"
+        },
+        {
+          "MinimumPrice": "0.0129",
+          "AveragePrice": "0.0567",
+          "MinLeadtime": "12 Week(s)",
+          "Maxleadtime": "16 Week(s)",
+          "LastUpdatedate": "Sep 18,2025"
+        },
+        {
+          "MinimumPrice": "0.0129",
+          "AveragePrice": "0.0484",
+          "MinLeadtime": "12 Week(s)",
+          "Maxleadtime": "16 Week(s)",
+          "LastUpdatedate": "Sep 11,2025"
+        },
+        {
+          "MinimumPrice": "0.0129",
+          "AveragePrice": "0.0487",
+          "MinLeadtime": "12 Week(s)",
+          "Maxleadtime": "16 Week(s)",
+          "LastUpdatedate": "Sep 4,2025"
+        },
+        {
+          "MinimumPrice": "0.0129",
+          "AveragePrice": "0.0468",
+          "MinLeadtime": "12 Week(s)",
+          "Maxleadtime": "16 Week(s)",
+          "LastUpdatedate": "Aug 28,2025"
+        },
+        {
+          "MinimumPrice": "0.0129",
+          "AveragePrice": "0.0467",
+          "MinLeadtime": "12 Week(s)",
+          "Maxleadtime": "16 Week(s)",
+          "LastUpdatedate": "Aug 21,2025"
+        },
+        {
+          "MinimumPrice": "0.0129",
+          "AveragePrice": "0.0487",
+          "MinLeadtime": "12 Week(s)",
+          "Maxleadtime": "16 Week(s)",
+          "LastUpdatedate": "Aug 14,2025"
+        },
+        {
+          "MinimumPrice": "0.0129",
+          "AveragePrice": "0.0501",
+          "MinLeadtime": "12 Week(s)",
+          "Maxleadtime": "16 Week(s)",
+          "LastUpdatedate": "Aug 7,2025"
+        },
+        {
+          "MinimumPrice": "0.0129",
+          "AveragePrice": "0.05",
+          "MinLeadtime": "12 Week(s)",
+          "Maxleadtime": "16 Week(s)",
+          "LastUpdatedate": "Jul 31,2025"
+        },
+        {
+          "MinimumPrice": "0.0129",
+          "AveragePrice": "0.0514",
+          "MinLeadtime": "12 Week(s)",
+          "Maxleadtime": "16 Week(s)",
+          "LastUpdatedate": "Jul 24,2025"
+        },
+        {
+          "MinimumPrice": "0.0158",
+          "AveragePrice": "0.0539",
+          "MinLeadtime": "12 Week(s)",
+          "Maxleadtime": "16 Week(s)",
+          "LastUpdatedate": "Jul 17,2025"
+        },
+        {
+          "MinimumPrice": "0.0158",
+          "AveragePrice": "0.051",
+          "MinLeadtime": "12 Week(s)",
+          "Maxleadtime": "16 Week(s)",
+          "LastUpdatedate": "Jul 10,2025"
+        },
+        {
+          "MinimumPrice": "0.0174",
+          "AveragePrice": "0.0574",
+          "MinLeadtime": "12 Week(s)",
+          "Maxleadtime": "16 Week(s)",
+          "LastUpdatedate": "Jul 3,2025"
+        },
+        {
+          "MinimumPrice": "0.0149",
+          "AveragePrice": "0.0558",
+          "MinLeadtime": "12 Week(s)",
+          "Maxleadtime": "16 Week(s)",
+          "LastUpdatedate": "Jun 26,2025"
+        },
+        {
+          "MinimumPrice": "0.0157",
+          "AveragePrice": "0.056",
+          "MinLeadtime": "12 Week(s)",
+          "Maxleadtime": "16 Week(s)",
+          "LastUpdatedate": "Jun 19,2025"
+        },
+        {
+          "MinimumPrice": "0.0175",
+          "AveragePrice": "0.057",
+          "MinLeadtime": "12 Week(s)",
+          "Maxleadtime": "16 Week(s)",
+          "LastUpdatedate": "Jun 12,2025"
+        },
+        {
+          "MinimumPrice": "0.0175",
+          "AveragePrice": "0.0593",
+          "MinLeadtime": "12 Week(s)",
+          "Maxleadtime": "16 Week(s)",
+          "LastUpdatedate": "Jun 5,2025"
+        }
+      ],
+      "ResilienceRatingdetails": {
+        "ResilienceRating": 10,
+        "AssuranceOfSupply": {
+          "lifecycleRiskDto": null,
+          "multiSourcingRiskDto": null,
+          "inventoryRiskDto": null,
+          "geoRiskDto": null,
+          "marketRiskDto": null
+        },
+        "Performance": {
+          "priceRiskDto": null,
+          "leadTimeRiskDto": null,
+          "obsolescenceRiskDto": null,
+          "manLeadTimeRiskDto": null
+        },
+        "Security": {
+          "rohsRiskDto": null,
+          "counterfeitRiskDto": null
+        }
+      }
+    }
+  }
+}

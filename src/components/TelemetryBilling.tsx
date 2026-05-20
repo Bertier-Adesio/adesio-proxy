@@ -1,17 +1,20 @@
-import { TrendingUp, Activity, CreditCard, Download, MapPin, Database, Zap } from 'lucide-react';
+import { TrendingUp, Activity, CreditCard, Download, MapPin, Database, Zap, Loader2 } from 'lucide-react';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
-
-const usageData = [
-  { name: 'Mon', partnerApi: 12000, userEvents: 2400 },
-  { name: 'Tue', partnerApi: 15000, userEvents: 3100 },
-  { name: 'Wed', partnerApi: 14000, userEvents: 2800 },
-  { name: 'Thu', partnerApi: 18000, userEvents: 3500 },
-  { name: 'Fri', partnerApi: 22000, userEvents: 4200 },
-  { name: 'Sat', partnerApi: 9000, userEvents: 1500 },
-  { name: 'Sun', partnerApi: 11000, userEvents: 1800 },
-];
+import { useAppContext } from '../context/AppContext';
 
 export default function TelemetryBilling() {
+  const { telemetry, isLoadingTelemetry } = useAppContext();
+
+  if (isLoadingTelemetry || !telemetry) {
+    return (
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100%', minHeight: '400px', color: 'var(--text-secondary)' }}>
+        <Loader2 className="animate-spin mb-4" size={32} style={{ color: 'var(--accent-primary)' }} />
+        <p className="font-semibold">Simulating telemetry aggregation...</p>
+        <p className="text-xs opacity-60 mt-1">Fetching live metrics from PostHog & Google Analytics</p>
+      </div>
+    );
+  }
+
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '24px', maxWidth: '1100px', margin: '0 auto', width: '100%' }}>
       {/* HEADER */}
@@ -35,9 +38,9 @@ export default function TelemetryBilling() {
             </div>
             <Activity size={24} color="#f54e00" />
           </div>
-          <div style={{ fontSize: '2.2rem', fontWeight: 700, color: 'var(--text-primary)' }}>19,300</div>
+          <div style={{ fontSize: '2.2rem', fontWeight: 700, color: 'var(--text-primary)' }}>{telemetry.metrics.userActivity.toLocaleString()}</div>
           <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginTop: '8px', display: 'flex', alignItems: 'center', gap: '16px' }}>
-            <span style={{ display: 'flex', alignItems: 'center', gap: '4px', color: '#10b981' }}><TrendingUp size={14} /> +12.5% vs last week</span>
+            <span style={{ display: 'flex', alignItems: 'center', gap: '4px', color: '#10b981' }}><TrendingUp size={14} /> +{telemetry.metrics.userActivityGrowth}% vs last month</span>
             <span>Catalog Edits, File Uploads, UI Searches</span>
           </div>
         </div>
@@ -51,9 +54,9 @@ export default function TelemetryBilling() {
             </div>
             <Database size={24} color="#fbbc04" />
           </div>
-          <div style={{ fontSize: '2.2rem', fontWeight: 700, color: 'var(--text-primary)' }}>101,000</div>
+          <div style={{ fontSize: '2.2rem', fontWeight: 700, color: 'var(--text-primary)' }}>{telemetry.metrics.apiSyncs.toLocaleString()}</div>
           <div style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginTop: '8px', display: 'flex', alignItems: 'center', gap: '16px' }}>
-            <span style={{ display: 'flex', alignItems: 'center', gap: '4px', color: '#10b981' }}><TrendingUp size={14} /> +4.2% vs last week</span>
+            <span style={{ display: 'flex', alignItems: 'center', gap: '4px', color: '#10b981' }}><TrendingUp size={14} /> +{telemetry.metrics.apiSyncsGrowth}% vs last month</span>
             <span>Octopart, SiliconExpert, Avnet queries</span>
           </div>
         </div>
@@ -62,11 +65,11 @@ export default function TelemetryBilling() {
       {/* USAGE CHART */}
       <div className="card" style={{ padding: '24px' }}>
         <h3 style={{ fontSize: '1.1rem', fontWeight: 600, marginBottom: '24px', display: 'flex', alignItems: 'center', gap: '8px' }}>
-          <Zap size={18} color="var(--accent-primary)" /> Dual-Sided Telemetry Volume (Last 7 Days)
+          <Zap size={18} color="var(--accent-primary)" /> Dual-Sided Telemetry Volume (30 Days)
         </h3>
         <div style={{ height: '300px', width: '100%' }}>
           <ResponsiveContainer width="100%" height="100%">
-            <AreaChart data={usageData} margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
+            <AreaChart data={telemetry.usageData} margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
               <defs>
                 <linearGradient id="colorApi" x1="0" y1="0" x2="0" y2="1">
                   <stop offset="5%" stopColor="#fbbc04" stopOpacity={0.3}/>
@@ -103,28 +106,28 @@ export default function TelemetryBilling() {
             <div>
               <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.85rem', marginBottom: '6px' }}>
                 <span>North America</span>
-                <span style={{ fontWeight: 600 }}>45%</span>
+                <span style={{ fontWeight: 600 }}>{telemetry.geography.na}%</span>
               </div>
               <div style={{ width: '100%', height: '6px', background: 'var(--border-color)', borderRadius: '3px', overflow: 'hidden' }}>
-                <div style={{ width: '45%', height: '100%', background: '#3b82f6' }}></div>
+                <div style={{ width: `${telemetry.geography.na}%`, height: '100%', background: '#3b82f6' }}></div>
               </div>
             </div>
             <div>
               <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.85rem', marginBottom: '6px' }}>
                 <span>Europe (EMEA)</span>
-                <span style={{ fontWeight: 600 }}>30%</span>
+                <span style={{ fontWeight: 600 }}>{telemetry.geography.emea}%</span>
               </div>
               <div style={{ width: '100%', height: '6px', background: 'var(--border-color)', borderRadius: '3px', overflow: 'hidden' }}>
-                <div style={{ width: '30%', height: '100%', background: '#8b5cf6' }}></div>
+                <div style={{ width: `${telemetry.geography.emea}%`, height: '100%', background: '#8b5cf6' }}></div>
               </div>
             </div>
             <div>
               <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.85rem', marginBottom: '6px' }}>
                 <span>Asia Pacific (APAC)</span>
-                <span style={{ fontWeight: 600 }}>25%</span>
+                <span style={{ fontWeight: 600 }}>{telemetry.geography.apac}%</span>
               </div>
               <div style={{ width: '100%', height: '6px', background: 'var(--border-color)', borderRadius: '3px', overflow: 'hidden' }}>
-                <div style={{ width: '25%', height: '100%', background: '#10b981' }}></div>
+                <div style={{ width: `${telemetry.geography.apac}%`, height: '100%', background: '#10b981' }}></div>
               </div>
             </div>
           </div>
@@ -142,16 +145,16 @@ export default function TelemetryBilling() {
               <span style={{ fontWeight: 600 }}>$499.00</span>
             </div>
             <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '12px' }}>
-              <span style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>PostHog: User Events (19.3k)</span>
-              <span style={{ fontWeight: 600 }}>$19.30</span>
+              <span style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>PostHog: User Events ({Math.round(telemetry.metrics.userActivity / 1000)}k)</span>
+              <span style={{ fontWeight: 600 }}>${(telemetry.metrics.userActivity / 1000).toFixed(2)}</span>
             </div>
             <div style={{ display: 'flex', justifyContent: 'space-between', borderBottom: '1px solid var(--border-color)', paddingBottom: '12px', marginBottom: '12px' }}>
-              <span style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>GA: Partner API Calls (101k)</span>
-              <span style={{ fontWeight: 600 }}>$101.00</span>
+              <span style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>GA: Partner API Calls ({Math.round(telemetry.metrics.apiSyncs / 1000)}k)</span>
+              <span style={{ fontWeight: 600 }}>${(telemetry.metrics.apiSyncs / 1000).toFixed(2)}</span>
             </div>
-            <div style={{ display: 'flex', justifyContent: 'space-between', color: 'var(--text-primary)' }}>
-              <span style={{ fontWeight: 600 }}>Estimated Monthly Total</span>
-              <span style={{ fontWeight: 700, fontSize: '1.2rem', color: '#10b981' }}>$619.30</span>
+            <div style={{ display: 'flex', justifyContent: 'space-between', color: 'var(--text-primary)', fontSize: '1.1rem' }}>
+              <span style={{ fontWeight: 600 }}>Total Estimated Invoice</span>
+              <span style={{ fontWeight: 700, fontSize: '1.2rem', color: '#10b981' }}>${(499 + telemetry.metrics.userActivity / 1000 + telemetry.metrics.apiSyncs / 1000).toFixed(2)}</span>
             </div>
           </div>
 

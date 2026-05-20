@@ -1,0 +1,3380 @@
+{
+  "Status": {
+    "Code": "0",
+    "Message": "Successful Operation",
+    "Success": "true",
+    "RequestID": "756505986497872"
+  },
+  "Results": {
+    "ResultDto": {
+      "RequestedComID": "32644015",
+      "SummaryData": {
+        "DataProviderID": "32644015",
+        "PartNumber": "STM-4715A",
+        "Manufacturer": "STMicroelectronics",
+        "ManufacturerID": "2339",
+        "AMLStatus": "",
+        "PartDescription": "Resistor - Mock Description 38",
+        "Datasheet": "http://download.siliconexpert.com/pdfs2/2022/9/12/8/30/53/45085/st_/manual/en.cd00001366.pdf",
+        "OnlineSupplierDatasheetURL": "http://download.siliconexpert.com/pdfs2/2022/9/12/8/30/53/45085/st_/manual/en.cd00001366.pdf",
+        "RadHard": "",
+        "DoseLevel": "",
+        "TaxonomyPath": "Diodes, Transistors and Thyristors > ESD Protection Diodes > Transient Voltage Suppressors - TVS Diodes",
+        "TaxonomyPathIDs": "104161 > 104289 > 1814",
+        "SmallImageURL": "http://download.siliconexpert.com/pdfs/2018/6/28/13/8/58/474159/st_/manual/diom5436x241_mcs_n.step.jpg",
+        "ECCN": "EAR99",
+        "EUECCN": "EU99",
+        "UNSPSC": "32111500",
+        "TARIC": "8541100000",
+        "OtherSources": "47",
+        "LastCheckDate": "Oct 20, 2025",
+        "PartMarking": "",
+        "IntroductionDate": "Jan 28, 1998",
+        "ESDClass": "Class 4@Air Disc/Class 4@Contact Disc/Class 3B@HBM",
+        "ESDSourceofInformation": "http://download.siliconexpert.com/pdfs2/2022/9/12/8/30/53/45085/st_/manual/en.cd00001366.pdf",
+        "AuthorizedDistributors": "13",
+        "GenericName": "",
+        "FamilyName": "SMBJ15A",
+        "AECNumber": "N/R",
+        "AECQualified": "No",
+        "Automotive": "No",
+        "AECPDF": "http://download.siliconexpert.com/pdfs2/2015/wda_latest/stmicroelectronics/4/smbj48a_0_00.html",
+        "AutomotiveSource": "",
+        "PPAPSource": "",
+        "IsoTs16949Source": "",
+        "Iso26262Source": "",
+        "SupplierCageCode": "SCR76",
+        "EURoHS": "Yes with Exemption",
+        "RoHSVersion": "2011/65/EU, 2015/863",
+        "ScheduleB": "8541100080",
+        "HTSUSA": "8541100080",
+        "PPAP": "No",
+        "CountriesOfOrigin": {
+          "CountryOfOrigin": [
+            {
+              "Country": "China",
+              "Source": ""
+            },
+            {
+              "Country": "France",
+              "Source": ""
+            }
+          ]
+        },
+        "USChinaTariffImpact": "Impacted Later (TBD)",
+        "PLName": "Transient Voltage Suppressors - TVS Diodes",
+        "MaskPart": "SMBJ15A%",
+        "GidepAlerts": "0"
+      },
+      "DesignResourcesData": {
+        "PinOutData": {
+          "PinOutDataSource": ""
+        },
+        "RefDesignData": {
+          "RefDesign": []
+        }
+      },
+      "ChemicalData": {
+        "ChemicalDto": [
+          {
+            "TotalMassInGram": "0.098",
+            "TotalMassSummationInGram": "0.098",
+            "LocationName": "Clip",
+            "HomogenousMaterial": "Clip",
+            "HomogenousMaterialMass": "0.018487",
+            "SubstanceIdentification": "Copper (Cu)",
+            "NormalizedSubstance": "Copper",
+            "SubstanceMass": "0.018487",
+            "PPM": "1000000.0",
+            "CASNumber": "7440-50-8",
+            "MDSURL": "http://download.siliconexpert.com/pdfs2/2021/11/25/18/35/0/930890/st_/auto/en.md_zg20smb20clip20sod206_8yzgtwu018d.pdf",
+            "ItemSubItem": "Clip"
+          },
+          {
+            "TotalMassInGram": "0.098",
+            "TotalMassSummationInGram": "0.098",
+            "LocationName": "Die",
+            "HomogenousMaterial": "Die",
+            "HomogenousMaterialMass": "0.001623",
+            "SubstanceIdentification": "Aluminium (Al)",
+            "NormalizedSubstance": "Aluminium",
+            "SubstanceMass": "1.5E-5",
+            "PPM": "9242.144179907578",
+            "CASNumber": "7429-90-5",
+            "MDSURL": "http://download.siliconexpert.com/pdfs2/2021/11/25/18/35/0/930890/st_/auto/en.md_zg20smb20clip20sod206_8yzgtwu018d.pdf",
+            "ItemSubItem": "Die"
+          },
+          {
+            "TotalMassInGram": "0.098",
+            "TotalMassSummationInGram": "0.098",
+            "LocationName": "Die",
+            "HomogenousMaterial": "Die",
+            "HomogenousMaterialMass": "0.001623",
+            "SubstanceIdentification": "Gold (Au)",
+            "NormalizedSubstance": "Gold",
+            "SubstanceMass": "9.0E-6",
+            "PPM": "5545.286509944547",
+            "CASNumber": "7440-57-5",
+            "MDSURL": "http://download.siliconexpert.com/pdfs2/2021/11/25/18/35/0/930890/st_/auto/en.md_zg20smb20clip20sod206_8yzgtwu018d.pdf",
+            "ItemSubItem": "Die"
+          },
+          {
+            "TotalMassInGram": "0.098",
+            "TotalMassSummationInGram": "0.098",
+            "LocationName": "Die",
+            "HomogenousMaterial": "Die",
+            "HomogenousMaterialMass": "0.001623",
+            "SubstanceIdentification": "Nickel (Ni)",
+            "NormalizedSubstance": "Nickel",
+            "SubstanceMass": "1.7E-5",
+            "PPM": "10474.430069895256",
+            "CASNumber": "7440-02-0",
+            "MDSURL": "http://download.siliconexpert.com/pdfs2/2021/11/25/18/35/0/930890/st_/auto/en.md_zg20smb20clip20sod206_8yzgtwu018d.pdf",
+            "ItemSubItem": "Die"
+          },
+          {
+            "TotalMassInGram": "0.098",
+            "TotalMassSummationInGram": "0.098",
+            "LocationName": "Die",
+            "HomogenousMaterial": "Die",
+            "HomogenousMaterialMass": "0.001623",
+            "SubstanceIdentification": "Silicon (Si)",
+            "NormalizedSubstance": "Silicon",
+            "SubstanceMass": "0.001573",
+            "PPM": "969192.8527303081",
+            "CASNumber": "7440-21-3",
+            "MDSURL": "http://download.siliconexpert.com/pdfs2/2021/11/25/18/35/0/930890/st_/auto/en.md_zg20smb20clip20sod206_8yzgtwu018d.pdf",
+            "ItemSubItem": "Die"
+          },
+          {
+            "TotalMassInGram": "0.098",
+            "TotalMassSummationInGram": "0.098",
+            "LocationName": "Die",
+            "HomogenousMaterial": "Die",
+            "HomogenousMaterialMass": "0.001623",
+            "SubstanceIdentification": "Silicon oxide",
+            "NormalizedSubstance": "Silicon dioxide",
+            "SubstanceMass": "9.0E-6",
+            "PPM": "5545.286509944547",
+            "CASNumber": "7631-86-9",
+            "MDSURL": "http://download.siliconexpert.com/pdfs2/2021/11/25/18/35/0/930890/st_/auto/en.md_zg20smb20clip20sod206_8yzgtwu018d.pdf",
+            "ItemSubItem": "Die"
+          },
+          {
+            "TotalMassInGram": "0.098",
+            "TotalMassSummationInGram": "0.098",
+            "LocationName": "Encapsulation",
+            "HomogenousMaterial": "Encapsulation",
+            "HomogenousMaterialMass": "0.035119",
+            "SubstanceIdentification": "Carbon Blacks ",
+            "NormalizedSubstance": "Carbon Black",
+            "SubstanceMass": "1.76E-4",
+            "PPM": "5011.53222",
+            "CASNumber": "1333-86-4",
+            "MDSURL": "http://download.siliconexpert.com/pdfs2/2021/11/25/18/35/0/930890/st_/auto/en.md_zg20smb20clip20sod206_8yzgtwu018d.pdf",
+            "ItemSubItem": "Encapsulation"
+          },
+          {
+            "TotalMassInGram": "0.098",
+            "TotalMassSummationInGram": "0.098",
+            "LocationName": "Encapsulation",
+            "HomogenousMaterial": "Encapsulation",
+            "HomogenousMaterialMass": "0.035119",
+            "SubstanceIdentification": "Epoxy Cresol Novolak",
+            "NormalizedSubstance": "Formaldehyde, polymer with 2-(chloromethyl)oxirane and 2-methylphenol",
+            "SubstanceMass": "0.005619",
+            "PPM": "159998.86102",
+            "CASNumber": "29690-82-2",
+            "MDSURL": "http://download.siliconexpert.com/pdfs2/2021/11/25/18/35/0/930890/st_/auto/en.md_zg20smb20clip20sod206_8yzgtwu018d.pdf",
+            "ItemSubItem": "Encapsulation"
+          },
+          {
+            "TotalMassInGram": "0.098",
+            "TotalMassSummationInGram": "0.098",
+            "LocationName": "Encapsulation",
+            "HomogenousMaterial": "Encapsulation",
+            "HomogenousMaterialMass": "0.035119",
+            "SubstanceIdentification": "Metal Hydroxide",
+            "NormalizedSubstance": "",
+            "SubstanceMass": "0.001054",
+            "PPM": "30012.24408",
+            "CASNumber": "N/A",
+            "MDSURL": "http://download.siliconexpert.com/pdfs2/2021/11/25/18/35/0/930890/st_/auto/en.md_zg20smb20clip20sod206_8yzgtwu018d.pdf",
+            "ItemSubItem": "Encapsulation"
+          },
+          {
+            "TotalMassInGram": "0.098",
+            "TotalMassSummationInGram": "0.098",
+            "LocationName": "Encapsulation",
+            "HomogenousMaterial": "Encapsulation",
+            "HomogenousMaterialMass": "0.035119",
+            "SubstanceIdentification": "Phenol Resin",
+            "NormalizedSubstance": "Phenoilc Resin",
+            "SubstanceMass": "0.002458",
+            "PPM": "69990.60338",
+            "CASNumber": "N/A",
+            "MDSURL": "http://download.siliconexpert.com/pdfs2/2021/11/25/18/35/0/930890/st_/auto/en.md_zg20smb20clip20sod206_8yzgtwu018d.pdf",
+            "ItemSubItem": "Encapsulation"
+          },
+          {
+            "TotalMassInGram": "0.098",
+            "TotalMassSummationInGram": "0.098",
+            "LocationName": "Encapsulation",
+            "HomogenousMaterial": "Encapsulation",
+            "HomogenousMaterialMass": "0.035119",
+            "SubstanceIdentification": "Silica, Vitreous",
+            "NormalizedSubstance": "Silica, vitreous",
+            "SubstanceMass": "0.025812",
+            "PPM": "734986.7593",
+            "CASNumber": "60676-86-0",
+            "MDSURL": "http://download.siliconexpert.com/pdfs2/2021/11/25/18/35/0/930890/st_/auto/en.md_zg20smb20clip20sod206_8yzgtwu018d.pdf",
+            "ItemSubItem": "Encapsulation"
+          },
+          {
+            "TotalMassInGram": "0.098",
+            "TotalMassSummationInGram": "0.098",
+            "LocationName": "Leadframe",
+            "HomogenousMaterial": "Lead Frame",
+            "HomogenousMaterialMass": "0.041023",
+            "SubstanceIdentification": "Copper (Cu)",
+            "NormalizedSubstance": "Copper",
+            "SubstanceMass": "0.04097",
+            "PPM": "998708.04183",
+            "CASNumber": "7440-50-8",
+            "MDSURL": "http://download.siliconexpert.com/pdfs2/2021/11/25/18/35/0/930890/st_/auto/en.md_zg20smb20clip20sod206_8yzgtwu018d.pdf",
+            "ItemSubItem": "Leadframe"
+          },
+          {
+            "TotalMassInGram": "0.098",
+            "TotalMassSummationInGram": "0.098",
+            "LocationName": "Leadframe",
+            "HomogenousMaterial": "Lead Frame",
+            "HomogenousMaterialMass": "0.041023",
+            "SubstanceIdentification": "Iron (Fe)",
+            "NormalizedSubstance": "Iron",
+            "SubstanceMass": "4.1E-5",
+            "PPM": "999.43934",
+            "CASNumber": "7439-89-6",
+            "MDSURL": "http://download.siliconexpert.com/pdfs2/2021/11/25/18/35/0/930890/st_/auto/en.md_zg20smb20clip20sod206_8yzgtwu018d.pdf",
+            "ItemSubItem": "Leadframe"
+          },
+          {
+            "TotalMassInGram": "0.098",
+            "TotalMassSummationInGram": "0.098",
+            "LocationName": "Leadframe",
+            "HomogenousMaterial": "Lead Frame",
+            "HomogenousMaterialMass": "0.041023",
+            "SubstanceIdentification": "Iron Phosphide (FeP)",
+            "NormalizedSubstance": "Iron phosphide (FeP)",
+            "SubstanceMass": "1.2E-5",
+            "PPM": "292.51883",
+            "CASNumber": "26508-33-8",
+            "MDSURL": "http://download.siliconexpert.com/pdfs2/2021/11/25/18/35/0/930890/st_/auto/en.md_zg20smb20clip20sod206_8yzgtwu018d.pdf",
+            "ItemSubItem": "Leadframe"
+          },
+          {
+            "TotalMassInGram": "0.098",
+            "TotalMassSummationInGram": "0.098",
+            "LocationName": "Soft Solder",
+            "HomogenousMaterial": "Soft Solder",
+            "HomogenousMaterialMass": "0.000937",
+            "SubstanceIdentification": "Lead (Pb)",
+            "NormalizedSubstance": "Lead",
+            "SubstanceMass": "8.95E-4",
+            "PPM": "955176.09392",
+            "CASNumber": "7439-92-1",
+            "MDSURL": "http://download.siliconexpert.com/pdfs2/2021/11/25/18/35/0/930890/st_/auto/en.md_zg20smb20clip20sod206_8yzgtwu018d.pdf",
+            "ItemSubItem": "Soft Solder"
+          },
+          {
+            "TotalMassInGram": "0.098",
+            "TotalMassSummationInGram": "0.098",
+            "LocationName": "Soft Solder",
+            "HomogenousMaterial": "Soft Solder",
+            "HomogenousMaterialMass": "0.000937",
+            "SubstanceIdentification": "Silver (Ag)",
+            "NormalizedSubstance": "Silver",
+            "SubstanceMass": "2.3E-5",
+            "PPM": "24546.42476",
+            "CASNumber": "7440-22-4",
+            "MDSURL": "http://download.siliconexpert.com/pdfs2/2021/11/25/18/35/0/930890/st_/auto/en.md_zg20smb20clip20sod206_8yzgtwu018d.pdf",
+            "ItemSubItem": "Soft Solder"
+          },
+          {
+            "TotalMassInGram": "0.098",
+            "TotalMassSummationInGram": "0.098",
+            "LocationName": "Soft Solder",
+            "HomogenousMaterial": "Soft Solder",
+            "HomogenousMaterialMass": "0.000937",
+            "SubstanceIdentification": "Tin (Sn)",
+            "NormalizedSubstance": "Tin",
+            "SubstanceMass": "1.9E-5",
+            "PPM": "20277.48132",
+            "CASNumber": "7440-31-5",
+            "MDSURL": "http://download.siliconexpert.com/pdfs2/2021/11/25/18/35/0/930890/st_/auto/en.md_zg20smb20clip20sod206_8yzgtwu018d.pdf",
+            "ItemSubItem": "Soft Solder"
+          },
+          {
+            "TotalMassInGram": "0.098",
+            "TotalMassSummationInGram": "0.098",
+            "LocationName": "connections coating",
+            "HomogenousMaterial": "connections coating",
+            "HomogenousMaterialMass": "0.000811",
+            "SubstanceIdentification": "Tin (Sn)",
+            "NormalizedSubstance": "Tin",
+            "SubstanceMass": "8.11E-4",
+            "PPM": "1000000.0",
+            "CASNumber": "7440-31-5",
+            "MDSURL": "http://download.siliconexpert.com/pdfs2/2021/11/25/18/35/0/930890/st_/auto/en.md_zg20smb20clip20sod206_8yzgtwu018d.pdf",
+            "ItemSubItem": "connections coating"
+          }
+        ]
+      },
+      "CrossData": {
+        "CrossDto": [
+          {
+            "CrossComId": "14689307",
+            "CrossPartNumber": "SMBJ15A-13",
+            "CrossManufacturer": "Diodes Incorporated",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "16850815",
+            "CrossPartNumber": "SMB10J15/52",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "19247928",
+            "CrossPartNumber": "MXSMBJ15A",
+            "CrossManufacturer": "Microchip Technology",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "19247198",
+            "CrossPartNumber": "MVSMBJ15/TR",
+            "CrossManufacturer": "Microchip Technology",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "19247193",
+            "CrossPartNumber": "MVSMBJ15A/TR",
+            "CrossManufacturer": "Microchip Technology",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "19247192",
+            "CrossPartNumber": "MVSMBJ15A",
+            "CrossManufacturer": "Microchip Technology",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "19247183",
+            "CrossPartNumber": "MVSMBJ15",
+            "CrossManufacturer": "Microchip Technology",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "19246457",
+            "CrossPartNumber": "MSPSMBJ15A/TR",
+            "CrossManufacturer": "Microchip Technology",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "19246456",
+            "CrossPartNumber": "MSPSMBJ15A",
+            "CrossManufacturer": "Microchip Technology",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "19246447",
+            "CrossPartNumber": "MSPSMBJ15",
+            "CrossManufacturer": "Microchip Technology",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "19245721",
+            "CrossPartNumber": "MQSMBJ15A/TR",
+            "CrossManufacturer": "Microchip Technology",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "19192981",
+            "CrossPartNumber": "SMBJ15",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "19191719",
+            "CrossPartNumber": "SMBJ15A",
+            "CrossManufacturer": "Micro Commercial Components",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "19083389",
+            "CrossPartNumber": "SMBJ15A-G",
+            "CrossManufacturer": "Sensitron Semiconductor",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "19083388",
+            "CrossPartNumber": "SMBJ15-G",
+            "CrossManufacturer": "Sensitron Semiconductor",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "19061360",
+            "CrossPartNumber": "SMBJ15A",
+            "CrossManufacturer": "Littelfuse",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "18845914",
+            "CrossPartNumber": "TPSMB18/2T",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "18845878",
+            "CrossPartNumber": "TPSMB18/2",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "18845747",
+            "CrossPartNumber": "TPSMB18A/52T",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "18845718",
+            "CrossPartNumber": "TPSMB18A/52",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "18845715",
+            "CrossPartNumber": "TPSMB18/52",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "18814905",
+            "CrossPartNumber": "TPSMB18A/2",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "18814898",
+            "CrossPartNumber": "SMBJ15/2",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "18814553",
+            "CrossPartNumber": "SMBG15/2",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "18768201",
+            "CrossPartNumber": "SMBG15",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "18488863",
+            "CrossPartNumber": "TFMBJ15",
+            "CrossManufacturer": "Rectron",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "18767846",
+            "CrossPartNumber": "P6SMB18A",
+            "CrossManufacturer": "Fagor Electronica",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "18767845",
+            "CrossPartNumber": "P6SMB18",
+            "CrossManufacturer": "Fagor Electronica",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "18491352",
+            "CrossPartNumber": "SMBJ15A",
+            "CrossManufacturer": "Cotra Enterprise Co,. Ltd",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "18495471",
+            "CrossPartNumber": "SMBJ15A",
+            "CrossManufacturer": "Diodes Incorporated",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "18478960",
+            "CrossPartNumber": "1SMB15AT3",
+            "CrossManufacturer": "onsemi",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "16853040",
+            "CrossPartNumber": "SMBJ15A/2",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "16851415",
+            "CrossPartNumber": "P6SMB18A/2",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "16764092",
+            "CrossPartNumber": "SMBJ15/52",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "16207007",
+            "CrossPartNumber": "SMBJ15A/52",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "16851946",
+            "CrossPartNumber": "P6SMB18A/52",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "15916834",
+            "CrossPartNumber": "1KSMB18",
+            "CrossManufacturer": "Littelfuse",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "18489058",
+            "CrossPartNumber": "SMBJ15",
+            "CrossManufacturer": "Rectron",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "18488837",
+            "CrossPartNumber": "SMBJ15A",
+            "CrossManufacturer": "Rectron",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "16850816",
+            "CrossPartNumber": "SMB10J15A/52",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "18768172",
+            "CrossPartNumber": "TPSMB18A",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "18768139",
+            "CrossPartNumber": "SM6T18A",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "18496197",
+            "CrossPartNumber": "P6FMBJ18",
+            "CrossManufacturer": "Rectron",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "14691145",
+            "CrossPartNumber": "SMBJ15A-13-F",
+            "CrossManufacturer": "Diodes Incorporated",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "14699022",
+            "CrossPartNumber": "SMBJP6KE18A",
+            "CrossManufacturer": "Microchip Technology",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "14699227",
+            "CrossPartNumber": "SMBJP6KE18",
+            "CrossManufacturer": "Microchip Technology",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "14778254",
+            "CrossPartNumber": "HSMBJSAC15",
+            "CrossManufacturer": "Microchip Technology",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "16519361",
+            "CrossPartNumber": "1KSMBJ18",
+            "CrossManufacturer": "Littelfuse",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "16850675",
+            "CrossPartNumber": "SMB10J15/2",
+            "CrossManufacturer": "Vishay",
+            "CrossType": "C",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "19248664",
+            "CrossPartNumber": "SMBJ15A",
+            "CrossManufacturer": "Microchip Technology",
+            "CrossType": "C",
+            "Comment": ""
+          }
+        ]
+      },
+      "AverageInventory": "22740",
+      "FranchisedInventoryData": {
+        "FranchisedInventoryDto": [
+          {
+            "Distributor": "Verical",
+            "Quantity": "6980",
+            "BuyNowLink": "https://www.verical.com/pd/stmicroelectronics-tvs-SMBJ15A-TR-29659",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Verical",
+            "Quantity": "1290",
+            "BuyNowLink": "https://www.verical.com/pd/stmicroelectronics-tvs-SMBJ15A-TR-29659",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Verical",
+            "Quantity": "11380",
+            "BuyNowLink": "https://www.verical.com/pd/stmicroelectronics-tvs-SMBJ15A-TR-29659",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Arrow Europe",
+            "Quantity": "7976",
+            "BuyNowLink": "https://www.arrow.com/en/products/smbj15a-tr/stmicroelectronics",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Arrow Europe",
+            "Quantity": "12833",
+            "BuyNowLink": "https://www.arrow.com/en/products/smbj15a-tr/stmicroelectronics",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Arrow North America",
+            "Quantity": "4955",
+            "BuyNowLink": "https://www.arrow.com/en/products/smbj15a-tr/stmicroelectronics",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Arrow North America",
+            "Quantity": "8271",
+            "BuyNowLink": "https://www.arrow.com/en/products/smbj15a-tr/stmicroelectronics",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Arrow North America",
+            "Quantity": "9877",
+            "BuyNowLink": "",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Arrow North America",
+            "Quantity": "5626",
+            "BuyNowLink": "https://www.arrow.com/en/products/smbj15a-tr/stmicroelectronics",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Conrad Electronic",
+            "Quantity": "12967",
+            "BuyNowLink": "https://www.conrad.de/de/p/-3409654",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Chip1Stop",
+            "Quantity": "5163",
+            "BuyNowLink": "https://www.chip1stop.com/product/detail?partId=STMI-0050800",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Chip1Stop",
+            "Quantity": "7864",
+            "BuyNowLink": "https://www.chip1stop.com/product/detail?partId=STMI-0207160",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Chip1Stop",
+            "Quantity": "10037",
+            "BuyNowLink": "https://www.chip1stop.com/product/detail?partId=MCSE-0062252",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Chip1Stop",
+            "Quantity": "10850",
+            "BuyNowLink": "https://www.chip1stop.com/product/detail?partId=STMI-0043030",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Future Electronics",
+            "Quantity": "14136",
+            "BuyNowLink": "https://www.futureelectronics.com//p/electromechanical--circuit-protection--tvs-diodes/smbj15a-tr-stmicroelectronics-4834727",
+            "LastUpdated": "2 Days"
+          },
+          {
+            "Distributor": "Newark",
+            "Quantity": "6161",
+            "BuyNowLink": "https://www.newark.com/stmicroelectronics/smbj15a-tr/transient-voltage-suppressor-tvs/dp/95M9066",
+            "LastUpdated": "2 Days"
+          },
+          {
+            "Distributor": "Newark",
+            "Quantity": "4704",
+            "BuyNowLink": "https://www.newark.com/stmicroelectronics/smbj15a-tr/diode-tvs-15v-600w-uni-smb-rl/dp/94W9400",
+            "LastUpdated": "2 Days"
+          },
+          {
+            "Distributor": "Element14",
+            "Quantity": "14470",
+            "BuyNowLink": "https://au.element14.com/stmicroelectronics/smbj15a-tr/diode-tvs-600w-15v/dp/9886117",
+            "LastUpdated": "2 Days"
+          },
+          {
+            "Distributor": "Element14",
+            "Quantity": "8871",
+            "BuyNowLink": "https://au.element14.com/stmicroelectronics/smbj15a-tr/diode-tvs-600w-15v/dp/9886117RL",
+            "LastUpdated": "2 Days"
+          },
+          {
+            "Distributor": "Digi-Key",
+            "Quantity": "6460",
+            "BuyNowLink": "https://www.digikey.com/en/products/detail/stmicroelectronics/SMBJ15A-TR/634767?utm_source=oemstrade&utm_medium=aggregator&utm_campaign=buynow",
+            "LastUpdated": "3 Days"
+          },
+          {
+            "Distributor": "Allied Electronics",
+            "Quantity": "8199",
+            "BuyNowLink": "https://us.rs-online.com/product/stmicroelectronics/smbj15a-tr/70014018/?utm_source=findchips&utm_medium=part_sourcing&utm_campaign=partsourcing_findchips_IMP_EX_GR",
+            "LastUpdated": "7 Days"
+          },
+          {
+            "Distributor": "Avnet",
+            "Quantity": "7686",
+            "BuyNowLink": "https://www.avnet.com/",
+            "LastUpdated": "> 1 Week"
+          },
+          {
+            "Distributor": "Mouser Electronics",
+            "Quantity": "11383",
+            "BuyNowLink": "https://www.mouser.com/ProductDetail/STMicroelectronics/SMBJ15A-TR?qs=KKWzfxBboQ24mpcnXMY%252bAw%3d%3d",
+            "LastUpdated": "> 1 Week"
+          },
+          {
+            "Distributor": "Allied Electronics",
+            "Quantity": "5362",
+            "BuyNowLink": "https://it.rs-online.com/web/p/diodi-tvs/7147159/?cm_mmc=aff-_-it-_-findchip-_-7147159-_-instock&utm_source=supplyFrame&utm_medium=buyNow",
+            "LastUpdated": "> 1 Week"
+          },
+          {
+            "Distributor": "Allied Electronics",
+            "Quantity": "4002",
+            "BuyNowLink": "https://it.rs-online.com/web/p/diodi-tvs/9196539/?cm_mmc=aff-_-it-_-findchip-_-9196539-_-instock&utm_source=supplyFrame&utm_medium=buyNow",
+            "LastUpdated": "> 1 Week"
+          },
+          {
+            "Distributor": "Allied Electronics",
+            "Quantity": "1772",
+            "BuyNowLink": "https://it.rs-online.com/web/p/diodi-tvs/7147159P/?cm_mmc=aff-_-it-_-findchip-_-7147159P-_-instock&utm_source=supplyFrame&utm_medium=buyNow",
+            "LastUpdated": "> 1 Week"
+          },
+          {
+            "Distributor": "Farnell",
+            "Quantity": "10764",
+            "BuyNowLink": "https://uk.farnell.com/stmicroelectronics/smbj15a-tr/diode-tvs-15v-600w/dp/9886117",
+            "LastUpdated": "> 1 Week"
+          }
+        ]
+      },
+      "FullCounterfeitData": {
+        "CounterfeitOverallRisk": "45 %",
+        "OverallCounterfeitRiskGrade": "Low",
+        "PartNumCounterfeitReportsCount": "null Report(s)",
+        "ManCounterfeitReportsCount": "30 Report(s)",
+        "ManCounterfeitReports": [
+          {
+            "MPN": "VN02H",
+            "Supplier": "ST Microelectronics Inc.",
+            "NotificationDate": "Jul 24, 2012",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [D8Y-A-12-01]"
+          },
+          {
+            "MPN": "M48T35AV-10MH6",
+            "Supplier": "STMicroelectronics Inc.",
+            "NotificationDate": "Jul 08, 2014",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [GT7-P-14-01]"
+          },
+          {
+            "MPN": "M48T35AV-10MH6TR",
+            "Supplier": "STMicroelectronics Inc.",
+            "NotificationDate": "Jul 08, 2014",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [GT7-P-14-01]"
+          },
+          {
+            "MPN": "M48T35AV-10MH6F",
+            "Supplier": "STMicroelectronics Inc.",
+            "NotificationDate": "Jul 08, 2014",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [GT7-P-14-01]"
+          },
+          {
+            "MPN": "IRF640FI",
+            "Supplier": "ST MICROELECTRONICS",
+            "NotificationDate": "Dec 14, 2015",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "EVIDENCE OF RETINNING",
+            "Source": "http://download.siliconexpert.com/pdfs/2015/12/15/6/37/10/218/st_/manual/9095.pdf"
+          },
+          {
+            "MPN": "NAND512W3A2DZA6E",
+            "Supplier": "ST MICROELECTRONICS",
+            "NotificationDate": "Mar 20, 2014",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "BGA’S HAVE MARKS IMBEDDED, SOLDER MARKS ON UNDERSIDES.",
+            "Source": "http://download.siliconexpert.com/pdfs/2015/8/4/8/51/26/870/st_/manual/7708.merged.pdf"
+          },
+          {
+            "MPN": "VN02H",
+            "Supplier": "ST Microelectronics Inc.",
+            "NotificationDate": "Jul 27, 2012",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [D8Y-A-12-04A]"
+          },
+          {
+            "MPN": "BYW77P-200",
+            "Supplier": "ST MICROELECTRONICS",
+            "NotificationDate": "Dec 11, 2014",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "LEADS ARE DAMAGED.",
+            "Source": "http://download.siliconexpert.com/pdfs/2015/3/5/9/14/20/644/st_/manual/7997.pdf"
+          },
+          {
+            "MPN": "VN02H",
+            "Supplier": "ST Microelectronics Inc.",
+            "NotificationDate": "Jul 27, 2012",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [D8Y-A-12-01A]"
+          },
+          {
+            "MPN": "VN02H",
+            "Supplier": "ST Microelectronics Inc.",
+            "NotificationDate": "Jul 25, 2012",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [D8Y-A-12-04]"
+          },
+          {
+            "MPN": "WS57C256F-55DMB",
+            "Supplier": "St. Microelectronics",
+            "NotificationDate": "Apr 20, 2017",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [B2G-P-17-01]"
+          },
+          {
+            "MPN": "LS656AB",
+            "Supplier": "ST MICROELECTRONICS",
+            "NotificationDate": "Aug 06, 2014",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "LEADS ARE BENT AND HAVE MARKINGS INSIDE AND OUTSIDE. RESIDUE ON THE LEADS.",
+            "Source": "http://download.siliconexpert.com/pdfs/2015/9/6/6/57/36/642/st_/manual/7940.pdf"
+          },
+          {
+            "MPN": "MT48LC16M16A2P?75D",
+            "Supplier": "ST MICROELECTRONICS",
+            "NotificationDate": "Oct 21, 2015",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "LEADS ARE BENT, THEY ARE CONTAMINATED BYFOREIGN DEBRIS.",
+            "Source": "http://download.siliconexpert.com/pdfs/2015/10/27/7/29/20/125/st_/manual/9084.pdf"
+          },
+          {
+            "MPN": "STPCI2HEYC",
+            "Supplier": "ST MICROELECTRONICS",
+            "NotificationDate": "Sep 25, 2015",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "DAMAGED/SCRATCHED UNDERSIDE.",
+            "Source": "http://download.siliconexpert.com/pdfs/2015/9/29/8/3/41/984/st_/manual/9079.pdf"
+          },
+          {
+            "MPN": "EF6821P",
+            "Supplier": "STMicroelectronics",
+            "NotificationDate": "Jul 27, 2018",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "EVIDENCE OF REMARKING. AFTER DEVICE SURFACE TEST PERFORMED, COTTON SWAB SHOWS REMOVAL OF BLACKTOP AND PART MARKING. LEADS ARE IN POOR CONIDITON.",
+            "Source": "http://download.siliconexpert.com/pdfs/2018/8/15/18/53/12/835991/st_/manual/9167.pdf"
+          },
+          {
+            "MPN": "BYW77P-200",
+            "Supplier": "ST MICROELECTRONICS",
+            "NotificationDate": "Dec 11, 2014",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "LEADS ARE DAMAGED.",
+            "Source": "http://download.siliconexpert.com/pdfs/2015/9/2/8/50/53/659/st_/manual/7997.pdf"
+          },
+          {
+            "MPN": "LS1240A",
+            "Supplier": "ST MICROELECTRONICS",
+            "NotificationDate": "Dec 11, 2014",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "LEADS ARE CONTAMINATED BY OXIDATION. COMPONENT SURFACE HAS DIFFERENT APPERANCE/TEXTURE. LEADS ARE POOR QUALITY.",
+            "Source": "http://download.siliconexpert.com/pdfs/2015/9/2/8/50/46/364/st_/manual/7996.pdf"
+          },
+          {
+            "MPN": "STF11NM80",
+            "Supplier": "St Microelectronics",
+            "NotificationDate": "Dec 07, 2010",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [IX9-A-11-002]"
+          },
+          {
+            "MPN": "LS1240A",
+            "Supplier": "ST MICROELECTRONICS",
+            "NotificationDate": "Dec 11, 2014",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "LEADS ARE CONTAMINATED BY OXIDATION. COMPONENT SURFACE HAS DIFFERENT APPERANCE/TEXTURE. LEADS ARE POOR QUALITY",
+            "Source": "http://download.siliconexpert.com/pdfs/2015/3/5/9/6/23/984/st_/manual/7996.pdf"
+          },
+          {
+            "MPN": "GMZ4S",
+            "Supplier": "ST Microelectronics",
+            "NotificationDate": "Nov 17, 2014",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [HO6-A-15-02]"
+          },
+          {
+            "MPN": "EF6821P",
+            "Supplier": "ST MICROELECTRONICS",
+            "NotificationDate": "May 20, 2016",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "MARKS ON LEADS SHOW EVIDENCE OF PREVIOUS USE.",
+            "Source": "http://download.siliconexpert.com/pdfs/2016/5/30/6/31/4/918/st_/manual/9122.pdf"
+          },
+          {
+            "MPN": "F8NK100Z",
+            "Supplier": "ST Microelectronics LTD",
+            "NotificationDate": "Nov 18, 2010",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [AVF-A-11-010]"
+          },
+          {
+            "MPN": "L6201PS",
+            "Supplier": "ST MICROELECTRONICS",
+            "NotificationDate": "Mar 03, 2014",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "poor surface texture and scratch marks to the underneath.",
+            "Source": "http://download.siliconexpert.com/pdfs/2015/10/1/8/27/32/109/st_/manual/7616.pdf"
+          },
+          {
+            "MPN": "L6201PSTR",
+            "Supplier": "ST MICROELECTRONICS",
+            "NotificationDate": "Mar 03, 2014",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "poor surface texture and scratch marks to the underneath.",
+            "Source": "http://download.siliconexpert.com/pdfs/2015/10/1/8/27/32/109/st_/manual/7616.pdf"
+          },
+          {
+            "MPN": "STB13NM50N-1",
+            "Supplier": "ST Microelectronics",
+            "NotificationDate": "Dec 07, 2016",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [AVQ-A-17-01]"
+          },
+          {
+            "MPN": "IMST425J25S",
+            "Supplier": "ST MICROELECTRONICS",
+            "NotificationDate": "Jul 27, 2015",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "BRUSH MARKS ON THE DEVICE AND MARKINGS WAS REMOVED USING ACETONE, EVIDENCE THAT THE DEVICE HAS BEEN REMARKED. INSERTION MARKS ON THE LEADS, EVIDENCE OF PREVIOUS USE.",
+            "Source": "http://download.siliconexpert.com/pdfs/2015/7/28/8/54/48/623/st_/manual/8069.merged.pdf"
+          },
+          {
+            "MPN": "FLI2310-LF-CF",
+            "Supplier": "Genesis Microchip",
+            "NotificationDate": "Dec 08, 2010",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [B9B-A-11-030]"
+          },
+          {
+            "MPN": "VN88AFD",
+            "Supplier": "ST Microelectronics",
+            "NotificationDate": "Jul 15, 2015",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [AAN-U-15-268]"
+          },
+          {
+            "MPN": "EF68B50P",
+            "Supplier": "ST Microelectronics",
+            "NotificationDate": "Jul 15, 2015",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [AAN-U-15-268]"
+          },
+          {
+            "MPN": "STPCD0166BTC3",
+            "Supplier": "ST Microelectronics",
+            "NotificationDate": "Jul 15, 2015",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [AAN-U-15-268]"
+          },
+          {
+            "MPN": "TS942IDT",
+            "Supplier": "ST Microelectronics",
+            "NotificationDate": "Jul 15, 2015",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [AAN-U-15-268]"
+          },
+          {
+            "MPN": "BYT08PI-100",
+            "Supplier": "ST Microelectronics",
+            "NotificationDate": "Jul 15, 2015",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [AAN-U-15-268]"
+          },
+          {
+            "MPN": "TS942ID",
+            "Supplier": "ST Microelectronics",
+            "NotificationDate": "Jul 15, 2015",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [AAN-U-15-268]"
+          },
+          {
+            "MPN": "TS68230CP8",
+            "Supplier": "ST Microelectronics",
+            "NotificationDate": "Jul 15, 2015",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [AAN-U-15-268]"
+          },
+          {
+            "MPN": "STEL-1175+80/CM",
+            "Supplier": "ST Microelectronics",
+            "NotificationDate": "Jul 15, 2015",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [AAN-U-15-268]"
+          },
+          {
+            "MPN": "STP8NM60",
+            "Supplier": "ST MICROELECTRONICS",
+            "NotificationDate": "May 26, 2015",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "EVIDENCE OF LEADS BEING RETINNED",
+            "Source": "http://download.siliconexpert.com/pdfs/2015/5/27/9/47/44/817/st_/manual/8049.pdf"
+          },
+          {
+            "MPN": "IMST225?J25S",
+            "Supplier": "ST MICROELECTRONICS",
+            "NotificationDate": "May 20, 2016",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "OVERSPILL/FOREIGN MATTER BETWEEN THE LEADS. EVIDENCE OF PREVIOUS INSERTIN INTO A DEIVCE SOCKET.",
+            "Source": "http://download.siliconexpert.com/pdfs/2016/5/30/6/30/32/385/st_/manual/9121.pdf"
+          },
+          {
+            "MPN": "M27C512-10C6",
+            "Supplier": "ST MICROELECTRONICS",
+            "NotificationDate": "Mar 26, 2015",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "EVIDENCE OF PREVIOUS INSERTION INTO A DEVICE SOCKET. LEADS ARE BENT.",
+            "Source": "http://download.siliconexpert.com/pdfs/2015/5/19/8/6/25/294/st_/manual/8031.pdf"
+          },
+          {
+            "MPN": "M27C512-10C6TR",
+            "Supplier": "ST MICROELECTRONICS",
+            "NotificationDate": "Mar 26, 2015",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "EVIDENCE OF PREVIOUS INSERTION INTO A DEVICE SOCKET. LEADS ARE BENT.",
+            "Source": "http://download.siliconexpert.com/pdfs/2015/5/19/8/6/25/294/st_/manual/8031.pdf"
+          },
+          {
+            "MPN": "ISP1520BDUM",
+            "Supplier": "Philips",
+            "NotificationDate": "Jul 15, 2015",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [AAN-U-15-268]"
+          },
+          {
+            "MPN": "WS57C256F-55DMB",
+            "Supplier": "St. Microelectronics",
+            "NotificationDate": "Apr 27, 2017",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [B2G-P-17-01A]"
+          }
+        ],
+        "PlCounterfeitReportsCount": "7 Report(s)",
+        "PlCounterfeitReports": [
+          {
+            "MPN": "P6KE10A",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Mar 03, 2014",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "MCC Products Counterfeiter Report",
+            "Source": "http://download.siliconexpert.com/pdfs/2014/3/3/17/54/11/113/mco_/auto/833counterfeit20report.pdf"
+          },
+          {
+            "MPN": "SMBJ220A",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Mar 03, 2014",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "MCC Products Counterfeiter Report",
+            "Source": "http://download.siliconexpert.com/pdfs/2014/3/3/17/54/11/113/mco_/auto/833counterfeit20report.pdf"
+          },
+          {
+            "MPN": "1SMB58CAT3G",
+            "Supplier": "On Semiconductor Corp",
+            "NotificationDate": "Nov 17, 2010",
+            "CounterfitMethods": "Different Supplier, New Parts   (Unknown Third party manufacturer looklike part using the data of different supplier than the affected one)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [E5Z-A-11-001]"
+          },
+          {
+            "MPN": "P6KE10A",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Jun 19, 2017",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "MCC Products Counterfeiter Report",
+            "Source": "http://download.siliconexpert.com/pdfs2/2017/7/31/15/41/23/387/mco_/auto/430counterfeit20report.pdf"
+          },
+          {
+            "MPN": "P6KE10A-TP",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Jun 19, 2017",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "MCC Products Counterfeiter Report",
+            "Source": "http://download.siliconexpert.com/pdfs2/2017/7/31/15/41/23/387/mco_/auto/430counterfeit20report.pdf"
+          },
+          {
+            "MPN": "P6KE10A-BP",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Jun 19, 2017",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "MCC Products Counterfeiter Report",
+            "Source": "http://download.siliconexpert.com/pdfs2/2017/7/31/15/41/23/387/mco_/auto/430counterfeit20report.pdf"
+          },
+          {
+            "MPN": "P6KE10A-AP",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Jun 19, 2017",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "MCC Products Counterfeiter Report",
+            "Source": "http://download.siliconexpert.com/pdfs2/2017/7/31/15/41/23/387/mco_/auto/430counterfeit20report.pdf"
+          },
+          {
+            "MPN": "15KP26A-AP",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Jun 19, 2017",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "MCC Products Counterfeiter Report",
+            "Source": "http://download.siliconexpert.com/pdfs2/2017/7/31/15/41/23/387/mco_/auto/430counterfeit20report.pdf"
+          },
+          {
+            "MPN": "15KP26A-BP",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Jun 19, 2017",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "MCC Products Counterfeiter Report",
+            "Source": "http://download.siliconexpert.com/pdfs2/2017/7/31/15/41/23/387/mco_/auto/430counterfeit20report.pdf"
+          },
+          {
+            "MPN": "SMAJ150A-TP",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Jun 19, 2017",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "MCC Products Counterfeiter Report",
+            "Source": "http://download.siliconexpert.com/pdfs2/2017/7/31/15/41/23/387/mco_/auto/430counterfeit20report.pdf"
+          },
+          {
+            "MPN": "SMBJ220A",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Jun 19, 2017",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "MCC Products Counterfeiter Report",
+            "Source": "http://download.siliconexpert.com/pdfs2/2017/7/31/15/41/23/387/mco_/auto/430counterfeit20report.pdf"
+          },
+          {
+            "MPN": "15KP26A-TP",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Jun 19, 2017",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "MCC Products Counterfeiter Report",
+            "Source": "http://download.siliconexpert.com/pdfs2/2017/7/31/15/41/23/387/mco_/auto/430counterfeit20report.pdf"
+          },
+          {
+            "MPN": "SMAJ150A",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Jun 19, 2017",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "MCC Products Counterfeiter Report",
+            "Source": "http://download.siliconexpert.com/pdfs2/2017/7/31/15/41/23/387/mco_/auto/430counterfeit20report.pdf"
+          },
+          {
+            "MPN": "SM8S18AHE3/2D",
+            "Supplier": "VISHAY",
+            "NotificationDate": "Mar 05, 2014",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [C1N-14-065-0009]"
+          },
+          {
+            "MPN": "P6KE10A-BP",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Dec 31, 2014",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "MCC Products Counterfeiter Report",
+            "Source": "http://download.siliconexpert.com/pdfs/2014/1/5/19/37/10/242/mco_/auto/435counterfeit20report.pdf"
+          },
+          {
+            "MPN": "P6KE10A",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Dec 31, 2014",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "MCC Products Counterfeiter Report",
+            "Source": "http://download.siliconexpert.com/pdfs/2014/1/5/19/37/10/242/mco_/auto/435counterfeit20report.pdf"
+          },
+          {
+            "MPN": "P6KE10A-AP",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Dec 31, 2014",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "MCC Products Counterfeiter Report",
+            "Source": "http://download.siliconexpert.com/pdfs/2014/1/5/19/37/10/242/mco_/auto/435counterfeit20report.pdf"
+          },
+          {
+            "MPN": "P6KE10A-TP",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Dec 31, 2014",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "MCC Products Counterfeiter Report",
+            "Source": "http://download.siliconexpert.com/pdfs/2014/1/5/19/37/10/242/mco_/auto/435counterfeit20report.pdf"
+          },
+          {
+            "MPN": "SMBJ220A",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Dec 31, 2014",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "MCC Products Counterfeiter Report",
+            "Source": "http://download.siliconexpert.com/pdfs/2014/1/5/19/37/10/242/mco_/auto/435counterfeit20report.pdf"
+          },
+          {
+            "MPN": "SMAJ150A-TP",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Dec 01, 2015",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "",
+            "Source": ""
+          },
+          {
+            "MPN": "SMBJ220A",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Dec 01, 2015",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "",
+            "Source": ""
+          },
+          {
+            "MPN": "P6KE10A",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Dec 01, 2015",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "",
+            "Source": ""
+          },
+          {
+            "MPN": "P6KE10A-BP",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Dec 01, 2015",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "",
+            "Source": ""
+          },
+          {
+            "MPN": "P6KE10A-AP",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Dec 01, 2015",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "",
+            "Source": ""
+          },
+          {
+            "MPN": "P6KE10A-TP",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Dec 01, 2015",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "",
+            "Source": ""
+          },
+          {
+            "MPN": "SMAJ150A",
+            "Supplier": "Micro Commercial Components",
+            "NotificationDate": "Dec 01, 2015",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "",
+            "Source": ""
+          },
+          {
+            "MPN": "CD1005-T05C",
+            "Supplier": "BOURNS INC",
+            "NotificationDate": "Dec 06, 2018",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": ""
+          }
+        ],
+        "CurrentLifecycleStatus": "Active",
+        "TimeSinceMarketIntroduction": "27 Year(s)",
+        "AuthorizedDistributorswithStockCount": "11 Distributor(s)",
+        "HistoricalShortagesInventoryReported": "Yes",
+        "IsPopularPart": "Yes"
+      },
+      "Qualifications": {
+        "ESDQualification": {
+          "ESDProtection": "Yes",
+          "MaximumESDProtectionVoltage": "15@Air Disc/8@Contact Disc/25@HBM",
+          "ESDClass": "Class 4@Air Disc/Class 4@Contact Disc/Class 3B@HBM",
+          "SourceOfInformation": "http://download.siliconexpert.com/pdfs2/2022/9/12/8/30/53/45085/st_/manual/en.cd00001366.pdf"
+        },
+        "AgencyApprovals": {
+          "Agency": {
+            "Agnecy": "Unknown",
+            "Standard": "N/A",
+            "StandardDetails": "N/A",
+            "FileNumber": "N/A",
+            "CertificationDocument": "http://download.siliconexpert.com/pdfs2/2022/9/12/8/30/53/45085/st_/manual/en.cd00001366.pdf"
+          }
+        },
+        "Reliability": {
+          "FitDetail": {
+            "FIT": "N/A",
+            "ConditionName": "N/A",
+            "ConditionValue": "N/A"
+          },
+          "MTBFDetail": {
+            "MTBF": "N/A",
+            "ConditionName": "N/A",
+            "ConditionValue": "N/A"
+          },
+          "SourceOfInformation": "http://download.siliconexpert.com/pdfs2/2022/9/12/8/30/53/45085/st_/manual/en.cd00001366.pdf"
+        }
+      },
+      "LifeCycleData": {
+        "PartStatus": "Active",
+        "LifeCycleComment": "",
+        "LTBDate": "",
+        "Source": "http://download.siliconexpert.com/pdfs2/2022/3/7/10/4/35/592282/st_/manual/pgurl_smbj15a-tr.pdf",
+        "EstimatedYearsToEOL": "7.9",
+        "EstimatedEOLDate": "2033",
+        "PartLifecycleStage": "Mature",
+        "MinimumEstimatedYearsToEOL": "4.1",
+        "MaximumEstimatedYearsToEOL": "1.2",
+        "LifeCycleRiskGrade": "Medium",
+        "OverallRisk": "44.5%",
+        "OverallRiskGrade": "Low",
+        "PartLifecycleCode": "3"
+      },
+      "TechnologyNodeData": {
+        "feature": [
+          {
+            "partFeatureName": "Wafer Material",
+            "partFeatureValue": "\"Si\""
+          },
+          {
+            "partFeatureName": "Wafer Size (inch)",
+            "partFeatureValue": "\"6\""
+          },
+          {
+            "partFeatureName": "Process Technology Type",
+            "partFeatureValue": "\"Planar\""
+          }
+        ]
+      },
+      "ManufacturingData": {
+        "MSL": "1",
+        "LeadFinishPlating": "Matte Sn annealed",
+        "TerminalBaseMaterial": "Cu Alloy",
+        "MaximumReflowTemperature": "260 °C",
+        "ReflowSolderTime": "",
+        "NumberOfReflowCycle": "3",
+        "Standard": "",
+        "MaximumWaveTemperature": "N/R",
+        "WaveSolderTime": "N/R",
+        "UnderPlatingMaterial": "N/A",
+        "ReflowTempSource": "https://download.siliconexpert.com/pdfs2/2021/11/25/18/35/0/930890/st_/auto/en.md_zg20smb20clip20sod206_8yzgtwu018d.pdf",
+        "WaveTempSource": "https://download.siliconexpert.com/pdfs/2012/11/29/6/40/59/522/st_/manual/smbj12ca-tr_md.pdf",
+        "UnderPlatingPorosityFree": ""
+      },
+      "PackagingData": {
+        "PackagingSuffix": "TR",
+        "Packaging": "Tape and Reel",
+        "QuantityOfPackaging": "1000",
+        "ReelDiameter": "",
+        "ReelWidth": "",
+        "TapePitch": "",
+        "TapeWidth": "",
+        "FeedHolePitch": "",
+        "HoleCenterToComponentCenter": "",
+        "LeadClinchHeight": "",
+        "ComponentOrientation": "",
+        "PackagingDocument": "https://download.siliconexpert.com/pdfs2/2022/9/12/8/30/53/45085/st_/manual/en.cd00001366.pdf",
+        "TapeMaterial": "",
+        "TapeType": ""
+      },
+      "AllPackageData": {
+        "Feature": [
+          {
+            "FeatureName": "Supplier Package",
+            "FeatureValue": "SMB",
+            "FeatureUnit": "",
+            "FeatureId": "22"
+          },
+          {
+            "FeatureName": "Basic Package Type",
+            "FeatureValue": "Lead-Frame SMT",
+            "FeatureUnit": "",
+            "FeatureId": "602"
+          },
+          {
+            "FeatureName": "Pin Count",
+            "FeatureValue": "2",
+            "FeatureUnit": "",
+            "FeatureId": "23"
+          },
+          {
+            "FeatureName": "Lead Shape",
+            "FeatureValue": "J-Lead",
+            "FeatureUnit": "",
+            "FeatureId": "462"
+          },
+          {
+            "FeatureName": "PCB",
+            "FeatureValue": "2",
+            "FeatureUnit": "",
+            "FeatureId": "24"
+          },
+          {
+            "FeatureName": "Tab",
+            "FeatureValue": "N/R",
+            "FeatureUnit": "",
+            "FeatureId": "25"
+          },
+          {
+            "FeatureName": "Pin Pitch",
+            "FeatureValue": "N/R",
+            "FeatureUnit": "mm",
+            "FeatureId": "31"
+          },
+          {
+            "FeatureName": "Package Length",
+            "FeatureValue": "4.6(Max)",
+            "FeatureUnit": "mm",
+            "FeatureId": "26"
+          },
+          {
+            "FeatureName": "Package Width",
+            "FeatureValue": "3.95(Max)",
+            "FeatureUnit": "mm",
+            "FeatureId": "27"
+          },
+          {
+            "FeatureName": "Package Height",
+            "FeatureValue": "2.45(Max)",
+            "FeatureUnit": "mm",
+            "FeatureId": "28"
+          },
+          {
+            "FeatureName": "Package Diameter",
+            "FeatureValue": "N/R",
+            "FeatureUnit": "mm",
+            "FeatureId": "30"
+          },
+          {
+            "FeatureName": "Package Overall Length",
+            "FeatureValue": "5.6(Max)",
+            "FeatureUnit": "mm",
+            "FeatureId": "781"
+          },
+          {
+            "FeatureName": "Package Overall Width",
+            "FeatureValue": "3.95(Max)",
+            "FeatureUnit": "mm",
+            "FeatureId": "782"
+          },
+          {
+            "FeatureName": "Package Overall Height",
+            "FeatureValue": "2.65(Max)",
+            "FeatureUnit": "mm",
+            "FeatureId": "783"
+          },
+          {
+            "FeatureName": "Seated Plane Height",
+            "FeatureValue": "2.65(Max)",
+            "FeatureUnit": "mm",
+            "FeatureId": "29"
+          },
+          {
+            "FeatureName": "Mounting",
+            "FeatureValue": "Surface Mount",
+            "FeatureUnit": "",
+            "FeatureId": "35"
+          },
+          {
+            "FeatureName": "Package Material",
+            "FeatureValue": "Plastic",
+            "FeatureUnit": "",
+            "FeatureId": "32"
+          },
+          {
+            "FeatureName": "Package Description",
+            "FeatureValue": "SMD Plastic Package",
+            "FeatureUnit": "",
+            "FeatureId": "461"
+          },
+          {
+            "FeatureName": "Package Family Name",
+            "FeatureValue": "DO",
+            "FeatureUnit": "",
+            "FeatureId": "603"
+          },
+          {
+            "FeatureName": "Jedec",
+            "FeatureValue": "DO-214AA",
+            "FeatureUnit": "",
+            "FeatureId": "36"
+          },
+          {
+            "FeatureName": "Package Outline",
+            "FeatureValue": "https://download.siliconexpert.com/pdfs/2006/07/07/semi_ap/cs/st/package/5971.pdf",
+            "FeatureUnit": "",
+            "FeatureId": "39"
+          }
+        ]
+      },
+      "PackageData": {
+        "SupplierPackage": "SMB",
+        "PinCount": "2",
+        "PCB": "2",
+        "Tab": "N/R",
+        "PackageDiameter": "N/R",
+        "Mounting": "Surface Mount",
+        "PackageLength": "4.6(Max) mm",
+        "PackageWidth": "3.95(Max) mm",
+        "PackageHeight": "2.45(Max) mm",
+        "PackageDescription": "SMD Plastic Package",
+        "PackageMaterial": "Plastic",
+        "StandardPackageName": "DO",
+        "SeatedPlaneHeight": "2.65(Max) mm",
+        "PinPitch": "N/R",
+        "Jedec": "DO-214AA",
+        "PackageOutline": "https://download.siliconexpert.com/pdfs/2006/07/07/semi_ap/cs/st/package/5971.pdf",
+        "PackageCase": "",
+        "LeadShape": "J-Lead",
+        "BasicPackageType": "Lead-Frame SMT",
+        "PackageWeight": "",
+        "MinimumSeatedPlaneHeight": "",
+        "PackageOrientation": ""
+      },
+      "ParametricData": {
+        "Features": [
+          {
+            "FeatureName": "Capacitance Value",
+            "FeatureValue": "",
+            "FeatureUnit": "pF",
+            "FeatureID": "90366"
+          },
+          {
+            "FeatureName": "Configuration",
+            "FeatureValue": "Single",
+            "FeatureUnit": "",
+            "FeatureID": "53257",
+            "FeatureValueDetails": {
+              "Value": "Single",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Direction Type",
+            "FeatureValue": "Uni-Directional",
+            "FeatureUnit": "",
+            "FeatureID": "53272",
+            "FeatureValueDetails": {
+              "Value": "Uni-Directional",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Maximum Breakdown Voltage",
+            "FeatureValue": "",
+            "FeatureUnit": "V",
+            "FeatureID": "71482"
+          },
+          {
+            "FeatureName": "Maximum Clamping Voltage",
+            "FeatureValue": "24.4",
+            "FeatureUnit": "V",
+            "FeatureID": "53268",
+            "FeatureValueDetails": {
+              "Value": "24.4",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "V",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Maximum Forward Current",
+            "FeatureValue": "",
+            "FeatureUnit": "mA",
+            "FeatureID": "12049110"
+          },
+          {
+            "FeatureName": "Maximum Forward Voltage",
+            "FeatureValue": "",
+            "FeatureUnit": "V",
+            "FeatureID": "90032"
+          },
+          {
+            "FeatureName": "Maximum Operating Temperature",
+            "FeatureValue": "150",
+            "FeatureUnit": "°C",
+            "FeatureID": "59822",
+            "FeatureValueDetails": {
+              "Value": "150",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "°C",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Maximum Peak Pulse Current",
+            "FeatureValue": "25.1",
+            "FeatureUnit": "A",
+            "FeatureID": "53270",
+            "FeatureValueDetails": {
+              "Value": "25.1",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "A",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Maximum Power Dissipation",
+            "FeatureValue": "",
+            "FeatureUnit": "mW",
+            "FeatureID": "12049111"
+          },
+          {
+            "FeatureName": "Maximum Reverse Leakage Current",
+            "FeatureValue": "0.2",
+            "FeatureUnit": "uA",
+            "FeatureID": "53266",
+            "FeatureValueDetails": {
+              "Value": "0.2",
+              "Multiplier": "u",
+              "MultiplierValue": ".000001",
+              "Unit": "A",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Maximum Reverse Stand-Off Voltage",
+            "FeatureValue": "15",
+            "FeatureUnit": "V",
+            "FeatureID": "53264",
+            "FeatureValueDetails": {
+              "Value": "15",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "V",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Maximum Storage Temperature",
+            "FeatureValue": "150",
+            "FeatureUnit": "°C",
+            "FeatureID": "69197",
+            "FeatureValueDetails": {
+              "Value": "150",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "°C",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Minimum Breakdown Voltage",
+            "FeatureValue": "16.7",
+            "FeatureUnit": "V",
+            "FeatureID": "53259",
+            "FeatureValueDetails": {
+              "Value": "16.7",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "V",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Minimum Operating Temperature",
+            "FeatureValue": "-55",
+            "FeatureUnit": "°C",
+            "FeatureID": "58220",
+            "FeatureValueDetails": {
+              "Value": "55",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "°C",
+              "Sign": "-"
+            }
+          },
+          {
+            "FeatureName": "Minimum Storage Temperature",
+            "FeatureValue": "-65",
+            "FeatureUnit": "°C",
+            "FeatureID": "68850",
+            "FeatureValueDetails": {
+              "Value": "65",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "°C",
+              "Sign": "-"
+            }
+          },
+          {
+            "FeatureName": "Number of Elements per Chip",
+            "FeatureValue": "1",
+            "FeatureUnit": "",
+            "FeatureID": "62043",
+            "FeatureValueDetails": {
+              "Value": "1",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Operating Junction Temperature",
+            "FeatureValue": "-55 to 150",
+            "FeatureUnit": "°C",
+            "FeatureID": "61153",
+            "FeatureValueDetails": {
+              "Value": "55 to 150",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "°C to °C",
+              "Sign": "- to "
+            }
+          },
+          {
+            "FeatureName": "Peak Forward Surge Current",
+            "FeatureValue": "",
+            "FeatureUnit": "A",
+            "FeatureID": "90002"
+          },
+          {
+            "FeatureName": "Peak Pulse Power Dissipation",
+            "FeatureValue": "600",
+            "FeatureUnit": "W",
+            "FeatureID": "53271",
+            "FeatureValueDetails": {
+              "Value": "600",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "W",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Process Technology",
+            "FeatureValue": "",
+            "FeatureUnit": "",
+            "FeatureID": "15699336"
+          },
+          {
+            "FeatureName": "Supplier Temperature Grade",
+            "FeatureValue": "Industrial",
+            "FeatureUnit": "",
+            "FeatureID": "59825",
+            "FeatureValueDetails": {
+              "Value": "Industrial",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Test Current",
+            "FeatureValue": "1",
+            "FeatureUnit": "mA",
+            "FeatureID": "53262",
+            "FeatureValueDetails": {
+              "Value": "1",
+              "Multiplier": "m",
+              "MultiplierValue": ".001",
+              "Unit": "A",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Tradename",
+            "FeatureValue": "Transil™",
+            "FeatureUnit": "",
+            "FeatureID": "88269",
+            "FeatureValueDetails": {
+              "Value": "Transil™",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Typical Clamping Voltage",
+            "FeatureValue": "",
+            "FeatureUnit": "V",
+            "FeatureID": "30527726"
+          }
+        ]
+      },
+      "PCNData": {
+        "PCNDto": {
+          "LastPCNNumber": "POWER AND DISCRETES/25/15491",
+          "LastPCNDate": "Jul 24, 2025",
+          "LastPCNTypeOfChange": "Assembly Site,Marking Molding,Test Site,Wafer Site",
+          "LastPCNSource": "http://download.siliconexpert.com/pdfs2/2025/7/28/18/36/7/1639654849/st_/manual/stmicro_poweranddiscretes2515491_07282025_.pdf",
+          "LastTimeBuyDate": "",
+          "LastShipDate": "",
+          "LastEOLNumber": "",
+          "LastEOLDate": "",
+          "LastEOLSource": ""
+        }
+      },
+      "PCNDetails": {
+        "PCNDto": [
+          {
+            "PCNNumber": "POWER AND DISCRETES/25/15491",
+            "TypeOfChange": "Assembly Site,Marking Molding,Test Site,Wafer Site",
+            "DescriptionOfChange": "Transfer of Front-End manufacturing and EWS from ST Tours (France) to ST Singapore and Additional Back-End manufacturing plant (subcontractor) for TVS Protection",
+            "PcnSource": "http://download.siliconexpert.com/pdfs2/2025/7/28/18/36/7/1639654849/st_/manual/stmicro_poweranddiscretes2515491_07282025_.pdf",
+            "NotificationDate": "Jul 24, 2025",
+            "EffectiveDate": "Oct 31, 2026",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "437588951226595"
+          },
+          {
+            "PCNNumber": "CRP/25/15292",
+            "TypeOfChange": "Labeling",
+            "DescriptionOfChange": "Standard ST Inner Bulk label is with additional 2D code.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs2/2025/7/18/12/34/8/444301487/st_/manual/15292.pdf",
+            "NotificationDate": "Jul 18, 2025",
+            "EffectiveDate": "Aug 18, 2025",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "437588950636020"
+          },
+          {
+            "PCNNumber": "CRP/25/15383",
+            "TypeOfChange": "Assembly Process",
+            "DescriptionOfChange": "Manufacturing reshaping program.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs2/2025/6/1/18/36/34/268896997/st_/manual/stmicro_crp2515383_06012025_.pdf",
+            "NotificationDate": "May 30, 2025",
+            "EffectiveDate": "May 29, 2026",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "437588948890981"
+          },
+          {
+            "PCNNumber": "POWER AND DISCRETE PRODUCTS/24/14700",
+            "TypeOfChange": "Assembly Site,Test Site,Wafer Site",
+            "DescriptionOfChange": "Line transfer for a full process or process brick (process step, control plan, recipes) from one site to another site",
+            "PcnSource": "http://download.siliconexpert.com/pdfs2/2024/4/17/18/31/25/952804/st_/manual/poweranddiscreteproducts2414700.pdf",
+            "NotificationDate": "Apr 15, 2024",
+            "EffectiveDate": "Jul 19, 2024",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "437588913683961"
+          },
+          {
+            "PCNNumber": "POWER AND DISCRETE PRODUCTS/24/14699",
+            "TypeOfChange": "Materials,Wafer Process",
+            "DescriptionOfChange": "Die manufacturing process homogenization in ST Tours (France) for TVS (Transient Voltage Suppressor) devices",
+            "PcnSource": "http://download.siliconexpert.com/pdfs2/2024/4/17/18/31/25/883288/st_/manual/poweranddiscreteproducts2414699.pdf",
+            "NotificationDate": "Apr 15, 2024",
+            "EffectiveDate": "Jul 19, 2024",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "437588913683963"
+          },
+          {
+            "PCNNumber": "CRP/22/13405",
+            "TypeOfChange": "Shipping",
+            "DescriptionOfChange": "Notification related for 2nd EMEA DC project in Frankfurt",
+            "PcnSource": "http://download.siliconexpert.com/pdfs2/2022/5/9/11/0/28/164772/st_/manual/13405.pdf",
+            "NotificationDate": "May 04, 2022",
+            "EffectiveDate": "May 08, 2022",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "437588862291039"
+          },
+          {
+            "PCNNumber": "CRP/22/13302",
+            "TypeOfChange": "Shipping",
+            "DescriptionOfChange": "Notification related for 2nd EMEA DC project in Frankfurt",
+            "PcnSource": "http://download.siliconexpert.com/pdfs2/2022/4/18/14/5/2/558907/st_/manual/stmicro_crp2213302_04182022_.pdf",
+            "NotificationDate": "Apr 14, 2022",
+            "EffectiveDate": "May 08, 2022",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "437588860796698"
+          },
+          {
+            "PCNNumber": "CRP/22/13302",
+            "TypeOfChange": "Shipping",
+            "DescriptionOfChange": "Notification related for 2nd EMEA DC project in Frankfurt",
+            "PcnSource": "http://download.siliconexpert.com/pdfs2/2022/4/18/9/10/40/779912/st_/manual/13302.pdf",
+            "NotificationDate": "Apr 14, 2022",
+            "EffectiveDate": "May 08, 2022",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "437588860783064"
+          },
+          {
+            "PCNNumber": "CRP/21/11964",
+            "TypeOfChange": "Assembly Site",
+            "DescriptionOfChange": "Production transfer of the standard SMD backend line on SMA, SMB & SMC packages from its Bouskoura internal plant (Morocco) to backend partners",
+            "PcnSource": "http://download.siliconexpert.com/pdfs2/2021/6/9/11/51/6/855111/st_/manual/11964.pdf",
+            "NotificationDate": "Jun 01, 2021",
+            "EffectiveDate": "Jul 06, 2020",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "9115038645"
+          },
+          {
+            "PCNNumber": "CRP/21/9871",
+            "TypeOfChange": "Labeling",
+            "DescriptionOfChange": "The Inner customized labels (ICL) which are pasted on the inner boxes will be using a label format of 90mm x 60 mm with no border lines separating fields. The sequence of information and fields remain the same with respect of customer specifications.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs2/2021/6/16/7/56/41/178543/st_/manual/9871.pdf",
+            "NotificationDate": "May 09, 2021",
+            "EffectiveDate": "Aug 29, 2016",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "9115472401"
+          },
+          {
+            "PCNNumber": "CRP/20/11964",
+            "TypeOfChange": "Assembly Site",
+            "DescriptionOfChange": "EARLY NOTIFICATION - PRODUCTION TRANSFER OF STANDARD SMA/SMB/SMC BACK-END LINE FROM ST BOUSKOURA PLANT (MOROCCO) TO SUBCONTRACTOR PLANT",
+            "PcnSource": "http://download.siliconexpert.com/pdfs2/2020/4/1/16/26/44/990616/st_/manual/11964.pdf",
+            "NotificationDate": "Mar 31, 2020",
+            "EffectiveDate": "Jul 06, 2020",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "9089721597"
+          },
+          {
+            "PCNNumber": "CRP/20/11964",
+            "TypeOfChange": "Assembly Site",
+            "DescriptionOfChange": "Production transfer of the standard SMD backend line on SMA, SMB & SMC packages from its Bouskoura internal plant (Morocco) to backend partners",
+            "PcnSource": "http://download.siliconexpert.com/pdfs2/2020/2/17/9/48/51/835635/st_/manual/stmicro_crp2011964_02172020_.pdf",
+            "NotificationDate": "Feb 16, 2020",
+            "EffectiveDate": "Jul 06, 2020",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "9086770749"
+          },
+          {
+            "PCNNumber": "CRP/20/11964",
+            "TypeOfChange": "Assembly Site",
+            "DescriptionOfChange": "Production transfer of the standard SMD backend line on SMA, SMB & SMC packages from its Bouskoura internal plant (Morocco) to backend partners",
+            "PcnSource": "http://download.siliconexpert.com/pdfs2/2020/2/27/16/0/0/351142/st_/manual/stmicroelectronics_11964.pdf",
+            "NotificationDate": "Feb 14, 2020",
+            "EffectiveDate": "Jul 06, 2020",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "9087350085"
+          },
+          {
+            "PCNNumber": "CRP/19/11361",
+            "TypeOfChange": "Assembly Site",
+            "DescriptionOfChange": "Transferring LAX HUB operations to new Logistics Service Provider in Carson, CA from Ceva Logistics in Torrance, CA. The change also includes personnel, location, logistic model and the transfer of equipment, workstations, and inventories.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs2/2019/2/28/16/11/43/360728/st_/manual/stmicro_crp1911361_02282019_.pdf",
+            "NotificationDate": "Feb 27, 2019",
+            "EffectiveDate": "Apr 01, 2019",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "9062462685"
+          },
+          {
+            "PCNNumber": "ADG/18/10834",
+            "TypeOfChange": "Assembly Process,Test Process",
+            "DescriptionOfChange": "Additional equipment of same brand and model on same manufacturing site (capacity increase)",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2018/4/11/6/48/10/493/st_/manual/stmicro_adg1810834_04112018_.pdf",
+            "NotificationDate": "Apr 10, 2018",
+            "EffectiveDate": "Jul 09, 2018",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "9037313458"
+          },
+          {
+            "PCNNumber": "CRP/17/10402",
+            "TypeOfChange": "Labeling",
+            "DescriptionOfChange": "Logistic PCI related to Inner Customized Label (ICL) change for PACKING and not related to Product, The Inner customized labels (ICL) which are pasted on the inner boxes will be using a label size of 90mm x 60 mm (horizontal printing).",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2017/7/31/1/10/49/252/st_/manual/stmicro_crp1710402_07302017_.pdf",
+            "NotificationDate": "Jul 27, 2017",
+            "EffectiveDate": "Aug 29, 2017",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "9011644109"
+          },
+          {
+            "PCNNumber": "CRP/17/9871",
+            "TypeOfChange": "Labeling",
+            "DescriptionOfChange": "The Inner customized labels (ICL) which are pasted on the inner boxes will be using a label format of 90mm x 60 mm with no border lines separating fields.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2017/6/20/4/53/23/552/st_/manual/stmicro_crp179871_06202017_.pdf",
+            "NotificationDate": "Jun 20, 2017",
+            "EffectiveDate": "Aug 29, 2016",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "9010085613"
+          },
+          {
+            "PCNNumber": "CRP/16/9871",
+            "TypeOfChange": "Labeling",
+            "DescriptionOfChange": "The Inner customized labels (ICL) which are pasted on the inner boxes are using a label format of 100mmx 75 mm with border lines separating fields.change to The Inner customized labels (ICL) which are pasted on the inner boxes will be using a label format of 90mm x 60 mm with no border lines separating fields.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2016/8/2/7/2/14/115/st_/manual/9871.pdf",
+            "NotificationDate": "Jul 28, 2016",
+            "EffectiveDate": "Aug 29, 2016",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "8992875705"
+          },
+          {
+            "PCNNumber": "CRP/16/9871",
+            "TypeOfChange": "Labeling",
+            "DescriptionOfChange": "The Inner customized labels (ICL) which are pasted on the inner boxes will be using a label format of 90mm x 60 mm with no border lines separating fields. The sequence of information and fields remain the same with respect of customer specifications.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2016/7/28/7/3/18/366/st_/manual/stmicro_crp169871_07282016_.pdf",
+            "NotificationDate": "Jul 28, 2016",
+            "EffectiveDate": "Aug 29, 2016",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "8992610943"
+          },
+          {
+            "PCNNumber": "IPG/15/9053",
+            "TypeOfChange": "Assembly Site,Test Site",
+            "DescriptionOfChange": "Additional Assembly and Test Location in China for Protection devices housed in",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2015/2/24/2/11/50/397/st_/manual/stmicro_ipg159053_02242015_.pdf",
+            "NotificationDate": "Feb 23, 2015",
+            "EffectiveDate": "Apr 13, 2015",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "8435320409"
+          },
+          {
+            "PCNNumber": "IPD-DIS/9053",
+            "TypeOfChange": "Assembly Site,Test Site",
+            "DescriptionOfChange": "In order to better meet the market demand, we have decided to expand our manufacturing capacities for all our Protection devices housed in SMA / SMB package with one additional assembly and test line in a new China subcontractor.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2015/12/14/0/25/52/906/st_/manual/st_pcn_9053_1.pdf",
+            "NotificationDate": "Feb 03, 2015",
+            "EffectiveDate": "May 07, 2015",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "8977842684"
+          },
+          {
+            "PCNNumber": "IPG/15/9053",
+            "TypeOfChange": "Assembly Site,Test Site",
+            "DescriptionOfChange": "Additional Assembly and Test Location in China for Protection devices housed in",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2015/3/3/5/19/27/330/st_/manual/9053.pdf",
+            "NotificationDate": "Jan 14, 2015",
+            "EffectiveDate": "Apr 13, 2015",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "8537594762"
+          },
+          {
+            "PCNNumber": "APM-DIS/09/4781",
+            "TypeOfChange": "Materials,Wafer Process",
+            "DescriptionOfChange": "ST is converting its Protection Devices in SMA/B/C and STmite packages to the ECOPACK(r)2 grade, implement at the same time a die design optimization for our Transil products housed in SMA and SMB packages with voltage inferior to 100V.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2009/8/22/23/49/13/230/st_/manual/stmicro_pcnapmdis094781_08212009_.pdf",
+            "NotificationDate": "Aug 19, 2009",
+            "EffectiveDate": "Aug 28, 2009",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "6501519"
+          },
+          {
+            "PCNNumber": "CRP/09/4451",
+            "TypeOfChange": "Labeling",
+            "DescriptionOfChange": "Change printings on ST outer cartons, ST logo is removed from the printings to align ST outer cartons to common outer packaging practices.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2009/4/5/0/23/31/st_/manual/stmicro_pilcrp094451_04032009_.pdf",
+            "NotificationDate": "Apr 08, 2009",
+            "EffectiveDate": "May 08, 2009",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "3468841"
+          },
+          {
+            "PCNNumber": "APM-DIS/08/3735",
+            "TypeOfChange": "Assembly Site,Test Site",
+            "DescriptionOfChange": "The manufacturing lines for products housed in SMA, SMB and SMC packages, currently located in Ain Sebaa, are being moved to the Bouskoura site, also situated in the neighbourhood of Casablanca, Morocco.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2008/07/31/semi_ap/cs/st/pcn_conv/stmicro_3735_07302008.pdf",
+            "NotificationDate": "Aug 01, 2008",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "2697523"
+          },
+          {
+            "PCNNumber": "APM-DIS/08/3735",
+            "TypeOfChange": "Assembly Site,Test Site,Marking Molding",
+            "DescriptionOfChange": "The manufacturing lines for products housed in SMA, SMB and SMC packages, currently located in Ain Sebaa, are being moved to the Bouskoura site, also situated in the neighbourhood of Casablanca, Morocco, test Location transfer within Morocco, parts assemb",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2008/08/10/semi_ap/cs/st/pcn_conv/stmicro_3735_08072008.pdf",
+            "NotificationDate": "Jul 30, 2008",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "2743933"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "STMicroElectronics Acquires Vision Group",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2009/4/29/4/54/51/st_/manual/pcn_full acquistion_stmicroelectronics_vision group.pdf",
+            "NotificationDate": "Apr 12, 2008",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "3626530"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "STMicroElectronics acquires Genesis Microchip",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2009/4/29/4/54/25/st_/manual/pcn_full acquistion_stmicroelectronics_genesis microchip.pdf",
+            "NotificationDate": "Jan 25, 2008",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "3626527"
+          },
+          {
+            "PCNNumber": "APM/07/3145",
+            "TypeOfChange": "Assembly Site",
+            "DescriptionOfChange": "Package assembly location change",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2007/12/28/semi_ap/cs/st/pcn/stmicro_apm073145_1212007.pdf",
+            "NotificationDate": "Nov 26, 2007",
+            "EffectiveDate": "Feb 20, 2008",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "1914125"
+          },
+          {
+            "PCNNumber": "CRP/07/2927",
+            "TypeOfChange": "Wafer Site,Assembly Site,Test Site",
+            "DescriptionOfChange": "STMicroelectronics is rationalizing three of its manufacturing operations. Over the next two years -- after all viable products manufactured at these sites are re-qualified at other facilities or stopped -- the Company will wind down operations at its 6-i",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2007/10/12/semi_ap/cs/st/pcn/st.micro_cil-crp-07-2927_10022007.pdf",
+            "NotificationDate": "Oct 02, 2007",
+            "EffectiveDate": "Sep 25, 2007",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "1792835"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "STMicroElectronics Acquires Synad Technologies",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2009/4/29/4/54/43/st_/manual/pcn_full acquistion_stmicroelectronics_synad technologies.pdf",
+            "NotificationDate": "Dec 18, 2003",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "3626529"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "STMicroElectronics Acquires Proton World",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2009/4/29/4/54/34/st_/manual/pcn_full acquistion_stmicroelectronics_proton world.pdf",
+            "NotificationDate": "Mar 25, 2003",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "3626528"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "Tioga Technologies Ltd has been acquired by STMicroelectronics.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2010/11/25/4/48/0/333/st_/manual/pcn_acquisition_fullacquisition_stmicroelectronics_tiogatechnologiesltd.pdf",
+            "NotificationDate": "Jan 16, 2003",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "20857526"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "The Portland Group, Inc has been acquired by STMicroelectronics.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2010/11/25/4/48/19/427/st_/manual/pcn_acquisition_fullacquisitions_stmicroelectronics_theportlandgroupinc.pdf",
+            "NotificationDate": "Dec 19, 2000",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "20857656"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "STMicroElectronics Acquires Waferscale Integration",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2009/4/29/4/55/0/st_/manual/pcn_full acquistion_stmicroelectronics_waferscale integration.pdf",
+            "NotificationDate": "Sep 20, 2000",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "3626531"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "Arithmos Inc has been acquired by STMicroelectronics.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2010/11/25/4/48/0/52/st_/manual/pcn_acquisition_fullacquisition_stmicroelectronics_arithmosinc.pdf",
+            "NotificationDate": "Dec 17, 1999",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "20857524"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "Metaflow Technologies Incorporated has been acquired by STMicroelectronics.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2010/11/25/4/47/59/911/st_/manual/pcn_acquisition_fullacquisition_stmicroelectronics_metaflowtechnologiesincorporated.pdf",
+            "NotificationDate": "May 29, 1997",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "20857523"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "Holdings in Credit Lyonnais and SGSThomson (now ST Microelectronics) are divested.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2011/12/7/1/52/44/214/st_/manual/pcn_spinoff_stmicroelectronics_thalesgroup.pdf",
+            "NotificationDate": "Jan 01, 1997",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "33506924"
+          }
+        ]
+      },
+      "EnvironmentalDto": {
+        "RoHSStatus": "Compliant",
+        "RoHSVersion": "2011/65/EU, 2015/863",
+        "Source": "http://download.siliconexpert.com/pdfs2/2021/11/25/18/35/0/930890/st_/auto/en.md_zg20smb20clip20sod206_8yzgtwu018d.pdf",
+        "SourceType": "Material Declaration",
+        "OtherSources": {
+          "Source": "http://download.siliconexpert.com/pdfs/2012/9/20/6/23/18/947/st_/manual/mht795.mht",
+          "SourceType": "Vendor Site"
+        },
+        "Exemption": "Yes",
+        "ExemptionType": "7.a. Lead in high melting temperature type solders (i.e. lead-based alloys containing 85 % by weight or more lead).",
+        "ExemptionCodes": "7.a",
+        "ExemptionExpirationDate": "Jul 21, 2021",
+        "ExemptionCodeDetailsList": {
+          "exemptionType": "7.a",
+          "annexList": "Annex III",
+          "substanceName": "Lead",
+          "exemptionDescription": "7.a Lead in high melting temperature type solders (i.e. lead-based alloys containing 85 % by weight or more lead)",
+          "categoryDetailsDto": [
+            {
+              "category": "1 to 7 and 10",
+              "expirationDateList": "Jul 21, 2021",
+              "status": "Valid - requested for renewal"
+            },
+            {
+              "category": "8 and 9 other than in vitro and industrial",
+              "expirationDateList": "Jul 21, 2021",
+              "status": "Valid - requested for renewal"
+            },
+            {
+              "category": "8 in vitro",
+              "expirationDateList": "Jul 21, 2023",
+              "status": "Valid - requested for renewal"
+            },
+            {
+              "category": "9 industrial",
+              "expirationDateList": "Jul 21, 2024",
+              "status": "Valid - requested for renewal"
+            },
+            {
+              "category": "11 other EEE",
+              "expirationDateList": "Jul 21, 2024",
+              "status": "Valid - requested for renewal"
+            }
+          ]
+        },
+        "RohsIdentifier": "NO",
+        "LeadFree": "Not Compliant",
+        "RareEarthElementInformation": "Rare Earth Free",
+        "ConflictMineralStatus": "DRC Conflict Free",
+        "ConflictMineralStatement": "http://download.siliconexpert.com/pdfs2/2019/3/23/4/2/45/685553/st_/manual/en.st_statement_on_conflict_minerals.pdf",
+        "EICCMembership": "No",
+        "EICCTemplate": "http://download.siliconexpert.com/pdfs2/2025/10/16/16/16/25/4073555738/st_/manual/rmi_cmrt6.5_company_stmicroelectronics_25-sep-20251.xlsx",
+        "EICCTemplateVersion": "Version 6.50",
+        "ConflictMineralsPolicy": "",
+        "ConflictMineralsSustainabilityReport": "",
+        "SDForm": "",
+        "HalgonFree": "Compliant",
+        "ChinaRoHS": {
+          "ChinaRoHSStatus": "Affected",
+          "CadmiumConcentration": "<100",
+          "CadmiumFlag": "O",
+          "ChromiumConcentration": "<1000",
+          "ChromiumFlag": "O",
+          "LeadConcentration": ">1000",
+          "LeadFlag": "X",
+          "MercuryConcentration": "<1000",
+          "MercuryFlag": "O",
+          "PBBConcentration": "<1000",
+          "PBBFlag": "O",
+          "PBDEConcentration": "<1000",
+          "PBDEFlag": "O",
+          "EPUP": "N/A",
+          "ItemSubitemName": "",
+          "SourceType": "Material Declaration",
+          "CachedSource": "http://download.siliconexpert.com/pdfs2/2021/11/25/18/35/0/930890/st_/auto/en.md_zg20smb20clip20sod206_8yzgtwu018d.pdf",
+          "LiveSupplierSource": "https://www.st.com/resource/en/material_declaration/md_zg-wspc-smb-wspc-clip-wspc-(sod-wspc-6)_8yzgtwu018d.pdf"
+        },
+        "TSCA": {
+          "Status": "Compliant",
+          "SourceType": "COC & Vendor base TSCA",
+          "SourcePath": "http://download.siliconexpert.com/pdfs2/2022/8/1/19/54/44/76906/st_/manual/tscacustomercomm.pdf"
+        },
+        "ODC": "Not Affected",
+        "Green": "Not Compliant",
+        "WEEE": {
+          "comId": 19239589,
+          "weeeStatus": "Out of Scope",
+          "sourcePdf": "http://download.siliconexpert.com/pdfs/2013/4/3/8/11/47/697/eurle_/manual/lexuriserv.douriojl2012197fullenpdf.douriojl2012197fullenpdf.pdf",
+          "sourceType": "WEEE Directive"
+        },
+        "PFOA": "Not Affected",
+        "IEC62474": "Affected",
+        "IEC62474Data": {
+          "sourceType": "Material Declaration",
+          "sourcePdf": "http://download.siliconexpert.com/pdfs2/2021/11/25/18/35/0/930890/st_/auto/en.md_zg20smb20clip20sod206_8yzgtwu018d.pdf",
+          "substances": [
+            {
+              "substanceId": 4434,
+              "substanceName": "Nickel (Ni)",
+              "casNumber": "7440-02-0",
+              "regId": 1,
+              "features": {
+                "feature": [
+                  {
+                    "featureName": "Basis",
+                    "featureValue": "R"
+                  },
+                  {
+                    "featureName": "Reporting threshold",
+                    "featureValue": "Intentionally Added"
+                  },
+                  {
+                    "featureName": "Reportable Application",
+                    "featureValue": "All, where prolonged skin contact is expected"
+                  },
+                  {
+                    "featureName": "Basis description",
+                    "featureValue": "[EU] REACH Regulation (EC) No.1907/2006 ANNEX XVII"
+                  }
+                ]
+              }
+            },
+            {
+              "substanceId": 4351,
+              "substanceName": "Lead (Pb)",
+              "casNumber": "7439-92-1",
+              "regId": 1,
+              "features": [
+                {
+                  "feature": [
+                    {
+                      "featureName": "Basis",
+                      "featureValue": "R"
+                    },
+                    {
+                      "featureName": "Reporting threshold",
+                      "featureValue": "0.03 mass% of surface coating material"
+                    },
+                    {
+                      "featureName": "Reportable Application",
+                      "featureValue": "Cables/cords with thermoset or thermoplastic coatings"
+                    },
+                    {
+                      "featureName": "Basis description",
+                      "featureValue": "[USA California] Safe Drinking Water and Toxic Enforcement Act of 1986 (Proposition 65)"
+                    }
+                  ]
+                },
+                {
+                  "feature": [
+                    {
+                      "featureName": "Basis",
+                      "featureValue": "R"
+                    },
+                    {
+                      "featureName": "Reporting threshold",
+                      "featureValue": "0.03 mass% of surface coating material"
+                    },
+                    {
+                      "featureName": "Reportable Application",
+                      "featureValue": "Cables/cords with thermoset or thermoplastic coatings"
+                    },
+                    {
+                      "featureName": "Basis description",
+                      "featureValue": "[USA California] Safe Drinking Water and Toxic Enforcement Act of 1986 (Proposition 65)"
+                    }
+                  ]
+                },
+                {
+                  "feature": [
+                    {
+                      "featureName": "Basis",
+                      "featureValue": "R"
+                    },
+                    {
+                      "featureName": "Reporting threshold",
+                      "featureValue": "0.03 mass% of surface coating material"
+                    },
+                    {
+                      "featureName": "Reportable Application",
+                      "featureValue": "Cables/cords with thermoset or thermoplastic coatings"
+                    },
+                    {
+                      "featureName": "Basis description",
+                      "featureValue": "[USA California] Safe Drinking Water and Toxic Enforcement Act of 1986 (Proposition 65)"
+                    }
+                  ]
+                },
+                {
+                  "feature": [
+                    {
+                      "featureName": "Basis",
+                      "featureValue": "R"
+                    },
+                    {
+                      "featureName": "Reporting threshold",
+                      "featureValue": "0.03 mass% of surface coating material"
+                    },
+                    {
+                      "featureName": "Reportable Application",
+                      "featureValue": "Cables/cords with thermoset or thermoplastic coatings"
+                    },
+                    {
+                      "featureName": "Basis description",
+                      "featureValue": "[USA California] Safe Drinking Water and Toxic Enforcement Act of 1986 (Proposition 65)"
+                    }
+                  ]
+                },
+                {
+                  "feature": [
+                    {
+                      "featureName": "Basis",
+                      "featureValue": "R"
+                    },
+                    {
+                      "featureName": "Reporting threshold",
+                      "featureValue": "0.03 mass% of surface coating material"
+                    },
+                    {
+                      "featureName": "Reportable Application",
+                      "featureValue": "Cables/cords with thermoset or thermoplastic coatings"
+                    },
+                    {
+                      "featureName": "Basis description",
+                      "featureValue": "[USA California] Safe Drinking Water and Toxic Enforcement Act of 1986 (Proposition 65)"
+                    }
+                  ]
+                },
+                {
+                  "feature": [
+                    {
+                      "featureName": "Basis",
+                      "featureValue": "R"
+                    },
+                    {
+                      "featureName": "Reporting threshold",
+                      "featureValue": "0.1 mass% of article"
+                    },
+                    {
+                      "featureName": "Reportable Application",
+                      "featureValue": "All"
+                    },
+                    {
+                      "featureName": "Basis description",
+                      "featureValue": "[EU] REACH Regulation (EC) No.1907/2006 Candidate List for Authorisation"
+                    }
+                  ]
+                },
+                {
+                  "feature": [
+                    {
+                      "featureName": "Basis",
+                      "featureValue": "R"
+                    },
+                    {
+                      "featureName": "Reporting threshold",
+                      "featureValue": "0.03 mass% of surface coating material"
+                    },
+                    {
+                      "featureName": "Reportable Application",
+                      "featureValue": "Cables/cords with thermoset or thermoplastic coatings"
+                    },
+                    {
+                      "featureName": "Basis description",
+                      "featureValue": "[USA California] Safe Drinking Water and Toxic Enforcement Act of 1986 (Proposition 65)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "CaliforniaProposition65": "Exempted",
+        "PFOS-EUDirective-2006122EC": "Not Affected",
+        "PersistentOrganicPollutants-POPs": "Compliant",
+        "PersistentOrganicPollutants-POPsData": {
+          "sourceType": "COC & Vendor base POPs",
+          "sourcePdf": ""
+        },
+        "AD-DSL": "Affected",
+        "NAS411": "Affected",
+        "ELV": "Not Compliant",
+        "Phthalates": "Not Affected",
+        "BisPhenolA_BPA": "Not Affected",
+        "InorganicPhosphorus": "Not Affected",
+        "CaliforniaProposition65Dto": {
+          "Status": "Exempted",
+          "SourceType": "COC & Vendor base Prop65",
+          "SourcePath": "http://download.siliconexpert.com/pdfs2/2022/9/1/23/35/57/91893/st_/manual/st_prop65.pdf"
+        },
+        "ReachRestrictionAnnexXVII": {
+          "Status": "Compliant",
+          "SourceType": "COC & Vendor Base_Exception",
+          "SourcePath": "http://download.siliconexpert.com/pdfs2/2025/2/20/12/54/2/1618042777/st_/manual/reach247.pdf",
+          "Details": [
+            {
+              "SubstanceName": "Aluminium (Al)",
+              "CASNumber": "7429-90-5"
+            },
+            {
+              "SubstanceName": "Copper (Cu)",
+              "CASNumber": "7440-50-8"
+            },
+            {
+              "SubstanceName": "Lead (Pb)",
+              "CASNumber": "7439-92-1"
+            },
+            {
+              "SubstanceName": "Nickel (Ni)",
+              "CASNumber": "7440-02-0"
+            },
+            {
+              "SubstanceName": "Tin (Sn)",
+              "CASNumber": "7440-31-5"
+            }
+          ]
+        },
+        "GlobalPFASAssessment": {
+          "Status": "Not Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": "http://download.siliconexpert.com/pdfs2/2021/11/25/18/35/0/930890/st_/auto/en.md_zg20smb20clip20sod206_8yzgtwu018d.pdf",
+          "Details": []
+        },
+        "HazardousSubstancesData": {
+          "substanceName": "Lead",
+          "regulation": "REACH Jun 25, 2025,RoHS,China RoHS"
+        },
+        "TSCASection": {
+          "TSCAPBTSection6h": {
+            "Status": "Compliant",
+            "SourceType": "COC & Vendor base TSCA",
+            "SourcePath": "http://download.siliconexpert.com/pdfs2/2022/8/1/19/54/44/76906/st_/manual/tscacustomercomm.pdf"
+          },
+          "TSCAPFASSection8a7": {
+            "Status": "Not Affected",
+            "SourceType": "Material Declaration",
+            "SourcePath": "http://download.siliconexpert.com/pdfs2/2021/11/25/18/35/0/930890/st_/auto/en.md_zg20smb20clip20sod206_8yzgtwu018d.pdf"
+          }
+        },
+        "InorganicPhosphorusData": {
+          "Status": "Not Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": "http://download.siliconexpert.com/pdfs2/2021/11/25/18/35/0/930890/st_/auto/en.md_zg20smb20clip20sod206_8yzgtwu018d.pdf"
+        },
+        "ADDSLData": {
+          "Status": "Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": "http://download.siliconexpert.com/pdfs2/2021/11/25/18/35/0/930890/st_/auto/en.md_zg20smb20clip20sod206_8yzgtwu018d.pdf",
+          "Substances": [
+            {
+              "substanceId": 4135,
+              "substanceName": "Copper (Cu)",
+              "casNumber": "7440-50-8",
+              "regId": 18,
+              "features": [
+                {
+                  "feature": [
+                    {
+                      "featureName": "IAEG ID",
+                      "featureValue": "IAEG009597"
+                    },
+                    {
+                      "featureName": "IAEG Regulatory Criteria",
+                      "featureValue": "I"
+                    }
+                  ]
+                },
+                {
+                  "feature": [
+                    {
+                      "featureName": "IAEG ID",
+                      "featureValue": "IAEG009597"
+                    },
+                    {
+                      "featureName": "IAEG Regulatory Criteria",
+                      "featureValue": "I"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "substanceId": 4805,
+              "substanceName": "Silver (Ag)",
+              "casNumber": "7440-22-4",
+              "regId": 18,
+              "features": [
+                {
+                  "feature": [
+                    {
+                      "featureName": "IAEG ID",
+                      "featureValue": "IAEG009547"
+                    },
+                    {
+                      "featureName": "IAEG Regulatory Criteria",
+                      "featureValue": "I"
+                    }
+                  ]
+                },
+                {
+                  "feature": [
+                    {
+                      "featureName": "IAEG ID",
+                      "featureValue": "IAEG009547"
+                    },
+                    {
+                      "featureName": "IAEG Regulatory Criteria",
+                      "featureValue": "I"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "substanceId": 4351,
+              "substanceName": "Lead (Pb)",
+              "casNumber": "7439-92-1",
+              "regId": 18,
+              "features": [
+                {
+                  "feature": [
+                    {
+                      "featureName": "IAEG ID",
+                      "featureValue": "IAEG001917"
+                    },
+                    {
+                      "featureName": "IAEG Regulatory Criteria",
+                      "featureValue": "R1; R2; D1; I"
+                    }
+                  ]
+                },
+                {
+                  "feature": [
+                    {
+                      "featureName": "IAEG ID",
+                      "featureValue": "IAEG001917"
+                    },
+                    {
+                      "featureName": "IAEG Regulatory Criteria",
+                      "featureValue": "R1; R2; D1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "PhthalatesData": {
+          "Status": "Not Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": "http://download.siliconexpert.com/pdfs2/2021/11/25/18/35/0/930890/st_/auto/en.md_zg20smb20clip20sod206_8yzgtwu018d.pdf"
+        },
+        "ODCData": {
+          "Status": "Not Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": "http://download.siliconexpert.com/pdfs2/2021/11/25/18/35/0/930890/st_/auto/en.md_zg20smb20clip20sod206_8yzgtwu018d.pdf"
+        },
+        "PFOSEUDirective2006122ECData": {
+          "Status": "Not Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": "http://download.siliconexpert.com/pdfs2/2021/11/25/18/35/0/930890/st_/auto/en.md_zg20smb20clip20sod206_8yzgtwu018d.pdf"
+        },
+        "BisPhenolABPAData": {
+          "Status": "Not Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": "http://download.siliconexpert.com/pdfs2/2021/11/25/18/35/0/930890/st_/auto/en.md_zg20smb20clip20sod206_8yzgtwu018d.pdf"
+        },
+        "PFOAData": {
+          "Status": "Not Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": "http://download.siliconexpert.com/pdfs2/2021/11/25/18/35/0/930890/st_/auto/en.md_zg20smb20clip20sod206_8yzgtwu018d.pdf"
+        },
+        "NAS411Data": {
+          "Status": "Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": "http://download.siliconexpert.com/pdfs2/2021/11/25/18/35/0/930890/st_/auto/en.md_zg20smb20clip20sod206_8yzgtwu018d.pdf",
+          "Substances": [
+            {
+              "substanceId": 4434,
+              "substanceName": "Nickel (Ni)",
+              "casNumber": "7440-02-0",
+              "regId": 19,
+              "features": {
+                "feature": [
+                  {
+                    "featureName": "HMTL Category",
+                    "featureValue": "Restricted"
+                  },
+                  {
+                    "featureName": "Substance Group",
+                    "featureValue": "-"
+                  }
+                ]
+              }
+            },
+            {
+              "substanceId": 4351,
+              "substanceName": "Lead (Pb)",
+              "casNumber": "7439-92-1",
+              "regId": 19,
+              "features": {
+                "feature": [
+                  {
+                    "featureName": "HMTL Category",
+                    "featureValue": "Restricted"
+                  },
+                  {
+                    "featureName": "Substance Group",
+                    "featureValue": "-"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "standardConflictMineralData": {
+          "ConflictMineralStatus": "DRC Conflict Free",
+          "ConflictMineralStatement": "",
+          "EICCMembership": "No",
+          "EICCTemplate": "http://download.siliconexpert.com/pdfs2/2025/10/16/16/16/25/4073555738/st_/manual/rmi_cmrt6.5_company_stmicroelectronics_25-sep-20251.xlsx",
+          "EICCTemplateVersion": "Version 6.50",
+          "ConflictMineralsPolicy": "",
+          "ConflictMineralsSustainabilityReport": ""
+        },
+        "extendedConflictMineralData": {
+          "CobaltStatus": "CAHRA-Conflict Free",
+          "MicaStatus": "Not Affected",
+          "RMIMembership": "No",
+          "EMRTTemplate": "http://download.siliconexpert.com/pdfs2/2025/2/17/11/31/13/2624576783/st_/manual/stmicroelectronicsrmiemrt1.3.xlsx",
+          "EMRTTemplateVersion": "Version 1.30",
+          "CertificationofCompliance": ""
+        }
+      },
+      "PricingData": {
+        "MinimumPrice": "0.0403",
+        "AveragePrice": "0.1503",
+        "MinLeadtime": "13 Week(s)",
+        "Maxleadtime": "99 Week(s)",
+        "LastUpdatedate": "Oct 16,2025"
+      },
+      "ReplacementData": {
+        "ReplacementDto": {
+          "ReplacementComId": "21902819",
+          "ReplacementPartNumber": "SMBJ15A",
+          "ReplacementType": "A",
+          "Comment": "Difference in: Packaging"
+        }
+      },
+      "ReachData": {
+        "ReachDto": {
+          "CachedSource": "http://download.siliconexpert.com/pdfs2/2021/11/25/18/35/0/930890/st_/auto/en.md_zg20smb20clip20sod206_8yzgtwu018d.pdf",
+          "ContainsSVHC": "Yes",
+          "SVHCExceedThresholdLimit": "Yes",
+          "SVHCListVersion": "Jun 25, 2025",
+          "SVHCListVersionNumber": "250",
+          "SubstanceIdentification": "Lead",
+          "SubstanceLocation": "Soft Solder",
+          "SubstanceConcentration": "20160.4 ppm",
+          "SourceType": "Material Declaration",
+          "ReachStatus": "Affected",
+          "CASNumber": "7439-92-1",
+          "SVHCDateOfInclusion": "Jun 27,2018",
+          "EchaNotification": "",
+          "NotificationComment": "",
+          "SupportingDocument": "",
+          "AnnexXIV": {
+            "SunsetDate": "Not Required",
+            "ApplicationDate": "Not Required",
+            "AuthorizationEntryNumber": "Not Required",
+            "ExemptedCategories": "Not Required"
+          },
+          "SubstanceIdentifications": {
+            "substanceIdentification": "Lead",
+            "requiredAuthorization": "Not Required",
+            "substanceConcentration": "20160.4 ppm",
+            "substanceLocation": "Soft Solder",
+            "applicationDate": "Not Required",
+            "exemptedCategories": "Not Required",
+            "sunsetDate": "Not Required",
+            "annexXIvAuthorization": "No",
+            "svhcDateOfInclusion": "Jun 27,2018",
+            "casNumber": "7439-92-1",
+            "authorizationEntryNumber": "Not Required"
+          }
+        }
+      },
+      "RiskData": {
+        "RohsRisk": "Medium",
+        "MultiSourcingRisk": "Low",
+        "InventoryRisk": "Low",
+        "LifecycleRisk": "Medium",
+        "PredictedObsolescenceYear": "2033",
+        "LifecycleStage": "Mature",
+        "YearsEOL": "7.9",
+        "NumberOfDistributors": "11",
+        "NumberOfOtherSources": "47",
+        "CrossesPartCategory": "YES",
+        "SEGrade": "5",
+        "LastUpdateDate": "October, 2025",
+        "YeolComment": "The part has surpassed a significant portion of its expected lifespan"
+      },
+      "History": {
+        "Datasheet": [
+          {
+            "date": "Oct 07, 2024",
+            "url": "http://download.siliconexpert.com/pdfs2/2024/10/18/4/49/44/81429/st_/manual/en.cd00001366.pdf"
+          },
+          {
+            "date": "Sep 06, 2022",
+            "url": "http://download.siliconexpert.com/pdfs2/2022/9/12/8/30/53/45085/st_/manual/en.cd00001366.pdf"
+          },
+          {
+            "date": "Apr 27, 2021",
+            "url": "http://download.siliconexpert.com/pdfs2/2021/4/29/8/53/0/115518/st_/manual/smbj15a.pdf"
+          },
+          {
+            "date": "Oct 20, 2010",
+            "url": "http://download.siliconexpert.com/pdfs/2014/8/25/8/5/13/129/st_/manual/1738cd00001366.pdf"
+          },
+          {
+            "date": "Oct 20, 2010",
+            "url": "http://download.siliconexpert.com/pdfs/2013/9/26/4/10/58/855/st_/manual/117cd00001366.pdf"
+          },
+          {
+            "date": "Oct 19, 2010",
+            "url": "http://download.siliconexpert.com/pdfs/2010/10/24/3/3/4/104/st_/manual/smbj.pdf"
+          },
+          {
+            "date": "Oct 19, 2010",
+            "url": "http://download.siliconexpert.com/pdfs/2011/10/3/5/27/57/660/st_/manual/smbj.pdf"
+          },
+          {
+            "date": "Jul 09, 2010",
+            "url": "http://download.siliconexpert.com/pdfs/2010/7/13/5/46/34/131/st_/manual/smbj.pdf"
+          },
+          {
+            "date": "Sep 18, 2009",
+            "url": "http://download.siliconexpert.com/pdfs/2009/10/18/8/24/30/834/st_/manual/5616.pdf"
+          },
+          {
+            "date": "May 14, 2009",
+            "url": "http://download.siliconexpert.com/pdfs/2009/5/25/14/24/54/500/st_/manual/5616.pdf"
+          },
+          {
+            "date": "Nov 23, 2006",
+            "url": "http://download.siliconexpert.com/pdfs/2007/02/18/semi_ap/2/st/tvs-clamping(diodes)/5616.pdf"
+          },
+          {
+            "date": "Feb 13, 2006",
+            "url": "http://download.siliconexpert.com/pdfs/2006/03/08/semi_ap/5/st/tvs-clamping(diodes)/5616.pdf"
+          },
+          {
+            "date": "Oct 11, 2001",
+            "url": "http://download.siliconexpert.com/pdfs/source/qd/st/rev1/5616.pdf"
+          },
+          {
+            "date": "Oct 11, 2001",
+            "url": "http://download.siliconexpert.com/pdfs/diode/st/5616.pdf"
+          },
+          {
+            "date": "Jan 29, 1998",
+            "url": "http://download.siliconexpert.com/pdfs/2004/0602/lib/manual/st/ds/smbj188ca-tr.pdf"
+          }
+        ],
+        "Lifecycle": [
+          {
+            "Date": "",
+            "Lifecycle": "Active",
+            "ManufacturerName": "STMicroelectronics",
+            "PartNumber": "SMBJ15A-TR",
+            "ReasonOfChange": "Obtained from supplier's website",
+            "SourceName": "Supplier Website",
+            "SourceURL": "http://download.siliconexpert.com/pdfs2/2022/3/7/10/4/35/592282/st_/manual/pgurl_smbj15a-tr.pdf"
+          },
+          {
+            "Date": "Jan 28, 1998",
+            "Lifecycle": "Introduction Date",
+            "ManufacturerName": "STMicroelectronics",
+            "PartNumber": "SMBJ15A-TR",
+            "ReasonOfChange": "",
+            "SourceName": "",
+            "SourceURL": ""
+          }
+        ]
+      },
+      "ProductImage": {
+        "ProductImageSmall": "http://download.siliconexpert.com/pdfs/2018/6/28/13/8/58/474159/st_/manual/diom5436x241_mcs_n.step.jpg",
+        "ProductImageLarge": "http://download.siliconexpert.com/pdfs/2018/6/28/13/8/48/859529/st_/manual/diom5436x241_mcs_n.step.jpg",
+        "ProductImageOriginal": "http://download.siliconexpert.com/pdfs/2018/6/28/13/8/53/377662/st_/manual/diom5436x241_mcs_n.step.jpg"
+      },
+      "ECADModelsData": {
+        "ECADModelsDto": {
+          "ECADURL": "https://vendor.ultralibrarian.com/siliconexpert/embedded?mfrName=STMicroelectronics&mfrPN=SMBJ15A-TR"
+        }
+      },
+      "PriceBreaksData": {
+        "PriceBreaksDto": [
+          {
+            "PriceBreaK": "1",
+            "AveragePrice": "0.1132",
+            "MinPrice": "0.0454"
+          },
+          {
+            "PriceBreaK": "5",
+            "AveragePrice": "0.4055",
+            "MinPrice": "0.298"
+          },
+          {
+            "PriceBreaK": "10",
+            "AveragePrice": "0.1993",
+            "MinPrice": "0.12658"
+          },
+          {
+            "PriceBreaK": "25",
+            "AveragePrice": "0.1163",
+            "MinPrice": "0.0806"
+          },
+          {
+            "PriceBreaK": "50",
+            "AveragePrice": "0.2643",
+            "MinPrice": "0.26"
+          },
+          {
+            "PriceBreaK": "97",
+            "AveragePrice": "0.2478",
+            "MinPrice": "0.2478"
+          },
+          {
+            "PriceBreaK": "100",
+            "AveragePrice": "0.1553",
+            "MinPrice": "0.1274"
+          },
+          {
+            "PriceBreaK": "250",
+            "AveragePrice": "0.127",
+            "MinPrice": "0.127"
+          },
+          {
+            "PriceBreaK": "500",
+            "AveragePrice": "0.1211",
+            "MinPrice": "0.0455"
+          },
+          {
+            "PriceBreaK": "1000",
+            "AveragePrice": "0.1365",
+            "MinPrice": "0.107"
+          },
+          {
+            "PriceBreaK": "2500",
+            "AveragePrice": "0.1059",
+            "MinPrice": "0.0515"
+          },
+          {
+            "PriceBreaK": "5000",
+            "AveragePrice": "0.0774",
+            "MinPrice": "0.0774"
+          },
+          {
+            "PriceBreaK": "7500",
+            "AveragePrice": "0.0961",
+            "MinPrice": "0.088"
+          },
+          {
+            "PriceBreaK": "12500",
+            "AveragePrice": "0.0417",
+            "MinPrice": "0.0417"
+          },
+          {
+            "PriceBreaK": "25000",
+            "AveragePrice": "0.0638",
+            "MinPrice": "0.0633"
+          },
+          {
+            "PriceBreaK": "62500",
+            "AveragePrice": "0.05",
+            "MinPrice": "0.05"
+          },
+          {
+            "PriceBreaK": "37500",
+            "AveragePrice": "0.0657",
+            "MinPrice": "0.06565"
+          },
+          {
+            "PriceBreaK": "106",
+            "AveragePrice": "0.2153",
+            "MinPrice": "0.2153"
+          },
+          {
+            "PriceBreaK": "10000",
+            "AveragePrice": "0.0672",
+            "MinPrice": "0.0653"
+          },
+          {
+            "PriceBreaK": "50000",
+            "AveragePrice": "0.0655",
+            "MinPrice": "0.0621"
+          },
+          {
+            "PriceBreaK": "15000",
+            "AveragePrice": "0.1013",
+            "MinPrice": "0.1013"
+          },
+          {
+            "PriceBreaK": "20000",
+            "AveragePrice": "0.0989",
+            "MinPrice": "0.0989"
+          },
+          {
+            "PriceBreaK": "100000",
+            "AveragePrice": "0.0672",
+            "MinPrice": "0.0672"
+          },
+          {
+            "PriceBreaK": "30000",
+            "AveragePrice": "0.0508",
+            "MinPrice": "0.0508"
+          },
+          {
+            "PriceBreaK": "1250000",
+            "AveragePrice": "0.0626",
+            "MinPrice": "0.0626"
+          },
+          {
+            "PriceBreaK": "125000",
+            "AveragePrice": "0.0492",
+            "MinPrice": "0.0492"
+          },
+          {
+            "PriceBreaK": "17500",
+            "AveragePrice": "0.0516",
+            "MinPrice": "0.0516"
+          },
+          {
+            "PriceBreaK": "625000",
+            "AveragePrice": "0.0645",
+            "MinPrice": "0.0645"
+          },
+          {
+            "PriceBreaK": "250000",
+            "AveragePrice": "0.0571",
+            "MinPrice": "0.0571"
+          },
+          {
+            "PriceBreaK": "3000",
+            "AveragePrice": "0.0819",
+            "MinPrice": "0.0819"
+          },
+          {
+            "PriceBreaK": "1250",
+            "AveragePrice": "0.143",
+            "MinPrice": "0.143"
+          }
+        ]
+      },
+      "PriceAndLeadTimeHistory": [
+        {
+          "MinimumPrice": "0.0417",
+          "AveragePrice": "0.154",
+          "MinLeadtime": "13 Week(s)",
+          "Maxleadtime": "99 Week(s)",
+          "LastUpdatedate": "Oct 9,2025"
+        },
+        {
+          "MinimumPrice": "0.0417",
+          "AveragePrice": "0.1466",
+          "MinLeadtime": "13 Week(s)",
+          "Maxleadtime": "99 Week(s)",
+          "LastUpdatedate": "Oct 2,2025"
+        },
+        {
+          "MinimumPrice": "0.0417",
+          "AveragePrice": "0.1394",
+          "MinLeadtime": "13 Week(s)",
+          "Maxleadtime": "99 Week(s)",
+          "LastUpdatedate": "Sep 25,2025"
+        },
+        {
+          "MinimumPrice": "0.0455",
+          "AveragePrice": "0.1334",
+          "MinLeadtime": "13 Week(s)",
+          "Maxleadtime": "99 Week(s)",
+          "LastUpdatedate": "Sep 18,2025"
+        },
+        {
+          "MinimumPrice": "0.0455",
+          "AveragePrice": "0.1398",
+          "MinLeadtime": "13 Week(s)",
+          "Maxleadtime": "99 Week(s)",
+          "LastUpdatedate": "Sep 11,2025"
+        },
+        {
+          "MinimumPrice": "0.0455",
+          "AveragePrice": "0.1499",
+          "MinLeadtime": "13 Week(s)",
+          "Maxleadtime": "99 Week(s)",
+          "LastUpdatedate": "Sep 4,2025"
+        },
+        {
+          "MinimumPrice": "0.0455",
+          "AveragePrice": "0.1362",
+          "MinLeadtime": "13 Week(s)",
+          "Maxleadtime": "99 Week(s)",
+          "LastUpdatedate": "Aug 28,2025"
+        },
+        {
+          "MinimumPrice": "0.0454",
+          "AveragePrice": "0.1591",
+          "MinLeadtime": "13 Week(s)",
+          "Maxleadtime": "99 Week(s)",
+          "LastUpdatedate": "Aug 21,2025"
+        },
+        {
+          "MinimumPrice": "0.0454",
+          "AveragePrice": "0.1404",
+          "MinLeadtime": "13 Week(s)",
+          "Maxleadtime": "99 Week(s)",
+          "LastUpdatedate": "Aug 14,2025"
+        },
+        {
+          "MinimumPrice": "0.0455",
+          "AveragePrice": "0.1501",
+          "MinLeadtime": "13 Week(s)",
+          "Maxleadtime": "99 Week(s)",
+          "LastUpdatedate": "Aug 7,2025"
+        },
+        {
+          "MinimumPrice": "0.0455",
+          "AveragePrice": "0.1505",
+          "MinLeadtime": "13 Week(s)",
+          "Maxleadtime": "99 Week(s)",
+          "LastUpdatedate": "Jul 31,2025"
+        },
+        {
+          "MinimumPrice": "0.0455",
+          "AveragePrice": "0.1613",
+          "MinLeadtime": "13 Week(s)",
+          "Maxleadtime": "99 Week(s)",
+          "LastUpdatedate": "Jul 24,2025"
+        },
+        {
+          "MinimumPrice": "0.0455",
+          "AveragePrice": "0.1599",
+          "MinLeadtime": "13 Week(s)",
+          "Maxleadtime": "99 Week(s)",
+          "LastUpdatedate": "Jul 17,2025"
+        },
+        {
+          "MinimumPrice": "0.0454",
+          "AveragePrice": "0.1523",
+          "MinLeadtime": "13 Week(s)",
+          "Maxleadtime": "99 Week(s)",
+          "LastUpdatedate": "Jul 10,2025"
+        },
+        {
+          "MinimumPrice": "0.0672",
+          "AveragePrice": "0.1682",
+          "MinLeadtime": "13 Week(s)",
+          "Maxleadtime": "99 Week(s)",
+          "LastUpdatedate": "Jul 3,2025"
+        },
+        {
+          "MinimumPrice": "0.0429",
+          "AveragePrice": "0.1573",
+          "MinLeadtime": "13 Week(s)",
+          "Maxleadtime": "99 Week(s)",
+          "LastUpdatedate": "Jun 26,2025"
+        },
+        {
+          "MinimumPrice": "0.0429",
+          "AveragePrice": "0.1628",
+          "MinLeadtime": "13 Week(s)",
+          "Maxleadtime": "99 Week(s)",
+          "LastUpdatedate": "Jun 19,2025"
+        },
+        {
+          "MinimumPrice": "0.0454",
+          "AveragePrice": "0.1515",
+          "MinLeadtime": "13 Week(s)",
+          "Maxleadtime": "99 Week(s)",
+          "LastUpdatedate": "Jun 12,2025"
+        },
+        {
+          "MinimumPrice": "0.0455",
+          "AveragePrice": "0.1729",
+          "MinLeadtime": "13 Week(s)",
+          "Maxleadtime": "99 Week(s)",
+          "LastUpdatedate": "Jun 5,2025"
+        }
+      ],
+      "ResilienceRatingdetails": {
+        "ResilienceRating": 10,
+        "AssuranceOfSupply": {
+          "lifecycleRiskDto": null,
+          "multiSourcingRiskDto": null,
+          "inventoryRiskDto": null,
+          "geoRiskDto": null,
+          "marketRiskDto": null
+        },
+        "Performance": {
+          "priceRiskDto": null,
+          "leadTimeRiskDto": null,
+          "obsolescenceRiskDto": null,
+          "manLeadTimeRiskDto": null
+        },
+        "Security": {
+          "rohsRiskDto": null,
+          "counterfeitRiskDto": null
+        }
+      }
+    }
+  }
+}

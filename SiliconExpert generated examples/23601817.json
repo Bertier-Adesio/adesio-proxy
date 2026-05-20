@@ -1,0 +1,2101 @@
+{
+  "Status": {
+    "Code": "0",
+    "Message": "Successful Operation",
+    "Success": "true",
+    "RequestID": "756396547768485"
+  },
+  "Results": {
+    "ResultDto": {
+      "RequestedComID": "23601817",
+      "SummaryData": {
+        "DataProviderID": "23601817",
+        "PartNumber": "INF-6924",
+        "Manufacturer": "Infineon",
+        "ManufacturerID": "3890",
+        "AMLStatus": "",
+        "PartDescription": "Op-Amp - Mock Description 27",
+        "Datasheet": "http://download.siliconexpert.com/pdfs2/2025/7/17/16/40/1/1829149232/tdk_/manual/mkpb32651658.pdf",
+        "OnlineSupplierDatasheetURL": "https://www.tdk-electronics.tdk.com/inf/20/20/db/fc_2009/MKP_B32651_658.pdf",
+        "RadHard": "",
+        "DoseLevel": "",
+        "TaxonomyPath": "Capacitors > Fixed Capacitors > Capacitor Film",
+        "TaxonomyPathIDs": "103730 > 104218 > 3575",
+        "SmallImageURL": "http://download.siliconexpert.com/pdfs2/2024/11/7/9/49/59/212959/tdk_/manual/b32653a7683j289.jpg",
+        "ECCN": "EAR99",
+        "EUECCN": "EU99",
+        "UNSPSC": "32121507",
+        "TARIC": "8532250000",
+        "OtherSources": "1",
+        "LastCheckDate": "Aug 11, 2025",
+        "PartMarking": "",
+        "IntroductionDate": "Jun 25, 2001",
+        "PartAliases": {
+          "PartAlias": "B32654-A7224-J"
+        },
+        "ESDClass": "N/A",
+        "ESDSourceofInformation": "http://download.siliconexpert.com/pdfs2/2025/7/17/16/40/1/1829149232/tdk_/manual/mkpb32651658.pdf",
+        "AuthorizedDistributors": "9",
+        "GenericName": "",
+        "FamilyName": "B32654",
+        "AECNumber": "AEC-Q200",
+        "AECQualified": "Yes",
+        "Automotive": "Yes",
+        "AECPDF": "http://download.siliconexpert.com/pdfs2/2015/wda/tdk/b32654a7224j000_0_10.html",
+        "AutomotiveSource": "http://download.siliconexpert.com/pdfs/2015/12/11/20/20/13/281/tdk_/manual/5947281253680249ag-automotive-e-mobility.pdf",
+        "PPAPSource": "http://download.siliconexpert.com/pdfs/2015/10/19/15/51/17/921/tdk_/manual/1348541808796831mkp_b32651_656.pdf",
+        "IsoTs16949Source": "http://download.siliconexpert.com/pdfs/2015/10/19/15/51/17/921/tdk_/manual/1348541808796831mkp_b32651_656.pdf",
+        "Iso26262Source": "http://download.siliconexpert.com/pdfs/2015/10/19/15/51/17/921/tdk_/manual/1348541808796831mkp_b32651_656.pdf",
+        "SupplierCageCode": "J2979",
+        "EURoHS": "Yes",
+        "RoHSVersion": "2011/65/EU, 2015/863",
+        "ScheduleB": "8532250040",
+        "HTSUSA": "8532250040",
+        "PPAP": "Unknown",
+        "CountriesOfOrigin": {
+          "CountryOfOrigin": {
+            "Country": "India",
+            "Source": ""
+          }
+        },
+        "USChinaTariffImpact": "Less Likely Impacted",
+        "PLName": "Capacitor Film",
+        "MaskPart": "B32654A7224J%",
+        "GidepAlerts": "0"
+      },
+      "DesignResourcesData": {
+        "PinOutData": {
+          "PinOutDataSource": ""
+        },
+        "RefDesignData": {
+          "RefDesign": []
+        }
+      },
+      "ChemicalData": {
+        "ChemicalDto": [
+          {
+            "TotalMassInGram": "16.0",
+            "TotalMassSummationInGram": "16.0",
+            "LocationName": "Active Part",
+            "HomogenousMaterial": "Metals",
+            "HomogenousMaterialMass": "2.88",
+            "SubstanceIdentification": "Al",
+            "NormalizedSubstance": "Aluminium",
+            "SubstanceMass": "0.96",
+            "PPM": "333333.33333",
+            "CASNumber": "7429-90-5",
+            "MDSURL": "http://download.siliconexpert.com/pdfs/2007/12/12/isys/epco/mds_boxed-mkp.pdf",
+            "ItemSubItem": "Active Part"
+          },
+          {
+            "TotalMassInGram": "16.0",
+            "TotalMassSummationInGram": "16.0",
+            "LocationName": "Active Part",
+            "HomogenousMaterial": "Metals",
+            "HomogenousMaterialMass": "2.88",
+            "SubstanceIdentification": "SnCu3",
+            "NormalizedSubstance": "SnCu3",
+            "SubstanceMass": "1.92",
+            "PPM": "666666.66667",
+            "CASNumber": "N/A",
+            "MDSURL": "http://download.siliconexpert.com/pdfs/2007/12/12/isys/epco/mds_boxed-mkp.pdf",
+            "ItemSubItem": "Active Part"
+          },
+          {
+            "TotalMassInGram": "16.0",
+            "TotalMassSummationInGram": "16.0",
+            "LocationName": "Encapsulation",
+            "HomogenousMaterial": "Compounds (part of PBT plastic box)",
+            "HomogenousMaterialMass": "0.8",
+            "SubstanceIdentification": "n ethlene bis tetra bromo phtalamide",
+            "NormalizedSubstance": "1,2-Bis(tetrabromophthalimido) ethane",
+            "SubstanceMass": "0.8",
+            "PPM": "67567.56757",
+            "CASNumber": "32588-76-4",
+            "MDSURL": "http://download.siliconexpert.com/pdfs/2007/12/12/isys/epco/mds_boxed-mkp.pdf",
+            "ItemSubItem": "Encapsulation"
+          },
+          {
+            "TotalMassInGram": "16.0",
+            "TotalMassSummationInGram": "16.0",
+            "LocationName": "Encapsulation",
+            "HomogenousMaterial": "Oxide (part of PBT plastic box)",
+            "HomogenousMaterialMass": "0.16",
+            "SubstanceIdentification": "Sb2O3",
+            "NormalizedSubstance": "Antimonytrioxide (Diantimonytrioxide)",
+            "SubstanceMass": "0.16",
+            "PPM": "13513.51351",
+            "CASNumber": "1309-64-4",
+            "MDSURL": "http://download.siliconexpert.com/pdfs/2007/12/12/isys/epco/mds_boxed-mkp.pdf",
+            "ItemSubItem": "Encapsulation"
+          },
+          {
+            "TotalMassInGram": "16.0",
+            "TotalMassSummationInGram": "16.0",
+            "LocationName": "Encapsulation",
+            "HomogenousMaterial": "Polymer",
+            "HomogenousMaterialMass": "3.2",
+            "SubstanceIdentification": "PP film material",
+            "NormalizedSubstance": "1-Propene, homopolymer",
+            "SubstanceMass": "3.2",
+            "PPM": "270270.27027",
+            "CASNumber": "9003-07-0",
+            "MDSURL": "http://download.siliconexpert.com/pdfs/2007/12/12/isys/epco/mds_boxed-mkp.pdf",
+            "ItemSubItem": "Encapsulation"
+          },
+          {
+            "TotalMassInGram": "16.0",
+            "TotalMassSummationInGram": "16.0",
+            "LocationName": "Encapsulation",
+            "HomogenousMaterial": "Polymers",
+            "HomogenousMaterialMass": "7.68",
+            "SubstanceIdentification": "Epoxy Resin",
+            "NormalizedSubstance": "EPOXY / PHENOLIC RESIN",
+            "SubstanceMass": "3.52",
+            "PPM": "297297.2973",
+            "CASNumber": "61788-97-4",
+            "MDSURL": "http://download.siliconexpert.com/pdfs/2007/12/12/isys/epco/mds_boxed-mkp.pdf",
+            "ItemSubItem": "Encapsulation"
+          },
+          {
+            "TotalMassInGram": "16.0",
+            "TotalMassSummationInGram": "16.0",
+            "LocationName": "Encapsulation",
+            "HomogenousMaterial": "Polymers",
+            "HomogenousMaterialMass": "7.68",
+            "SubstanceIdentification": "PBT plastic box",
+            "NormalizedSubstance": "1,4-Benzenedicarboxylic acid, polymer with 1,4-butanediol",
+            "SubstanceMass": "4.16",
+            "PPM": "351351.35135",
+            "CASNumber": "26062-94-2",
+            "MDSURL": "http://download.siliconexpert.com/pdfs/2007/12/12/isys/epco/mds_boxed-mkp.pdf",
+            "ItemSubItem": "Encapsulation"
+          },
+          {
+            "TotalMassInGram": "16.0",
+            "TotalMassSummationInGram": "16.0",
+            "LocationName": "Termination",
+            "HomogenousMaterial": "Metals",
+            "HomogenousMaterialMass": "1.28",
+            "SubstanceIdentification": "Cu",
+            "NormalizedSubstance": "Copper",
+            "SubstanceMass": "1.2",
+            "PPM": "937500.0",
+            "CASNumber": "7440-50-8",
+            "MDSURL": "http://download.siliconexpert.com/pdfs/2007/12/12/isys/epco/mds_boxed-mkp.pdf",
+            "ItemSubItem": "Termination"
+          },
+          {
+            "TotalMassInGram": "16.0",
+            "TotalMassSummationInGram": "16.0",
+            "LocationName": "Termination",
+            "HomogenousMaterial": "Metals",
+            "HomogenousMaterialMass": "1.28",
+            "SubstanceIdentification": "Sn coating",
+            "NormalizedSubstance": "Tin",
+            "SubstanceMass": "0.08",
+            "PPM": "62500.0",
+            "CASNumber": "7440-31-5",
+            "MDSURL": "http://download.siliconexpert.com/pdfs/2007/12/12/isys/epco/mds_boxed-mkp.pdf",
+            "ItemSubItem": "Termination"
+          }
+        ]
+      },
+      "CrossData": {
+        "CrossDto": [
+          {
+            "CrossComId": "48687200",
+            "CrossPartNumber": "F463FI224J1L2H",
+            "CrossManufacturer": "KEMET Corporation",
+            "CrossType": "B",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "56568668",
+            "CrossPartNumber": "FKP4R032206J00JSSD",
+            "CrossManufacturer": "WIMA",
+            "CrossType": "SF",
+            "Comment": ""
+          }
+        ]
+      },
+      "AverageInventory": "2357",
+      "FranchisedInventoryData": {
+        "FranchisedInventoryDto": [
+          {
+            "Distributor": "Verical",
+            "Quantity": "14383",
+            "BuyNowLink": "https://www.verical.com/pd/epcos-film-B32654A7224J000-381882",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Arrow Europe",
+            "Quantity": "10030",
+            "BuyNowLink": "https://www.arrow.com/en/products/b32654a7224j000/tdk",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Arrow North America",
+            "Quantity": "6055",
+            "BuyNowLink": "https://www.arrow.com/en/products/b32654a7224j/tdk",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Chip1Stop",
+            "Quantity": "7661",
+            "BuyNowLink": "https://www.chip1stop.com/product/detail?partId=EPCO-0022503",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Avnet",
+            "Quantity": "6388",
+            "BuyNowLink": "https://www.avnet.com/americas/product/tdk/b32654a7224j/evolve-2334980/?CMP=EMA_FindChips_inventoryfeedno_stock_VSE",
+            "LastUpdated": "5 Days"
+          },
+          {
+            "Distributor": "Mouser Electronics",
+            "Quantity": "11831",
+            "BuyNowLink": "https://www.mouser.com/ProductDetail/EPCOS-TDK/B32654A7224J?qs=TAh7utZnAiWyda59OL93RQ%3d%3d",
+            "LastUpdated": "5 Days"
+          },
+          {
+            "Distributor": "Digi-Key",
+            "Quantity": "2271",
+            "BuyNowLink": "https://www.digikey.com/en/products/detail/epcos-tdk-electronics/B32654A7224J000/1648101?utm_source=oemstrade&utm_medium=aggregator&utm_campaign=buynow",
+            "LastUpdated": "> 1 Week"
+          },
+          {
+            "Distributor": "Element14",
+            "Quantity": "10095",
+            "BuyNowLink": "https://au.element14.com/epcos/b32654a7224j000/cap-0-22-f-1-25-kv-5-pp/dp/1200816",
+            "LastUpdated": "> 1 Week"
+          },
+          {
+            "Distributor": "Future Electronics",
+            "Quantity": "14954",
+            "BuyNowLink": "https://www.futureelectronics.com//p/passives--capacitors--film-capacitors/b32654a7224j-tdk-epcos-8134747",
+            "LastUpdated": "> 1 Week"
+          }
+        ]
+      },
+      "FullCounterfeitData": {
+        "CounterfeitOverallRisk": "50 %",
+        "OverallCounterfeitRiskGrade": "Medium",
+        "PartNumCounterfeitReportsCount": "null Report(s)",
+        "ManCounterfeitReportsCount": "3 Report(s)",
+        "ManCounterfeitReports": [
+          {
+            "MPN": "TSL0709RA-102KR19-PF",
+            "Supplier": "TDK CORP",
+            "NotificationDate": "May 14, 2019",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "EVIDENCE OF LEADS BEING RETINNED.",
+            "Source": "http://download.siliconexpert.com/pdfs2/2019/6/10/17/40/8/712204/tdk_/manual/9185.pdf"
+          },
+          {
+            "MPN": "ACP3225-102-2P-T000",
+            "Supplier": "TDK",
+            "NotificationDate": "Sep 19, 2012",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [AXU-14-062-0001]"
+          },
+          {
+            "MPN": "C4532X5R0J107M280KA",
+            "Supplier": "TDK Corp of America",
+            "NotificationDate": "Jul 02, 2020",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [J5-P-20-01]"
+          }
+        ],
+        "PlCounterfeitReportsCount": "1 Report(s)",
+        "PlCounterfeitReports": {
+          "MPN": "NEM103J100F",
+          "Supplier": "NIC Components",
+          "NotificationDate": "Mar 20, 2009",
+          "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+          "Description": "ALERT.Customers Beware, Counterfeit NIC Components products have been recently reported in the market.",
+          "Source": "http://download.siliconexpert.com/pdfs/2016/2/17/11/4/39/681/nic_/manual/nic.pdf"
+        },
+        "CurrentLifecycleStatus": "Active",
+        "TimeSinceMarketIntroduction": "24 Year(s)",
+        "AuthorizedDistributorswithStockCount": "6 Distributor(s)",
+        "AuthorizedDistributorswithStockReports": [
+          {
+            "Date": "AUG_2025",
+            "AvgQuantity": "8365",
+            "Inventory": "Mouser Electronics||~||Element14||~||Newark||~||Digi-Key||~||Verical||~||"
+          },
+          {
+            "Date": "AUG_2025",
+            "AvgQuantity": "3305",
+            "Inventory": "Element14||~||Newark||~||Digi-Key||~||Verical||~||"
+          },
+          {
+            "Date": "AUG_2025",
+            "AvgQuantity": "20195",
+            "Inventory": "Mouser Electronics||~||Digi-Key||~||Arrow Europe||~||Verical||~||Chip1Stop||~||"
+          },
+          {
+            "Date": "SEP_2025",
+            "AvgQuantity": "19329",
+            "Inventory": "Mouser Electronics||~||Digi-Key||~||Arrow Europe||~||Verical||~||Chip1Stop||~||"
+          },
+          {
+            "Date": "OCT_2025",
+            "AvgQuantity": "21218",
+            "Inventory": "Mouser Electronics||~||Element14||~||Digi-Key||~||Arrow Europe||~||Verical||~||Chip1Stop||~||"
+          }
+        ],
+        "HistoricalShortagesInventoryReported": "Yes",
+        "IsPopularPart": "Yes"
+      },
+      "Qualifications": {
+        "ESDQualification": {
+          "ESDProtection": "Unknown",
+          "MaximumESDProtectionVoltage": "N/A",
+          "ESDClass": "N/A",
+          "SourceOfInformation": "http://download.siliconexpert.com/pdfs2/2025/7/17/16/40/1/1829149232/tdk_/manual/mkpb32651658.pdf"
+        },
+        "AgencyApprovals": {
+          "Agency": {
+            "Agnecy": "Unknown",
+            "Standard": "N/A",
+            "StandardDetails": "N/A",
+            "FileNumber": "N/A",
+            "CertificationDocument": "http://download.siliconexpert.com/pdfs2/2025/7/17/16/40/1/1829149232/tdk_/manual/mkpb32651658.pdf"
+          }
+        },
+        "Reliability": {
+          "FitDetail": {
+            "FIT": "1",
+            "ConditionName": "Temperature",
+            "ConditionValue": "40°C"
+          },
+          "MTBFDetail": {
+            "MTBF": "1000000000",
+            "ConditionName": "Temperature",
+            "ConditionValue": "40°C"
+          },
+          "SourceOfInformation": "https://www.tdk-electronics.tdk.com/inf/20/20/db/fc_2009/MKP_B32651_658.pdf"
+        }
+      },
+      "LifeCycleData": {
+        "PartStatus": "Active",
+        "LifeCycleComment": "",
+        "LTBDate": "",
+        "Source": "http://download.siliconexpert.com/pdfs2/wda/2020/8/11/tdk/b32654a7224j000_2_00.html",
+        "EstimatedYearsToEOL": "6.6",
+        "EstimatedEOLDate": "2032",
+        "PartLifecycleStage": "Mature",
+        "MinimumEstimatedYearsToEOL": "4.1",
+        "MaximumEstimatedYearsToEOL": "9.6",
+        "LifeCycleRiskGrade": "Medium",
+        "OverallRisk": "47.5%",
+        "OverallRiskGrade": "Low",
+        "PartLifecycleCode": "3"
+      },
+      "ManufacturingData": {
+        "MSL": "N/A",
+        "LeadFinishPlating": "Matte Sn",
+        "TerminalBaseMaterial": "Cu|CuFe",
+        "MaximumReflowTemperature": "N/R",
+        "ReflowSolderTime": "N/R",
+        "NumberOfReflowCycle": "",
+        "Standard": "",
+        "MaximumWaveTemperature": "260 °C",
+        "WaveSolderTime": "10 Sec",
+        "UnderPlatingMaterial": "N/A",
+        "ReflowTempSource": "",
+        "WaveTempSource": "https://download.siliconexpert.com/pdfs/2015/10/19/15/51/17/921/tdk_/manual/1348541808796831mkp_b32651_656.pdf",
+        "UnderPlatingPorosityFree": ""
+      },
+      "PackagingData": {
+        "PackagingSuffix": "000",
+        "Packaging": "Bulk",
+        "QuantityOfPackaging": "",
+        "ReelDiameter": "",
+        "ReelWidth": "",
+        "TapePitch": "",
+        "TapeWidth": "",
+        "FeedHolePitch": "",
+        "HoleCenterToComponentCenter": "",
+        "LeadClinchHeight": "",
+        "ComponentOrientation": "",
+        "PackagingDocument": "",
+        "TapeMaterial": "",
+        "TapeType": ""
+      },
+      "AllPackageData": {
+        "Feature": [
+          {
+            "FeatureName": "Mounting",
+            "FeatureValue": "Through Hole",
+            "FeatureUnit": "",
+            "FeatureId": "59452"
+          },
+          {
+            "FeatureName": "Termination Style",
+            "FeatureValue": "Radial",
+            "FeatureUnit": "",
+            "FeatureId": "72135"
+          },
+          {
+            "FeatureName": "Package/Case",
+            "FeatureValue": "N/R",
+            "FeatureUnit": "",
+            "FeatureId": "59454"
+          },
+          {
+            "FeatureName": "Terminal Pitch",
+            "FeatureValue": "27.5",
+            "FeatureUnit": "mm",
+            "FeatureId": "59455"
+          },
+          {
+            "FeatureName": "Product Length",
+            "FeatureValue": "31.5(Max)",
+            "FeatureUnit": "mm",
+            "FeatureId": "59463"
+          },
+          {
+            "FeatureName": "Product Depth",
+            "FeatureValue": "14(Max)",
+            "FeatureUnit": "mm",
+            "FeatureId": "59464"
+          },
+          {
+            "FeatureName": "Product Height",
+            "FeatureValue": "24.5(Max)",
+            "FeatureUnit": "mm",
+            "FeatureId": "59465"
+          },
+          {
+            "FeatureName": "Product Diameter",
+            "FeatureValue": "N/R",
+            "FeatureUnit": "mm",
+            "FeatureId": "60863"
+          },
+          {
+            "FeatureName": "Seated Plane Height",
+            "FeatureValue": "24.5(Max)",
+            "FeatureUnit": "mm",
+            "FeatureId": "59838"
+          },
+          {
+            "FeatureName": "Product Weight",
+            "FeatureValue": "16",
+            "FeatureUnit": "g",
+            "FeatureId": "59458"
+          },
+          {
+            "FeatureName": "Number of Terminals",
+            "FeatureValue": "2",
+            "FeatureUnit": "",
+            "FeatureId": "89341"
+          },
+          {
+            "FeatureName": "Size",
+            "FeatureValue": "31.5 X 14 X 24.5",
+            "FeatureUnit": "mm",
+            "FeatureId": "59466"
+          },
+          {
+            "FeatureName": "Maximum Product Length",
+            "FeatureValue": "31.5",
+            "FeatureUnit": "mm",
+            "FeatureId": "13466344"
+          },
+          {
+            "FeatureName": "Maximum Product Depth",
+            "FeatureValue": "14",
+            "FeatureUnit": "mm",
+            "FeatureId": "13466360"
+          },
+          {
+            "FeatureName": "Maximum Product Height",
+            "FeatureValue": "24.5",
+            "FeatureUnit": "mm",
+            "FeatureId": "13466376"
+          }
+        ]
+      },
+      "PackageData": {
+        "Feature": [
+          {
+            "FeatureName": "Mounting",
+            "FeatureValue": "Through Hole",
+            "FeatureUnit": "",
+            "FeatureId": "59452"
+          },
+          {
+            "FeatureName": "Termination Style",
+            "FeatureValue": "Radial",
+            "FeatureUnit": "",
+            "FeatureId": "72135"
+          },
+          {
+            "FeatureName": "Package/Case",
+            "FeatureValue": "N/R",
+            "FeatureUnit": "",
+            "FeatureId": "59454"
+          },
+          {
+            "FeatureName": "Terminal Pitch",
+            "FeatureValue": "27.5",
+            "FeatureUnit": "mm",
+            "FeatureId": "59455"
+          },
+          {
+            "FeatureName": "Product Length",
+            "FeatureValue": "31.5(Max)",
+            "FeatureUnit": "mm",
+            "FeatureId": "59463"
+          },
+          {
+            "FeatureName": "Product Depth",
+            "FeatureValue": "14(Max)",
+            "FeatureUnit": "mm",
+            "FeatureId": "59464"
+          },
+          {
+            "FeatureName": "Product Height",
+            "FeatureValue": "24.5(Max)",
+            "FeatureUnit": "mm",
+            "FeatureId": "59465"
+          },
+          {
+            "FeatureName": "Product Diameter",
+            "FeatureValue": "N/R",
+            "FeatureUnit": "mm",
+            "FeatureId": "60863"
+          },
+          {
+            "FeatureName": "Seated Plane Height",
+            "FeatureValue": "24.5(Max)",
+            "FeatureUnit": "mm",
+            "FeatureId": "59838"
+          },
+          {
+            "FeatureName": "Product Weight",
+            "FeatureValue": "16",
+            "FeatureUnit": "g",
+            "FeatureId": "59458"
+          },
+          {
+            "FeatureName": "Length Tolerance",
+            "FeatureValue": "",
+            "FeatureUnit": "mm",
+            "FeatureId": "87923"
+          },
+          {
+            "FeatureName": "Depth Tolerance",
+            "FeatureValue": "",
+            "FeatureUnit": "mm",
+            "FeatureId": "87940"
+          },
+          {
+            "FeatureName": "Height Tolerance",
+            "FeatureValue": "",
+            "FeatureUnit": "mm",
+            "FeatureId": "87957"
+          },
+          {
+            "FeatureName": "Diameter Tolerance",
+            "FeatureValue": "",
+            "FeatureUnit": "mm",
+            "FeatureId": "87974"
+          },
+          {
+            "FeatureName": "Number of Terminals",
+            "FeatureValue": "2",
+            "FeatureUnit": "",
+            "FeatureId": "89341"
+          },
+          {
+            "FeatureName": "Size",
+            "FeatureValue": "31.5 X 14 X 24.5",
+            "FeatureUnit": "mm",
+            "FeatureId": "59466"
+          },
+          {
+            "FeatureName": "Maximum Product Length",
+            "FeatureValue": "31.5",
+            "FeatureUnit": "mm",
+            "FeatureId": "13466344"
+          },
+          {
+            "FeatureName": "Maximum Product Depth",
+            "FeatureValue": "14",
+            "FeatureUnit": "mm",
+            "FeatureId": "13466360"
+          },
+          {
+            "FeatureName": "Maximum Product Height",
+            "FeatureValue": "24.5",
+            "FeatureUnit": "mm",
+            "FeatureId": "13466376"
+          }
+        ]
+      },
+      "ParametricData": {
+        "Features": [
+          {
+            "FeatureName": "AC Rated Voltage",
+            "FeatureValue": "500",
+            "FeatureUnit": "VAC",
+            "FeatureID": "8030017",
+            "FeatureValueDetails": {
+              "Value": "500",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "VAC",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Capacitance Value",
+            "FeatureValue": "0.22uF",
+            "FeatureUnit": "",
+            "FeatureID": "59447",
+            "FeatureValueDetails": {
+              "Value": "0.22",
+              "Multiplier": "u",
+              "MultiplierValue": ".000001",
+              "Unit": "F",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Construction",
+            "FeatureValue": "Wound",
+            "FeatureUnit": "",
+            "FeatureID": "59453",
+            "FeatureValueDetails": {
+              "Value": "Wound",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "DC Rated Voltage",
+            "FeatureValue": "1250",
+            "FeatureUnit": "VDC",
+            "FeatureID": "8030016",
+            "FeatureValueDetails": {
+              "Value": "1250",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "VDC",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Dielectric",
+            "FeatureValue": "PP",
+            "FeatureUnit": "",
+            "FeatureID": "59448",
+            "FeatureValueDetails": {
+              "Value": "PP",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Equivalent Series Resistance",
+            "FeatureValue": "",
+            "FeatureUnit": "Ohm",
+            "FeatureID": "72641"
+          },
+          {
+            "FeatureName": "Failure Rate",
+            "FeatureValue": "",
+            "FeatureUnit": "",
+            "FeatureID": "59459"
+          },
+          {
+            "FeatureName": "Fixed/Variable",
+            "FeatureValue": "Fixed",
+            "FeatureUnit": "",
+            "FeatureID": "13466392",
+            "FeatureValueDetails": {
+              "Value": "Fixed",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Lead Diameter",
+            "FeatureValue": "0.8",
+            "FeatureUnit": "mm",
+            "FeatureID": "59841",
+            "FeatureValueDetails": {
+              "Value": "0.8",
+              "Multiplier": "m",
+              "MultiplierValue": ".001",
+              "Unit": "m",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Lead Length",
+            "FeatureValue": "6",
+            "FeatureUnit": "mm",
+            "FeatureID": "67981",
+            "FeatureValueDetails": {
+              "Value": "6",
+              "Multiplier": "m",
+              "MultiplierValue": ".001",
+              "Unit": "m",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Maximum Dissipation Factor",
+            "FeatureValue": "",
+            "FeatureUnit": "%",
+            "FeatureID": "7560766"
+          },
+          {
+            "FeatureName": "Maximum Operating Temperature",
+            "FeatureValue": "110",
+            "FeatureUnit": "°C",
+            "FeatureID": "60245",
+            "FeatureValueDetails": {
+              "Value": "110",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "°C",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Maximum Pulse Rise Time",
+            "FeatureValue": "",
+            "FeatureUnit": "V/us",
+            "FeatureID": "112093"
+          },
+          {
+            "FeatureName": "Maximum Storage Temperature",
+            "FeatureValue": "",
+            "FeatureUnit": "°C",
+            "FeatureID": "69094"
+          },
+          {
+            "FeatureName": "Maximum Terminal Width",
+            "FeatureValue": "",
+            "FeatureUnit": "mm",
+            "FeatureID": "87614"
+          },
+          {
+            "FeatureName": "Military Standard",
+            "FeatureValue": "",
+            "FeatureUnit": "",
+            "FeatureID": "59460"
+          },
+          {
+            "FeatureName": "Minimum Operating Temperature",
+            "FeatureValue": "-40",
+            "FeatureUnit": "°C",
+            "FeatureID": "60252",
+            "FeatureValueDetails": {
+              "Value": "40",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "°C",
+              "Sign": "-"
+            }
+          },
+          {
+            "FeatureName": "Minimum Storage Temperature",
+            "FeatureValue": "",
+            "FeatureUnit": "°C",
+            "FeatureID": "68747"
+          },
+          {
+            "FeatureName": "Negative Capacitance Tolerance",
+            "FeatureValue": "-5",
+            "FeatureUnit": "%",
+            "FeatureID": "13938313",
+            "FeatureValueDetails": {
+              "Value": "5",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "%",
+              "Sign": "-"
+            }
+          },
+          {
+            "FeatureName": "Operating Temperature",
+            "FeatureValue": "-40 to 110",
+            "FeatureUnit": "°C",
+            "FeatureID": "59456",
+            "FeatureValueDetails": {
+              "Value": "40 to 110",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "°C to °C",
+              "Sign": "- to"
+            }
+          },
+          {
+            "FeatureName": "Polarity",
+            "FeatureValue": "Non Polar",
+            "FeatureUnit": "",
+            "FeatureID": "13401408",
+            "FeatureValueDetails": {
+              "Value": "Non Polar",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Positive Capacitance Tolerance",
+            "FeatureValue": "5",
+            "FeatureUnit": "%",
+            "FeatureID": "13938337",
+            "FeatureValueDetails": {
+              "Value": "5",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "%",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Special Features",
+            "FeatureValue": "High Contact Reliability|High Pulse Strength",
+            "FeatureUnit": "",
+            "FeatureID": "85360",
+            "FeatureValueDetails": [
+              {
+                "Value": "High Contact Reliability",
+                "Multiplier": "",
+                "MultiplierValue": "1.0",
+                "Unit": "",
+                "Sign": ""
+              },
+              {
+                "Value": "High Pulse Strength",
+                "Multiplier": "",
+                "MultiplierValue": "1.0",
+                "Unit": "",
+                "Sign": ""
+              }
+            ]
+          },
+          {
+            "FeatureName": "Suppression Class",
+            "FeatureValue": "",
+            "FeatureUnit": "",
+            "FeatureID": "65798"
+          },
+          {
+            "FeatureName": "Temperature Coefficient",
+            "FeatureValue": "",
+            "FeatureUnit": "ppm/°C",
+            "FeatureID": "72640"
+          },
+          {
+            "FeatureName": "Test Frequency",
+            "FeatureValue": "",
+            "FeatureUnit": "Hz",
+            "FeatureID": "13401396"
+          },
+          {
+            "FeatureName": "Tolerance",
+            "FeatureValue": "5%",
+            "FeatureUnit": "",
+            "FeatureID": "59449",
+            "FeatureValueDetails": {
+              "Value": "5",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "%",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Tradename",
+            "FeatureValue": "",
+            "FeatureUnit": "",
+            "FeatureID": "74548"
+          },
+          {
+            "FeatureName": "Type",
+            "FeatureValue": "Pulse",
+            "FeatureUnit": "",
+            "FeatureID": "62523",
+            "FeatureValueDetails": {
+              "Value": "Pulse",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Voltage",
+            "FeatureValue": "1250VDC|500VAC",
+            "FeatureUnit": "",
+            "FeatureID": "59450",
+            "FeatureValueDetails": [
+              {
+                "Value": "1250",
+                "Multiplier": "",
+                "MultiplierValue": "1.0",
+                "Unit": "VDC",
+                "Sign": ""
+              },
+              {
+                "Value": "500",
+                "Multiplier": "",
+                "MultiplierValue": "1.0",
+                "Unit": "VAC",
+                "Sign": ""
+              }
+            ]
+          },
+          {
+            "FeatureName": "Wire Form",
+            "FeatureValue": "Straight",
+            "FeatureUnit": "",
+            "FeatureID": "68713",
+            "FeatureValueDetails": {
+              "Value": "Straight",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "",
+              "Sign": ""
+            }
+          }
+        ]
+      },
+      "PCNData": {
+        "PCNDto": {
+          "LastPCNNumber": "221118ALL1e",
+          "LastPCNDate": "Nov 18, 2022",
+          "LastPCNTypeOfChange": "Labeling,Marking Molding",
+          "LastPCNSource": "http://download.siliconexpert.com/pdfs2/2022/11/21/18/12/20/832546/tdk_/manual/tdk_221118all1e_11212022_.pdf",
+          "LastTimeBuyDate": "",
+          "LastShipDate": "",
+          "LastEOLNumber": "",
+          "LastEOLDate": "",
+          "LastEOLSource": ""
+        }
+      },
+      "PCNDetails": {
+        "PCNDto": [
+          {
+            "PCNNumber": "221118ALL1e",
+            "TypeOfChange": "Labeling,Marking Molding",
+            "DescriptionOfChange": "Adjustment of barcode product labels and product marking",
+            "PcnSource": "http://download.siliconexpert.com/pdfs2/2022/11/21/18/12/20/832546/tdk_/manual/tdk_221118all1e_11212022_.pdf",
+            "NotificationDate": "Nov 18, 2022",
+            "EffectiveDate": "Jan 01, 2023",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "437588877002336"
+          },
+          {
+            "PCNNumber": "221118ALL1e",
+            "TypeOfChange": "Labeling,Marking Molding",
+            "DescriptionOfChange": "Adjustment of barcode product labels and product marking",
+            "PcnSource": "http://download.siliconexpert.com/pdfs2/2022/11/21/18/12/20/832546/tdk_/manual/tdk_221118all1e_11212022_.pdf",
+            "NotificationDate": "Nov 18, 2022",
+            "EffectiveDate": "Jan 01, 2023",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "437588877002336"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Labeling",
+            "DescriptionOfChange": "Unification of TDK standard and Customer specific labeling",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2017/5/18/7/36/16/194/tdk_/manual/tdk_tdk_05172017_.pdf",
+            "NotificationDate": "May 10, 2017",
+            "EffectiveDate": "Oct 01, 2017",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "9008090044"
+          },
+          {
+            "PCNNumber": "600247",
+            "TypeOfChange": "Marking Molding",
+            "DescriptionOfChange": "The introduction of laser marking on all production lines for boxed capacitors in Nashik, India, and Zhuhai, China, will shortly be completed. The remaining ink-jet marking will be phased out by the end of 2016. The laser marking may be at the top and/or on the side of the boxed film capacitors",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2016/4/10/2/42/54/88/tdk_/manual/1380_laser-beschriftungfürepcosfolien-kondensatorenausnashikundzhuhai.pdf",
+            "NotificationDate": "Apr 08, 2016",
+            "EffectiveDate": "Jul 15, 2016",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "8986617175"
+          },
+          {
+            "PCNNumber": "600242",
+            "TypeOfChange": "Packing",
+            "DescriptionOfChange": "Improvement of the ammo packs for film capacitors by changing the stick material from wood to plastic. These sticks are pushed through the holes of the taping to stabilize the shipment during transportation and avoid shifting of the capacitors.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2015/10/11/1/23/33/656/tdk_/manual/1263_kunststoff-stabilisierungsstaebeinammo-pack-verpackungenvonepcosfolien-kondensatoren.pdf",
+            "NotificationDate": "Oct 02, 2015",
+            "EffectiveDate": "Jan 02, 2016",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "8975167126"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Labeling",
+            "DescriptionOfChange": "This is to notify you of a Change in labeling, from the current 1D bar code to 2D Bar Code labeling.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2015/12/16/4/59/46/250/tdk_/manual/44714_spcn.pdf",
+            "NotificationDate": "Sep 18, 2015",
+            "EffectiveDate": "Sep 18, 2015",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "8977934398"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Assembly Process",
+            "DescriptionOfChange": "An in-house film metallization and cutting process is already in place at several EPCOS plants. This process is now also being established at the plants in M¿laga, Spain, and Bawal, India.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2014/6/12/5/37/0/389/epco_/manual/epcos_b32361a2107j50_06102014_update.pdf",
+            "NotificationDate": "May 02, 2014",
+            "EffectiveDate": "Jul 31, 2014",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "5103875309"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Materials",
+            "DescriptionOfChange": "An in-house film metallization and cutting process is already in place at several EPCOS plants. This process is now also being established at the plants in Málaga, Spain, and Bawal, India.These plants will then use in-house metallized film in addition to the metallized film supplied by qualified vendors for the manufacture of film capacitors",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2014/5/7/9/6/18/330/epco_/manual/epcos_b325_05042014_.pdf",
+            "NotificationDate": "May 02, 2014",
+            "EffectiveDate": "Jul 31, 2014",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "3699320653"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Alert",
+            "DescriptionOfChange": "Alert, Fire destroys warehouse at EPCOS capacitor plant in Gravatai, Brazil",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2014/5/4/2/7/28/269/epco_/manual/epcos-fire-april-2014.pdf",
+            "NotificationDate": "Apr 24, 2014",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "3571490829"
+          },
+          {
+            "PCNNumber": "600198",
+            "TypeOfChange": "Marking Molding",
+            "DescriptionOfChange": "The laser marking process at the plant in Nashik, India, will be extended to all boxed and powder-dipped film capacitors of the EPCOS MKT and MKP type. Laser technology is resistant to cleaning agents and creates less solid waste than ink-jet marking.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2013/4/28/1/50/6/621/epco_/manual/616_epc_laserbeschriftungfürfolien-kondensatorenausindien.pdf",
+            "NotificationDate": "Apr 26, 2013",
+            "EffectiveDate": "Aug 01, 2013",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "84132412"
+          },
+          {
+            "PCNNumber": "600174",
+            "TypeOfChange": "Packing",
+            "DescriptionOfChange": "Improvement of the packaging for capacitors in LS 27.5 with longer leads (> 6.0 mm) and box sizes of 16.0 x 32.0 x 31.5 mm^3 (w x h x l) and larger in order to protect the longer leads during the transportation.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2012/7/29/0/51/56/361/epco_/manual/397_epc_neue_verpackung_fuer_groessere_kondensatoren_im_rm_27_5_mm_mit_langen_anschlussdraehten.pdf",
+            "NotificationDate": "Jul 13, 2012",
+            "EffectiveDate": "Oct 15, 2012",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "46287675"
+          },
+          {
+            "PCNNumber": "600164",
+            "TypeOfChange": "Marking Molding",
+            "DescriptionOfChange": "EPCOS is introducing laser marking on all production lines for boxed and powder-dipped MKP film capacitors in its plant at Nashik, India. The new marking will be applied to the top or side of boxed and powder-dipped capacitors. The new laser marking offers some advantages compared to ink-jet marking, since it is resistant to most cleaning agents and creates less solid waste.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2012/2/29/1/13/20/173/epco_/manual/298_epc_laser-bestempelung_fuer_folien-kondensatoren_aus_indien.pdf",
+            "NotificationDate": "Feb 28, 2012",
+            "EffectiveDate": "Jun 01, 2012",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "36280180"
+          },
+          {
+            "PCNNumber": "600160",
+            "TypeOfChange": "Assembly Site",
+            "DescriptionOfChange": "Transfer of the remaining production of LS 27.5 boxed film capacitors from Málaga, Spain, to the plants in Nashik, India, and Zhuhai, China.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2012/1/24/0/55/5/693/epco_/manual/283_fertigungsverla_gebecherter_folien-kondensatoren_im_rm_27_5_von_spanien_nach_china_und_indien.pdf",
+            "NotificationDate": "Jan 20, 2012",
+            "EffectiveDate": "Apr 23, 2012",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "35078518"
+          },
+          {
+            "PCNNumber": "600160",
+            "TypeOfChange": "Assembly Site",
+            "DescriptionOfChange": "Transfer of the remaining production of LS 27.5 boxed film capacitors from Málaga, Spain, to the plants in Nashik, India, and Zhuhai, China.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2012/1/24/0/55/5/693/epco_/manual/283_fertigungsverla_gebecherter_folien-kondensatoren_im_rm_27_5_von_spanien_nach_china_und_indien.pdf",
+            "NotificationDate": "Jan 20, 2012",
+            "EffectiveDate": "Apr 23, 2012",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "35078518"
+          },
+          {
+            "PCNNumber": "FILM 600143",
+            "TypeOfChange": "Marking Molding",
+            "DescriptionOfChange": "TDK-EPC is introducing a laser marking system for all EPCOS boxed MKP and MKT film capacitors at its plants in Gravataf, Brazil, as well as Zhuhai and Ningguo City, China.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2011/4/3/2/44/30/774/epco_/manual/epcos_film600143_04012011_.pdf",
+            "NotificationDate": "Apr 01, 2011",
+            "EffectiveDate": "Jul 01, 2011",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "25523692"
+          },
+          {
+            "PCNNumber": "600134",
+            "TypeOfChange": "Materials",
+            "DescriptionOfChange": "Avoid the usage of dibutyl phthalate [CAS # 84-74-2; EC # 201-557-4] in the resin of boxed film capacitors",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2010/12/22/22/43/30/166/epco_/manual/eliminationofdibutylphthalateinboxedfilmcapacitorsaccordingreach.pdf",
+            "NotificationDate": "Dec 03, 2010",
+            "EffectiveDate": "Apr 01, 2011",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "22291895"
+          },
+          {
+            "PCNNumber": "FILM 6000118",
+            "TypeOfChange": "Marking Molding",
+            "DescriptionOfChange": "EPCOS is introducing laser marking equipment for all production lines in Malaga/ Spain for boxed capacitors.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2010/5/15/23/7/31/537/epco_/manual/epcos_100514film1e_05142010_.pdf",
+            "NotificationDate": "May 14, 2010",
+            "EffectiveDate": "Sep 01, 2010",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "14455047"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "EPCOS has been acquired by TDK.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2012/3/8/3/29/9/452/tdk_/manual/pcn_fullacquisition_tdk_epcos.pdf",
+            "NotificationDate": "Oct 01, 2008",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "36502754"
+          }
+        ]
+      },
+      "EnvironmentalDto": {
+        "RoHSStatus": "Compliant",
+        "RoHSVersion": "2011/65/EU, 2015/863",
+        "Source": "http://download.siliconexpert.com/pdfs/2007/12/12/isys/epco/mds_boxed-mkp.pdf",
+        "SourceType": "Material Declaration",
+        "OtherSources": {
+          "Source": "http://download.siliconexpert.com/pdfs2/2025/8/22/19/6/21/7088884496/tdk_/manual/reachrohsdeclaration.pdf",
+          "SourceType": "Certificate of Compliance"
+        },
+        "Exemption": "No",
+        "ExemptionType": "",
+        "ExemptionCodes": "",
+        "ExemptionExpirationDate": "",
+        "RohsIdentifier": "NO",
+        "LeadFree": "Compliant",
+        "RareEarthElementInformation": "Rare Earth Free",
+        "ConflictMineralStatus": "DRC Conflict Free",
+        "ConflictMineralStatement": "",
+        "EICCMembership": "No",
+        "EICCTemplate": "http://download.siliconexpert.com/pdfs2/2024/9/24/10/41/7/567631/tdk_/manual/tdk_cmrt6.4.xlsx",
+        "EICCTemplateVersion": "Version 6.40",
+        "ConflictMineralsPolicy": "",
+        "ConflictMineralsSustainabilityReport": "",
+        "SDForm": "",
+        "HalgonFree": "Not Compliant",
+        "ChinaRoHS": {
+          "ChinaRoHSStatus": "Unaffected",
+          "CadmiumConcentration": "<100",
+          "CadmiumFlag": "O",
+          "ChromiumConcentration": "<1000",
+          "ChromiumFlag": "O",
+          "LeadConcentration": "<1000",
+          "LeadFlag": "O",
+          "MercuryConcentration": "<1000",
+          "MercuryFlag": "O",
+          "PBBConcentration": "<1000",
+          "PBBFlag": "O",
+          "PBDEConcentration": "<1000",
+          "PBDEFlag": "O",
+          "EPUP": "e",
+          "ItemSubitemName": "",
+          "SourceType": "Road Map",
+          "CachedSource": "http://download.siliconexpert.com/pdfs2/2023/8/7/15/30/26/173175/tdk_/manual/xls-rohs-ii-table---siehe-auch-china-rohs.xlsx",
+          "LiveSupplierSource": "https://www.tdk-electronics.tdk.com/download/388014/537a64d909310e661d28eea1393972be/rohs-china-information---siehe-auch-rohs-ii.xlsx"
+        },
+        "TSCA": {
+          "Status": "Compliant",
+          "SourceType": "COC & Vendor base TSCA",
+          "SourcePath": "http://download.siliconexpert.com/pdfs2/2022/6/12/14/37/31/550561/tdk_/manual/teg_us_tsca_pbt_statement_september_2021.pdf"
+        },
+        "ODC": "Not Affected",
+        "Green": "Not Compliant",
+        "WEEE": {
+          "comId": 27963759,
+          "weeeStatus": "Out of Scope",
+          "sourcePdf": "http://download.siliconexpert.com/pdfs/2013/4/3/8/11/47/697/eurle_/manual/lexuriserv.douriojl2012197fullenpdf.douriojl2012197fullenpdf.pdf",
+          "sourceType": "WEEE Directive"
+        },
+        "PFOA": "Not Affected",
+        "IEC62474": "Not Affected",
+        "IEC62474Data": {
+          "sourceType": "Material Declaration",
+          "sourcePdf": "http://download.siliconexpert.com/pdfs/2007/12/12/isys/epco/mds_boxed-mkp.pdf"
+        },
+        "CaliforniaProposition65": "Affected",
+        "PFOS-EUDirective-2006122EC": "Not Affected",
+        "PersistentOrganicPollutants-POPs": "Not Affected",
+        "PersistentOrganicPollutants-POPsData": {
+          "sourceType": "Material Declaration",
+          "sourcePdf": "http://download.siliconexpert.com/pdfs/2007/12/12/isys/epco/mds_boxed-mkp.pdf"
+        },
+        "AD-DSL": "Affected",
+        "NAS411": "Affected",
+        "ELV": "Compliant",
+        "Phthalates": "Not Affected",
+        "BisPhenolA_BPA": "Not Affected",
+        "InorganicPhosphorus": "Not Affected",
+        "CaliforniaProposition65Dto": {
+          "Status": "Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": "http://download.siliconexpert.com/pdfs/2007/12/12/isys/epco/mds_boxed-mkp.pdf",
+          "Details": {
+            "SubstanceName": "Sb2O3",
+            "CASNumber": "1309-64-4"
+          }
+        },
+        "ReachRestrictionAnnexXVII": {
+          "Status": "Compliant",
+          "SourceType": "COC & Taxonomy base",
+          "SourcePath": "http://download.siliconexpert.com/pdfs2/2024/12/22/21/35/47/392613/tdk_/manual/reach-rohs-declaration.pdf",
+          "Details": [
+            {
+              "SubstanceName": "Al",
+              "CASNumber": "7429-90-5"
+            },
+            {
+              "SubstanceName": "Cu",
+              "CASNumber": "7440-50-8"
+            },
+            {
+              "SubstanceName": "Sn coating",
+              "CASNumber": "7440-31-5"
+            }
+          ]
+        },
+        "GlobalPFASAssessment": {
+          "Status": "Not Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": "http://download.siliconexpert.com/pdfs/2007/12/12/isys/epco/mds_boxed-mkp.pdf",
+          "Details": []
+        },
+        "GADSL": {
+          "sourceType": "Material Declaration",
+          "sourcePdf": "http://download.siliconexpert.com/pdfs/2007/12/12/isys/epco/mds_boxed-mkp.pdf",
+          "substances": [
+            {
+              "substanceId": 5020,
+              "substanceName": "Al",
+              "casNumber": "7429-90-5",
+              "regId": 2
+            },
+            {
+              "substanceId": 5048,
+              "substanceName": "Cu",
+              "casNumber": "7440-50-8",
+              "regId": 2,
+              "features": {
+                "feature": [
+                  {
+                    "featureName": "Classification",
+                    "featureValue": "D"
+                  },
+                  {
+                    "featureName": "Reason Code",
+                    "featureValue": "LR"
+                  },
+                  {
+                    "featureName": "First added",
+                    "featureValue": "15-Aug-16"
+                  },
+                  {
+                    "featureName": "Generic examples",
+                    "featureValue": "-"
+                  },
+                  {
+                    "featureName": "Reporting Threshold",
+                    "featureValue": "0.1%"
+                  },
+                  {
+                    "featureName": "Legal Requirements",
+                    "featureValue": "Authorisation as biocide needed for product-type 7D: Allowed use as biocide in product-type 8Authorisation as biocide needed for product-type 9"
+                  },
+                  {
+                    "featureName": "Effective date",
+                    "featureValue": "-"
+                  }
+                ]
+              }
+            },
+            {
+              "substanceId": 5685,
+              "substanceName": "n ethlene bis tetra bromo phtalamide",
+              "casNumber": "32588-76-4",
+              "regId": 2,
+              "features": {
+                "feature": [
+                  {
+                    "featureName": "Classification",
+                    "featureValue": "D"
+                  },
+                  {
+                    "featureName": "Reason Code",
+                    "featureValue": "FI"
+                  },
+                  {
+                    "featureName": "First added",
+                    "featureValue": "1-Feb-19"
+                  },
+                  {
+                    "featureName": "Generic examples",
+                    "featureValue": "Included in list of substances under REACH PACT assessment"
+                  },
+                  {
+                    "featureName": "Reporting Threshold",
+                    "featureValue": "0.10%"
+                  },
+                  {
+                    "featureName": "Legal Requirements",
+                    "featureValue": "-"
+                  }
+                ]
+              }
+            },
+            {
+              "substanceId": 5102,
+              "substanceName": "Sb2O3",
+              "casNumber": "1309-64-4",
+              "regId": 2,
+              "features": {
+                "feature": [
+                  {
+                    "featureName": "Classification",
+                    "featureValue": "D"
+                  },
+                  {
+                    "featureName": "Reason Code",
+                    "featureValue": "FI"
+                  },
+                  {
+                    "featureName": "First added",
+                    "featureValue": "10-Jan-05"
+                  },
+                  {
+                    "featureName": "Generic examples",
+                    "featureValue": "Flame retardant synergist for plastics and rubber/latex, opacifier, friction material component"
+                  },
+                  {
+                    "featureName": "Reporting Threshold",
+                    "featureValue": "0.1%"
+                  },
+                  {
+                    "featureName": "Legal Requirements",
+                    "featureValue": "Reg. (EC) No 1272/2008"
+                  },
+                  {
+                    "featureName": "Effective date",
+                    "featureValue": "-"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "TSCASection": {
+          "TSCAPBTSection6h": {
+            "Status": "Compliant",
+            "SourceType": "COC & Vendor base TSCA",
+            "SourcePath": "http://download.siliconexpert.com/pdfs2/2022/6/12/14/37/31/550561/tdk_/manual/teg_us_tsca_pbt_statement_september_2021.pdf"
+          },
+          "TSCAPFASSection8a7": {
+            "Status": "Not Affected",
+            "SourceType": "Material Declaration",
+            "SourcePath": "http://download.siliconexpert.com/pdfs/2007/12/12/isys/epco/mds_boxed-mkp.pdf"
+          }
+        },
+        "InorganicPhosphorusData": {
+          "Status": "Not Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": "http://download.siliconexpert.com/pdfs/2007/12/12/isys/epco/mds_boxed-mkp.pdf"
+        },
+        "ADDSLData": {
+          "Status": "Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": "http://download.siliconexpert.com/pdfs/2007/12/12/isys/epco/mds_boxed-mkp.pdf",
+          "Substances": [
+            {
+              "substanceId": 5685,
+              "substanceName": "n ethlene bis tetra bromo phtalamide",
+              "casNumber": "32588-76-4",
+              "regId": 18,
+              "features": [
+                {
+                  "feature": [
+                    {
+                      "featureName": "IAEG ID",
+                      "featureValue": "IAEG009512"
+                    },
+                    {
+                      "featureName": "IAEG Regulatory Criteria",
+                      "featureValue": "I"
+                    }
+                  ]
+                },
+                {
+                  "feature": [
+                    {
+                      "featureName": "IAEG ID",
+                      "featureValue": "IAEG009512"
+                    },
+                    {
+                      "featureName": "IAEG Regulatory Criteria",
+                      "featureValue": "I"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "substanceId": 5048,
+              "substanceName": "Cu",
+              "casNumber": "7440-50-8",
+              "regId": 18,
+              "features": [
+                {
+                  "feature": [
+                    {
+                      "featureName": "IAEG ID",
+                      "featureValue": "IAEG009597"
+                    },
+                    {
+                      "featureName": "IAEG Regulatory Criteria",
+                      "featureValue": "I"
+                    }
+                  ]
+                },
+                {
+                  "feature": [
+                    {
+                      "featureName": "IAEG ID",
+                      "featureValue": "IAEG009597"
+                    },
+                    {
+                      "featureName": "IAEG Regulatory Criteria",
+                      "featureValue": "I"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "PhthalatesData": {
+          "Status": "Not Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": "http://download.siliconexpert.com/pdfs/2007/12/12/isys/epco/mds_boxed-mkp.pdf"
+        },
+        "ODCData": {
+          "Status": "Not Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": "http://download.siliconexpert.com/pdfs/2007/12/12/isys/epco/mds_boxed-mkp.pdf"
+        },
+        "PFOSEUDirective2006122ECData": {
+          "Status": "Not Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": "http://download.siliconexpert.com/pdfs/2007/12/12/isys/epco/mds_boxed-mkp.pdf"
+        },
+        "BisPhenolABPAData": {
+          "Status": "Not Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": "http://download.siliconexpert.com/pdfs/2007/12/12/isys/epco/mds_boxed-mkp.pdf"
+        },
+        "PFOAData": {
+          "Status": "Not Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": "http://download.siliconexpert.com/pdfs/2007/12/12/isys/epco/mds_boxed-mkp.pdf"
+        },
+        "NAS411Data": {
+          "Status": "Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": "http://download.siliconexpert.com/pdfs/2007/12/12/isys/epco/mds_boxed-mkp.pdf",
+          "Substances": {
+            "substanceId": 5102,
+            "substanceName": "Sb2O3",
+            "casNumber": "1309-64-4",
+            "regId": 19,
+            "features": {
+              "feature": [
+                {
+                  "featureName": "HMTL Category",
+                  "featureValue": "Restricted"
+                },
+                {
+                  "featureName": "Substance Group",
+                  "featureValue": "-"
+                }
+              ]
+            }
+          }
+        },
+        "standardConflictMineralData": {
+          "ConflictMineralStatus": "DRC Conflict Free",
+          "ConflictMineralStatement": "",
+          "EICCMembership": "No",
+          "EICCTemplate": "http://download.siliconexpert.com/pdfs2/2024/9/24/10/41/7/567631/tdk_/manual/tdk_cmrt6.4.xlsx",
+          "EICCTemplateVersion": "Version 6.40",
+          "ConflictMineralsPolicy": "",
+          "ConflictMineralsSustainabilityReport": ""
+        }
+      },
+      "PricingData": {
+        "MinimumPrice": "0.8461",
+        "AveragePrice": "1.5455",
+        "MinLeadtime": "6 Week(s)",
+        "Maxleadtime": "22 Week(s)",
+        "LastUpdatedate": "Oct 16,2025"
+      },
+      "ReplacementData": {
+        "ReplacementDto": {
+          "ReplacementComId": "27964114",
+          "ReplacementPartNumber": "B32654A7224J189",
+          "ReplacementType": "A",
+          "Comment": "Difference in: Packaging"
+        }
+      },
+      "ReachData": {
+        "ReachDto": {
+          "CachedSource": "http://download.siliconexpert.com/pdfs/2007/12/12/isys/epco/mds_boxed-mkp.pdf",
+          "ContainsSVHC": "No",
+          "SVHCExceedThresholdLimit": "No",
+          "SVHCListVersion": "Jun 25, 2025",
+          "SVHCListVersionNumber": "250",
+          "SubstanceIdentification": "",
+          "SubstanceLocation": "",
+          "SubstanceConcentration": "",
+          "SourceType": "Material Declaration",
+          "ReachStatus": "Unaffected",
+          "CASNumber": "",
+          "SVHCDateOfInclusion": "",
+          "EchaNotification": "",
+          "NotificationComment": "",
+          "SupportingDocument": ""
+        }
+      },
+      "RiskData": {
+        "RohsRisk": "Low",
+        "MultiSourcingRisk": "Medium",
+        "InventoryRisk": "Low",
+        "LifecycleRisk": "Medium",
+        "PredictedObsolescenceYear": "2032",
+        "LifecycleStage": "Mature",
+        "YearsEOL": "6.6",
+        "NumberOfDistributors": "6",
+        "NumberOfOtherSources": "1",
+        "CrossesPartCategory": "YES",
+        "SEGrade": "5",
+        "LastUpdateDate": "October, 2025",
+        "YeolComment": "The part has surpassed a significant portion of its expected lifespan"
+      },
+      "History": {
+        "Datasheet": [
+          {
+            "date": "Jun 05, 2025",
+            "url": "http://download.siliconexpert.com/pdfs2/2025/7/17/16/40/1/1829149232/tdk_/manual/mkpb32651658.pdf"
+          },
+          {
+            "date": "Mar 25, 2025",
+            "url": "http://download.siliconexpert.com/pdfs2/2025/4/3/16/50/44/4555387512/tdk_/manual/mkpb32651658.pdf"
+          },
+          {
+            "date": "Oct 18, 2024",
+            "url": "http://download.siliconexpert.com/pdfs2/2024/10/20/19/8/26/345714/tdk_/manual/mkp_b32651_658.pdf"
+          },
+          {
+            "date": "Feb 24, 2021",
+            "url": "http://download.siliconexpert.com/pdfs2/2021/5/3/3/57/31/668628/tdk_/manual/mkp_b32651_658.pdf"
+          },
+          {
+            "date": "Nov 25, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2019/12/3/6/26/23/507152/tdk_/manual/mkp_b32651_658.pdf"
+          },
+          {
+            "date": "May 03, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2019/5/17/4/15/15/88499/tdk_/auto/mkp_b32651_658.pdf"
+          },
+          {
+            "date": "Jun 07, 2018",
+            "url": "http://download.siliconexpert.com/pdfs/2018/7/26/18/31/8/169187/tdk_/manual/mkp_b32651_658.pdf"
+          },
+          {
+            "date": "Mar 15, 2017",
+            "url": "http://download.siliconexpert.com/pdfs/2017/3/20/14/53/13/492/tdk_/manual/454317210735570mkp_b32651_658.pd.pdf"
+          },
+          {
+            "date": "Jul 04, 2016",
+            "url": "http://download.siliconexpert.com/pdfs/2016/8/29/6/28/33/659/tdk_/manual/446234907275600mkp_b32651_658.pdf"
+          },
+          {
+            "date": "Aug 21, 2014",
+            "url": "http://download.siliconexpert.com/pdfs/2014/9/5/4/23/56/694/epco_/manual/10mkp_b32651_656.pdf"
+          },
+          {
+            "date": "Dec 06, 2012",
+            "url": "http://download.siliconexpert.com/pdfs/2012/12/16/2/29/26/368/epco_/manual/mkp_b32651_656.pdf"
+          },
+          {
+            "date": "Oct 28, 2011",
+            "url": "http://download.siliconexpert.com/pdfs/2011/11/13/1/57/21/161/epco_/manual/mkp_b32651_656.pdf"
+          },
+          {
+            "date": "Oct 28, 2011",
+            "url": "http://download.siliconexpert.com/pdfs/2011/12/25/8/38/2/163/epco_/manual/mkp_b32651_656.pdf"
+          },
+          {
+            "date": "Apr 30, 2009",
+            "url": "http://download.siliconexpert.com/pdfs/2009/12/3/6/23/36/385/epco_/auto/mkp_b32651_656.pdf"
+          },
+          {
+            "date": "Apr 18, 2007",
+            "url": "http://download.siliconexpert.com/pdfs/2007/04/13/pemco_a/cs/epco/ds/b3265.pdf"
+          },
+          {
+            "date": "Apr 10, 2007",
+            "url": "http://download.siliconexpert.com/pdfs/2007/04/13/pemco_a/cs/epco/ds/b32654.pdf"
+          },
+          {
+            "date": "Mar 18, 2007",
+            "url": "http://download.siliconexpert.com/pdfs/2007/03/23/pemco_a/cs/epco/ds/b32652.pdf"
+          },
+          {
+            "date": "Mar 18, 2007",
+            "url": "http://download.siliconexpert.com/pdfs/2007/03/23/pemco_a/cs/epco/ds/b32652a.pdf"
+          },
+          {
+            "date": "Oct 05, 2005",
+            "url": "http://download.siliconexpert.com/pdfs/2006/02/10/semi_a/cs/epco/ds/mkp_b32651_56.pdf"
+          },
+          {
+            "date": "Sep 05, 2005",
+            "url": "http://download.siliconexpert.com/pdfs/2005/09/12/semi_a/2/epco/film capacitors/mkp_b32651_56.pdf"
+          },
+          {
+            "date": "Aug 01, 2004",
+            "url": "http://download.siliconexpert.com/pdfs/2004/10/26/semi_a/1/epco/metallized polypropylene (mkp-mfp)/mkp_b32651_56.pdf"
+          },
+          {
+            "date": "Jun 26, 2001",
+            "url": "http://download.siliconexpert.com/pdfs/caps/epco/b32656.pdf"
+          }
+        ],
+        "Lifecycle": [
+          {
+            "Date": "",
+            "Lifecycle": "Active",
+            "ManufacturerName": "TDK",
+            "PartNumber": "B32654A7224J000",
+            "ReasonOfChange": "Obtained from supplier's website",
+            "SourceName": "Supplier Website",
+            "SourceURL": "http://download.siliconexpert.com/pdfs2/wda/2020/8/11/tdk/b32654a7224j000_2_00.html"
+          },
+          {
+            "Date": "Oct 01, 2008",
+            "Lifecycle": "Acquired",
+            "ManufacturerName": "EPCOS (TDK)",
+            "PartNumber": "B32654A7224J000",
+            "ReasonOfChange": "Supplier Acquisition",
+            "SourceName": "Product Change Notice (PCN)",
+            "SourceURL": "http://download.siliconexpert.com/pdfs/2011/1/4/3/57/2/645/tdk_/manual/lib20405.pdf"
+          },
+          {
+            "Date": "",
+            "Lifecycle": "Active",
+            "ManufacturerName": "EPCOS (TDK)",
+            "PartNumber": "B32654A7224J000",
+            "ReasonOfChange": "Obtained from supplier's website",
+            "SourceName": "Supplier Website",
+            "SourceURL": "http://download.siliconexpert.com/pdfs/2012/12/17/3/13/45/6/epco_/manual/pag.htmlparam_ordering_codeb32654a7224j000fromoc_searchdistributo.pdf"
+          },
+          {
+            "Date": "",
+            "Lifecycle": "Active",
+            "ManufacturerName": "EPCOS (TDK)",
+            "PartNumber": "B32654-A7224-J",
+            "ReasonOfChange": "Exists in latest Datasheet",
+            "SourceName": "Supplier's Datasheet",
+            "SourceURL": ""
+          },
+          {
+            "Date": "",
+            "Lifecycle": "Introduction Date",
+            "ManufacturerName": "EPCOS (TDK)",
+            "PartNumber": "B32654-A7224-J",
+            "ReasonOfChange": "",
+            "SourceName": "",
+            "SourceURL": ""
+          }
+        ]
+      },
+      "ProductImage": {
+        "ProductImageSmall": "http://download.siliconexpert.com/pdfs2/2024/11/7/9/49/59/212959/tdk_/manual/b32653a7683j289.jpg",
+        "ProductImageLarge": "http://download.siliconexpert.com/pdfs2/2024/11/7/9/50/42/497328/tdk_/manual/b32653a7683j289.jpg",
+        "ProductImageOriginal": "http://download.siliconexpert.com/pdfs2/2024/11/7/9/48/21/190580/tdk_/manual/b32653a7683j289.jpg"
+      },
+      "ECADModelsData": {
+        "ECADModelsDto": {
+          "ECADURL": "https://vendor.ultralibrarian.com/siliconexpert/embedded?mfrName=TDK&mfrPN=B32654A7224J000"
+        }
+      },
+      "PriceBreaksData": {
+        "PriceBreaksDto": [
+          {
+            "PriceBreaK": "1",
+            "AveragePrice": "3.1719",
+            "MinPrice": "1.7439"
+          },
+          {
+            "PriceBreaK": "10",
+            "AveragePrice": "2.4345",
+            "MinPrice": "1.92"
+          },
+          {
+            "PriceBreaK": "25",
+            "AveragePrice": "3.02",
+            "MinPrice": "3.02"
+          },
+          {
+            "PriceBreaK": "50",
+            "AveragePrice": "1.9391",
+            "MinPrice": "1.638"
+          },
+          {
+            "PriceBreaK": "100",
+            "AveragePrice": "2.51",
+            "MinPrice": "2.51"
+          },
+          {
+            "PriceBreaK": "260",
+            "AveragePrice": "1.4206",
+            "MinPrice": "1.2301"
+          },
+          {
+            "PriceBreaK": "500",
+            "AveragePrice": "1.84",
+            "MinPrice": "1.84"
+          },
+          {
+            "PriceBreaK": "520",
+            "AveragePrice": "1.2701",
+            "MinPrice": "1.11"
+          },
+          {
+            "PriceBreaK": "1040",
+            "AveragePrice": "1.2308",
+            "MinPrice": "1.1"
+          },
+          {
+            "PriceBreaK": "2600",
+            "AveragePrice": "1.1846",
+            "MinPrice": "1.1846"
+          },
+          {
+            "PriceBreaK": "5200",
+            "AveragePrice": "1.2538",
+            "MinPrice": "1.0457"
+          },
+          {
+            "PriceBreaK": "10140",
+            "AveragePrice": "0.714",
+            "MinPrice": "0.714"
+          },
+          {
+            "PriceBreaK": "37",
+            "AveragePrice": "1.918",
+            "MinPrice": "1.918"
+          },
+          {
+            "PriceBreaK": "2080",
+            "AveragePrice": "1.2645",
+            "MinPrice": "1.2645"
+          },
+          {
+            "PriceBreaK": "2500",
+            "AveragePrice": "1.67",
+            "MinPrice": "1.67"
+          },
+          {
+            "PriceBreaK": "1300",
+            "AveragePrice": "1.31",
+            "MinPrice": "1.31"
+          },
+          {
+            "PriceBreaK": "10400",
+            "AveragePrice": "1.1516",
+            "MinPrice": "1.15156"
+          },
+          {
+            "PriceBreaK": "780",
+            "AveragePrice": "1.33",
+            "MinPrice": "1.33"
+          },
+          {
+            "PriceBreaK": "6",
+            "AveragePrice": "2.8462",
+            "MinPrice": "2.8462"
+          },
+          {
+            "PriceBreaK": "250",
+            "AveragePrice": "1.596",
+            "MinPrice": "1.596"
+          },
+          {
+            "PriceBreaK": "1000",
+            "AveragePrice": "1.75",
+            "MinPrice": "1.75"
+          },
+          {
+            "PriceBreaK": "5000",
+            "AveragePrice": "1.1281",
+            "MinPrice": "1.0527"
+          },
+          {
+            "PriceBreaK": "31",
+            "AveragePrice": "2.254",
+            "MinPrice": "2.254"
+          },
+          {
+            "PriceBreaK": "32",
+            "AveragePrice": "2.24",
+            "MinPrice": "2.24"
+          },
+          {
+            "PriceBreaK": "20020",
+            "AveragePrice": "0.652",
+            "MinPrice": "0.652"
+          },
+          {
+            "PriceBreaK": "40",
+            "AveragePrice": "1.722",
+            "MinPrice": "1.722"
+          },
+          {
+            "PriceBreaK": "41",
+            "AveragePrice": "1.736",
+            "MinPrice": "1.736"
+          },
+          {
+            "PriceBreaK": "6240",
+            "AveragePrice": "1.053",
+            "MinPrice": "1.053"
+          },
+          {
+            "PriceBreaK": "8320",
+            "AveragePrice": "0.8461",
+            "MinPrice": "0.8461"
+          },
+          {
+            "PriceBreaK": "4160",
+            "AveragePrice": "1.2221",
+            "MinPrice": "1.2221"
+          },
+          {
+            "PriceBreaK": "44",
+            "AveragePrice": "1.624",
+            "MinPrice": "1.624"
+          },
+          {
+            "PriceBreaK": "42",
+            "AveragePrice": "1.68",
+            "MinPrice": "1.68"
+          },
+          {
+            "PriceBreaK": "43",
+            "AveragePrice": "1.666",
+            "MinPrice": "1.666"
+          }
+        ]
+      },
+      "PriceAndLeadTimeHistory": [
+        {
+          "MinimumPrice": "0.8461",
+          "AveragePrice": "1.5467",
+          "MinLeadtime": "6 Week(s)",
+          "Maxleadtime": "22 Week(s)",
+          "LastUpdatedate": "Oct 9,2025"
+        },
+        {
+          "MinimumPrice": "0.8461",
+          "AveragePrice": "1.5529",
+          "MinLeadtime": "6 Week(s)",
+          "Maxleadtime": "22 Week(s)",
+          "LastUpdatedate": "Oct 2,2025"
+        },
+        {
+          "MinimumPrice": "0.8461",
+          "AveragePrice": "1.5971",
+          "MinLeadtime": "6 Week(s)",
+          "Maxleadtime": "22 Week(s)",
+          "LastUpdatedate": "Sep 25,2025"
+        },
+        {
+          "MinimumPrice": "0.8461",
+          "AveragePrice": "1.355",
+          "MinLeadtime": "6 Week(s)",
+          "Maxleadtime": "22 Week(s)",
+          "LastUpdatedate": "Sep 18,2025"
+        },
+        {
+          "MinimumPrice": "0.8461",
+          "AveragePrice": "1.3425",
+          "MinLeadtime": "6 Week(s)",
+          "Maxleadtime": "22 Week(s)",
+          "LastUpdatedate": "Sep 11,2025"
+        },
+        {
+          "MinimumPrice": "0.7717",
+          "AveragePrice": "1.3499",
+          "MinLeadtime": "6 Week(s)",
+          "Maxleadtime": "22 Week(s)",
+          "LastUpdatedate": "Sep 4,2025"
+        },
+        {
+          "MinimumPrice": "0.7717",
+          "AveragePrice": "1.4463",
+          "MinLeadtime": "6 Week(s)",
+          "Maxleadtime": "22 Week(s)",
+          "LastUpdatedate": "Aug 28,2025"
+        },
+        {
+          "MinimumPrice": "0.7717",
+          "AveragePrice": "1.729",
+          "MinLeadtime": "6 Week(s)",
+          "Maxleadtime": "22 Week(s)",
+          "LastUpdatedate": "Aug 21,2025"
+        },
+        {
+          "MinimumPrice": "0.7717",
+          "AveragePrice": "1.7709",
+          "MinLeadtime": "6 Week(s)",
+          "Maxleadtime": "22 Week(s)",
+          "LastUpdatedate": "Aug 14,2025"
+        },
+        {
+          "MinimumPrice": "0.7717",
+          "AveragePrice": "1.8154",
+          "MinLeadtime": "6 Week(s)",
+          "Maxleadtime": "22 Week(s)",
+          "LastUpdatedate": "Aug 7,2025"
+        },
+        {
+          "MinimumPrice": "1.0476",
+          "AveragePrice": "1.9277",
+          "MinLeadtime": "6 Week(s)",
+          "Maxleadtime": "22 Week(s)",
+          "LastUpdatedate": "Jul 31,2025"
+        },
+        {
+          "MinimumPrice": "1.0476",
+          "AveragePrice": "1.8802",
+          "MinLeadtime": "6 Week(s)",
+          "Maxleadtime": "22 Week(s)",
+          "LastUpdatedate": "Jul 24,2025"
+        },
+        {
+          "MinimumPrice": "1.0476",
+          "AveragePrice": "1.8411",
+          "MinLeadtime": "6 Week(s)",
+          "Maxleadtime": "22 Week(s)",
+          "LastUpdatedate": "Jul 17,2025"
+        },
+        {
+          "MinimumPrice": "1.0476",
+          "AveragePrice": "1.858",
+          "MinLeadtime": "6 Week(s)",
+          "Maxleadtime": "22 Week(s)",
+          "LastUpdatedate": "Jul 10,2025"
+        },
+        {
+          "MinimumPrice": "0.7717",
+          "AveragePrice": "1.8102",
+          "MinLeadtime": "6 Week(s)",
+          "Maxleadtime": "22 Week(s)",
+          "LastUpdatedate": "Jul 3,2025"
+        },
+        {
+          "MinimumPrice": "0.7717",
+          "AveragePrice": "1.8339",
+          "MinLeadtime": "6 Week(s)",
+          "Maxleadtime": "22 Week(s)",
+          "LastUpdatedate": "Jun 26,2025"
+        },
+        {
+          "MinimumPrice": "0.7717",
+          "AveragePrice": "1.8459",
+          "MinLeadtime": "6 Week(s)",
+          "Maxleadtime": "22 Week(s)",
+          "LastUpdatedate": "Jun 19,2025"
+        },
+        {
+          "MinimumPrice": "0.7717",
+          "AveragePrice": "1.8465",
+          "MinLeadtime": "6 Week(s)",
+          "Maxleadtime": "22 Week(s)",
+          "LastUpdatedate": "Jun 12,2025"
+        },
+        {
+          "MinimumPrice": "0.7717",
+          "AveragePrice": "1.7467",
+          "MinLeadtime": "6 Week(s)",
+          "Maxleadtime": "20 Week(s)",
+          "LastUpdatedate": "Jun 5,2025"
+        }
+      ],
+      "ResilienceRatingdetails": {
+        "ResilienceRating": 10,
+        "AssuranceOfSupply": {
+          "lifecycleRiskDto": null,
+          "multiSourcingRiskDto": null,
+          "inventoryRiskDto": null,
+          "geoRiskDto": null,
+          "marketRiskDto": null
+        },
+        "Performance": {
+          "priceRiskDto": null,
+          "leadTimeRiskDto": null,
+          "obsolescenceRiskDto": null,
+          "manLeadTimeRiskDto": null
+        },
+        "Security": {
+          "rohsRiskDto": null,
+          "counterfeitRiskDto": null
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,2932 @@
+{
+  "Status": {
+    "Code": "0",
+    "Message": "Successful Operation",
+    "Success": "true",
+    "RequestID": "756439626221353"
+  },
+  "Results": {
+    "ResultDto": {
+      "RequestedComID": "11903611",
+      "SummaryData": {
+        "DataProviderID": "11903611",
+        "PartNumber": "REN-9947TR",
+        "Manufacturer": "Renesas",
+        "ManufacturerID": "2132",
+        "AMLStatus": "",
+        "PartDescription": "Rectifier - Mock Description 87",
+        "Datasheet": "http://download.siliconexpert.com/pdfs2/2025/9/4/22/48/58/1442556616/pns_/manual/aba0000c1181.pdf",
+        "OnlineSupplierDatasheetURL": "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1181.pdf",
+        "RadHard": "",
+        "DoseLevel": "",
+        "TaxonomyPath": "Capacitors > Fixed Capacitors > Capacitor Aluminum Electrolytic",
+        "TaxonomyPathIDs": "103730 > 104218 > 3595",
+        "SmallImageURL": "http://download.siliconexpert.com/pdfs/2017/4/30/18/5/41/175/pns_/manual/aba0000sc265.jpg",
+        "ECCN": "EAR99",
+        "EUECCN": "EU99",
+        "UNSPSC": "32121505",
+        "TARIC": "8532220000",
+        "OtherSources": "7",
+        "LastCheckDate": "Oct 07, 2025",
+        "PartMarking": "",
+        "IntroductionDate": "Jul 04, 2004",
+        "ESDClass": "N/A",
+        "ESDSourceofInformation": "http://download.siliconexpert.com/pdfs2/2025/9/4/22/48/58/1442556616/pns_/manual/aba0000c1181.pdf",
+        "AuthorizedDistributors": "14",
+        "GenericName": "",
+        "FamilyName": "FK",
+        "AECNumber": "AEC-Q200",
+        "AECQualified": "Yes",
+        "Automotive": "Yes",
+        "AECPDF": "http://download.siliconexpert.com/pdfs2/2024/5/24/1/4/55/17644/pns_/manual/aba0000c1181.pdf",
+        "AutomotiveSource": "http://download.siliconexpert.com/pdfs/2014/4/2/1/57/45/475/pns_/manual/14aba0000ce120.pdf",
+        "PPAPSource": "http://download.siliconexpert.com/pdfs/2014/4/2/1/57/45/475/pns_/manual/14aba0000ce120.pdf",
+        "IsoTs16949Source": "http://download.siliconexpert.com/pdfs/2014/4/2/1/57/45/475/pns_/manual/14aba0000ce120.pdf",
+        "Iso26262Source": "http://download.siliconexpert.com/pdfs/2014/4/2/1/57/45/475/pns_/manual/14aba0000ce120.pdf",
+        "SupplierCageCode": "JB145",
+        "EURoHS": "Yes",
+        "RoHSVersion": "2011/65/EU, 2015/863",
+        "ScheduleB": "8532220020",
+        "HTSUSA": "8532220020",
+        "PPAP": "Unknown",
+        "CountriesOfOrigin": {
+          "CountryOfOrigin": [
+            {
+              "Country": "Japan",
+              "Source": ""
+            },
+            {
+              "Country": "Malaysia",
+              "Source": ""
+            }
+          ]
+        },
+        "USChinaTariffImpact": "Less Likely Impacted",
+        "PLName": "Capacitor Aluminum Electrolytic",
+        "MaskPart": "EEEFK1H100U%",
+        "GidepAlerts": "1"
+      },
+      "DesignResourcesData": {
+        "PinOutData": {
+          "PinOutDataSource": ""
+        },
+        "RefDesignData": {
+          "RefDesign": []
+        }
+      },
+      "ChemicalData": {
+        "ChemicalDto": [
+          {
+            "TotalMassInGram": "0.2074",
+            "TotalMassSummationInGram": "0.2074",
+            "LocationName": "Binding tape",
+            "HomogenousMaterial": "Binding tape",
+            "HomogenousMaterialMass": "0.00213",
+            "SubstanceIdentification": "Polyphenylene sulfideropylene",
+            "NormalizedSubstance": "Poly(thiophenylene)",
+            "SubstanceMass": "0.00213",
+            "PPM": "1000000.0",
+            "CASNumber": "9016-75-5",
+            "MDSURL": "",
+            "ItemSubItem": "Binding tape"
+          },
+          {
+            "TotalMassInGram": "0.2074",
+            "TotalMassSummationInGram": "0.2074",
+            "LocationName": "Case",
+            "HomogenousMaterial": "Case",
+            "HomogenousMaterialMass": "0.0693",
+            "SubstanceIdentification": "Aluminum",
+            "NormalizedSubstance": "Aluminium",
+            "SubstanceMass": "0.0693",
+            "PPM": "1000000.0",
+            "CASNumber": "7429-90-5",
+            "MDSURL": "",
+            "ItemSubItem": "Case"
+          },
+          {
+            "TotalMassInGram": "0.2074",
+            "TotalMassSummationInGram": "0.2074",
+            "LocationName": "Case coating",
+            "HomogenousMaterial": "Case coating",
+            "HomogenousMaterialMass": "0.00052",
+            "SubstanceIdentification": "Nylon 6",
+            "NormalizedSubstance": "POLYAMIDE 6",
+            "SubstanceMass": "5.2E-4",
+            "PPM": "1000000.0",
+            "CASNumber": "25038-54-4",
+            "MDSURL": "",
+            "ItemSubItem": "Case coating"
+          },
+          {
+            "TotalMassInGram": "0.2074",
+            "TotalMassSummationInGram": "0.2074",
+            "LocationName": "Electrode",
+            "HomogenousMaterial": "electrode",
+            "HomogenousMaterialMass": "0.027718",
+            "SubstanceIdentification": "Aluminum",
+            "NormalizedSubstance": "Aluminium",
+            "SubstanceMass": "0.027718",
+            "PPM": "1000000.0",
+            "CASNumber": "7429-90-5",
+            "MDSURL": "",
+            "ItemSubItem": "Electrode"
+          },
+          {
+            "TotalMassInGram": "0.2074",
+            "TotalMassSummationInGram": "0.2074",
+            "LocationName": "Electrolyte",
+            "HomogenousMaterial": "Electrolyte",
+            "HomogenousMaterialMass": "0.0254",
+            "SubstanceIdentification": "Gamma Butyrolactone",
+            "NormalizedSubstance": "1,4-BUTANOLIDE",
+            "SubstanceMass": "0.0254",
+            "PPM": "1000000.0",
+            "CASNumber": "96-48-0",
+            "MDSURL": "",
+            "ItemSubItem": "Electrolyte"
+          },
+          {
+            "TotalMassInGram": "0.2074",
+            "TotalMassSummationInGram": "0.2074",
+            "LocationName": "Ink",
+            "HomogenousMaterial": "Ink",
+            "HomogenousMaterialMass": "0.00010",
+            "SubstanceIdentification": "Carbon Blacks ",
+            "NormalizedSubstance": "Carbon Black",
+            "SubstanceMass": "1.0E-4",
+            "PPM": "1000000.0",
+            "CASNumber": "1333-86-4",
+            "MDSURL": "",
+            "ItemSubItem": "Ink"
+          },
+          {
+            "TotalMassInGram": "0.2074",
+            "TotalMassSummationInGram": "0.2074",
+            "LocationName": "Sealing rubber",
+            "HomogenousMaterial": "Sealing rubber",
+            "HomogenousMaterialMass": "0.03213",
+            "SubstanceIdentification": "Butyl rubber",
+            "NormalizedSubstance": "1,3-Butadiene, 2-methyl-, polymer with 2-methyl-1-propene",
+            "SubstanceMass": "0.03213",
+            "PPM": "1000000.0",
+            "CASNumber": "9010-85-9",
+            "MDSURL": "",
+            "ItemSubItem": "Sealing rubber"
+          },
+          {
+            "TotalMassInGram": "0.2074",
+            "TotalMassSummationInGram": "0.2074",
+            "LocationName": "Separator",
+            "HomogenousMaterial": "Separator",
+            "HomogenousMaterialMass": "0.0089",
+            "SubstanceIdentification": "Cellulose",
+            "NormalizedSubstance": "Cellulose",
+            "SubstanceMass": "0.0089",
+            "PPM": "1000000.0",
+            "CASNumber": "9004-34-6",
+            "MDSURL": "",
+            "ItemSubItem": "Separator"
+          },
+          {
+            "TotalMassInGram": "0.2074",
+            "TotalMassSummationInGram": "0.2074",
+            "LocationName": "Terminal",
+            "HomogenousMaterial": "Terminal",
+            "HomogenousMaterialMass": "0.00482",
+            "SubstanceIdentification": "Iron",
+            "NormalizedSubstance": "Iron",
+            "SubstanceMass": "0.00482",
+            "PPM": "1000000.0",
+            "CASNumber": "7439-89-6",
+            "MDSURL": "",
+            "ItemSubItem": "Terminal"
+          },
+          {
+            "TotalMassInGram": "0.2074",
+            "TotalMassSummationInGram": "0.2074",
+            "LocationName": "Terminal Plate",
+            "HomogenousMaterial": "Terminal plate",
+            "HomogenousMaterialMass": "0.025",
+            "SubstanceIdentification": "Polyphenylene Sulfide",
+            "NormalizedSubstance": "Poly(thiophenylene)",
+            "SubstanceMass": "0.025",
+            "PPM": "1000000.0",
+            "CASNumber": "9016-75-5",
+            "MDSURL": "",
+            "ItemSubItem": "Terminal Plate"
+          },
+          {
+            "TotalMassInGram": "0.2074",
+            "TotalMassSummationInGram": "0.2074",
+            "LocationName": "Terminal aluminum lead",
+            "HomogenousMaterial": "Terminal aluminum lead",
+            "HomogenousMaterialMass": "0.0098",
+            "SubstanceIdentification": "Aluminum",
+            "NormalizedSubstance": "Aluminium",
+            "SubstanceMass": "0.0098",
+            "PPM": "1000000.0",
+            "CASNumber": "7429-90-5",
+            "MDSURL": "",
+            "ItemSubItem": "Terminal aluminum lead"
+          },
+          {
+            "TotalMassInGram": "0.2074",
+            "TotalMassSummationInGram": "0.2074",
+            "LocationName": "Terminal plating",
+            "HomogenousMaterial": "Terminal Plating",
+            "HomogenousMaterialMass": "0.001582",
+            "SubstanceIdentification": "Bismuth",
+            "NormalizedSubstance": "Bismuth",
+            "SubstanceMass": "2.0E-6",
+            "PPM": "1264.2225",
+            "CASNumber": "7440-69-9",
+            "MDSURL": "",
+            "ItemSubItem": "Terminal plating"
+          },
+          {
+            "TotalMassInGram": "0.2074",
+            "TotalMassSummationInGram": "0.2074",
+            "LocationName": "Terminal plating",
+            "HomogenousMaterial": "Terminal Plating",
+            "HomogenousMaterialMass": "0.001582",
+            "SubstanceIdentification": "Copper",
+            "NormalizedSubstance": "Copper",
+            "SubstanceMass": "0.0012",
+            "PPM": "758533.5019",
+            "CASNumber": "7440-50-8",
+            "MDSURL": "",
+            "ItemSubItem": "Terminal plating"
+          },
+          {
+            "TotalMassInGram": "0.2074",
+            "TotalMassSummationInGram": "0.2074",
+            "LocationName": "Terminal plating",
+            "HomogenousMaterial": "Terminal Plating",
+            "HomogenousMaterialMass": "0.001582",
+            "SubstanceIdentification": "Tin",
+            "NormalizedSubstance": "Tin",
+            "SubstanceMass": "3.8E-4",
+            "PPM": "240202.2756",
+            "CASNumber": "7440-31-5",
+            "MDSURL": "",
+            "ItemSubItem": "Terminal plating"
+          }
+        ]
+      },
+      "CrossData": {
+        "CrossDto": [
+          {
+            "CrossComId": "23477699",
+            "CrossPartNumber": "EMZA500ADA100ME61G",
+            "CrossManufacturer": "CHEMI-CON",
+            "CrossType": "A",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "48499656",
+            "CrossPartNumber": "50TZV10M5X6.1",
+            "CrossManufacturer": "Rubycon Corporation",
+            "CrossType": "A",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "415189794",
+            "CrossPartNumber": "EMZA500ARA100ME61G",
+            "CrossManufacturer": "CHEMI-CON",
+            "CrossType": "A",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "23498496",
+            "CrossPartNumber": "UCD1H100MCL6GS",
+            "CrossManufacturer": "Nichicon",
+            "CrossType": "B/Upgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "405403300",
+            "CrossPartNumber": "RVD-50V100ME61UQ-R2",
+            "CrossManufacturer": "Taiyo Yuden",
+            "CrossType": "B",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "88601045",
+            "CrossPartNumber": "VB1H100MC054000CE0",
+            "CrossManufacturer": "Changzhou Huawei Electronics Co., Ltd",
+            "CrossType": "B",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "55153640",
+            "CrossPartNumber": "NAZH100M50V4X6.1NLBF",
+            "CrossManufacturer": "NIC Components Corp",
+            "CrossType": "B",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "86571442",
+            "CrossPartNumber": "NAZH100M50V5X6.1NBF",
+            "CrossManufacturer": "NIC Components Corp",
+            "CrossType": "B",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "55153641",
+            "CrossPartNumber": "NAZH100M50V5X6.1NLBF",
+            "CrossManufacturer": "NIC Components Corp",
+            "CrossType": "B",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "406081160",
+            "CrossPartNumber": "VEH100M1HTR-0506S",
+            "CrossManufacturer": "Surge Components",
+            "CrossType": "B",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "23373082",
+            "CrossPartNumber": "AFK106M50C12T-F",
+            "CrossManufacturer": "Cornell Dubilier Electronics",
+            "CrossType": "B",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "405404483",
+            "CrossPartNumber": "RVD-50V100ME61U-R2",
+            "CrossManufacturer": "Taiyo Yuden",
+            "CrossType": "B",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "86571155",
+            "CrossPartNumber": "NAZH100M50V5X6.1NBYF",
+            "CrossManufacturer": "NIC Components Corp",
+            "CrossType": "B",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "37012579",
+            "CrossPartNumber": "NAZU100M50V5X6.3NBF",
+            "CrossManufacturer": "NIC Components Corp",
+            "CrossType": "B",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "404683171",
+            "CrossPartNumber": "RVD-50V100ME61U-R",
+            "CrossManufacturer": "ELNA CO., LTD",
+            "CrossType": "B",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "55877941",
+            "CrossPartNumber": "UCM1H100MCL6GS",
+            "CrossManufacturer": "Nichicon",
+            "CrossType": "B",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "56465644",
+            "CrossPartNumber": "UCM1H100MCL1GS",
+            "CrossManufacturer": "Nichicon",
+            "CrossType": "B",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "23436350",
+            "CrossPartNumber": "UUD1H100MCL1GS",
+            "CrossManufacturer": "Nichicon",
+            "CrossType": "B",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "23374185",
+            "CrossPartNumber": "AFK106M50C12T",
+            "CrossManufacturer": "Cornell Dubilier Electronics",
+            "CrossType": "B",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "23373424",
+            "CrossPartNumber": "AFK106M50C12B",
+            "CrossManufacturer": "Cornell Dubilier Electronics",
+            "CrossType": "B",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "23373247",
+            "CrossPartNumber": "AFK106M50C12B-F",
+            "CrossManufacturer": "Cornell Dubilier Electronics",
+            "CrossType": "B",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "1849311491",
+            "CrossPartNumber": "NACK100M50V5x6.1TR15F",
+            "CrossManufacturer": "NIC Components Corp",
+            "CrossType": "B/Downgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "23473438",
+            "CrossPartNumber": "NACK100M50V5X6.1TR13",
+            "CrossManufacturer": "NIC Components Corp",
+            "CrossType": "B/Downgrade",
+            "Comment": ""
+          },
+          {
+            "CrossComId": "23472604",
+            "CrossPartNumber": "NACK100M50V5X6.1TR13F",
+            "CrossManufacturer": "NIC Components Corp",
+            "CrossType": "B/Downgrade",
+            "Comment": ""
+          }
+        ]
+      },
+      "AverageInventory": "17824",
+      "FranchisedInventoryData": {
+        "FranchisedInventoryDto": [
+          {
+            "Distributor": "Verical",
+            "Quantity": "5816",
+            "BuyNowLink": "https://www.verical.com/pd/panasonic-aluminum-EEE-FK1H100UR-178575",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Verical",
+            "Quantity": "10659",
+            "BuyNowLink": "https://www.verical.com/pd/panasonic-aluminum-EEE-FK1H100UR-178575",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Verical",
+            "Quantity": "2709",
+            "BuyNowLink": "https://www.verical.com/pd/panasonic-aluminum-EEE-FK1H100UR-178575",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Verical",
+            "Quantity": "4948",
+            "BuyNowLink": "https://www.verical.com/pd/panasonic-aluminum-EEE-FK1H100UR-178575",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Arrow Europe",
+            "Quantity": "10534",
+            "BuyNowLink": "https://www.arrow.com/en/products/eee-fk1h100ur/panasonic",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Arrow North America",
+            "Quantity": "7937",
+            "BuyNowLink": "https://www.arrow.com/en/products/eee-fk1h100ur/panasonic",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Arrow North America",
+            "Quantity": "14743",
+            "BuyNowLink": "",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Arrow North America",
+            "Quantity": "6781",
+            "BuyNowLink": "https://www.arrow.com/en/products/eee-fk1h100ur/panasonic",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Conrad Electronic",
+            "Quantity": "10877",
+            "BuyNowLink": "https://www.conrad.de/de/p/-443489",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Conrad Electronic",
+            "Quantity": "13721",
+            "BuyNowLink": "https://www.conrad.de/de/p/-3063290",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Chip1Stop",
+            "Quantity": "11399",
+            "BuyNowLink": "https://www.chip1stop.com/product/detail?partId=PANA-0792890",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Chip1Stop",
+            "Quantity": "11388",
+            "BuyNowLink": "https://www.chip1stop.com/product/detail?partId=PANA-0041843",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Onlinecomponents.com",
+            "Quantity": "1090",
+            "BuyNowLink": "https://www.onlinecomponents.com/en/productdetail/panasonic/eeefk1h100ur-44442786.html?ref=SE&utm_source=SE&utm_medium=referral&utm_campaign=SE&utm_content=instock&utm_term=EEE-FK1H100UR",
+            "LastUpdated": "1 Days"
+          },
+          {
+            "Distributor": "Mouser Electronics",
+            "Quantity": "7536",
+            "BuyNowLink": "https://www.mouser.com/ProductDetail/Panasonic/EEE-FK1H100UR?qs=qE6bgDGEOCsEuFChZPEPmw%3d%3d",
+            "LastUpdated": "2 Days"
+          },
+          {
+            "Distributor": "Newark",
+            "Quantity": "2371",
+            "BuyNowLink": "https://www.newark.com/panasonic/eeefk1h100ur/aluminum-electrolytic-capacitor/dp/96K9392",
+            "LastUpdated": "2 Days"
+          },
+          {
+            "Distributor": "Future Electronics",
+            "Quantity": "11958",
+            "BuyNowLink": "https://www.futureelectronics.com//p/passives--capacitors--aluminum-electrolytic-capacitors/eee-fk1h100ur-panasonic-industry-1028618",
+            "LastUpdated": "2 Days"
+          },
+          {
+            "Distributor": "Avnet",
+            "Quantity": "1944",
+            "BuyNowLink": "https://www.avnet.com/americas/product/panasonic/eee-fk1h100ur/evolve-3857915/",
+            "LastUpdated": "3 Days"
+          },
+          {
+            "Distributor": "Avnet",
+            "Quantity": "4881",
+            "BuyNowLink": "https://www.avnet.com/americas/product/panasonic/eee-fk1h100ur/evolve-36616079/?CMP=EMA_FindChips_inventoryfeedno_stock_VSE",
+            "LastUpdated": "3 Days"
+          },
+          {
+            "Distributor": "Allied Electronics",
+            "Quantity": "1647",
+            "BuyNowLink": "https://uk.rs-online.com/",
+            "LastUpdated": "3 Days"
+          },
+          {
+            "Distributor": "Digi-Key",
+            "Quantity": "1680",
+            "BuyNowLink": "https://www.digikey.com/en/products/detail/panasonic-electronic-components/EEE-FK1H100UR/765977?utm_source=oemstrade&utm_medium=aggregator&utm_campaign=buynow",
+            "LastUpdated": "5 Days"
+          },
+          {
+            "Distributor": "Newark",
+            "Quantity": "1639",
+            "BuyNowLink": "https://www.newark.com/panasonic/eeefk1h100ur/cap-alu-elec-10uf-50v-smd-can/dp/85Y4871",
+            "LastUpdated": "5 Days"
+          },
+          {
+            "Distributor": "Rutronik",
+            "Quantity": "5819",
+            "BuyNowLink": "https://www.rutronik24.com/product/panasonic/eeefk1h100ur/28323.html",
+            "LastUpdated": "> 1 Week"
+          },
+          {
+            "Distributor": "Allied Electronics",
+            "Quantity": "1896",
+            "BuyNowLink": "https://uk.rs-online.com/web/p/aluminium-capacitors/5370534/?cm_mmc=aff-_-uk-_-findchip-_-5370534-_-instock&utm_source=supplyFrame&utm_medium=buyNow",
+            "LastUpdated": "> 1 Week"
+          },
+          {
+            "Distributor": "Allied Electronics",
+            "Quantity": "8007",
+            "BuyNowLink": "https://uk.rs-online.com/web/p/aluminium-capacitors/5370534P/?cm_mmc=aff-_-uk-_-findchip-_-5370534P-_-instock&utm_source=supplyFrame&utm_medium=buyNow",
+            "LastUpdated": "> 1 Week"
+          },
+          {
+            "Distributor": "Allied Electronics",
+            "Quantity": "14435",
+            "BuyNowLink": "https://fr.rs-online.com/web/p/condensateurs-electrolytiques-aluminium/7479068/?cm_mmc=aff-_-fr-_-findchip-_-7479068-_-instock&utm_source=supplyFrame&utm_medium=buyNow",
+            "LastUpdated": "> 1 Week"
+          },
+          {
+            "Distributor": "Element14",
+            "Quantity": "2250",
+            "BuyNowLink": "https://au.element14.com/panasonic/eeefk1h100ur/cap-10-f-50v-smd/dp/9695907",
+            "LastUpdated": "> 1 Week"
+          },
+          {
+            "Distributor": "Digi-Key",
+            "Quantity": "10465",
+            "BuyNowLink": "https://www.digikey.com/en/products/detail/panasonic-electronic-components/EEE-FK1H100UR/765977?utm_source=oemstrade&utm_medium=aggregator&utm_campaign=buynow",
+            "LastUpdated": "> 1 Week"
+          },
+          {
+            "Distributor": "Digi-Key",
+            "Quantity": "1784",
+            "BuyNowLink": "https://www.digikey.com/en/products/detail/panasonic-electronic-components/EEE-FK1H100UR/1806574?utm_source=oemstrade&utm_medium=aggregator&utm_campaign=buynow",
+            "LastUpdated": "> 1 Week"
+          }
+        ]
+      },
+      "FullCounterfeitData": {
+        "CounterfeitOverallRisk": "50 %",
+        "OverallCounterfeitRiskGrade": "Medium",
+        "PartNumCounterfeitReportsCount": "null Report(s)",
+        "ManCounterfeitReportsCount": "8 Report(s)",
+        "ManCounterfeitReports": [
+          {
+            "MPN": "TN2?L2?5V",
+            "Supplier": "PANASONIC CORP",
+            "NotificationDate": "Feb 11, 2016",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "LEADS ARE CONTAMINATED WITH FOREIGN DEBRIS",
+            "Source": "http://download.siliconexpert.com/pdfs/2016/3/23/8/27/17/372/pns_/manual/9106.pdf"
+          },
+          {
+            "MPN": "9139?TK1?5V",
+            "Supplier": "NAIS",
+            "NotificationDate": "Jan 31, 2017",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": ""
+          },
+          {
+            "MPN": "EEE1EA331UP",
+            "Supplier": "Panasonic",
+            "NotificationDate": "Aug 15, 2013",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [AXU-15321-0006]"
+          },
+          {
+            "MPN": "TK1?5V",
+            "Supplier": "NAIS",
+            "NotificationDate": "Jan 31, 2017",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": ""
+          },
+          {
+            "MPN": "AN7815",
+            "Supplier": "Panasonic",
+            "NotificationDate": "Dec 07, 2010",
+            "CounterfitMethods": "Different Supplier, New Parts   (Unknown Third party manufacturer looklike part using the data of different supplier than the affected one)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [E5Z-A-11-006]"
+          },
+          {
+            "MPN": "AQW215A",
+            "Supplier": "Panasonic/NAiS",
+            "NotificationDate": "Jul 15, 2015",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [AAN-U-15-268]"
+          },
+          {
+            "MPN": "AQW215AX",
+            "Supplier": "Panasonic/NAiS",
+            "NotificationDate": "Jul 15, 2015",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [AAN-U-15-268]"
+          },
+          {
+            "MPN": "AQW215AZ",
+            "Supplier": "Panasonic/NAiS",
+            "NotificationDate": "Jul 15, 2015",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [AAN-U-15-268]"
+          },
+          {
+            "MPN": "D8Y-A-13-05",
+            "Supplier": "Panasonic Industrial Co.",
+            "NotificationDate": "Jan 29, 2013",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [D8Y-A-13-05]"
+          },
+          {
+            "MPN": "ECEC1VA332BA",
+            "Supplier": "Panasonic",
+            "NotificationDate": "Dec 05, 2013",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [AXU-15321-0001]"
+          }
+        ],
+        "PlCounterfeitReportsCount": "7 Report(s)",
+        "PlCounterfeitReports": [
+          {
+            "MPN": "25ZT1000M12.5X25",
+            "Supplier": "RUBYCON CORP",
+            "NotificationDate": "Jun 20, 2011",
+            "CounterfitMethods": "Same Supplier, New Parts  (Unknown Third party manufacturer looklike part from the same affected supplier)",
+            "Description": "Lot no. on the plastic cover should not start with H",
+            "Source": "http://download.siliconexpert.com/pdfs/2015/8/27/1/23/24/60/rcn_/manual/402.pdf"
+          },
+          {
+            "MPN": "EEE1EA331UP",
+            "Supplier": "Panasonic",
+            "NotificationDate": "Aug 15, 2013",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [AXU-15321-0006]"
+          },
+          {
+            "MPN": "NRSH471M50V12.5X20F",
+            "Supplier": "NIC Components",
+            "NotificationDate": "Mar 20, 2009",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "ALERT.Customers Beware, Counterfeit NIC Components products have been recently reported in the market.",
+            "Source": "http://download.siliconexpert.com/pdfs/2016/2/17/11/4/39/681/nic_/manual/nic.pdf"
+          },
+          {
+            "MPN": "NRE-WY222M35V16X35.5F",
+            "Supplier": "NIC Components",
+            "NotificationDate": "Mar 20, 2009",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "ALERT.Customers Beware, Counterfeit NIC Components products have been recently reported in the market.",
+            "Source": "http://download.siliconexpert.com/pdfs/2016/2/17/11/4/39/681/nic_/manual/nic.pdf"
+          },
+          {
+            "MPN": "NRLR472M80V35X30SF",
+            "Supplier": "NIC Components",
+            "NotificationDate": "Mar 20, 2009",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "ALERT.Customers Beware, Counterfeit NIC Components products have been recently reported in the market.",
+            "Source": "http://download.siliconexpert.com/pdfs/2016/2/17/11/4/39/681/nic_/manual/nic.pdf"
+          },
+          {
+            "MPN": "NRSH102M25V10X23F",
+            "Supplier": "NIC Components",
+            "NotificationDate": "Mar 20, 2009",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "ALERT.Customers Beware, Counterfeit NIC Components products have been recently reported in the market.",
+            "Source": "http://download.siliconexpert.com/pdfs/2016/2/17/11/4/39/681/nic_/manual/nic.pdf"
+          },
+          {
+            "MPN": "NATT471M6.3V8X10.5NBF",
+            "Supplier": "NIC Components",
+            "NotificationDate": "Mar 20, 2009",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "ALERT.Customers Beware, Counterfeit NIC Components products have been recently reported in the market.",
+            "Source": "http://download.siliconexpert.com/pdfs/2016/2/17/11/4/39/681/nic_/manual/nic.pdf"
+          },
+          {
+            "MPN": "NRE-WY471M25V10X16F",
+            "Supplier": "NIC Components",
+            "NotificationDate": "Mar 20, 2009",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "ALERT.Customers Beware, Counterfeit NIC Components products have been recently reported in the market.",
+            "Source": "http://download.siliconexpert.com/pdfs/2016/2/17/11/4/39/681/nic_/manual/nic.pdf"
+          },
+          {
+            "MPN": "NRE-WY331M35V10X16F",
+            "Supplier": "NIC Components",
+            "NotificationDate": "Mar 20, 2009",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "ALERT.Customers Beware, Counterfeit NIC Components products have been recently reported in the market.",
+            "Source": "http://download.siliconexpert.com/pdfs/2016/2/17/11/4/39/681/nic_/manual/nic.pdf"
+          },
+          {
+            "MPN": "NRE-WY221M35V10X12.5F",
+            "Supplier": "NIC Components",
+            "NotificationDate": "Mar 20, 2009",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "ALERT.Customers Beware, Counterfeit NIC Components products have been recently reported in the market.",
+            "Source": "http://download.siliconexpert.com/pdfs/2016/2/17/11/4/39/681/nic_/manual/nic.pdf"
+          },
+          {
+            "MPN": "NRLRW472M50V30X25SF",
+            "Supplier": "NIC Components",
+            "NotificationDate": "Mar 20, 2009",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "ALERT.Customers Beware, Counterfeit NIC Components products have been recently reported in the market.",
+            "Source": "http://download.siliconexpert.com/pdfs/2016/2/17/11/4/39/681/nic_/manual/nic.pdf"
+          },
+          {
+            "MPN": "NACZ331M50V12.5X14TR13F",
+            "Supplier": "NIC Components",
+            "NotificationDate": "Mar 20, 2009",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "ALERT.Customers Beware, Counterfeit NIC Components products have been recently reported in the market.",
+            "Source": "http://download.siliconexpert.com/pdfs/2016/2/17/11/4/39/681/nic_/manual/nic.pdf"
+          },
+          {
+            "MPN": "NATT100M50V6.3X6.3NBF",
+            "Supplier": "NIC Components",
+            "NotificationDate": "Mar 20, 2009",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "ALERT.Customers Beware, Counterfeit NIC Components products have been recently reported in the market.",
+            "Source": "http://download.siliconexpert.com/pdfs/2016/2/17/11/4/39/681/nic_/manual/nic.pdf"
+          },
+          {
+            "MPN": "NRLMW681M200V30X30F",
+            "Supplier": "NIC Components",
+            "NotificationDate": "Mar 20, 2009",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "ALERT.Customers Beware, Counterfeit NIC Components products have been recently reported in the market.",
+            "Source": "http://download.siliconexpert.com/pdfs/2016/2/17/11/4/39/681/nic_/manual/nic.pdf"
+          },
+          {
+            "MPN": "NRE-S220M63V6.3X7F",
+            "Supplier": "NIC Components",
+            "NotificationDate": "Mar 20, 2009",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "ALERT.Customers Beware, Counterfeit NIC Components products have been recently reported in the market.",
+            "Source": "http://download.siliconexpert.com/pdfs/2016/2/17/11/4/39/681/nic_/manual/nic.pdf"
+          },
+          {
+            "MPN": "NRE-WY471M16V10X12.5F",
+            "Supplier": "NIC Components",
+            "NotificationDate": "Mar 20, 2009",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "ALERT.Customers Beware, Counterfeit NIC Components products have been recently reported in the market.",
+            "Source": "http://download.siliconexpert.com/pdfs/2016/2/17/11/4/39/681/nic_/manual/nic.pdf"
+          },
+          {
+            "MPN": "LLG2D182MELC35",
+            "Supplier": "Nichicon America Corp",
+            "NotificationDate": "Dec 19, 2016",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [EE8-A-17-01]"
+          },
+          {
+            "MPN": "UVK1A222MPD1TD",
+            "Supplier": "Nichicon",
+            "NotificationDate": "Mar 31, 2020",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [CN3-A-20-01]"
+          },
+          {
+            "MPN": "NRE-S220M63V6.3X7F",
+            "Supplier": "NIC Components",
+            "NotificationDate": "Mar 20, 2009",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "ALERT.... Customers Beware, Counterfeit NIC Components products have been recently reported in the market.",
+            "Source": "http://download.siliconexpert.com/pdfs/2012/5/3/8/1/41/8/nic_/manual/niccomponents_counterfeitedpns.pdf"
+          },
+          {
+            "MPN": "NRLRW472M50V30X25SF",
+            "Supplier": "NIC Components",
+            "NotificationDate": "Mar 20, 2009",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "ALERT.... Customers Beware, Counterfeit NIC Components products have been recently reported in the market.",
+            "Source": "http://download.siliconexpert.com/pdfs/2012/5/3/8/1/41/8/nic_/manual/niccomponents_counterfeitedpns.pdf"
+          },
+          {
+            "MPN": "NRE-WY471M16V10X12.5F",
+            "Supplier": "NIC Components",
+            "NotificationDate": "Mar 20, 2009",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "ALERT.... Customers Beware, Counterfeit NIC Components products have been recently reported in the market.",
+            "Source": "http://download.siliconexpert.com/pdfs/2012/5/3/8/1/41/8/nic_/manual/niccomponents_counterfeitedpns.pdf"
+          },
+          {
+            "MPN": "NRSH102M25V10X23F",
+            "Supplier": "NIC Components",
+            "NotificationDate": "Mar 20, 2009",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "ALERT.... Customers Beware, Counterfeit NIC Components products have been recently reported in the market.",
+            "Source": "http://download.siliconexpert.com/pdfs/2012/5/3/8/1/41/8/nic_/manual/niccomponents_counterfeitedpns.pdf"
+          },
+          {
+            "MPN": "NATT100M50V6.3X6.3NBF",
+            "Supplier": "NIC Components",
+            "NotificationDate": "Mar 20, 2009",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "ALERT.... Customers Beware, Counterfeit NIC Components products have been recently reported in the market.",
+            "Source": "http://download.siliconexpert.com/pdfs/2012/5/3/8/1/41/8/nic_/manual/niccomponents_counterfeitedpns.pdf"
+          },
+          {
+            "MPN": "NRE-WY331M35V10X16F",
+            "Supplier": "NIC Components",
+            "NotificationDate": "Mar 20, 2009",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "ALERT.... Customers Beware, Counterfeit NIC Components products have been recently reported in the market.",
+            "Source": "http://download.siliconexpert.com/pdfs/2012/5/3/8/1/41/8/nic_/manual/niccomponents_counterfeitedpns.pdf"
+          },
+          {
+            "MPN": "NACZ331M50V12.5X14TR13F",
+            "Supplier": "NIC Components",
+            "NotificationDate": "Mar 20, 2009",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "ALERT.... Customers Beware, Counterfeit NIC Components products have been recently reported in the market.",
+            "Source": "http://download.siliconexpert.com/pdfs/2012/5/3/8/1/41/8/nic_/manual/niccomponents_counterfeitedpns.pdf"
+          },
+          {
+            "MPN": "NRE-WY222M35V16X35.5F",
+            "Supplier": "NIC Components",
+            "NotificationDate": "Mar 20, 2009",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "ALERT.... Customers Beware, Counterfeit NIC Components products have been recently reported in the market.",
+            "Source": "http://download.siliconexpert.com/pdfs/2012/5/3/8/1/41/8/nic_/manual/niccomponents_counterfeitedpns.pdf"
+          },
+          {
+            "MPN": "NATT471M6.3V8X10.5NBF",
+            "Supplier": "NIC Components",
+            "NotificationDate": "Mar 20, 2009",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "ALERT.... Customers Beware, Counterfeit NIC Components products have been recently reported in the market.",
+            "Source": "http://download.siliconexpert.com/pdfs/2012/5/3/8/1/41/8/nic_/manual/niccomponents_counterfeitedpns.pdf"
+          },
+          {
+            "MPN": "NRE-WY471M25V10X16F",
+            "Supplier": "NIC Components",
+            "NotificationDate": "Mar 20, 2009",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "ALERT.... Customers Beware, Counterfeit NIC Components products have been recently reported in the market.",
+            "Source": "http://download.siliconexpert.com/pdfs/2012/5/3/8/1/41/8/nic_/manual/niccomponents_counterfeitedpns.pdf"
+          },
+          {
+            "MPN": "NRE-WY221M35V10X12.5F",
+            "Supplier": "NIC Components",
+            "NotificationDate": "Mar 20, 2009",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "ALERT.... Customers Beware, Counterfeit NIC Components products have been recently reported in the market.",
+            "Source": "http://download.siliconexpert.com/pdfs/2012/5/3/8/1/41/8/nic_/manual/niccomponents_counterfeitedpns.pdf"
+          },
+          {
+            "MPN": "NRSH471M50V12.5X20F",
+            "Supplier": "NIC Components",
+            "NotificationDate": "Mar 20, 2009",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "ALERT.... Customers Beware, Counterfeit NIC Components products have been recently reported in the market.",
+            "Source": "http://download.siliconexpert.com/pdfs/2012/5/3/8/1/41/8/nic_/manual/niccomponents_counterfeitedpns.pdf"
+          },
+          {
+            "MPN": "NRLMW681M200V30X30F",
+            "Supplier": "NIC Components",
+            "NotificationDate": "Mar 20, 2009",
+            "CounterfitMethods": "Different Supplier, Old Parts  (Unknown Third party use Old part from different supplier than the affected one)",
+            "Description": "ALERT.... Customers Beware, Counterfeit NIC Components products have been recently reported in the market.",
+            "Source": "http://download.siliconexpert.com/pdfs/2012/5/3/8/1/41/8/nic_/manual/niccomponents_counterfeitedpns.pdf"
+          },
+          {
+            "MPN": "ECEC1VA332BA",
+            "Supplier": "Panasonic",
+            "NotificationDate": "Dec 05, 2013",
+            "CounterfitMethods": "Same Supplier, Old Parts (Unknown Third party use Old part from the same affected supplier)",
+            "Description": "",
+            "Source": "Please Contact GIDEP for Document # [AXU-15321-0001]"
+          }
+        ],
+        "CurrentLifecycleStatus": "Active",
+        "TimeSinceMarketIntroduction": "21 Year(s)",
+        "AuthorizedDistributorswithStockCount": "15 Distributor(s)",
+        "AuthorizedDistributorswithStockReports": [
+          {
+            "Date": "AUG_2025",
+            "AvgQuantity": "726781",
+            "Inventory": "Future Electronics||~||Mouser Electronics||~||Element14||~||Newark||~||Digi-Key||~||Arrow North America||~||Arrow Europe||~||Conrad Electronic||~||Verical||~||Onlinecomponents.com||~||Avnet||~||Arrow Quote||~||Chip1Stop||~||"
+          },
+          {
+            "Date": "AUG_2025",
+            "AvgQuantity": "703713",
+            "Inventory": "Future Electronics||~||Element14||~||Newark||~||Digi-Key||~||Arrow North America||~||Arrow Europe||~||Conrad Electronic||~||Verical||~||Onlinecomponents.com||~||Rutronik||~||Avnet||~||Arrow Quote||~||Chip1Stop||~||"
+          }
+        ],
+        "HistoricalShortagesInventoryReported": "Yes",
+        "IsPopularPart": "Yes"
+      },
+      "Qualifications": {
+        "ESDQualification": {
+          "ESDProtection": "Unknown",
+          "MaximumESDProtectionVoltage": "N/A",
+          "ESDClass": "N/A",
+          "SourceOfInformation": "http://download.siliconexpert.com/pdfs2/2025/9/4/22/48/58/1442556616/pns_/manual/aba0000c1181.pdf"
+        },
+        "AgencyApprovals": {
+          "Agency": {
+            "Agnecy": "Unknown",
+            "Standard": "N/A",
+            "StandardDetails": "N/A",
+            "FileNumber": "N/A",
+            "CertificationDocument": "http://download.siliconexpert.com/pdfs2/2025/9/4/22/48/58/1442556616/pns_/manual/aba0000c1181.pdf"
+          }
+        },
+        "Reliability": {
+          "FitDetail": {
+            "FIT": "126(Max)",
+            "ConditionName": "Confidence Level",
+            "ConditionValue": "60"
+          },
+          "MTBFDetail": {
+            "MTBF": "7936507.94(Max)",
+            "ConditionName": "Confidence Level",
+            "ConditionValue": "60"
+          },
+          "FlammabilityRating": "UL 94 V-0"
+        },
+        "Flammability": {
+          "Flammability": "Yes",
+          "FlammabilityRating": "UL 94 V-0",
+          "PDFURL": ""
+        }
+      },
+      "LifeCycleData": {
+        "PartStatus": "Active",
+        "LifeCycleComment": "",
+        "LTBDate": "",
+        "Source": "http://download.siliconexpert.com/pdfs/2009/wda_latest/panasonic/2/eeefk1h100ur_0.html",
+        "EstimatedYearsToEOL": "7.4",
+        "EstimatedEOLDate": "2032",
+        "PartLifecycleStage": "Mature",
+        "MinimumEstimatedYearsToEOL": "4.2",
+        "MaximumEstimatedYearsToEOL": "1.7",
+        "LifeCycleRiskGrade": "Medium",
+        "OverallRisk": "40.7%",
+        "OverallRiskGrade": "Low",
+        "PartLifecycleCode": "3"
+      },
+      "ManufacturingData": {
+        "MSL": "N/R",
+        "LeadFinishPlating": "SnBi",
+        "TerminalBaseMaterial": "N/A",
+        "MaximumReflowTemperature": "250 °C",
+        "ReflowSolderTime": "5 Sec",
+        "NumberOfReflowCycle": "1",
+        "Standard": "",
+        "MaximumWaveTemperature": "N/R",
+        "WaveSolderTime": "N/R",
+        "UnderPlatingMaterial": "N/A",
+        "ReflowTempSource": "https://download.siliconexpert.com/pdfs2/2024/5/3/22/22/55/64491/pns_/manual/9350_fileversion.pdf",
+        "WaveTempSource": "",
+        "UnderPlatingPorosityFree": ""
+      },
+      "PackagingData": {
+        "PackagingSuffix": "",
+        "Packaging": "Tape and Reel",
+        "QuantityOfPackaging": "1000(Min)",
+        "ReelDiameter": "",
+        "ReelWidth": "",
+        "TapePitch": "",
+        "TapeWidth": "",
+        "FeedHolePitch": "",
+        "HoleCenterToComponentCenter": "",
+        "LeadClinchHeight": "",
+        "ComponentOrientation": "",
+        "PackagingDocument": "https://download.siliconexpert.com/pdfs2/2022/11/5/19/53/18/203882/pns_/manual/dme0000col53.pdf",
+        "TapeMaterial": "",
+        "TapeType": ""
+      },
+      "AllPackageData": {
+        "Feature": [
+          {
+            "FeatureName": "Mounting",
+            "FeatureValue": "Surface Mount",
+            "FeatureUnit": "",
+            "FeatureId": "59590"
+          },
+          {
+            "FeatureName": "Termination Style",
+            "FeatureValue": "N/R",
+            "FeatureUnit": "",
+            "FeatureId": "72134"
+          },
+          {
+            "FeatureName": "Terminal Pitch",
+            "FeatureValue": "N/R",
+            "FeatureUnit": "mm",
+            "FeatureId": "59595"
+          },
+          {
+            "FeatureName": "Product Length",
+            "FeatureValue": "N/R",
+            "FeatureUnit": "mm",
+            "FeatureId": "59603"
+          },
+          {
+            "FeatureName": "Product Depth",
+            "FeatureValue": "N/R",
+            "FeatureUnit": "mm",
+            "FeatureId": "59604"
+          },
+          {
+            "FeatureName": "Product Height",
+            "FeatureValue": "5.8",
+            "FeatureUnit": "mm",
+            "FeatureId": "59605"
+          },
+          {
+            "FeatureName": "Product Diameter",
+            "FeatureValue": "5",
+            "FeatureUnit": "mm",
+            "FeatureId": "60856"
+          },
+          {
+            "FeatureName": "Seated Plane Height",
+            "FeatureValue": "N/R",
+            "FeatureUnit": "mm",
+            "FeatureId": "59833"
+          },
+          {
+            "FeatureName": "Product Weight",
+            "FeatureValue": "0.21",
+            "FeatureUnit": "g",
+            "FeatureId": "59598"
+          },
+          {
+            "FeatureName": "Number of Terminals",
+            "FeatureValue": "2",
+            "FeatureUnit": "",
+            "FeatureId": "68436"
+          },
+          {
+            "FeatureName": "Size",
+            "FeatureValue": "5 X 5.8",
+            "FeatureUnit": "mm",
+            "FeatureId": "59606"
+          }
+        ]
+      },
+      "PackageData": {
+        "Feature": [
+          {
+            "FeatureName": "Mounting",
+            "FeatureValue": "Surface Mount",
+            "FeatureUnit": "",
+            "FeatureId": "59590"
+          },
+          {
+            "FeatureName": "Termination Style",
+            "FeatureValue": "N/R",
+            "FeatureUnit": "",
+            "FeatureId": "72134"
+          },
+          {
+            "FeatureName": "Terminal Pitch",
+            "FeatureValue": "N/R",
+            "FeatureUnit": "mm",
+            "FeatureId": "59595"
+          },
+          {
+            "FeatureName": "Product Length",
+            "FeatureValue": "N/R",
+            "FeatureUnit": "mm",
+            "FeatureId": "59603"
+          },
+          {
+            "FeatureName": "Product Depth",
+            "FeatureValue": "N/R",
+            "FeatureUnit": "mm",
+            "FeatureId": "59604"
+          },
+          {
+            "FeatureName": "Product Height",
+            "FeatureValue": "5.8",
+            "FeatureUnit": "mm",
+            "FeatureId": "59605"
+          },
+          {
+            "FeatureName": "Product Diameter",
+            "FeatureValue": "5",
+            "FeatureUnit": "mm",
+            "FeatureId": "60856"
+          },
+          {
+            "FeatureName": "Seated Plane Height",
+            "FeatureValue": "N/R",
+            "FeatureUnit": "mm",
+            "FeatureId": "59833"
+          },
+          {
+            "FeatureName": "Product Weight",
+            "FeatureValue": "0.21",
+            "FeatureUnit": "g",
+            "FeatureId": "59598"
+          },
+          {
+            "FeatureName": "Length Tolerance",
+            "FeatureValue": "",
+            "FeatureUnit": "mm",
+            "FeatureId": "87916"
+          },
+          {
+            "FeatureName": "Depth Tolerance",
+            "FeatureValue": "",
+            "FeatureUnit": "mm",
+            "FeatureId": "87933"
+          },
+          {
+            "FeatureName": "Height Tolerance",
+            "FeatureValue": "",
+            "FeatureUnit": "mm",
+            "FeatureId": "87950"
+          },
+          {
+            "FeatureName": "Diameter Tolerance",
+            "FeatureValue": "",
+            "FeatureUnit": "mm",
+            "FeatureId": "87967"
+          },
+          {
+            "FeatureName": "Number of Terminals",
+            "FeatureValue": "2",
+            "FeatureUnit": "",
+            "FeatureId": "68436"
+          },
+          {
+            "FeatureName": "Size",
+            "FeatureValue": "5 X 5.8",
+            "FeatureUnit": "mm",
+            "FeatureId": "59606"
+          },
+          {
+            "FeatureName": "Maximum Product Length",
+            "FeatureValue": "",
+            "FeatureUnit": "mm",
+            "FeatureId": "13466335"
+          },
+          {
+            "FeatureName": "Maximum Product Depth",
+            "FeatureValue": "",
+            "FeatureUnit": "mm",
+            "FeatureId": "13466354"
+          },
+          {
+            "FeatureName": "Maximum Product Height",
+            "FeatureValue": "",
+            "FeatureUnit": "mm",
+            "FeatureId": "13466370"
+          }
+        ]
+      },
+      "ParametricData": {
+        "Features": [
+          {
+            "FeatureName": "AC Rated Voltage",
+            "FeatureValue": "",
+            "FeatureUnit": "VAC",
+            "FeatureID": "8030007"
+          },
+          {
+            "FeatureName": "Capacitance Value",
+            "FeatureValue": "10uF",
+            "FeatureUnit": "",
+            "FeatureID": "59585",
+            "FeatureValueDetails": {
+              "Value": "10",
+              "Multiplier": "u",
+              "MultiplierValue": ".000001",
+              "Unit": "F",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Case Code",
+            "FeatureValue": "C",
+            "FeatureUnit": "",
+            "FeatureID": "67080",
+            "FeatureValueDetails": {
+              "Value": "C",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Construction",
+            "FeatureValue": "Cylindrical",
+            "FeatureUnit": "",
+            "FeatureID": "59591",
+            "FeatureValueDetails": {
+              "Value": "Cylindrical",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "DC Rated Voltage",
+            "FeatureValue": "50",
+            "FeatureUnit": "VDC",
+            "FeatureID": "8030004",
+            "FeatureValueDetails": {
+              "Value": "50",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "VDC",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Equivalent Series Inductance",
+            "FeatureValue": "",
+            "FeatureUnit": "nH",
+            "FeatureID": "68465"
+          },
+          {
+            "FeatureName": "Equivalent Series Resistance",
+            "FeatureValue": "",
+            "FeatureUnit": "Ohm",
+            "FeatureID": "59592"
+          },
+          {
+            "FeatureName": "Equivalent Series Resistance Type",
+            "FeatureValue": "Low",
+            "FeatureUnit": "",
+            "FeatureID": "66196",
+            "FeatureValueDetails": {
+              "Value": "Low",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Failure Rate",
+            "FeatureValue": "",
+            "FeatureUnit": "",
+            "FeatureID": "59599"
+          },
+          {
+            "FeatureName": "Fixed/Variable",
+            "FeatureValue": "Fixed",
+            "FeatureUnit": "",
+            "FeatureID": "13466386",
+            "FeatureValueDetails": {
+              "Value": "Fixed",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Lead Diameter",
+            "FeatureValue": "",
+            "FeatureUnit": "mm",
+            "FeatureID": "59832"
+          },
+          {
+            "FeatureName": "Leakage Current",
+            "FeatureValue": "5@2Min",
+            "FeatureUnit": "uA",
+            "FeatureID": "59594",
+            "FeatureValueDetails": {
+              "Value": "5",
+              "Multiplier": "u",
+              "MultiplierValue": ".000001",
+              "Unit": "A",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Lifetime",
+            "FeatureValue": "2000",
+            "FeatureUnit": "h",
+            "FeatureID": "59593",
+            "FeatureValueDetails": {
+              "Value": "2000",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "h",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Maximum Dissipation Factor",
+            "FeatureValue": "0.1",
+            "FeatureUnit": "%",
+            "FeatureID": "68471",
+            "FeatureValueDetails": {
+              "Value": "0.1",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "%",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Maximum Impedance",
+            "FeatureValue": "1.52@20°C@100kHz",
+            "FeatureUnit": "Ohm",
+            "FeatureID": "74536",
+            "FeatureValueDetails": {
+              "Value": "1.52",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "Ohm",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Maximum Operating Temperature",
+            "FeatureValue": "105",
+            "FeatureUnit": "°C",
+            "FeatureID": "60234",
+            "FeatureValueDetails": {
+              "Value": "105",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "°C",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Maximum Storage Temperature",
+            "FeatureValue": "35",
+            "FeatureUnit": "°C",
+            "FeatureID": "69085",
+            "FeatureValueDetails": {
+              "Value": "35",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "°C",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Maximum Terminal Width",
+            "FeatureValue": "",
+            "FeatureUnit": "mm",
+            "FeatureID": "87481"
+          },
+          {
+            "FeatureName": "Military Standard",
+            "FeatureValue": "",
+            "FeatureUnit": "",
+            "FeatureID": "59600"
+          },
+          {
+            "FeatureName": "Minimum Operating Temperature",
+            "FeatureValue": "-55",
+            "FeatureUnit": "°C",
+            "FeatureID": "60233",
+            "FeatureValueDetails": {
+              "Value": "55",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "°C",
+              "Sign": "-"
+            }
+          },
+          {
+            "FeatureName": "Minimum Storage Temperature",
+            "FeatureValue": "5",
+            "FeatureUnit": "°C",
+            "FeatureID": "68738",
+            "FeatureValueDetails": {
+              "Value": "5",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "°C",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Negative Capacitance Tolerance",
+            "FeatureValue": "-20",
+            "FeatureUnit": "%",
+            "FeatureID": "14464980",
+            "FeatureValueDetails": {
+              "Value": "20",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "%",
+              "Sign": "-"
+            }
+          },
+          {
+            "FeatureName": "Operating Temperature",
+            "FeatureValue": "-55 to 105",
+            "FeatureUnit": "°C",
+            "FeatureID": "59596",
+            "FeatureValueDetails": {
+              "Value": "55 to 105",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "°C to °C",
+              "Sign": "- to"
+            }
+          },
+          {
+            "FeatureName": "Package Region",
+            "FeatureValue": "World Wide",
+            "FeatureUnit": "",
+            "FeatureID": "69968",
+            "FeatureValueDetails": {
+              "Value": "World Wide",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Polarity",
+            "FeatureValue": "Polar",
+            "FeatureUnit": "",
+            "FeatureID": "73293",
+            "FeatureValueDetails": {
+              "Value": "Polar",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Positive Capacitance Tolerance",
+            "FeatureValue": "20",
+            "FeatureUnit": "%",
+            "FeatureID": "13938330",
+            "FeatureValueDetails": {
+              "Value": "20",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "%",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Ripple Current",
+            "FeatureValue": "0.085",
+            "FeatureUnit": "A",
+            "FeatureID": "59586",
+            "FeatureValueDetails": {
+              "Value": "0.085",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "A",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Special Features",
+            "FeatureValue": "",
+            "FeatureUnit": "",
+            "FeatureID": "85355"
+          },
+          {
+            "FeatureName": "Test Frequency",
+            "FeatureValue": "",
+            "FeatureUnit": "Hz",
+            "FeatureID": "13401389"
+          },
+          {
+            "FeatureName": "Tolerance",
+            "FeatureValue": "20%",
+            "FeatureUnit": "",
+            "FeatureID": "59587",
+            "FeatureValueDetails": {
+              "Value": "20",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "%",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Tradename",
+            "FeatureValue": "",
+            "FeatureUnit": "",
+            "FeatureID": "74542"
+          },
+          {
+            "FeatureName": "Type",
+            "FeatureValue": "Electrolytic",
+            "FeatureUnit": "",
+            "FeatureID": "61970",
+            "FeatureValueDetails": {
+              "Value": "Electrolytic",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Voltage",
+            "FeatureValue": "50VDC",
+            "FeatureUnit": "",
+            "FeatureID": "59588",
+            "FeatureValueDetails": {
+              "Value": "50",
+              "Multiplier": "",
+              "MultiplierValue": "1.0",
+              "Unit": "VDC",
+              "Sign": ""
+            }
+          },
+          {
+            "FeatureName": "Wire Form",
+            "FeatureValue": "",
+            "FeatureUnit": "",
+            "FeatureID": "67246"
+          }
+        ]
+      },
+      "PCNData": {
+        "PCNDto": {
+          "LastPCNNumber": "",
+          "LastPCNDate": "Feb 25, 2022",
+          "LastPCNTypeOfChange": "Labeling,Packing",
+          "LastPCNSource": "http://download.siliconexpert.com/pdfs2/2022/4/3/12/4/13/168785/pns_/manual/88321_spcn.pdf",
+          "LastTimeBuyDate": "",
+          "LastShipDate": "",
+          "LastEOLNumber": "",
+          "LastEOLDate": "",
+          "LastEOLSource": ""
+        }
+      },
+      "PCNDetails": {
+        "PCNDto": [
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Labeling,Packing",
+            "DescriptionOfChange": "Panasonic Corporation will shift to a holding company system Panasonic Holdings Corporation.we will change the company name on the labels to the new company name.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs2/2022/4/3/12/4/13/168785/pns_/manual/88321_spcn.pdf",
+            "NotificationDate": "Feb 25, 2022",
+            "EffectiveDate": "Apr 01, 2022",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "437588859376361"
+          },
+          {
+            "PCNNumber": "PCN.PG25.07.05.2017",
+            "TypeOfChange": "Packing",
+            "DescriptionOfChange": "Panasonic will change the reel material from Paper to Plastic",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2017/7/19/7/35/23/534/pns_/manual/panasoni_pcnpg2507052017_07192017_.pdf",
+            "NotificationDate": "Jul 05, 2017",
+            "EffectiveDate": "Sep 01, 2017",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "9011244698"
+          },
+          {
+            "PCNNumber": "PCN.PG25.07.05.2017",
+            "TypeOfChange": "Packing",
+            "DescriptionOfChange": "Panasonic will change the reel material from Paper to Plastic",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2017/7/19/7/35/23/534/pns_/manual/panasoni_pcnpg2507052017_07192017_.pdf",
+            "NotificationDate": "Jul 05, 2017",
+            "EffectiveDate": "Sep 01, 2017",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "9011244698"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Packing",
+            "DescriptionOfChange": "Change of the paper reel to plastic reel for aluminum electrolytic capacitors of surface-mount type (type V)",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2017/6/18/5/6/28/501/pns_/manual/panasonic-new-specifications-for-aluminum-electrolytic-capacitors-of-surface-mount-type-type-v-pcn170601-r2.pdf",
+            "NotificationDate": "Jun 07, 2017",
+            "EffectiveDate": "Sep 01, 2017",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "9009996943"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Packing",
+            "DescriptionOfChange": "Change of the paper reel to plastic reel for aluminum electrolytic capacitors of surface-mount type (type V)",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2017/7/17/7/14/16/760/pns_/manual/panasoni_eee0ga101sr_07172017_.pdf",
+            "NotificationDate": "Jun 07, 2017",
+            "EffectiveDate": "Sep 01, 2017",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "9011177693"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Packing",
+            "DescriptionOfChange": "Change of the paper reel to plastic reel for aluminum electrolytic capacitors of surface-mount type (type V)",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2018/2/12/5/48/59/233/pns_/manual/20170601_nitificationtothecustomer_15667.pdf",
+            "NotificationDate": "Jun 01, 2017",
+            "EffectiveDate": "Sep 01, 2017",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "9031313916"
+          },
+          {
+            "PCNNumber": "PCN.PG25.03.03.2016",
+            "TypeOfChange": "Characteristics Change,Packing",
+            "DescriptionOfChange": "Product made on and after Feb 1, 2016: specs will be 5 to 35 oC, Relative Humidity of 45 to 85% for no more than 42 months.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2016/3/20/7/47/22/589/pns_/manual/46789_spcn2.pdf",
+            "NotificationDate": "Mar 03, 2016",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "8985240708"
+          },
+          {
+            "PCNNumber": "PCN.PG44.07.06.12",
+            "TypeOfChange": "Packing",
+            "DescriptionOfChange": "Panasonic Electronic Components is announcing a packaging change for all SMT Aluminum Electrolytic,Capacitors that are produced at the Panasonic Industrial Devices Malaysia (PIDMY) facility.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2012/9/11/6/44/3/492/pns_/manual/pcn.pg44.07.06.12_eee_series_smt_lytic_packaging_change.pdf",
+            "NotificationDate": "Jul 06, 2012",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "49111679"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Assembly Site",
+            "DescriptionOfChange": "Factory and country of origin approval request on Panasonic SMT Aluminum Electrolytic Capacitors (Panasonic Electronic Devices Malaysia Sdn. Bhd (PEDMA) / Malaysia)",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2012/5/24/2/3/25/179/pns_/manual/smt.pdf",
+            "NotificationDate": "Mar 29, 2012",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "41119007"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Assembly Site",
+            "DescriptionOfChange": "In order to keep the stable global supply chain we have been increasing the production capacity especially in Malaysia for the business growth in the future to offer you most of our product range from two locations.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2012/4/25/2/26/41/970/pns_/manual/3_panasoni_eljpf10njfb_04132012_.pdf",
+            "NotificationDate": "Mar 29, 2012",
+            "EffectiveDate": "Jul 01, 2012",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "39071226"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "Lexcom Communications has been Acquired by Windstream.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2012/3/8/3/29/10/250/pns_/manual/pcn_fullacquisition_panasonic_panasonicelectricworkscorporationofamerica.pdf",
+            "NotificationDate": "Jan 01, 2012",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "36502759"
+          },
+          {
+            "PCNNumber": "PDN.PG44.09.15.10-2",
+            "TypeOfChange": "Lead Free",
+            "DescriptionOfChange": "Panasonic will discontinue all SMT Aluminum Capacitors containing lead (Pb) in its terminals, RoHS equivalent replacement parts provided for some devices on last time buy",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2010/10/6/23/12/45/989/pns_/manual/panasoni_pdnpg440915102_10062010_eol.pdf",
+            "NotificationDate": "Sep 30, 2010",
+            "EffectiveDate": "Sep 30, 2010",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "19433451"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "IPS Alpha Technology, Ltd  has been Acquired By Panasonic.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2010/10/21/3/16/32/862/pns_/manual/pcn_fullacquisition_panasonic_ipsalphatechnologyltd.pdf",
+            "NotificationDate": "Aug 23, 2010",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "19949937"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "Honda Connectors has been merged into Panasonic Electric Works Corporation of America.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2011/2/22/22/51/27/870/aro_/manual/pcn_merger_panasonicelectricworkscorporationofamerica_hondaconnectors.pdf",
+            "NotificationDate": "Jul 27, 2010",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "23717021"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "SANYO Electric has Been Acquired by Panasonic.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2010/1/6/13/47/48/882/pns_/manual/pcn_fullacquisition_panasonic_sanyoelectric.pdf",
+            "NotificationDate": "Dec 21, 2009",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "11084090"
+          },
+          {
+            "PCNNumber": "NRFND.PG44.06.05.09-4",
+            "TypeOfChange": "Lead Free",
+            "DescriptionOfChange": "V-FK series Non-RoHS Surface Mount Type Aluminum Electrolytic Capacitors are NOT RECOMMENDED FOR NEW DESIGN, RoHS compliant replacements are recommended",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2009/6/13/23/12/46/661/pns_/manual/panasoni_nrfndpg440605094_06112009_.pdf",
+            "NotificationDate": "Jun 05, 2009",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "3938849"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "Matsushita Electric Works has been merged into Panasonic Electric Works Corporation of America.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2010/7/4/2/53/30/995/aro_/manual/pcn_fullacquisition_panasonicelectricworkscorporationofamerica_matsushitaelectricworks.pdf",
+            "NotificationDate": "Sep 30, 2008",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "15879135"
+          },
+          {
+            "PCNNumber": "",
+            "TypeOfChange": "Vendor Acquisition",
+            "DescriptionOfChange": "Sunx Merged into Panasonic Electric Works Corporation of America.",
+            "PcnSource": "http://download.siliconexpert.com/pdfs/2009/12/8/12/3/18/31/aro_/manual/pcnmergerpanasonicelectricworkscorporationofamericasunx.pdf",
+            "NotificationDate": "Jan 01, 2006",
+            "EffectiveDate": "",
+            "LastTimeBuyDate": "",
+            "LastShipDate": "",
+            "PCNId": "10608591"
+          }
+        ]
+      },
+      "EnvironmentalDto": {
+        "RoHSStatus": "Compliant",
+        "RoHSVersion": "2011/65/EU, 2015/863",
+        "Source": "http://download.siliconexpert.com/pdfs2/2024/5/3/21/38/27/571605/pns_/manual/25455_fileversion.pdf",
+        "SourceType": "Certificate of Compliance",
+        "OtherSources": {
+          "Source": "http://download.siliconexpert.com/pdfs2/wda/2023/7/31/panasonic_global/eeefk1h100ur_page2.html",
+          "SourceType": "Vendor Site"
+        },
+        "Exemption": "No",
+        "ExemptionType": "",
+        "ExemptionCodes": "",
+        "ExemptionExpirationDate": "",
+        "RohsIdentifier": "NO",
+        "LeadFree": "Compliant",
+        "RareEarthElementInformation": "Rare Earth Free",
+        "ConflictMineralStatus": "DRC Conflict Undeterminable",
+        "ConflictMineralStatement": "http://download.siliconexpert.com/pdfs2/2020/11/10/16/3/27/465255/pns_/manual/sustainability-panasonic.pdf",
+        "EICCMembership": "No",
+        "EICCTemplate": "",
+        "EICCTemplateVersion": "",
+        "ConflictMineralsPolicy": "",
+        "ConflictMineralsSustainabilityReport": "http://download.siliconexpert.com/pdfs/2012/1/22/23/49/35/537/pns_/manual/sr2011e.pdf",
+        "SDForm": "",
+        "HalgonFree": "Compliant",
+        "ChinaRoHS": {
+          "ChinaRoHSStatus": "Unaffected",
+          "CadmiumConcentration": "<100",
+          "CadmiumFlag": "O",
+          "ChromiumConcentration": "<1000",
+          "ChromiumFlag": "O",
+          "LeadConcentration": "<1000",
+          "LeadFlag": "O",
+          "MercuryConcentration": "<1000",
+          "MercuryFlag": "O",
+          "PBBConcentration": "<1000",
+          "PBBFlag": "O",
+          "PBDEConcentration": "<1000",
+          "PBDEFlag": "O",
+          "EPUP": "e",
+          "ItemSubitemName": "",
+          "SourceType": "COC",
+          "CachedSource": "http://download.siliconexpert.com/pdfs2/2024/5/3/21/38/27/571605/pns_/manual/25455_fileversion.pdf",
+          "LiveSupplierSource": "https://api.pim.na.industrial.panasonic.com/file_stream/main/fileversion/25455"
+        },
+        "TSCA": {
+          "Status": "Compliant",
+          "SourceType": "Material Declaration"
+        },
+        "ODC": "Not Affected",
+        "Green": "Compliant",
+        "WEEE": {
+          "comId": 23758095,
+          "weeeStatus": "Out of Scope",
+          "sourcePdf": "http://download.siliconexpert.com/pdfs/2013/4/3/8/11/47/697/eurle_/manual/lexuriserv.douriojl2012197fullenpdf.douriojl2012197fullenpdf.pdf",
+          "sourceType": "WEEE Directive"
+        },
+        "PFOA": "Compliant",
+        "IEC62474": "Not Affected",
+        "IEC62474Data": {
+          "sourceType": "Material Declaration",
+          "sourcePdf": ""
+        },
+        "CaliforniaProposition65": "Affected",
+        "PFOS-EUDirective-2006122EC": "Compliant",
+        "PersistentOrganicPollutants-POPs": "Not Affected",
+        "PersistentOrganicPollutants-POPsData": {
+          "sourceType": "Material Declaration",
+          "sourcePdf": ""
+        },
+        "AD-DSL": "Affected",
+        "NAS411": "Not Affected",
+        "ELV": "Compliant",
+        "Phthalates": "Not Affected",
+        "BisPhenolA_BPA": "Not Affected",
+        "InorganicPhosphorus": "Not Affected",
+        "CaliforniaProposition65Dto": {
+          "Status": "Affected",
+          "SourceType": "Material Declaration",
+          "Details": {
+            "SubstanceName": "Carbon Blacks ",
+            "CASNumber": "1333-86-4"
+          }
+        },
+        "ReachRestrictionAnnexXVII": {
+          "Status": "Affected",
+          "SourceType": "Material Declaration",
+          "Details": [
+            {
+              "SubstanceName": "Aluminum",
+              "CASNumber": "7429-90-5"
+            },
+            {
+              "SubstanceName": "Copper",
+              "CASNumber": "7440-50-8"
+            },
+            {
+              "SubstanceName": "Tin",
+              "CASNumber": "7440-31-5"
+            }
+          ]
+        },
+        "GlobalPFASAssessment": {
+          "Status": "Not Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": "",
+          "Details": []
+        },
+        "GADSL": {
+          "sourceType": "Material Declaration",
+          "sourcePdf": "",
+          "substances": [
+            {
+              "substanceId": 3955,
+              "substanceName": "Aluminum",
+              "casNumber": "7429-90-5",
+              "regId": 2
+            },
+            {
+              "substanceId": 4924,
+              "substanceName": "Copper",
+              "casNumber": "7440-50-8",
+              "regId": 2,
+              "features": {
+                "feature": [
+                  {
+                    "featureName": "Classification",
+                    "featureValue": "D"
+                  },
+                  {
+                    "featureName": "Reason Code",
+                    "featureValue": "LR"
+                  },
+                  {
+                    "featureName": "First added",
+                    "featureValue": "15-Aug-16"
+                  },
+                  {
+                    "featureName": "Generic examples",
+                    "featureValue": "-"
+                  },
+                  {
+                    "featureName": "Reporting Threshold",
+                    "featureValue": "0.1%"
+                  },
+                  {
+                    "featureName": "Legal Requirements",
+                    "featureValue": "Authorisation as biocide needed for product-type 7D: Allowed use as biocide in product-type 8Authorisation as biocide needed for product-type 9"
+                  },
+                  {
+                    "featureName": "Effective date",
+                    "featureValue": "-"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "TSCASection": {
+          "TSCAPBTSection6h": {
+            "Status": "Compliant",
+            "SourceType": "Material Declaration",
+            "SourcePath": ""
+          },
+          "TSCAPFASSection8a7": {
+            "Status": "Not Affected",
+            "SourceType": "Material Declaration",
+            "SourcePath": ""
+          }
+        },
+        "InorganicPhosphorusData": {
+          "Status": "Not Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": ""
+        },
+        "ADDSLData": {
+          "Status": "Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": "",
+          "Substances": {
+            "substanceId": 4924,
+            "substanceName": "Copper",
+            "casNumber": "7440-50-8",
+            "regId": 18,
+            "features": [
+              {
+                "feature": [
+                  {
+                    "featureName": "IAEG ID",
+                    "featureValue": "IAEG009597"
+                  },
+                  {
+                    "featureName": "IAEG Regulatory Criteria",
+                    "featureValue": "I"
+                  }
+                ]
+              },
+              {
+                "feature": [
+                  {
+                    "featureName": "IAEG ID",
+                    "featureValue": "IAEG009597"
+                  },
+                  {
+                    "featureName": "IAEG Regulatory Criteria",
+                    "featureValue": "I"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "PhthalatesData": {
+          "Status": "Not Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": ""
+        },
+        "ODCData": {
+          "Status": "Not Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": ""
+        },
+        "PFOSEUDirective2006122ECData": {
+          "Status": "Compliant",
+          "SourceType": "COC & Part base",
+          "SourcePath": ""
+        },
+        "BisPhenolABPAData": {
+          "Status": "Not Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": ""
+        },
+        "PFOAData": {
+          "Status": "Compliant",
+          "SourceType": "COC & Part base",
+          "SourcePath": ""
+        },
+        "NAS411Data": {
+          "Status": "Not Affected",
+          "SourceType": "Material Declaration",
+          "SourcePath": ""
+        },
+        "standardConflictMineralData": {
+          "ConflictMineralStatus": "DRC Conflict Undeterminable",
+          "ConflictMineralStatement": "",
+          "EICCMembership": "No",
+          "EICCTemplate": "",
+          "EICCTemplateVersion": "",
+          "ConflictMineralsPolicy": "",
+          "ConflictMineralsSustainabilityReport": "http://download.siliconexpert.com/pdfs/2012/1/22/23/49/35/537/pns_/manual/sr2011e.pdf"
+        }
+      },
+      "PricingData": {
+        "MinimumPrice": "0.0589",
+        "AveragePrice": "0.1302",
+        "MinLeadtime": "18 Week(s)",
+        "Maxleadtime": "24 Week(s)",
+        "LastUpdatedate": "Oct 16,2025"
+      },
+      "ReplacementData": {
+        "ReplacementDto": {
+          "ReplacementComId": "23757542",
+          "ReplacementPartNumber": "EEVFK1H100UR",
+          "ReplacementType": "B",
+          "Comment": "Difference in: Lead Finish"
+        }
+      },
+      "ReachData": {
+        "ReachDto": {
+          "CachedSource": "",
+          "ContainsSVHC": "No",
+          "SVHCExceedThresholdLimit": "No",
+          "SVHCListVersion": "Jun 25, 2025",
+          "SVHCListVersionNumber": "250",
+          "SubstanceIdentification": "",
+          "SubstanceLocation": "",
+          "SubstanceConcentration": "",
+          "SourceType": "",
+          "ReachStatus": "Unaffected",
+          "CASNumber": "",
+          "SVHCDateOfInclusion": "",
+          "EchaNotification": "",
+          "NotificationComment": "",
+          "SupportingDocument": ""
+        }
+      },
+      "GidepData": {
+        "TypeOfChange": "Product Information Summary ,Product Change Notice (PC)",
+        "GIDEPDescription": "Panasonic is issuing this notification to announce the reel material will change from Paper to Plastic. Reason for Change: The purposes of the reel changes are: 1. Increasing demand for plastic reels especially in automotive industry. 2. Increasing demand for plastic reels in surface-mount type Capacitors. 3. To reduce dust in Panasonic production lines coming from paper reels.",
+        "NotificationDate": "Jul 05, 17",
+        "DocumentNumber": "Please Contact GIDEP for Document # X1-C-19-0322"
+      },
+      "RiskData": {
+        "RohsRisk": "Low",
+        "MultiSourcingRisk": "Low",
+        "InventoryRisk": "Low",
+        "LifecycleRisk": "Medium",
+        "PredictedObsolescenceYear": "2032",
+        "LifecycleStage": "Mature",
+        "YearsEOL": "7.4",
+        "NumberOfDistributors": "15",
+        "NumberOfOtherSources": "7",
+        "CrossesPartCategory": "YES",
+        "SEGrade": "5",
+        "LastUpdateDate": "October, 2025",
+        "YeolComment": "The part has surpassed a significant portion of its expected lifespan"
+      },
+      "History": {
+        "Datasheet": [
+          {
+            "date": "Aug 26, 2025",
+            "url": "http://download.siliconexpert.com/pdfs2/2025/9/5/20/51/2/5539392411/pns_/manual/aba0000c1175.pdf"
+          },
+          {
+            "date": "Aug 26, 2025",
+            "url": "http://download.siliconexpert.com/pdfs2/2025/9/4/22/48/58/1442556616/pns_/manual/aba0000c1181.pdf"
+          },
+          {
+            "date": "Feb 10, 2025",
+            "url": "http://download.siliconexpert.com/pdfs2/2025/2/13/20/17/24/389296116/pns_/manual/aba0000c1181.pdf"
+          },
+          {
+            "date": "Feb 10, 2025",
+            "url": "http://download.siliconexpert.com/pdfs2/2025/2/13/20/17/12/426162864/pns_/manual/aba0000c1175.pdf"
+          },
+          {
+            "date": "May 17, 2024",
+            "url": "http://download.siliconexpert.com/pdfs2/2024/5/24/0/12/9/919651/pns_/manual/aba0000c1175.pdf"
+          },
+          {
+            "date": "Dec 07, 2023",
+            "url": "http://download.siliconexpert.com/pdfs2/2023/12/7/21/1/0/730795/pns_/manual/3128_fileversion.pdf"
+          },
+          {
+            "date": "Jul 14, 2023",
+            "url": "http://download.siliconexpert.com/pdfs2/2023/7/17/22/21/43/88274/pns_/manual/aba0000c1181.pdf"
+          },
+          {
+            "date": "Jul 14, 2023",
+            "url": "http://download.siliconexpert.com/pdfs2/2023/7/17/22/23/38/33571/pns_/manual/aba0000c1175.pdf"
+          },
+          {
+            "date": "Feb 10, 2023",
+            "url": "http://download.siliconexpert.com/pdfs2/2023/2/24/0/11/37/671400/pns_/auto/aba0000c1175.pdf"
+          },
+          {
+            "date": "Feb 10, 2023",
+            "url": "http://download.siliconexpert.com/pdfs2/2023/2/16/23/19/16/26541/pns_/manual/aba0000c1181.pdf"
+          },
+          {
+            "date": "Nov 30, 2022",
+            "url": "http://download.siliconexpert.com/pdfs2/2022/12/9/2/11/57/219181/pns_/manual/aba0000c1181.pdf"
+          },
+          {
+            "date": "Nov 30, 2022",
+            "url": "http://download.siliconexpert.com/pdfs2/2022/12/10/21/41/31/644722/pns_/auto/aba0000c1175.pdf"
+          },
+          {
+            "date": "Oct 25, 2022",
+            "url": "http://download.siliconexpert.com/pdfs2/2022/11/2/21/5/21/829505/pns_/manual/aba0000c1175.pdf"
+          },
+          {
+            "date": "Oct 25, 2022",
+            "url": "http://download.siliconexpert.com/pdfs2/2022/11/5/1/47/49/136171/pns_/manual/aba0000c1181.pdf"
+          },
+          {
+            "date": "Apr 05, 2022",
+            "url": "http://download.siliconexpert.com/pdfs2/2022/4/24/9/51/9/689313/pns_/manual/aba0000c1175.pdf"
+          },
+          {
+            "date": "Apr 05, 2022",
+            "url": "http://download.siliconexpert.com/pdfs2/2022/4/19/12/3/24/656545/pns_/manual/aba0000c1181.pdf"
+          },
+          {
+            "date": "Sep 24, 2021",
+            "url": "http://download.siliconexpert.com/pdfs2/2021/10/2/20/39/20/770527/pns_/manual/aba0000c1175.pdf"
+          },
+          {
+            "date": "Sep 24, 2021",
+            "url": "http://download.siliconexpert.com/pdfs2/2021/10/2/3/36/26/870226/pns_/manual/aba0000c1181.pdf"
+          },
+          {
+            "date": "Aug 18, 2021",
+            "url": "http://download.siliconexpert.com/pdfs2/2021/8/29/13/11/7/536178/pns_/manual/aba0000c1175.pdf"
+          },
+          {
+            "date": "Feb 17, 2021",
+            "url": "http://download.siliconexpert.com/pdfs2/2021/2/25/16/57/51/63342/pns_/manual/aba0000c1175.pdf"
+          },
+          {
+            "date": "Feb 17, 2021",
+            "url": "http://download.siliconexpert.com/pdfs2/2021/2/27/11/12/28/310275/pns_/manual/aba0000c1181.pdf"
+          },
+          {
+            "date": "Nov 15, 2020",
+            "url": "http://download.siliconexpert.com/pdfs2/2020/11/21/4/51/18/873280/pns_/manual/aba0000c1181.pdf"
+          },
+          {
+            "date": "Nov 15, 2020",
+            "url": "http://download.siliconexpert.com/pdfs2/2020/11/21/4/52/26/353664/pns_/manual/aba0000c1175.pdf"
+          },
+          {
+            "date": "Apr 01, 2020",
+            "url": "http://download.siliconexpert.com/pdfs2/2020/4/4/16/58/27/465678/pns_/manual/aba0000c1175.pdf"
+          },
+          {
+            "date": "Feb 27, 2020",
+            "url": "http://download.siliconexpert.com/pdfs2/2020/3/1/18/8/34/48331/pns_/manual/aba0000c1181.pdf"
+          },
+          {
+            "date": "Feb 27, 2020",
+            "url": "http://download.siliconexpert.com/pdfs2/2020/3/1/18/4/56/346924/pns_/manual/aba0000c1175.pdf"
+          },
+          {
+            "date": "Jan 31, 2020",
+            "url": "http://download.siliconexpert.com/pdfs2/2020/2/8/5/53/10/788821/pns_/manual/aba0000c1181.pdf"
+          },
+          {
+            "date": "Jan 31, 2020",
+            "url": "http://download.siliconexpert.com/pdfs2/2020/2/8/6/38/59/964275/pns_/manual/aba0000c1175.pdf"
+          },
+          {
+            "date": "Dec 24, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2019/12/29/1/47/12/748998/pns_/manual/aba0000c1181.pdf"
+          },
+          {
+            "date": "Dec 24, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2019/12/28/23/30/6/636785/pns_/manual/aba0000c1175.pdf"
+          },
+          {
+            "date": "Dec 09, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2019/12/14/16/40/19/927529/pns_/manual/aba0000c1181.pdf"
+          },
+          {
+            "date": "Dec 09, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2019/12/14/15/19/40/344661/pns_/manual/aba0000c1175.pdf"
+          },
+          {
+            "date": "Oct 17, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2019/10/18/11/35/16/831268/pns_/manual/aba0000c1181.pdf"
+          },
+          {
+            "date": "Oct 17, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2019/10/18/11/39/39/517596/pns_/manual/aba0000c1175.pdf"
+          },
+          {
+            "date": "Sep 12, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2019/10/5/19/25/42/613998/pns_/manual/aba0000c1181.pdf"
+          },
+          {
+            "date": "Sep 12, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2019/10/5/19/24/18/970914/pns_/manual/aba0000c1175.pdf"
+          },
+          {
+            "date": "Apr 19, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2019/4/26/20/16/18/962394/pns_/manual/aba0000c1181.pdf"
+          },
+          {
+            "date": "Apr 19, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2019/4/26/22/41/53/828894/pns_/manual/aba0000c1175.pdf"
+          },
+          {
+            "date": "Mar 27, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2019/4/7/19/18/24/71413/pns_/manual/aba0000c1181.pdf"
+          },
+          {
+            "date": "Mar 27, 2019",
+            "url": "http://download.siliconexpert.com/pdfs2/2019/4/7/19/56/45/169634/pns_/manual/aba0000c1176.pdf"
+          },
+          {
+            "date": "Apr 06, 2016",
+            "url": "http://download.siliconexpert.com/pdfs/2016/4/21/6/37/0/95/pns_/manual/22aba0000c766.pdf"
+          },
+          {
+            "date": "Apr 06, 2016",
+            "url": "http://download.siliconexpert.com/pdfs/2016/4/7/7/11/47/393/pns_/manual/259887417703493hyoumen_fkv_e.pdf"
+          },
+          {
+            "date": "Mar 23, 2014",
+            "url": "http://download.siliconexpert.com/pdfs/2014/4/2/1/57/45/475/pns_/manual/14aba0000ce120.pdf"
+          },
+          {
+            "date": "Mar 23, 2014",
+            "url": "http://download.siliconexpert.com/pdfs/2014/4/3/1/9/8/463/pns_/manual/50aba0000ce119.pdf"
+          },
+          {
+            "date": "Dec 03, 2012",
+            "url": "http://download.siliconexpert.com/pdfs/2012/12/6/21/11/29/795/pns_/manual/aba0000ce120.pdf"
+          },
+          {
+            "date": "Dec 03, 2012",
+            "url": "http://download.siliconexpert.com/pdfs/2012/12/6/23/2/30/355/pns_/manual/aba0000ce119.pdf"
+          },
+          {
+            "date": "Sep 13, 2011",
+            "url": "http://download.siliconexpert.com/pdfs/2011/9/25/1/34/22/950/pns_/manual/aba0000ce120.pdf"
+          },
+          {
+            "date": "Sep 13, 2011",
+            "url": "http://download.siliconexpert.com/pdfs/2011/9/26/5/20/46/641/pns_/manual/aba0000ce119.pdf"
+          },
+          {
+            "date": "Aug 02, 2011",
+            "url": "http://download.siliconexpert.com/pdfs/2011/8/10/1/46/7/861/pns_/manual/aba0000ce119.pdf"
+          },
+          {
+            "date": "Aug 02, 2011",
+            "url": "http://download.siliconexpert.com/pdfs/2011/8/10/1/46/12/830/pns_/manual/aba0000ce120.pdf"
+          },
+          {
+            "date": "Jun 26, 2011",
+            "url": "http://download.siliconexpert.com/pdfs/2011/7/5/2/13/54/358/pns_/manual/aba0000ce119.pdf"
+          },
+          {
+            "date": "Jun 17, 2011",
+            "url": "http://download.siliconexpert.com/pdfs/2011/7/5/2/13/34/264/pns_/manual/aba0000ce120.pdf"
+          },
+          {
+            "date": "Jun 01, 2011",
+            "url": "http://download.siliconexpert.com/pdfs/2011/6/5/3/34/13/883/pns_/manual/aba0000ce120.pdf"
+          },
+          {
+            "date": "Sep 16, 2010",
+            "url": "http://download.siliconexpert.com/pdfs/2010/10/10/1/30/57/234/pns_/manual/aba0000ce120.pdf"
+          },
+          {
+            "date": "Sep 16, 2010",
+            "url": "http://download.siliconexpert.com/pdfs/2010/10/21/3/42/57/981/pns_/auto/aba0000ce119.pdf"
+          },
+          {
+            "date": "May 13, 2010",
+            "url": "http://download.siliconexpert.com/pdfs/2010/5/24/3/54/36/239/pns_/manual/aba0000ce120.pdf"
+          },
+          {
+            "date": "May 07, 2010",
+            "url": "http://download.siliconexpert.com/pdfs/2010/5/16/0/13/0/124/pns_/manual/aba0000ce120.pdf"
+          },
+          {
+            "date": "Jun 29, 2009",
+            "url": "http://download.siliconexpert.com/pdfs/2014/4/28/3/41/33/90/pns_/manual/eeefk0j101p_panasonic_panasonic_semicond.pdf"
+          },
+          {
+            "date": "Jul 27, 2008",
+            "url": "http://download.siliconexpert.com/pdfs/2008/09/11/isys/pns/aba0000ce120.pdf"
+          },
+          {
+            "date": "Jul 27, 2008",
+            "url": "http://download.siliconexpert.com/pdfs/2008/09/11/isys/pns/aba0000ce119.pdf"
+          },
+          {
+            "date": "Jul 27, 2008",
+            "url": "http://download.siliconexpert.com/pdfs/2008/10/25/isys/aro/aba0000ce88.pdf"
+          },
+          {
+            "date": "Feb 09, 2007",
+            "url": "http://download.siliconexpert.com/pdfs/2007/03/06/isys/pns/aba0000ce88.pdf"
+          },
+          {
+            "date": "Aug 08, 2006",
+            "url": "http://download.siliconexpert.com/pdfs/2006/12/24/semi_ap/isys/pns/ds/aba0000ce88.pdf"
+          },
+          {
+            "date": "Aug 07, 2006",
+            "url": "http://download.siliconexpert.com/pdfs/2014/4/10/11/17/7/432/pns_/auto/124pic_fk_series.pdf"
+          },
+          {
+            "date": "Aug 06, 2006",
+            "url": "http://download.siliconexpert.com/pdfs/2008/04/18/pemco_b/acquired/aro/ds/pic_fk_series.pdf"
+          },
+          {
+            "date": "Apr 23, 2006",
+            "url": "http://download.siliconexpert.com/pdfs/2006/05/18/semi_ap/manual/pns/aba0000ce88.pdf"
+          },
+          {
+            "date": "Apr 05, 2006",
+            "url": "http://download.siliconexpert.com/pdfs/2006/04/12/semi_ap/12/pns/aluminum electrolytic capacitor/aba0000ce88.pdf"
+          },
+          {
+            "date": "Feb 23, 2006",
+            "url": "http://download.siliconexpert.com/pdfs/2006/05/09/semi_ap/manual/pns/ds/pic_fk_series.pdf"
+          },
+          {
+            "date": "Jun 01, 2005",
+            "url": "http://download.siliconexpert.com/pdfs/2005/06/06/semi_ap/1/pns/capacitors/pic_fk_series.pdf"
+          },
+          {
+            "date": "Apr 04, 2005",
+            "url": "http://download.siliconexpert.com/pdfs/2005/04/11/semi_ap/6/pns/aluminum electrolytic capacitor/aba0000ce88.pdf"
+          },
+          {
+            "date": "Mar 15, 2005",
+            "url": "http://download.siliconexpert.com/pdfs/2005/03/31/semi_ap/5/pns/capacitors/aba0000ce88.pdf"
+          },
+          {
+            "date": "Oct 27, 2004",
+            "url": "http://download.siliconexpert.com/pdfs/2004/12/06/semi_ap/2/pns/capacitors/aba0000ce88.pdf"
+          },
+          {
+            "date": "Aug 24, 2004",
+            "url": "http://download.siliconexpert.com/pdfs/2004/08/30/semi_ap/2/pns/capacitor/aba0000ce88.pdf"
+          },
+          {
+            "date": "Jul 04, 2004",
+            "url": "http://download.siliconexpert.com/pdfs/2004/0719/semi_ap/1/pns/capacitor/aba0000ce88.pdf"
+          },
+          {
+            "date": "Feb 10, 2004",
+            "url": "http://download.siliconexpert.com/pdfs/source/passive/capacitor/pns/rev1/pic_fk_series.pdf"
+          },
+          {
+            "date": "Jan 19, 2004",
+            "url": "http://download.siliconexpert.com/pdfs/source/passive/capacitor/pns/rev1/aba0000ce88.pdf"
+          },
+          {
+            "date": "Jul 02, 2003",
+            "url": "http://download.siliconexpert.com/pdfs/2011/3/29/9/35/5/449/pns_/manual/ecj2vc2a270j_2011-03-25_11-53-45_pns.pdf"
+          },
+          {
+            "date": "Feb 12, 2003",
+            "url": "http://download.siliconexpert.com/pdfs/source/passive/capacitor/pns/aba0000ce88.pdf"
+          }
+        ],
+        "Lifecycle": [
+          {
+            "Date": "",
+            "Lifecycle": "Active",
+            "ManufacturerName": "Panasonic Industry",
+            "PartNumber": "EEEFK1H100UR",
+            "ReasonOfChange": "Obtained from supplier's website",
+            "SourceName": "Supplier Website",
+            "SourceURL": "http://download.siliconexpert.com/pdfs/2009/wda_latest/panasonic/2/eeefk1h100ur_0.html"
+          },
+          {
+            "Date": "Jul 04, 2004",
+            "Lifecycle": "Introduction Date",
+            "ManufacturerName": "Panasonic Industry",
+            "PartNumber": "EEEFK1H100UR",
+            "ReasonOfChange": "",
+            "SourceName": "",
+            "SourceURL": ""
+          }
+        ]
+      },
+      "ProductImage": {
+        "ProductImageSmall": "http://download.siliconexpert.com/pdfs/2017/4/30/18/5/41/175/pns_/manual/aba0000sc265.jpg",
+        "ProductImageLarge": "http://download.siliconexpert.com/pdfs/2017/5/21/18/5/34/497/pns_/manual/aba0000sc265.jpg",
+        "ProductImageOriginal": "http://download.siliconexpert.com/pdfs/2017/4/28/1/28/51/208/pns_/manual/aba0000sc265.jpg"
+      },
+      "ECADModelsData": {
+        "ECADModelsDto": {
+          "ECADURL": "https://vendor.ultralibrarian.com/siliconexpert/embedded?mfrName=Panasonic&mfrPN=EEE-FK1H100UR"
+        }
+      },
+      "PriceBreaksData": {
+        "PriceBreaksDto": [
+          {
+            "PriceBreaK": "1",
+            "AveragePrice": "0.2273",
+            "MinPrice": "0.1239"
+          },
+          {
+            "PriceBreaK": "10",
+            "AveragePrice": "0.15",
+            "MinPrice": "0.15"
+          },
+          {
+            "PriceBreaK": "50",
+            "AveragePrice": "0.2468",
+            "MinPrice": "0.24684"
+          },
+          {
+            "PriceBreaK": "100",
+            "AveragePrice": "0.2051",
+            "MinPrice": "0.15"
+          },
+          {
+            "PriceBreaK": "500",
+            "AveragePrice": "0.1965",
+            "MinPrice": "0.135"
+          },
+          {
+            "PriceBreaK": "776",
+            "AveragePrice": "0.1289",
+            "MinPrice": "0.1289"
+          },
+          {
+            "PriceBreaK": "1000",
+            "AveragePrice": "0.1014",
+            "MinPrice": "0.08"
+          },
+          {
+            "PriceBreaK": "1001",
+            "AveragePrice": "0.0863",
+            "MinPrice": "0.0863"
+          },
+          {
+            "PriceBreaK": "2000",
+            "AveragePrice": "0.0958",
+            "MinPrice": "0.0671"
+          },
+          {
+            "PriceBreaK": "3000",
+            "AveragePrice": "0.0813",
+            "MinPrice": "0.0665"
+          },
+          {
+            "PriceBreaK": "3001",
+            "AveragePrice": "0.0843",
+            "MinPrice": "0.0843"
+          },
+          {
+            "PriceBreaK": "5000",
+            "AveragePrice": "0.0842",
+            "MinPrice": "0.0486"
+          },
+          {
+            "PriceBreaK": "5001",
+            "AveragePrice": "0.0829",
+            "MinPrice": "0.0829"
+          },
+          {
+            "PriceBreaK": "8000",
+            "AveragePrice": "0.0882",
+            "MinPrice": "0.0761"
+          },
+          {
+            "PriceBreaK": "8001",
+            "AveragePrice": "0.081",
+            "MinPrice": "0.081"
+          },
+          {
+            "PriceBreaK": "10000",
+            "AveragePrice": "0.0801",
+            "MinPrice": "0.0589"
+          },
+          {
+            "PriceBreaK": "20000",
+            "AveragePrice": "0.085",
+            "MinPrice": "0.0711"
+          },
+          {
+            "PriceBreaK": "25000",
+            "AveragePrice": "0.0862",
+            "MinPrice": "0.0786"
+          },
+          {
+            "PriceBreaK": "25001",
+            "AveragePrice": "0.079",
+            "MinPrice": "0.079"
+          },
+          {
+            "PriceBreaK": "40000",
+            "AveragePrice": "0.094",
+            "MinPrice": "0.094"
+          },
+          {
+            "PriceBreaK": "50000",
+            "AveragePrice": "0.0734",
+            "MinPrice": "0.0709"
+          },
+          {
+            "PriceBreaK": "50001",
+            "AveragePrice": "0.0761",
+            "MinPrice": "0.0761"
+          },
+          {
+            "PriceBreaK": "60000",
+            "AveragePrice": "0.091",
+            "MinPrice": "0.091"
+          },
+          {
+            "PriceBreaK": "100000",
+            "AveragePrice": "0.0744",
+            "MinPrice": "0.0744"
+          },
+          {
+            "PriceBreaK": "100001",
+            "AveragePrice": "0.0757",
+            "MinPrice": "0.0757"
+          },
+          {
+            "PriceBreaK": "784",
+            "AveragePrice": "0.1275",
+            "MinPrice": "0.1275"
+          },
+          {
+            "PriceBreaK": "4000",
+            "AveragePrice": "0.0916",
+            "MinPrice": "0.0658"
+          },
+          {
+            "PriceBreaK": "775",
+            "AveragePrice": "0.129",
+            "MinPrice": "0.129"
+          },
+          {
+            "PriceBreaK": "2500",
+            "AveragePrice": "0.302",
+            "MinPrice": "0.302"
+          },
+          {
+            "PriceBreaK": "30000",
+            "AveragePrice": "0.0779",
+            "MinPrice": "0.0779"
+          },
+          {
+            "PriceBreaK": "6000",
+            "AveragePrice": "0.108",
+            "MinPrice": "0.108"
+          },
+          {
+            "PriceBreaK": "804",
+            "AveragePrice": "0.1244",
+            "MinPrice": "0.1244"
+          },
+          {
+            "PriceBreaK": "918",
+            "AveragePrice": "0.1089",
+            "MinPrice": "0.1089"
+          },
+          {
+            "PriceBreaK": "695",
+            "AveragePrice": "0.1008",
+            "MinPrice": "0.1008"
+          },
+          {
+            "PriceBreaK": "925",
+            "AveragePrice": "0.1081",
+            "MinPrice": "0.1081"
+          },
+          {
+            "PriceBreaK": "715",
+            "AveragePrice": "0.098",
+            "MinPrice": "0.098"
+          },
+          {
+            "PriceBreaK": "907",
+            "AveragePrice": "0.1088",
+            "MinPrice": "0.10878"
+          },
+          {
+            "PriceBreaK": "736",
+            "AveragePrice": "0.0952",
+            "MinPrice": "0.0952"
+          },
+          {
+            "PriceBreaK": "1403",
+            "AveragePrice": "0.0713",
+            "MinPrice": "0.0713"
+          },
+          {
+            "PriceBreaK": "12000",
+            "AveragePrice": "0.1017",
+            "MinPrice": "0.1017"
+          },
+          {
+            "PriceBreaK": "1370",
+            "AveragePrice": "0.073",
+            "MinPrice": "0.073"
+          },
+          {
+            "PriceBreaK": "24000",
+            "AveragePrice": "0.0906",
+            "MinPrice": "0.0906"
+          },
+          {
+            "PriceBreaK": "807",
+            "AveragePrice": "0.1239",
+            "MinPrice": "0.1239"
+          },
+          {
+            "PriceBreaK": "125",
+            "AveragePrice": "0.37",
+            "MinPrice": "0.37"
+          },
+          {
+            "PriceBreaK": "685",
+            "AveragePrice": "0.1022",
+            "MinPrice": "0.1022"
+          },
+          {
+            "PriceBreaK": "676",
+            "AveragePrice": "0.1036",
+            "MinPrice": "0.1036"
+          },
+          {
+            "PriceBreaK": "658",
+            "AveragePrice": "0.1064",
+            "MinPrice": "0.1064"
+          },
+          {
+            "PriceBreaK": "250",
+            "AveragePrice": "0.264",
+            "MinPrice": "0.264"
+          },
+          {
+            "PriceBreaK": "25",
+            "AveragePrice": "0.395",
+            "MinPrice": "0.395"
+          },
+          {
+            "PriceBreaK": "150000",
+            "AveragePrice": "0.0747",
+            "MinPrice": "0.0747"
+          },
+          {
+            "PriceBreaK": "7000",
+            "AveragePrice": "0.1008",
+            "MinPrice": "0.1008"
+          },
+          {
+            "PriceBreaK": "760",
+            "AveragePrice": "0.1048",
+            "MinPrice": "0.1048"
+          },
+          {
+            "PriceBreaK": "15000",
+            "AveragePrice": "0.0474",
+            "MinPrice": "0.0474"
+          },
+          {
+            "PriceBreaK": "901",
+            "AveragePrice": "0.122",
+            "MinPrice": "0.12197"
+          },
+          {
+            "PriceBreaK": "705",
+            "AveragePrice": "0.0994",
+            "MinPrice": "0.0994"
+          },
+          {
+            "PriceBreaK": "5",
+            "AveragePrice": "0.326",
+            "MinPrice": "0.326"
+          },
+          {
+            "PriceBreaK": "795",
+            "AveragePrice": "0.1258",
+            "MinPrice": "0.1258"
+          }
+        ]
+      },
+      "PriceAndLeadTimeHistory": [
+        {
+          "MinimumPrice": "0.0589",
+          "AveragePrice": "0.1303",
+          "MinLeadtime": "18 Week(s)",
+          "Maxleadtime": "24 Week(s)",
+          "LastUpdatedate": "Oct 9,2025"
+        },
+        {
+          "MinimumPrice": "0.0585",
+          "AveragePrice": "0.1302",
+          "MinLeadtime": "18 Week(s)",
+          "Maxleadtime": "24 Week(s)",
+          "LastUpdatedate": "Oct 2,2025"
+        },
+        {
+          "MinimumPrice": "0.0581",
+          "AveragePrice": "0.1297",
+          "MinLeadtime": "18 Week(s)",
+          "Maxleadtime": "24 Week(s)",
+          "LastUpdatedate": "Sep 25,2025"
+        },
+        {
+          "MinimumPrice": "0.0579",
+          "AveragePrice": "0.1221",
+          "MinLeadtime": "18 Week(s)",
+          "Maxleadtime": "24 Week(s)",
+          "LastUpdatedate": "Sep 18,2025"
+        },
+        {
+          "MinimumPrice": "0.0586",
+          "AveragePrice": "0.1201",
+          "MinLeadtime": "18 Week(s)",
+          "Maxleadtime": "24 Week(s)",
+          "LastUpdatedate": "Sep 11,2025"
+        },
+        {
+          "MinimumPrice": "0.0629",
+          "AveragePrice": "0.1168",
+          "MinLeadtime": "16 Week(s)",
+          "Maxleadtime": "25 Week(s)",
+          "LastUpdatedate": "Sep 4,2025"
+        },
+        {
+          "MinimumPrice": "0.0629",
+          "AveragePrice": "0.1103",
+          "MinLeadtime": "16 Week(s)",
+          "Maxleadtime": "25 Week(s)",
+          "LastUpdatedate": "Aug 28,2025"
+        },
+        {
+          "MinimumPrice": "0.0629",
+          "AveragePrice": "0.118",
+          "MinLeadtime": "16 Week(s)",
+          "Maxleadtime": "25 Week(s)",
+          "LastUpdatedate": "Aug 21,2025"
+        },
+        {
+          "MinimumPrice": "0.0627",
+          "AveragePrice": "0.1208",
+          "MinLeadtime": "16 Week(s)",
+          "Maxleadtime": "25 Week(s)",
+          "LastUpdatedate": "Aug 14,2025"
+        },
+        {
+          "MinimumPrice": "0.0633",
+          "AveragePrice": "0.1209",
+          "MinLeadtime": "16 Week(s)",
+          "Maxleadtime": "25 Week(s)",
+          "LastUpdatedate": "Aug 7,2025"
+        },
+        {
+          "MinimumPrice": "0.0634",
+          "AveragePrice": "0.1326",
+          "MinLeadtime": "16 Week(s)",
+          "Maxleadtime": "25 Week(s)",
+          "LastUpdatedate": "Jul 31,2025"
+        },
+        {
+          "MinimumPrice": "0.0623",
+          "AveragePrice": "0.1343",
+          "MinLeadtime": "16 Week(s)",
+          "Maxleadtime": "25 Week(s)",
+          "LastUpdatedate": "Jul 24,2025"
+        },
+        {
+          "MinimumPrice": "0.0629",
+          "AveragePrice": "0.1329",
+          "MinLeadtime": "16 Week(s)",
+          "Maxleadtime": "25 Week(s)",
+          "LastUpdatedate": "Jul 17,2025"
+        },
+        {
+          "MinimumPrice": "0.0625",
+          "AveragePrice": "0.1347",
+          "MinLeadtime": "16 Week(s)",
+          "Maxleadtime": "22 Week(s)",
+          "LastUpdatedate": "Jul 10,2025"
+        },
+        {
+          "MinimumPrice": "0.0621",
+          "AveragePrice": "0.1346",
+          "MinLeadtime": "16 Week(s)",
+          "Maxleadtime": "25 Week(s)",
+          "LastUpdatedate": "Jul 3,2025"
+        },
+        {
+          "MinimumPrice": "0.07",
+          "AveragePrice": "0.1331",
+          "MinLeadtime": "16 Week(s)",
+          "Maxleadtime": "25 Week(s)",
+          "LastUpdatedate": "Jun 26,2025"
+        },
+        {
+          "MinimumPrice": "0.0694",
+          "AveragePrice": "0.1333",
+          "MinLeadtime": "16 Week(s)",
+          "Maxleadtime": "25 Week(s)",
+          "LastUpdatedate": "Jun 19,2025"
+        },
+        {
+          "MinimumPrice": "0.0695",
+          "AveragePrice": "0.1311",
+          "MinLeadtime": "16 Week(s)",
+          "Maxleadtime": "25 Week(s)",
+          "LastUpdatedate": "Jun 12,2025"
+        },
+        {
+          "MinimumPrice": "0.0685",
+          "AveragePrice": "0.1328",
+          "MinLeadtime": "16 Week(s)",
+          "Maxleadtime": "25 Week(s)",
+          "LastUpdatedate": "Jun 5,2025"
+        }
+      ],
+      "ResilienceRatingdetails": {
+        "ResilienceRating": 10,
+        "AssuranceOfSupply": {
+          "lifecycleRiskDto": null,
+          "multiSourcingRiskDto": null,
+          "inventoryRiskDto": null,
+          "geoRiskDto": null,
+          "marketRiskDto": null
+        },
+        "Performance": {
+          "priceRiskDto": null,
+          "leadTimeRiskDto": null,
+          "obsolescenceRiskDto": null,
+          "manLeadTimeRiskDto": null
+        },
+        "Security": {
+          "rohsRiskDto": null,
+          "counterfeitRiskDto": null
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Network, Key, Server, ToggleLeft, ToggleRight, CheckCircle, RefreshCw, Copy, ExternalLink, ShieldAlert } from 'lucide-react';
+import { motion } from 'framer-motion';
 import { useAppContext } from '../context/AppContext';
 
 export default function LiveSyncSettings() {
@@ -44,7 +45,12 @@ export default function LiveSyncSettings() {
             { name: 'DigiKey EDI', type: 'Distributor', enabled: settings.digikeyEnabled, setter: (val: boolean) => updateSettings({digikeyEnabled: val}), status: 'Active (Synced 1h ago)', color: '#10b981' },
             { name: 'Avnet API', type: 'Distributor', enabled: settings.avnetEnabled, setter: (val: boolean) => updateSettings({avnetEnabled: val}), status: 'Disabled', color: 'var(--text-secondary)' },
           ].map((connector, idx) => (
-            <div key={idx} className="card" style={{ padding: '24px', display: 'flex', flexDirection: 'column', gap: '16px' }}>
+            <motion.div 
+              key={idx} 
+              className="card" 
+              style={{ padding: '24px', display: 'flex', flexDirection: 'column', gap: '16px' }}
+              initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, ease: 'easeOut', delay: idx * 0.1 }} whileHover={{ scale: 1.02 }}
+            >
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
                 <div>
                   <h3 style={{ fontSize: '1.1rem', fontWeight: 600 }}>{connector.name}</h3>
@@ -63,14 +69,17 @@ export default function LiveSyncSettings() {
                 </span>
                 {connector.enabled && <a href="#" style={{ color: 'var(--accent-primary)', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '4px' }}>Logs <ExternalLink size={12} /></a>}
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       )}
 
       {/* INBOUND FETCH CONTENT */}
       {activeTab === 'sftp' && (
-        <div className="card" style={{ padding: '32px', display: 'flex', flexDirection: 'column', gap: '24px' }}>
+        <motion.div 
+          className="card" style={{ padding: '32px', display: 'flex', flexDirection: 'column', gap: '24px' }}
+          initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, ease: 'easeOut' }}
+        >
           <div>
             <h3 style={{ fontSize: '1.2rem', fontWeight: 600, marginBottom: '8px' }}>Automated Inbound Fetch</h3>
             <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>Configure Adesio to automatically pull your dynamic data (MPN, Stock, Lead Time, Price) from your REST API or secure FTP drop zone.</p>
@@ -122,12 +131,15 @@ export default function LiveSyncSettings() {
               Test Connection & Save
             </button>
           </div>
-        </div>
+        </motion.div>
       )}
 
       {/* API CONTENT */}
       {activeTab === 'api' && (
-        <div className="card" style={{ padding: '32px', display: 'flex', flexDirection: 'column', gap: '24px' }}>
+        <motion.div 
+          className="card" style={{ padding: '32px', display: 'flex', flexDirection: 'column', gap: '24px' }}
+          initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, ease: 'easeOut' }}
+        >
           <div>
             <h3 style={{ fontSize: '1.2rem', fontWeight: 600, marginBottom: '8px' }}>Adesio Push API Credentials</h3>
             <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem' }}>Use these credentials to push real-time inventory updates directly into the Adesio Multi-Cloud infrastructure.</p>
@@ -145,7 +157,8 @@ export default function LiveSyncSettings() {
                 type="password" 
                 readOnly 
                 value="ad_prod_9f8a8b7c6d5e4f3g2h1i0j_dummy_key_do_not_use" 
-                style={{ flex: 1, padding: '12px', background: 'var(--panel-bg)', border: '1px solid var(--border-color)', borderRadius: '6px', color: 'var(--text-primary)', fontFamily: 'monospace' }} 
+                className="font-mono text-[0.95rem]"
+                style={{ flex: 1, padding: '12px', background: 'var(--panel-bg)', border: '1px solid var(--border-color)', borderRadius: '6px', color: 'var(--text-primary)' }} 
               />
               <button style={{ padding: '0 16px', background: 'var(--panel-bg)', border: '1px solid var(--border-color)', borderRadius: '6px', color: 'var(--text-primary)', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <Copy size={16} /> Copy
@@ -155,7 +168,7 @@ export default function LiveSyncSettings() {
               <ShieldAlert size={14} /> Keep this key secret. It provides write access to your global catalog.
             </p>
           </div>
-        </div>
+        </motion.div>
       )}
 
     </div>

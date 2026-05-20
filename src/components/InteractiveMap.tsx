@@ -142,24 +142,25 @@ export default function InteractiveMap() {
   };
 
   return (
-    <div className="flex flex-col h-full bg-gray-50 font-sans text-slate-800 rounded-xl overflow-hidden shadow-lg border border-gray-200">
+    <div className="flex flex-col h-full font-sans rounded-xl overflow-hidden" style={{ color: 'var(--text-primary)' }}>
       
-      {/* HEADER & TABS */}
-      <header className="bg-white border-b border-gray-200 px-6 py-4 flex flex-col sm:flex-row justify-between items-center z-10">
+      <header className="border-b px-6 py-4 flex flex-col sm:flex-row justify-between items-center z-10" style={{ borderColor: 'var(--border-color)', background: 'var(--panel-bg)' }}>
         <div>
-          <h1 className="text-2xl font-bold text-slate-900 tracking-tight">Adesio Proxy <span className="text-indigo-600 font-medium">Interactive Map</span></h1>
-          <p className="text-sm text-slate-500">Supplier App PRD Architecture Visualization</p>
+          <h1 className="text-2xl font-bold tracking-tight">Adesio Proxy <span style={{ color: 'var(--accent-primary)' }} className="font-medium">Interactive Map</span></h1>
+          <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>Supplier App PRD Architecture Visualization</p>
         </div>
-        <div className="flex space-x-2 mt-4 sm:mt-0 bg-slate-100 p-1 rounded-lg border border-slate-200">
+        <div className="flex space-x-2 mt-4 sm:mt-0 p-1 rounded-lg border" style={{ background: 'rgba(0,0,0,0.2)', borderColor: 'var(--border-color)' }}>
           <button 
             onClick={() => {setActiveTab('modules'); setSelectedItem(null);}}
-            className={`px-4 py-2 rounded-md text-sm font-medium transition-all ${activeTab === 'modules' ? 'bg-white shadow text-indigo-700' : 'text-slate-600 hover:text-slate-900'}`}
+            className={`px-4 py-2 rounded-md text-sm font-medium transition-all ${activeTab === 'modules' ? 'shadow' : 'hover:opacity-80'}`}
+            style={{ background: activeTab === 'modules' ? 'var(--accent-primary)' : 'transparent', color: activeTab === 'modules' ? 'white' : 'var(--text-secondary)' }}
           >
             Application Modules
           </button>
           <button 
             onClick={() => {setActiveTab('architecture'); setSelectedItem(null);}}
-            className={`px-4 py-2 rounded-md text-sm font-medium transition-all ${activeTab === 'architecture' ? 'bg-white shadow text-indigo-700' : 'text-slate-600 hover:text-slate-900'}`}
+            className={`px-4 py-2 rounded-md text-sm font-medium transition-all ${activeTab === 'architecture' ? 'shadow' : 'hover:opacity-80'}`}
+            style={{ background: activeTab === 'architecture' ? 'var(--accent-primary)' : 'transparent', color: activeTab === 'architecture' ? 'white' : 'var(--text-secondary)' }}
           >
             Multi-Cloud Architecture
           </button>
@@ -170,7 +171,7 @@ export default function InteractiveMap() {
       <div className="flex-1 overflow-hidden flex flex-col lg:flex-row">
         
         {/* INTERACTIVE MAP AREA */}
-        <div className="flex-1 overflow-y-auto p-6 bg-slate-50">
+        <div className="flex-1 overflow-y-auto p-6">
           {activeTab === 'modules' ? (
             <ModulesMap onSelect={handleSelect} selectedId={selectedItem?.id} />
           ) : (
@@ -179,31 +180,31 @@ export default function InteractiveMap() {
         </div>
 
         {/* DETAILS SIDEBAR */}
-        <div className={`w-full lg:w-96 bg-white border-l border-gray-200 shadow-xl overflow-y-auto transition-transform duration-300 ${selectedItem ? 'translate-x-0' : 'translate-x-full lg:translate-x-0 lg:hidden'}`}>
+        <div className={`w-full lg:w-96 border-l overflow-y-auto transition-transform duration-300 ${selectedItem ? 'translate-x-0' : 'translate-x-full lg:translate-x-0 lg:hidden'}`} style={{ background: 'var(--panel-bg)', borderColor: 'var(--border-color)' }}>
           {selectedItem ? (
             <div className="p-6">
               <div className="flex items-center space-x-3 mb-4">
-                <div className={`p-3 rounded-lg ${selectedItem.color || 'bg-slate-100 text-slate-700'}`}>
+                <div className={`p-3 rounded-lg ${selectedItem.color || ''}`} style={{ background: 'rgba(255,255,255,0.05)' }}>
                   {selectedItem.icon || <FileJson size={24} />}
                 </div>
-                <h2 className="text-xl font-bold text-slate-900 leading-tight">{selectedItem.title || selectedItem.name}</h2>
+                <h2 className="text-xl font-bold leading-tight">{selectedItem.title || selectedItem.name}</h2>
               </div>
-              <p className="text-slate-600 text-sm leading-relaxed mb-6 pb-6 border-b border-slate-100">
+              <p className="text-sm leading-relaxed mb-6 pb-6 border-b" style={{ color: 'var(--text-secondary)', borderColor: 'var(--border-color)' }}>
                 {selectedItem.description || selectedItem.desc}
               </p>
               
               {selectedItem.details && (
                 <div>
-                  <h3 className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-3">Key Features / Specifications</h3>
+                  <h3 className="text-xs font-bold uppercase tracking-wider mb-3" style={{ color: 'var(--text-secondary)' }}>Key Features / Specifications</h3>
                   <ul className="space-y-3">
                     {selectedItem.details.map((detail: any, idx: number) => {
                       const split = detail.split(':');
                       return (
-                        <li key={idx} className="text-sm text-slate-700 flex items-start bg-slate-50 p-3 rounded-md border border-slate-100">
-                          <span className="w-1.5 h-1.5 rounded-full bg-indigo-500 mt-1.5 mr-2 flex-shrink-0"></span>
+                        <li key={idx} className="text-sm flex items-start p-3 rounded-md border" style={{ background: 'rgba(255,255,255,0.02)', borderColor: 'var(--border-color)' }}>
+                          <span className="w-1.5 h-1.5 rounded-full mt-1.5 mr-2 flex-shrink-0" style={{ background: 'var(--accent-primary)' }}></span>
                           <span>
                             {split.length > 1 ? (
-                              <><span className="font-semibold text-slate-900">{split[0]}:</span>{split.slice(1).join(':')}</>
+                              <><span className="font-semibold">{split[0]}:</span>{split.slice(1).join(':')}</>
                             ) : detail}
                           </span>
                         </li>
@@ -214,8 +215,8 @@ export default function InteractiveMap() {
               )}
             </div>
           ) : (
-            <div className="h-full flex flex-col items-center justify-center p-8 text-center text-slate-400">
-              <Search size={48} className="mb-4 text-slate-200" />
+            <div className="h-full flex flex-col items-center justify-center p-8 text-center" style={{ color: 'var(--text-secondary)' }}>
+              <Search size={48} className="mb-4 opacity-50" />
               <p>Select a node on the map to view detailed specifications.</p>
             </div>
           )}
@@ -230,13 +231,13 @@ function ModulesMap({ onSelect, selectedId }: { onSelect: any, selectedId: any }
   return (
     <div className="max-w-5xl mx-auto py-8">
       <div className="text-center mb-10">
-        <h2 className="text-2xl font-bold text-slate-800">Supplier User Journey</h2>
-        <p className="text-slate-500 mt-2">From raw data ingestion to global syndication</p>
+        <h2 className="text-2xl font-bold">Supplier User Journey</h2>
+        <p className="mt-2" style={{ color: 'var(--text-secondary)' }}>From raw data ingestion to global syndication</p>
       </div>
       
       <div className="relative">
         {/* Connecting Line */}
-        <div className="absolute left-1/2 top-0 bottom-0 w-1 bg-indigo-100 transform -translate-x-1/2 hidden md:block z-0"></div>
+        <div className="absolute left-1/2 top-0 bottom-0 w-1 transform -translate-x-1/2 hidden md:block z-0" style={{ background: 'var(--border-color)' }}></div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 relative z-10">
           {projectData.modules.map((mod, index) => (
@@ -244,18 +245,22 @@ function ModulesMap({ onSelect, selectedId }: { onSelect: any, selectedId: any }
               key={mod.id} 
               onClick={() => onSelect(mod)}
               className={`
-                cursor-pointer p-6 rounded-xl border-2 transition-all duration-200 bg-white
+                cursor-pointer p-6 rounded-xl border-2 transition-all duration-200
                 ${index % 2 === 0 ? 'md:col-start-1 md:mr-8' : 'md:col-start-2 md:ml-8 mt-8 md:mt-16'}
-                ${selectedId === mod.id ? 'border-indigo-500 shadow-lg scale-105 ring-4 ring-indigo-50' : 'border-slate-200 hover:border-indigo-300 hover:shadow-md'}
               `}
+              style={{ 
+                background: 'var(--panel-bg)', 
+                borderColor: selectedId === mod.id ? 'var(--accent-primary)' : 'var(--border-color)',
+                transform: selectedId === mod.id ? 'scale(1.05)' : 'scale(1)'
+              }}
             >
               <div className="flex items-start space-x-4">
-                <div className={`p-3 rounded-xl border ${mod.color}`}>
+                <div className={`p-3 rounded-xl border ${mod.color}`} style={{ background: 'rgba(255,255,255,0.05)' }}>
                   {mod.icon}
                 </div>
                 <div className="flex-1">
-                  <h3 className="font-bold text-slate-800 text-lg">{mod.title}</h3>
-                  <p className="text-sm text-slate-500 mt-1 line-clamp-2">{mod.description}</p>
+                  <h3 className="font-bold text-lg">{mod.title}</h3>
+                  <p className="text-sm mt-1 line-clamp-2" style={{ color: 'var(--text-secondary)' }}>{mod.description}</p>
                 </div>
               </div>
             </div>
@@ -271,19 +276,19 @@ function ArchitectureMap({ onSelect, selectedId }: { onSelect: any, selectedId: 
   return (
     <div className="max-w-6xl mx-auto py-4">
       <div className="text-center mb-8">
-        <h2 className="text-2xl font-bold text-slate-800">Multi-Cloud Geographic Architecture</h2>
-        <p className="text-slate-500 mt-2">Alibaba Cloud (APAC Front-Office) synced with Google Cloud (Global Back-Office)</p>
+        <h2 className="text-2xl font-bold">Multi-Cloud Geographic Architecture</h2>
+        <p className="mt-2" style={{ color: 'var(--text-secondary)' }}>Alibaba Cloud (APAC Front-Office) synced with Google Cloud (Global Back-Office)</p>
       </div>
 
       <div className="flex flex-col lg:flex-row items-stretch justify-center gap-6">
         
         {/* ALIBABA CLOUD */}
-        <div className={`flex-1 rounded-2xl border-2 p-6 ${projectData.architecture.alibaba.color}`}>
-          <div className="flex items-center space-x-3 mb-6 pb-4 border-b border-orange-200">
-            <Cloud className="text-orange-500" size={32} />
+        <div className="flex-1 rounded-2xl border-2 p-6" style={{ background: 'rgba(0, 194, 168, 0.05)', borderColor: 'rgba(0, 194, 168, 0.2)' }}>
+          <div className="flex items-center space-x-3 mb-6 pb-4 border-b" style={{ borderColor: 'rgba(0, 194, 168, 0.2)' }}>
+            <Cloud size={32} style={{ color: 'var(--color-partcheck)' }} />
             <div>
-              <h3 className="text-xl font-bold text-orange-900">{projectData.architecture.alibaba.title}</h3>
-              <p className="text-sm text-orange-700">{projectData.architecture.alibaba.subtitle}</p>
+              <h3 className="text-xl font-bold" style={{ color: 'var(--color-partcheck)' }}>{projectData.architecture.alibaba.title}</h3>
+              <p className="text-sm opacity-80" style={{ color: 'var(--color-partcheck)' }}>{projectData.architecture.alibaba.subtitle}</p>
             </div>
           </div>
           <div className="space-y-4">
@@ -305,26 +310,29 @@ function ArchitectureMap({ onSelect, selectedId }: { onSelect: any, selectedId: 
           <div 
             onClick={() => onSelect(projectData.architecture.bridge)}
             className={`
-              flex flex-col items-center justify-center p-4 rounded-xl border-2 border-dashed bg-slate-50 cursor-pointer transition-all
-              ${selectedId === projectData.architecture.bridge.id ? 'border-slate-500 shadow-md bg-slate-100' : 'border-slate-300 hover:border-slate-400'}
+              flex flex-col items-center justify-center p-4 rounded-xl border-2 border-dashed cursor-pointer transition-all
             `}
+            style={{
+              background: 'var(--panel-bg)',
+              borderColor: selectedId === projectData.architecture.bridge.id ? 'var(--color-ssm)' : 'var(--border-color)'
+            }}
           >
-            <div className="hidden lg:block w-1 h-12 bg-slate-300 mb-2"></div>
-            <div className="block lg:hidden h-1 w-12 bg-slate-300 mr-2"></div>
-            {projectData.architecture.bridge.icon}
-            <span className="font-bold text-slate-600 mt-2 text-center text-sm">{projectData.architecture.bridge.title}</span>
-            <div className="block lg:hidden h-1 w-12 bg-slate-300 ml-2"></div>
-            <div className="hidden lg:block w-1 h-12 bg-slate-300 mt-2"></div>
+            <div className="hidden lg:block w-1 h-12 mb-2" style={{ background: 'var(--border-color)' }}></div>
+            <div className="block lg:hidden h-1 w-12 mr-2" style={{ background: 'var(--border-color)' }}></div>
+            <Network size={32} style={{ color: 'var(--color-ssm)' }} />
+            <span className="font-bold mt-2 text-center text-sm" style={{ color: 'var(--color-ssm)' }}>{projectData.architecture.bridge.title}</span>
+            <div className="block lg:hidden h-1 w-12 ml-2" style={{ background: 'var(--border-color)' }}></div>
+            <div className="hidden lg:block w-1 h-12 mt-2" style={{ background: 'var(--border-color)' }}></div>
           </div>
         </div>
 
         {/* GOOGLE CLOUD */}
-        <div className={`flex-1 rounded-2xl border-2 p-6 ${projectData.architecture.gcp.color}`}>
-          <div className="flex items-center space-x-3 mb-6 pb-4 border-b border-blue-200">
-            <Server className="text-blue-500" size={32} />
+        <div className="flex-1 rounded-2xl border-2 p-6" style={{ background: 'rgba(108, 92, 231, 0.05)', borderColor: 'rgba(108, 92, 231, 0.2)' }}>
+          <div className="flex items-center space-x-3 mb-6 pb-4 border-b" style={{ borderColor: 'rgba(108, 92, 231, 0.2)' }}>
+            <Server size={32} style={{ color: 'var(--color-cpi)' }} />
             <div>
-              <h3 className="text-xl font-bold text-blue-900">{projectData.architecture.gcp.title}</h3>
-              <p className="text-sm text-blue-700">{projectData.architecture.gcp.subtitle}</p>
+              <h3 className="text-xl font-bold" style={{ color: 'var(--color-cpi)' }}>{projectData.architecture.gcp.title}</h3>
+              <p className="text-sm opacity-80" style={{ color: 'var(--color-cpi)' }}>{projectData.architecture.gcp.subtitle}</p>
             </div>
           </div>
           <div className="space-y-4">
@@ -352,15 +360,19 @@ function ArchitectureNode({ node, isSelected, onSelect, colorClass, selectedClas
       onClick={() => onSelect(node)}
       className={`
         p-4 rounded-lg border cursor-pointer transition-all duration-200 flex items-center space-x-4
-        ${isSelected ? selectedClass : colorClass}
       `}
+      style={{
+        background: 'rgba(255,255,255,0.02)',
+        borderColor: isSelected ? 'var(--accent-primary)' : 'var(--border-color)',
+        transform: isSelected ? 'scale(1.02)' : 'scale(1)'
+      }}
     >
-      <div className="p-2 bg-slate-50 rounded-md shadow-sm border border-slate-100 flex-shrink-0">
+      <div className="p-2 rounded-md shadow-sm border flex-shrink-0" style={{ background: 'var(--panel-bg)', borderColor: 'var(--border-color)' }}>
         {node.icon}
       </div>
       <div>
         <h4 className="font-bold text-sm">{node.name}</h4>
-        <p className="text-xs mt-1 opacity-80 line-clamp-2">{node.desc}</p>
+        <p className="text-xs mt-1 opacity-80 line-clamp-2" style={{ color: 'var(--text-secondary)' }}>{node.desc}</p>
       </div>
     </div>
   );

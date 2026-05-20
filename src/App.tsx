@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { 
   Upload, LayoutDashboard, Database, Wand2, Settings, BarChart, MessageCircle,
-  Search, Bell, User, Box, ArrowRight, Activity, Cloud
+  Search, Bell, User, Box, ArrowRight, Activity, Cloud, Globe
 } from 'lucide-react';
 import IngestionEngine from './components/IngestionEngine';
 import CatalogManager from './components/CatalogManager';
@@ -9,6 +9,7 @@ import LiveSyncSettings from './components/LiveSyncSettings';
 import AdesioAssist from './components/AdesioAssist';
 import WeChatIntegration from './components/WeChatIntegration';
 import TelemetryBilling from './components/TelemetryBilling';
+import InteractiveMap from './components/InteractiveMap';
 import { useAppContext } from './context/AppContext';
 import { motion } from 'framer-motion';
 import './index.css';
@@ -21,6 +22,7 @@ const MODULES = [
   { id: 'integrations', label: 'LiveSync Settings', icon: <Settings size={20} /> },
   { id: 'telemetry', label: 'Telemetry & Billing', icon: <BarChart size={20} /> },
   { id: 'wechat', label: 'WeChat Integration', icon: <MessageCircle size={20} /> },
+  { id: 'map', label: 'Global Network Map', icon: <Globe size={20} /> },
 ];
 
 function DashboardView() {
@@ -189,6 +191,7 @@ export default function App() {
            : activeModule === 'integrations' ? <LiveSyncSettings />
            : activeModule === 'wechat' ? <WeChatIntegration />
            : activeModule === 'telemetry' ? <TelemetryBilling />
+           : activeModule === 'map' ? <InteractiveMap />
            : <DefaultView title={activeTitle} />}
         </div>
       </main>

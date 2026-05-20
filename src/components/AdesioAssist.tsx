@@ -198,7 +198,7 @@ export default function AdesioAssist() {
             </button>
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))', gap: '24px' }}>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             
             {/* SUCCESS ITEM 1 */}
             <div className="card" style={{ padding: '24px' }}>

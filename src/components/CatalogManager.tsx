@@ -91,7 +91,8 @@ export default function CatalogManager() {
             <p className="text-xs opacity-60 mt-1">Fetching records from Master Catalog</p>
           </div>
         ) : (
-          <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left' }}>
+          <div className="overflow-x-auto w-full">
+          <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', minWidth: '800px' }}>
             <thead style={{ position: 'sticky', top: 0, background: 'rgba(20, 22, 30, 0.95)', backdropFilter: 'blur(12px)', zIndex: 10 }}>
               <tr style={{ borderBottom: '1px solid var(--border-color)' }}>
               <th style={{ padding: '16px', color: 'var(--text-secondary)', fontWeight: 500, fontSize: '0.85rem' }}>MPN</th>
@@ -180,6 +181,7 @@ export default function CatalogManager() {
             )})}
           </tbody>
         </table>
+        </div>
         )}
         {view === 'dynamic' && (
           <div style={{ padding: '12px 16px', background: 'rgba(59, 130, 246, 0.05)', color: 'var(--accent-primary)', fontSize: '0.85rem', display: 'flex', alignItems: 'center', gap: '8px', borderTop: '1px solid rgba(59, 130, 246, 0.2)' }}>
@@ -196,7 +198,8 @@ export default function CatalogManager() {
             animate={{ x: 0, opacity: 1 }} 
             exit={{ x: '100%', opacity: 0 }}
             transition={{ type: 'spring', damping: 25, stiffness: 200 }}
-            style={{ position: 'absolute', top: 0, right: 0, bottom: 0, width: '400px', background: 'var(--panel-bg)', borderLeft: '1px solid var(--border-color)', zIndex: 50, padding: '24px', display: 'flex', flexDirection: 'column', gap: '20px', boxShadow: '-10px 0 30px rgba(0,0,0,0.5)', backdropFilter: 'blur(20px)' }}
+            className="w-full max-w-[400px]"
+            style={{ position: 'absolute', top: 0, right: 0, bottom: 0, background: 'var(--panel-bg)', borderLeft: '1px solid var(--border-color)', zIndex: 50, padding: '24px', display: 'flex', flexDirection: 'column', gap: '20px', boxShadow: '-10px 0 30px rgba(0,0,0,0.5)', backdropFilter: 'blur(20px)' }}
           >
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
               <div>
@@ -210,7 +213,7 @@ export default function CatalogManager() {
             
             <div className="card" style={{ padding: '16px', background: 'rgba(255,255,255,0.02)' }}>
               <h4 style={{ color: 'var(--text-secondary)', fontSize: '0.85rem', marginBottom: '12px' }}>Inventory Overview</h4>
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 <div>
                   <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>Stock</div>
                   <div style={{ fontSize: '1.1rem', fontWeight: 'bold', color: selectedRow.stock > 0 ? '#10b981' : '#ef4444' }}>{selectedRow.stock.toLocaleString()}</div>

@@ -14,7 +14,7 @@ export default function WeChatIntegration() {
         </div>
       </div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '32px' }}>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* LEFT COLUMN: ARCHITECTURE/INFO */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
           

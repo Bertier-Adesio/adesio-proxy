@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { 
   Upload, LayoutDashboard, Database, Wand2, Settings, BarChart, MessageCircle,
   Search, Bell, Box, ArrowRight, Activity, Cloud, FileText,
-  User
+  User, Menu, X
 } from 'lucide-react';
 import IngestionEngine from './components/IngestionEngine';
 import CatalogManager from './components/CatalogManager';
@@ -271,6 +271,7 @@ function DefaultView({ title }: { title: string }) {
 export default function App() {
   const [activeModule, setActiveModule] = useState('home');
   const [showDocModal, setShowDocModal] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     if (activeModule === 'home') {
@@ -294,9 +295,23 @@ export default function App() {
 
   return (
     <div className="app-container">
-      <aside className="sidebar">
-        <div className="sidebar-header" style={{ padding: '24px 20px', borderBottom: '1px solid var(--border-color)', marginBottom: '16px' }}>
-          <img src={logoImage} alt="Adesio" style={{ height: '36px', width: '100%', objectFit: 'contain', objectPosition: 'left center', display: 'block' }} />
+      {/* Mobile Backdrop */}
+      {isMobileMenuOpen && (
+        <div 
+          className="fixed inset-0 bg-black/60 z-40 md:hidden backdrop-blur-sm"
+          onClick={() => setIsMobileMenuOpen(false)}
+        />
+      )}
+
+      <aside className={`sidebar fixed md:relative z-50 h-full ${isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'}`}>
+        <div className="sidebar-header" style={{ padding: '24px 20px', borderBottom: '1px solid var(--border-color)', marginBottom: '16px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+          <img src={logoImage} alt="Adesio" style={{ height: '28px', width: 'auto', display: 'block' }} />
+          <button 
+            className="md:hidden text-slate-400 hover:text-white"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            <X size={24} />
+          </button>
         </div>
         
         <div className="sidebar-nav">
@@ -377,7 +392,10 @@ export default function App() {
                     <div 
                       key={module.id}
                       className={`nav-item ${activeModule === module.id ? 'active' : ''}`}
-                      onClick={() => setActiveModule(module.id)}
+                      onClick={() => {
+                        setActiveModule(module.id);
+                        setIsMobileMenuOpen(false);
+                      }}
                     >
                       {module.icon}
                       <span>{module.label}</span>
@@ -425,9 +443,17 @@ export default function App() {
 
       <main className="main-content">
         <header className="top-header">
-          <div className="header-title">{activeTitle}</div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+            <button 
+              className="md:hidden text-slate-400 hover:text-white cursor-pointer"
+              onClick={() => setIsMobileMenuOpen(true)}
+            >
+              <Menu size={24} />
+            </button>
+            <div className="header-title hidden sm:block">{activeTitle}</div>
+          </div>
           
-          <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '16px', color: 'var(--text-secondary)' }}>
               <Search size={20} style={{ cursor: 'pointer' }} />
               <Bell size={20} style={{ cursor: 'pointer' }} />

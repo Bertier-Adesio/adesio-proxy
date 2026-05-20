@@ -101,7 +101,7 @@ export default function UserProfileRoles({ initialTab = 'profile' }: UserProfile
       <div style={{ minHeight: '400px' }}>
         {/* Tab 1: Profile Details */}
         {activeTab === 'profile' && (
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 2fr', gap: '24px' }}>
+          <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-6">
             {/* Left Card - User Badge */}
             <motion.div 
               className="card"
@@ -155,7 +155,7 @@ export default function UserProfileRoles({ initialTab = 'profile' }: UserProfile
                 Catalog Operator Metadata
               </h4>
 
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px' }}>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                 <div>
                   <label style={{ display: 'block', color: 'var(--text-secondary)', fontSize: '0.75rem', fontWeight: 600, textTransform: 'uppercase', marginBottom: '8px' }}>First Name</label>
                   <input type="text" readOnly value="Supplier" style={{ width: '100%', background: 'rgba(255,255,255,0.02)', border: '1px solid var(--border-color)', borderRadius: '8px', padding: '10px 14px', color: 'white', fontSize: '0.9rem', outline: 'none' }} />
@@ -199,7 +199,7 @@ export default function UserProfileRoles({ initialTab = 'profile' }: UserProfile
               </div>
             </div>
 
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '16px' }}>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {permissions.map((perm, idx) => (
                 <div 
                   key={idx}
@@ -242,7 +242,7 @@ export default function UserProfileRoles({ initialTab = 'profile' }: UserProfile
 
         {/* Tab 3: Security Best Practices */}
         {activeTab === 'security' && (
-          <div style={{ display: 'grid', gridTemplateColumns: '2fr 1fr', gap: '24px' }}>
+          <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-6">
             {/* Best Practices Cards */}
             <motion.div 
               className="card"

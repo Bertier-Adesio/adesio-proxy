@@ -40,11 +40,11 @@
 
 @layer components {
   .app-container {
-    @apply flex h-screen overflow-hidden;
+    @apply flex h-screen overflow-hidden relative w-full;
   }
 
   .sidebar {
-    @apply flex flex-col w-[260px] border-r border-white/5 transition-all duration-300;
+    @apply flex flex-col w-[280px] md:w-[260px] border-r border-white/5 transition-all duration-300;
     background: rgba(15, 17, 26, 0.65);
     backdrop-filter: blur(32px);
     -webkit-backdrop-filter: blur(32px);
@@ -99,7 +99,7 @@
   }
 
   .top-header {
-    @apply h-[72px] border-b border-white/10 flex items-center justify-between px-8 bg-black/10 backdrop-blur-xl z-10;
+    @apply h-[72px] border-b border-white/10 flex items-center justify-between px-4 md:px-8 bg-black/10 backdrop-blur-xl z-10 w-full;
   }
 
   .header-title {
@@ -116,7 +116,7 @@
   }
 
   .page-content {
-    @apply flex-1 p-8 overflow-y-auto relative z-0;
+    @apply flex-1 p-4 md:p-8 overflow-y-auto overflow-x-hidden relative z-0 w-full;
   }
 
   .dashboard-grid {

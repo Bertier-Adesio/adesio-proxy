@@ -588,7 +588,7 @@ export default function IngestionEngine() {
             <p style={{ color: 'var(--text-secondary)' }}>Choose how you want to bring your component data into Adesio Sync.</p>
           </div>
           
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '24px', maxWidth: '800px', margin: '0 auto' }}>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-[800px] mx-auto">
             {/* Legacy File Upload */}
             <div 
               className="card table-row-hover" 
@@ -640,7 +640,7 @@ export default function IngestionEngine() {
             Choose which global partners you want to connect and route this payload to. Adesio Sync will automatically validate your data against their specific requirements.
           </p>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '16px', marginBottom: '32px' }}>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
             {[
               { id: 'octopart', name: 'Octopart', icon: <Link size={24} color="#3b82f6" /> },
               { id: 'siliconexpert', name: 'SiliconExpert', icon: <Database size={24} color="#10b981" /> },
@@ -718,7 +718,7 @@ export default function IngestionEngine() {
             <h3 style={{ fontSize: '1.25rem', fontWeight: 600 }}>Modern Product API Connector</h3>
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: '1.2fr 1fr', gap: '24px' }}>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* LEFT COLUMN: CONFIGURATION */}
             <div className="card" style={{ padding: '28px', display: 'flex', flexDirection: 'column', gap: '20px', border: '1px solid var(--border-color)' }}>
               <div>

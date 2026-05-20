@@ -38,7 +38,7 @@ export default function LiveSyncSettings() {
 
       {/* CONNECTORS CONTENT */}
       {activeTab === 'connectors' && (
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '20px' }}>
+        <div className="grid grid-cols-1 md:grid-cols-[repeat(auto-fill,minmax(300px,1fr))] gap-5">
           {/* Connector Cards */}
           {[
             { name: 'Octopart API', type: 'Aggregator', enabled: settings.octopartEnabled, setter: (val: boolean) => updateSettings({octopartEnabled: val}), status: 'Active (Synced 5m ago)', color: '#10b981' },
@@ -96,7 +96,7 @@ export default function LiveSyncSettings() {
             </label>
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px' }}>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
               <label style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--text-secondary)' }}>Endpoint URL</label>
               <input type="text" defaultValue="https://api.manufacturer.com/v1/inventory" style={{ padding: '10px 12px', background: 'rgba(255,255,255,0.05)', border: '1px solid var(--border-color)', borderRadius: '6px', color: 'var(--text-primary)' }} />

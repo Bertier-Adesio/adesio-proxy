@@ -573,7 +573,7 @@ export default function ProductDocumentation({ isOpen, onClose }: ProductDocumen
                           </p>
                         ))}
 
-                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '16px', marginTop: '12px' }}>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-3">
                           <div style={{ padding: '16px', background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.05)', borderRadius: '8px' }}>
                             <h4 style={{ color: 'white', margin: '0 0 6px 0', fontSize: '0.95rem', display: 'flex', alignItems: 'center', gap: '8px' }}>
                               <Users size={16} color="#10b981" /> Manufacturers

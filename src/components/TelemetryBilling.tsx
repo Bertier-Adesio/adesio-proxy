@@ -28,7 +28,7 @@ export default function TelemetryBilling() {
         </button>
       </div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '20px' }}>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
         {/* POSTHOG METRIC */}
         <div className="card" style={{ padding: '24px', borderTop: '4px solid var(--chart-1)' }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '16px' }}>
@@ -94,7 +94,7 @@ export default function TelemetryBilling() {
         </div>
       </div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '24px' }}>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* INTENT DATA */}
         <div className="card" style={{ padding: '24px' }}>
           <h3 style={{ fontSize: '1.1rem', fontWeight: 600, marginBottom: '16px', display: 'flex', alignItems: 'center', gap: '8px' }}>

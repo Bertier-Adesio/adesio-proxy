@@ -43,18 +43,11 @@ const NAVIGATION_SECTIONS = [
 const MODULES = NAVIGATION_SECTIONS.flatMap(section => section.items);
 
 function DashboardView() {
-  const { catalog, settings, activityLogs } = useAppContext();
+  const { catalog, settings, activityLogs, telemetry } = useAppContext();
   const missingCount = catalog.filter(c => !c.desc || !c.package || !c.mpn).length;
-
-  const chartData = [
-    { name: 'Mon', apiCalls: 12000, ingestions: 400 },
-    { name: 'Tue', apiCalls: 19000, ingestions: 300 },
-    { name: 'Wed', apiCalls: 15000, ingestions: 800 },
-    { name: 'Thu', apiCalls: 22000, ingestions: 1200 },
-    { name: 'Fri', apiCalls: 28000, ingestions: 900 },
-    { name: 'Sat', apiCalls: 14000, ingestions: 200 },
-    { name: 'Sun', apiCalls: 18000, ingestions: 500 },
-  ];
+  const lowStockCount = catalog.filter(c => c.stock <= c.moq).length;
+  const obsoleteCount = catalog.filter(c => c.lifecycle === 'Obsolete' || c.lifecycle === 'NRND').length;
+  const totalInventoryValue = catalog.reduce((sum, c) => sum + (c.stock * c.price), 0);
 
   return (
     <div className="dashboard-grid">
@@ -69,21 +62,33 @@ function DashboardView() {
         <div className="card-body">
           <p>Your components are syndicated across global distributors.</p>
           <div style={{ marginTop: '16px', display: 'flex', flexDirection: 'column', gap: '12px' }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
               <span>Octopart API</span>
-              {settings.octopartEnabled ? <span className="badge badge-green">Unlocked</span> : <span className="badge badge-red">Locked</span>}
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <span style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>12ms</span>
+                {settings.octopartEnabled ? <span className="badge badge-green">Unlocked</span> : <span className="badge badge-red">Locked</span>}
+              </div>
             </div>
-            <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
               <span>SiliconExpert</span>
-              <span className="badge badge-yellow">Pending Update</span>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <span style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>--</span>
+                <span className="badge badge-yellow">Pending Update</span>
+              </div>
             </div>
-            <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
               <span>DigiKey EDI</span>
-              {settings.digikeyEnabled ? <span className="badge badge-green">Unlocked</span> : <span className="badge badge-red">Locked</span>}
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <span style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>45ms</span>
+                {settings.digikeyEnabled ? <span className="badge badge-green">Unlocked</span> : <span className="badge badge-red">Locked</span>}
+              </div>
             </div>
-            <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
               <span>Avnet API</span>
-              {settings.avnetEnabled ? <span className="badge badge-green">Unlocked</span> : <span className="badge badge-red">Locked</span>}
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                <span style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>--</span>
+                {settings.avnetEnabled ? <span className="badge badge-green">Unlocked</span> : <span className="badge badge-red">Locked</span>}
+              </div>
             </div>
           </div>
         </div>
@@ -100,18 +105,30 @@ function DashboardView() {
         <div className="card-body">
           <p>AI ingestion metrics for the current billing cycle.</p>
           <div style={{ marginTop: '16px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', color: 'var(--text-primary)', borderBottom: '1px solid var(--border-color)', paddingBottom: '8px' }}>
+              <span>Total Inventory Value</span>
+              <strong className="text-xl font-bold font-mono text-white tracking-tight">${totalInventoryValue.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}</strong>
+            </div>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', color: 'var(--text-primary)' }}>
               <span>Total MPNs Managed</span>
-              <strong className="text-3xl font-bold font-mono text-white tracking-tight">{catalog.length.toLocaleString()}</strong>
+              <strong className="text-xl font-bold font-mono text-white tracking-tight">{catalog.length.toLocaleString()}</strong>
             </div>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', color: 'var(--text-primary)' }}>
               <span>Missing MVP Fields</span>
-              <strong className="text-3xl font-bold font-mono text-white tracking-tight">{missingCount}</strong>
+              <strong className="text-xl font-bold font-mono text-white tracking-tight" style={{ color: missingCount > 0 ? '#f59e0b' : 'inherit' }}>{missingCount}</strong>
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', color: 'var(--text-primary)' }}>
+              <span>Low Stock Alerts</span>
+              <strong className="text-xl font-bold font-mono text-white tracking-tight" style={{ color: lowStockCount > 0 ? '#ef4444' : 'inherit' }}>{lowStockCount}</strong>
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', color: 'var(--text-primary)' }}>
+              <span>Lifecycle Warnings</span>
+              <strong className="text-xl font-bold font-mono text-white tracking-tight" style={{ color: obsoleteCount > 0 ? '#f59e0b' : 'inherit' }}>{obsoleteCount}</strong>
             </div>
             <button 
-              onClick={() => window.dispatchEvent(new CustomEvent('navigate', { detail: 'assist' }))}
-              style={{ marginTop: '12px', padding: '10px', background: 'var(--accent-primary)', color: 'white', border: 'none', borderRadius: '6px', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}>
-              <Wand2 size={16} /> Enrich with Adesio Assist
+              onClick={() => window.dispatchEvent(new CustomEvent('navigate', { detail: 'catalog' }))}
+              style={{ marginTop: '12px', padding: '10px', background: 'rgba(255,255,255,0.05)', color: 'var(--text-primary)', border: '1px solid var(--border-color)', borderRadius: '6px', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}>
+              Resolve Alerts in Catalog
             </button>
           </div>
         </div>
@@ -130,12 +147,14 @@ function DashboardView() {
           <div style={{ marginTop: '16px', display: 'flex', alignItems: 'center', gap: '16px' }}>
             <div style={{ flex: 1, textAlign: 'center', padding: '12px', background: 'rgba(255,255,255,0.05)', borderRadius: '8px' }}>
               <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>Alibaba (APAC)</div>
-              <div style={{ marginTop: '4px', color: '#10b981', fontWeight: 'bold' }}>Active</div>
+              <div style={{ marginTop: '4px', color: '#3b82f6', fontWeight: 'bold' }}>Syncing...</div>
+              <div style={{ fontSize: '0.7rem', color: 'var(--text-secondary)', marginTop: '4px' }}>85% complete</div>
             </div>
             <ArrowRight size={20} color="var(--text-secondary)" />
             <div style={{ flex: 1, textAlign: 'center', padding: '12px', background: 'rgba(255,255,255,0.05)', borderRadius: '8px' }}>
               <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>GCP (Global)</div>
-              <div style={{ marginTop: '4px', color: '#10b981', fontWeight: 'bold' }}>Active</div>
+              <div style={{ marginTop: '4px', color: '#10b981', fontWeight: 'bold' }}>Idle</div>
+              <div style={{ fontSize: '0.7rem', color: 'var(--text-secondary)', marginTop: '4px' }}>Last synced: 2m ago</div>
             </div>
           </div>
         </div>
@@ -153,26 +172,32 @@ function DashboardView() {
         </div>
         <div className="card-body" style={{ height: '300px', marginTop: '16px' }}>
           <ResponsiveContainer width="100%" height="100%">
-            <AreaChart data={chartData} margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
-              <defs>
-                <linearGradient id="colorApi" x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="5%" stopColor="var(--color-cpi)" stopOpacity={0.8}/>
-                  <stop offset="95%" stopColor="var(--color-cpi)" stopOpacity={0}/>
-                </linearGradient>
-                <linearGradient id="colorIngest" x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="5%" stopColor="var(--color-partcheck)" stopOpacity={0.8}/>
-                  <stop offset="95%" stopColor="var(--color-partcheck)" stopOpacity={0}/>
-                </linearGradient>
-              </defs>
-              <XAxis dataKey="name" stroke="var(--text-secondary)" fontSize={12} tickLine={false} axisLine={false} />
-              <YAxis stroke="var(--text-secondary)" fontSize={12} tickLine={false} axisLine={false} tickFormatter={(value) => `${value / 1000}k`} />
-              <RechartsTooltip 
-                contentStyle={{ background: 'var(--panel-bg)', borderColor: 'var(--border-color)', borderRadius: '8px', color: 'var(--text-primary)' }}
-                itemStyle={{ color: 'var(--text-primary)' }}
-              />
-              <Area type="monotone" dataKey="apiCalls" stroke="var(--color-cpi)" fillOpacity={1} fill="url(#colorApi)" />
-              <Area type="monotone" dataKey="ingestions" stroke="var(--color-partcheck)" fillOpacity={1} fill="url(#colorIngest)" />
-            </AreaChart>
+            {telemetry ? (
+              <AreaChart data={telemetry.usageData} margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
+                <defs>
+                  <linearGradient id="colorApi" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="5%" stopColor="var(--chart-2)" stopOpacity={0.8}/>
+                    <stop offset="95%" stopColor="var(--chart-2)" stopOpacity={0}/>
+                  </linearGradient>
+                  <linearGradient id="colorIngest" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="5%" stopColor="var(--chart-1)" stopOpacity={0.8}/>
+                    <stop offset="95%" stopColor="var(--chart-1)" stopOpacity={0}/>
+                  </linearGradient>
+                </defs>
+                <XAxis dataKey="name" stroke="var(--text-secondary)" fontSize={12} tickLine={false} axisLine={false} />
+                <YAxis stroke="var(--text-secondary)" fontSize={12} tickLine={false} axisLine={false} tickFormatter={(value) => `${value / 1000}k`} />
+                <RechartsTooltip 
+                  contentStyle={{ background: 'var(--panel-bg)', borderColor: 'var(--border-color)', borderRadius: '8px', color: 'var(--text-primary)' }}
+                  itemStyle={{ color: 'var(--text-primary)' }}
+                />
+                <Area type="monotone" dataKey="partnerApi" stroke="var(--chart-2)" fillOpacity={1} fill="url(#colorApi)" />
+                <Area type="monotone" dataKey="userEvents" stroke="var(--chart-1)" fillOpacity={1} fill="url(#colorIngest)" />
+              </AreaChart>
+            ) : (
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100%' }}>
+                <span style={{ color: 'var(--text-secondary)' }}>Loading metrics...</span>
+              </div>
+            )}
           </ResponsiveContainer>
         </div>
       </motion.div>

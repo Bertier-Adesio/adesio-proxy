@@ -76,7 +76,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
   // Simulate network fetch of dense catalog
   useEffect(() => {
     const loadCatalog = async () => {
-      const saved = localStorage.getItem('adesio_catalog');
+      const saved = localStorage.getItem('adesio_catalog_v2');
       if (saved) {
         setCatalog(JSON.parse(saved));
         setIsLoadingCatalog(false);
@@ -112,7 +112,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
   ]);
 
   useEffect(() => {
-    localStorage.setItem('adesio_catalog', JSON.stringify(catalog));
+    localStorage.setItem('adesio_catalog_v2', JSON.stringify(catalog));
   }, [catalog]);
 
   useEffect(() => {

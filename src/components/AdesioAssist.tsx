@@ -13,9 +13,9 @@ export default function AdesioAssist() {
   const [eta, setEta] = useState('');
 
   const autoDetectedUrls = [
-    { id: 7, mpn: 'EFM8BB50F16G-A-QFN16', url: 'https://www.silabs.com/documents/public/data-sheets/efm8bb50-datasheet.pdf', status: 'pending' },
-    { id: 5, mpn: 'CLMUD-FKC-CH1NP1561BB7T4S3', url: 'https://cree-led.com/media/documents/DS228.pdf', status: 'pending' },
-    { id: 14, mpn: 'STM32G474RET6', url: 'https://www.st.com/resource/en/datasheet/stm32g474re.pdf', status: 'pending' }
+    { id: 1, mpn: 'TPA2672', url: 'https://www.3peak.com/high-voltage-op-amps/tpa2672', status: 'pending' },
+    { id: 2, mpn: 'TPD160221', url: 'https://www.3peak.com/high-speed-mux/tpd160221', status: 'pending' },
+    { id: 3, mpn: 'TPE15017', url: 'https://www.3peak.com/poe/tpe15017', status: 'pending' }
   ];
 
   const handleStartExtraction = (largeBatch = false) => {

@@ -28,7 +28,7 @@ Manufacturers use Adesio Sync as the central nervous system for their product ca
 
 1. **Ingest Legacy Data**: Upload messy exports directly from legacy ERPs, or connect via API.
 2. **Automated AI Mapping**: The platform automatically maps raw, inconsistent columns to standardized industry schemas, validating constraints instantly.
-3. **AI Enrichment (Adesio Assist)**: For parts missing data, users upload (or link to) PDF datasheets. The AI automatically parses tables and text to extract missing parametric specs (Operating Temp, Package Type, RoHS compliance, etc.).
+3. **Adesio Assist**: AI Enrichment for parts missing data, users upload (or link to) PDF datasheets. The AI automatically parses tables and text to extract missing parametric specs (Operating Temp, Package Type, RoHS compliance, etc.).
 4. **Global Syndication**: With the click of a button, push clean, enriched catalogs out to all selected syndication partners via LiveSync APIs.
 5. **Monitor & Track**: Use the Telemetry dashboard to monitor how often components are being searched and queried globally, billing usage through automated event tracking.
 
@@ -52,7 +52,7 @@ A high-level command center showing overall catalog health, API sync status, and
 ### 2. 🧠 AI Ingestion Engine
 The entry point for messy data. It accepts legacy file formats and utilizes an AI Standards Inspector to cross-reference data against the specific requirements of chosen syndication partners. It dynamically auto-maps headers, extracts specs from stringified columns, and flags critical violations (like missing URLs) with one-click "AI Smart Resolutions."
 
-### 3. ✨ Adesio Assist (AI Enrichment)
+### 3. ✨ Adesio Assist
 An AI-driven extraction queue that identifies components missing critical parameters. Users can initiate a bulk extraction process that fetches datasheet URLs, runs OCR and Vision models, and uses LLMs to extract exact parametric specs (e.g., Core Type, Voltage, Package) directly into the MCP.
 
 ### 4. 🗄️ Catalog Manager

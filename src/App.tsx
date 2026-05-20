@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import { 
   Upload, LayoutDashboard, Database, Wand2, Settings, BarChart, MessageCircle,
-  Search, Bell, Box, ArrowRight, Activity, Cloud, Globe, FileText
+  Search, Bell, Box, ArrowRight, Activity, Cloud, Globe, FileText,
+  User, Shield, Lock
 } from 'lucide-react';
 import IngestionEngine from './components/IngestionEngine';
 import CatalogManager from './components/CatalogManager';
@@ -10,6 +11,7 @@ import AdesioAssist from './components/AdesioAssist';
 import WeChatIntegration from './components/WeChatIntegration';
 import TelemetryBilling from './components/TelemetryBilling';
 import InteractiveMap from './components/InteractiveMap';
+import UserProfileRoles from './components/UserProfileRoles';
 import { useAppContext } from './context/AppContext';
 import { motion, AnimatePresence } from 'framer-motion';
 import { AreaChart, Area, XAxis, YAxis, Tooltip as RechartsTooltip, ResponsiveContainer } from 'recharts';
@@ -33,6 +35,9 @@ const NAVIGATION_SECTIONS = [
     items: [
       { id: 'integrations', label: 'LiveSync Settings', icon: <Settings size={20} /> },
       { id: 'wechat', label: 'WeChat Integration', icon: <MessageCircle size={20} /> },
+      { id: 'profile', label: 'User Details', icon: <User size={20} /> },
+      { id: 'rbac', label: 'Role-Based Access', icon: <Shield size={20} /> },
+      { id: 'security', label: 'Security Best Practices', icon: <Lock size={20} /> },
     ]
   }
 ];
@@ -268,16 +273,80 @@ export default function App() {
                 {section.title}
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
-                {section.items.map((module) => (
-                  <div 
-                    key={module.id}
-                    className={`nav-item ${activeModule === module.id ? 'active' : ''}`}
-                    onClick={() => setActiveModule(module.id)}
-                  >
-                    {module.icon}
-                    <span>{module.label}</span>
-                  </div>
-                ))}
+                {section.items.map((module) => {
+                  if (module.id === 'profile') {
+                    const isActive = activeModule === 'profile';
+                    return (
+                      <div 
+                        key={module.id}
+                        onClick={() => setActiveModule('profile')}
+                        style={{
+                          margin: '4px 0',
+                          padding: '10px 14px',
+                          background: isActive 
+                            ? 'linear-gradient(90deg, rgba(108, 92, 231, 0.15) 0%, rgba(168, 85, 247, 0.05) 100%)' 
+                            : 'rgba(255,255,255,0.02)',
+                          border: isActive
+                            ? '1px solid rgba(108, 92, 231, 0.3)' 
+                            : '1px solid rgba(255,255,255,0.05)',
+                          borderRadius: '10px',
+                          display: 'flex',
+                          alignItems: 'center',
+                          gap: '12px',
+                          cursor: 'pointer',
+                          transition: 'all 0.2s ease-in-out'
+                        }}
+                        onMouseEnter={(e) => {
+                          if (!isActive) {
+                            e.currentTarget.style.background = 'rgba(255,255,255,0.04)';
+                            e.currentTarget.style.borderColor = 'rgba(255,255,255,0.1)';
+                          }
+                        }}
+                        onMouseLeave={(e) => {
+                          if (!isActive) {
+                            e.currentTarget.style.background = 'rgba(255,255,255,0.02)';
+                            e.currentTarget.style.borderColor = 'rgba(255,255,255,0.05)';
+                          }
+                        }}
+                      >
+                        <div style={{
+                          width: '32px',
+                          height: '32px',
+                          borderRadius: '50%',
+                          background: 'linear-gradient(135deg, var(--color-cpi), var(--color-partcheck))',
+                          color: 'white',
+                          fontWeight: 'bold',
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          fontSize: '0.85rem',
+                          flexShrink: 0
+                        }}>
+                          A
+                        </div>
+                        <div style={{ flex: 1, overflow: 'hidden', display: 'flex', flexDirection: 'column' }}>
+                          <span style={{ fontSize: '0.8rem', fontWeight: 600, color: 'white', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                            Supplier Admin
+                          </span>
+                          <span style={{ fontSize: '0.65rem', color: 'var(--text-secondary)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                            Alibaba Front-Office
+                          </span>
+                        </div>
+                      </div>
+                    );
+                  }
+                  
+                  return (
+                    <div 
+                      key={module.id}
+                      className={`nav-item ${activeModule === module.id ? 'active' : ''}`}
+                      onClick={() => setActiveModule(module.id)}
+                    >
+                      {module.icon}
+                      <span>{module.label}</span>
+                    </div>
+                  );
+                })}
               </div>
             </div>
           ))}
@@ -315,14 +384,6 @@ export default function App() {
               <Search size={20} style={{ cursor: 'pointer' }} />
               <Bell size={20} style={{ cursor: 'pointer' }} />
             </div>
-            
-            <div className="user-profile">
-              <div style={{ textAlign: 'right' }}>
-                <div style={{ color: 'var(--text-primary)' }}>Supplier Admin</div>
-                <div style={{ fontSize: '0.75rem', opacity: 0.8 }}>Alibaba Front-Office</div>
-              </div>
-              <div className="avatar">A</div>
-            </div>
           </div>
         </header>
 
@@ -333,6 +394,9 @@ export default function App() {
            : activeModule === 'assist' ? <AdesioAssist />
            : activeModule === 'integrations' ? <LiveSyncSettings />
            : activeModule === 'wechat' ? <WeChatIntegration />
+           : activeModule === 'profile' ? <UserProfileRoles initialTab="profile" />
+           : activeModule === 'rbac' ? <UserProfileRoles initialTab="rbac" />
+           : activeModule === 'security' ? <UserProfileRoles initialTab="security" />
            : activeModule === 'telemetry' ? <TelemetryBilling />
            : activeModule === 'map' ? <InteractiveMap />
            : <DefaultView title={activeTitle} />}

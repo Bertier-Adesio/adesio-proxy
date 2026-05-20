@@ -58,15 +58,23 @@ An AI-driven extraction queue that identifies components missing critical parame
 ### 4. 🗄️ Catalog Manager
 The central database view (Master Catalog of Parts). It offers a high-density, Bloomberg-style datagrid for managing thousands of SKUs. Users can filter by lifecycle, stock, or missing data, and make inline edits to ensure data integrity before syndication.
 
-### 5. ⚡ LiveSync Settings
-The routing matrix for outbound data. Users configure their live API endpoints, legacy SFTP connections, and webhook payloads for their downstream partners. It ensures that when a price changes in Adesio, it is instantly reflected on Octopart or DigiKey.
+### 5. 🌐 Global Network Map
+An interactive visualization showcasing real-time data flows from raw ingestion, through AI processing, and out to global downstream syndication endpoints.
 
 ### 6. 📈 Telemetry & Billing
 A dual-sided analytics engine. It tracks internal user activity via PostHog (file uploads, edits) and monitors inbound/outbound partner API calls via Google Analytics. It visualizes geographic intent data (where components are being searched globally) and calculates dynamic monthly billing based on exact event volumes.
 
----
+### 7. ⚡ LiveSync Settings
+The routing matrix for outbound data. Users configure their live API endpoints, legacy SFTP connections, and webhook payloads for their downstream partners. It ensures that when a price changes in Adesio, it is instantly reflected on Octopart or DigiKey.
 
-## ⚙️ Platform Settings
-
-### 1. 💬 WeChat Integration (Omnichannel)
+### 8. 💬 WeChat Integration (Omnichannel)
 A specialized module acknowledging the importance of the APAC market. It provides Identity & Access Management (IAM) and an interactive simulator to visualize how the syndicated component data will render inside a WeChat Mini-Program for localized buyers.
+
+### 9. 👤 User Details
+A profile administration portal showing operator info, APAC region gate details, and catalog API authority credentials.
+
+### 10. 🛡️ Role-Based Access Control (RBAC)
+A secure permissions checklist granting or restricting operational authority (e.g., catalog writes, AI enrichment triggers) per user role.
+
+### 11. 🔒 Security Best Practices
+Integration compliance status covering SHA256 signature verification, WeChat IAM mappings, and HTTPS-only enforce protocols.

@@ -102,25 +102,25 @@ const projectData = {
         { id: 'a1', name: 'Frontend Hosting', desc: 'Alibaba OSS + CDN for lightning-fast H5/React access in mainland China & Taiwan.', icon: <LayoutDashboard size={20}/> },
         { id: 'a2', name: 'WeChat IAM & API Gateway', desc: 'Native Tencent integrations (WeChat SSO & WeChat Pay) via Domestic Aliyun account.', icon: <Shield size={20}/> },
         { id: 'a3', name: 'Local API & Ingestion', desc: 'Function Compute (Serverless) handling real-time webhooks and local ERP CSV uploads.', icon: <Upload size={20}/> },
-        { id: 'a4', name: 'Data Localization Cache', desc: 'TableStore/PolarDB temporarily caches raw data to satisfy local PIPL data compliance.', icon: <Database size={20}/> },
+        { id: 'a4', name: 'Vectorization & Local Cache', desc: 'Raw data is vectorized locally on Alibaba Cloud to satisfy PIPL compliance.', icon: <Database size={20}/> },
         { id: 'a5', name: 'Monitoring (ARMS)', desc: 'Alibaba ARMS SDK deployed for WeChat Mini-Program telemetry.', icon: <ActivityIcon size={20}/> }
       ]
     },
-    gcp: {
-      title: 'Global Back-Office (Google Cloud)',
-      subtitle: 'AI Brain & Global Syndication',
+    aws: {
+      title: 'Global Back-Office (AWS Amplify)',
+      subtitle: 'Global Syndication & Auth',
       color: 'bg-blue-50 border-blue-200',
       nodes: [
-        { id: 'g1', name: 'Vertex AI Processing Engine', desc: 'Gemini models process complex schema mapping and extract parameters from datasheets.', icon: <Cpu size={20}/> },
-        { id: 'g2', name: 'Global Master Database', desc: 'Firestore (NoSQL catalog data) and Cloud SQL (Global billing/analytics).', icon: <Database size={20}/> },
-        { id: 'g3', name: 'Syndication Connectors', desc: 'Cloud Run microservices pushing REST/EDI to Octopart, DigiKey, Avnet, SE.', icon: <Share2 size={20}/> },
-        { id: 'g4', name: 'Adesio MCP Server', desc: 'Cloud Run hosted endpoint allowing AI engineering assistants to query component availability.', icon: <Search size={20}/> }
+        { id: 'w1', name: 'Mistral AI Processing Engine', desc: 'Mistral AI models process complex schema mapping and extract parameters from vectorized datasheets.', icon: <Cpu size={20}/> },
+        { id: 'w2', name: 'Global Master Database', desc: 'AWS Amplify (DynamoDB + Cognito) powering the catalog database and secure authentication.', icon: <Database size={20}/> },
+        { id: 'w3', name: 'Syndication Connectors', desc: 'AppSync & API Gateway microservices pushing REST/EDI to Octopart, DigiKey, Avnet, SE.', icon: <Share2 size={20}/> },
+        { id: 'w4', name: 'Adesio MCP Server', desc: 'AWS Lambda hosted endpoint allowing AI engineering assistants to query component availability.', icon: <Search size={20}/> }
       ]
     },
     bridge: {
       id: 'bridge',
       title: 'Inter-Cloud Bridge',
-      desc: 'Secure VPN / Interconnect automatically syncing anonymized component data from APAC to the Global GCP Master without leaking PII.',
+      desc: 'Secure VPN / Interconnect automatically syncing vectorized and anonymized component data from APAC to the Global AWS Master without leaking PII.',
       icon: <Network size={32} className="text-gray-500" />
     }
   }
@@ -311,7 +311,7 @@ function ArchitectureMap({ onSelect, selectedId, isSidebarOpen }: { onSelect: an
     <div className="max-w-5xl mx-auto py-4">
       <div className="text-center mb-8">
         <h2 className="text-2xl font-bold">Multi-Cloud Geographic Architecture</h2>
-        <p className="mt-2" style={{ color: 'var(--text-secondary)' }}>Alibaba Cloud (APAC Front-Office) synced with Google Cloud (Global Back-Office)</p>
+        <p className="mt-2" style={{ color: 'var(--text-secondary)' }}>Alibaba Cloud (APAC Front-Office) synced with AWS Amplify (Global Back-Office)</p>
       </div>
 
       <div className={`flex flex-col ${isSidebarOpen ? '' : 'lg:flex-row'} items-stretch justify-center gap-6`}>
@@ -358,17 +358,17 @@ function ArchitectureMap({ onSelect, selectedId, isSidebarOpen }: { onSelect: an
           </div>
         </div>
 
-        {/* GOOGLE CLOUD */}
+        {/* AWS AMPLIFY */}
         <div className="flex-1 rounded-2xl border-2 p-6" style={{ background: 'rgba(108, 92, 231, 0.05)', borderColor: 'rgba(108, 92, 231, 0.2)' }}>
           <div className="flex items-center space-x-3 mb-6 pb-4 border-b" style={{ borderColor: 'rgba(108, 92, 231, 0.2)' }}>
             <Server size={32} style={{ color: 'var(--color-cpi)' }} />
             <div>
-              <h3 className="text-xl font-bold" style={{ color: 'var(--color-cpi)' }}>{projectData.architecture.gcp.title}</h3>
-              <p className="text-sm opacity-80" style={{ color: 'var(--color-cpi)' }}>{projectData.architecture.gcp.subtitle}</p>
+              <h3 className="text-xl font-bold" style={{ color: 'var(--color-cpi)' }}>{projectData.architecture.aws.title}</h3>
+              <p className="text-sm opacity-80" style={{ color: 'var(--color-cpi)' }}>{projectData.architecture.aws.subtitle}</p>
             </div>
           </div>
           <div className="space-y-4">
-            {projectData.architecture.gcp.nodes.map(node => (
+            {projectData.architecture.aws.nodes.map(node => (
               <ArchitectureNode 
                 key={node.id} 
                 node={node} 

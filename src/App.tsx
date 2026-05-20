@@ -32,8 +32,8 @@ const NAVIGATION_SECTIONS = [
     title: 'Settings',
     items: [
       { id: 'profile', label: 'User Details', icon: <User size={20} /> },
-      { id: 'integrations', label: 'LiveSync Settings', icon: <Settings size={20} /> },
       { id: 'wechat', label: 'WeChat Integration', icon: <MessageCircle size={20} /> },
+      { id: 'integrations', label: 'LiveSync Settings', icon: <Settings size={20} /> },
       { id: 'telemetry', label: 'Telemetry & Billing', icon: <BarChart size={20} /> },
     ]
   }

@@ -33,11 +33,11 @@ const NAVIGATION_SECTIONS = [
   {
     title: 'Settings',
     items: [
-      { id: 'integrations', label: 'LiveSync Settings', icon: <Settings size={20} /> },
-      { id: 'wechat', label: 'WeChat Integration', icon: <MessageCircle size={20} /> },
       { id: 'profile', label: 'User Details', icon: <User size={20} /> },
       { id: 'rbac', label: 'Role-Based Access', icon: <Shield size={20} /> },
       { id: 'security', label: 'Security Best Practices', icon: <Lock size={20} /> },
+      { id: 'wechat', label: 'WeChat Integration', icon: <MessageCircle size={20} /> },
+      { id: 'integrations', label: 'LiveSync Settings', icon: <Settings size={20} /> },
     ]
   }
 ];
@@ -335,7 +335,39 @@ export default function App() {
                       </div>
                     );
                   }
-                  
+
+                  const isSubItem = module.id === 'rbac' || module.id === 'security';
+                  if (isSubItem) {
+                    const isActive = activeModule === module.id;
+                    return (
+                      <div 
+                        key={module.id}
+                        className={`nav-item ${isActive ? 'active' : ''}`}
+                        onClick={() => setActiveModule(module.id)}
+                        style={{
+                          marginLeft: '20px',
+                          paddingLeft: '16px',
+                          paddingTop: '8px',
+                          paddingBottom: '8px',
+                          borderLeft: isActive 
+                            ? '2px solid var(--accent-primary)' 
+                            : '1px solid rgba(255,255,255,0.06)',
+                          borderTopLeftRadius: 0,
+                          borderBottomLeftRadius: 0,
+                          background: isActive ? 'rgba(108, 92, 231, 0.08)' : 'transparent',
+                          display: 'flex',
+                          alignItems: 'center',
+                          gap: '10px',
+                          fontSize: '0.825rem',
+                          color: isActive ? 'white' : 'var(--text-secondary)'
+                        }}
+                      >
+                        {module.icon}
+                        <span>{module.label}</span>
+                      </div>
+                    );
+                  }
+
                   return (
                     <div 
                       key={module.id}

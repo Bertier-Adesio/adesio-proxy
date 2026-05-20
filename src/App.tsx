@@ -271,7 +271,7 @@ export default function App() {
     <div className="app-container">
       <aside className="sidebar">
         <div className="sidebar-header" style={{ padding: '24px 20px', borderBottom: '1px solid var(--border-color)', marginBottom: '16px' }}>
-          <img src={logoImage} alt="Adesio" style={{ height: '28px', width: 'auto', display: 'block' }} />
+          <img src={logoImage} alt="Adesio" style={{ height: '36px', width: '100%', objectFit: 'contain', objectPosition: 'left center', display: 'block' }} />
         </div>
         
         <div className="sidebar-nav">

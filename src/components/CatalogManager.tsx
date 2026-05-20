@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { Search, Filter, Edit2, Zap, Save, Download, MoreHorizontal, CheckCircle } from 'lucide-react';
-import { motion } from 'framer-motion';
+import { useState } from 'react';
+import { Search, Filter, Edit2, Zap, Save, Download, MoreHorizontal, X, ExternalLink, FileText } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useAppContext, CatalogItem } from '../context/AppContext';
 
 export default function CatalogManager() {
@@ -9,6 +9,7 @@ export default function CatalogManager() {
   
   const [editingId, setEditingId] = useState<string | number | null>(null);
   const [editValues, setEditValues] = useState<Partial<CatalogItem>>({});
+  const [selectedRow, setSelectedRow] = useState<CatalogItem | null>(null);
 
   const handleEdit = (row: CatalogItem) => {
     setEditingId(row.id);
@@ -25,7 +26,7 @@ export default function CatalogManager() {
   const inputStyle = { padding: '4px 8px', background: 'rgba(255,255,255,0.1)', border: '1px solid var(--border-color)', borderRadius: '4px', color: 'var(--text-primary)', width: '100%', minWidth: '60px' };
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', height: '100%' }}>
+    <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', height: '100%', position: 'relative', overflow: 'hidden' }}>
       {/* Header and Controls */}
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end' }}>
         <div>
@@ -111,7 +112,7 @@ export default function CatalogManager() {
             {catalog.map((row) => {
               const isEditing = editingId === row.id;
               return (
-              <tr key={row.id} style={{ borderBottom: '1px solid var(--border-color)', transition: 'background 0.2s' }} className="table-row-hover">
+              <tr key={row.id} style={{ borderBottom: '1px solid var(--border-color)', transition: 'background 0.2s', cursor: isEditing ? 'default' : 'pointer' }} className="table-row-hover" onClick={() => !isEditing && setSelectedRow(row)}>
                 <td style={{ padding: '16px', color: 'var(--text-primary)' }} className="font-mono text-[0.95rem] font-semibold tracking-tight">{row.mpn}</td>
                 
                 {view === 'static' ? (
@@ -164,7 +165,7 @@ export default function CatalogManager() {
                       <Edit2 size={18} />
                     </button>
                   )}
-                  <button style={{ background: 'transparent', border: 'none', color: 'var(--text-secondary)', cursor: 'pointer', padding: '4px', marginLeft: '8px' }}>
+                  <button onClick={(e) => e.stopPropagation()} style={{ background: 'transparent', border: 'none', color: 'var(--text-secondary)', cursor: 'pointer', padding: '4px', marginLeft: '8px' }}>
                     <MoreHorizontal size={18} />
                   </button>
                 </td>
@@ -179,6 +180,61 @@ export default function CatalogManager() {
         )}
       </motion.div>
       
+      {/* QUICK VIEW SLIDE-OUT */}
+      <AnimatePresence>
+        {selectedRow && (
+          <motion.div 
+            initial={{ x: '100%', opacity: 0 }} 
+            animate={{ x: 0, opacity: 1 }} 
+            exit={{ x: '100%', opacity: 0 }}
+            transition={{ type: 'spring', damping: 25, stiffness: 200 }}
+            style={{ position: 'absolute', top: 0, right: 0, bottom: 0, width: '400px', background: 'var(--panel-bg)', borderLeft: '1px solid var(--border-color)', zIndex: 50, padding: '24px', display: 'flex', flexDirection: 'column', gap: '20px', boxShadow: '-10px 0 30px rgba(0,0,0,0.5)', backdropFilter: 'blur(20px)' }}
+          >
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+              <div>
+                <h3 style={{ fontSize: '1.25rem', fontWeight: 'bold', color: 'var(--text-primary)' }}>{selectedRow.mpn}</h3>
+                <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', marginTop: '4px' }}>{selectedRow.desc}</p>
+              </div>
+              <button onClick={() => setSelectedRow(null)} style={{ background: 'transparent', border: 'none', color: 'var(--text-secondary)', cursor: 'pointer' }}>
+                <X size={20} />
+              </button>
+            </div>
+            
+            <div className="card" style={{ padding: '16px', background: 'rgba(255,255,255,0.02)' }}>
+              <h4 style={{ color: 'var(--text-secondary)', fontSize: '0.85rem', marginBottom: '12px' }}>Inventory Overview</h4>
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
+                <div>
+                  <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>Stock</div>
+                  <div style={{ fontSize: '1.1rem', fontWeight: 'bold', color: selectedRow.stock > 0 ? '#10b981' : '#ef4444' }}>{selectedRow.stock.toLocaleString()}</div>
+                </div>
+                <div>
+                  <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>Lead Time</div>
+                  <div style={{ fontSize: '1.1rem', fontWeight: 'bold', color: 'var(--text-primary)' }}>{selectedRow.leadTime} weeks</div>
+                </div>
+                <div>
+                  <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>MOQ</div>
+                  <div style={{ fontSize: '1.1rem', fontWeight: 'bold', color: 'var(--text-primary)' }}>{selectedRow.moq.toLocaleString()}</div>
+                </div>
+                <div>
+                  <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)' }}>Lifecycle</div>
+                  <div style={{ fontSize: '1.1rem', fontWeight: 'bold', color: selectedRow.lifecycle === 'Active' ? '#10b981' : '#f59e0b' }}>{selectedRow.lifecycle}</div>
+                </div>
+              </div>
+            </div>
+            
+            <div className="card" style={{ padding: '16px', background: 'rgba(255,255,255,0.02)' }}>
+              <h4 style={{ color: 'var(--text-secondary)', fontSize: '0.85rem', marginBottom: '12px' }}>Resources</h4>
+              <button style={{ display: 'flex', alignItems: 'center', gap: '8px', background: 'rgba(108, 92, 231, 0.1)', color: 'var(--color-cpi)', padding: '10px 16px', borderRadius: '6px', border: '1px solid rgba(108, 92, 231, 0.2)', width: '100%', cursor: 'pointer' }}>
+                <FileText size={16} /> View Datasheet (PDF)
+              </button>
+              <button style={{ display: 'flex', alignItems: 'center', gap: '8px', background: 'rgba(255,255,255,0.05)', color: 'var(--text-primary)', padding: '10px 16px', borderRadius: '6px', border: '1px solid var(--border-color)', width: '100%', cursor: 'pointer', marginTop: '8px' }}>
+                <ExternalLink size={16} /> Octopart Listing
+              </button>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
       <style dangerouslySetInnerHTML={{__html: `
         .table-row-hover:hover {
           background-color: rgba(255, 255, 255, 0.02);

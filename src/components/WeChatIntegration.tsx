@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { MessageCircle, Smartphone, Shield, Lock, CheckCircle, QrCode, Fingerprint, Briefcase, ChevronRight } from 'lucide-react';
+import { useState } from 'react';
+import { MessageCircle, Shield, Lock, CheckCircle, Fingerprint, Briefcase } from 'lucide-react';
 
 export default function WeChatIntegration() {
   const [authStep, setAuthStep] = useState<'unauthenticated' | 'personal_verified' | 'wecom_bound'>('unauthenticated');

@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { 
   Upload, LayoutDashboard, Database, Wand2, Settings, BarChart, MessageCircle, 
-  Cloud, CloudRain, Shield, Cpu, Network, Server, FileJson, Search, Share2 
+  Cloud, Shield, Cpu, Network, Server, FileJson, Search, Share2 
 } from 'lucide-react';
 
 // --- DATA MODEL ---
@@ -118,6 +118,7 @@ const projectData = {
       ]
     },
     bridge: {
+      id: 'bridge',
       title: 'Inter-Cloud Bridge',
       desc: 'Secure VPN / Interconnect automatically syncing anonymized component data from APAC to the Global GCP Master without leaking PII.',
       icon: <Network size={32} className="text-gray-500" />
@@ -146,7 +147,7 @@ export default function InteractiveMap() {
       
       <header className="border-b px-6 py-4 flex flex-col sm:flex-row justify-between items-center z-10" style={{ borderColor: 'var(--border-color)', background: 'var(--panel-bg)' }}>
         <div>
-          <h1 className="text-2xl font-bold tracking-tight">Adesio Proxy <span style={{ color: 'var(--accent-primary)' }} className="font-medium">Interactive Map</span></h1>
+          <h1 className="text-2xl font-bold tracking-tight">Adesio Sync <span style={{ color: 'var(--accent-primary)' }} className="font-medium">Interactive Map</span></h1>
           <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>Supplier App PRD Architecture Visualization</p>
         </div>
         <div className="flex space-x-2 mt-4 sm:mt-0 p-1 rounded-lg border" style={{ background: 'rgba(0,0,0,0.2)', borderColor: 'var(--border-color)' }}>
@@ -298,8 +299,6 @@ function ArchitectureMap({ onSelect, selectedId }: { onSelect: any, selectedId: 
                 node={node} 
                 isSelected={selectedId === node.id}
                 onSelect={onSelect}
-                colorClass="bg-white border-orange-200 text-orange-800 hover:border-orange-400 hover:shadow-orange-100"
-                selectedClass="border-orange-500 ring-4 ring-orange-100 shadow-md scale-[1.02]"
               />
             ))}
           </div>
@@ -342,8 +341,6 @@ function ArchitectureMap({ onSelect, selectedId }: { onSelect: any, selectedId: 
                 node={node} 
                 isSelected={selectedId === node.id}
                 onSelect={onSelect}
-                colorClass="bg-white border-blue-200 text-blue-800 hover:border-blue-400 hover:shadow-blue-100"
-                selectedClass="border-blue-500 ring-4 ring-blue-100 shadow-md scale-[1.02]"
               />
             ))}
           </div>
@@ -354,7 +351,7 @@ function ArchitectureMap({ onSelect, selectedId }: { onSelect: any, selectedId: 
   );
 }
 
-function ArchitectureNode({ node, isSelected, onSelect, colorClass, selectedClass }: { node: any, isSelected: boolean, onSelect: any, colorClass: string, selectedClass: string }) {
+function ArchitectureNode({ node, isSelected, onSelect }: { node: any, isSelected: boolean, onSelect: any }) {
   return (
     <div 
       onClick={() => onSelect(node)}

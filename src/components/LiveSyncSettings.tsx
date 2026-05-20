@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Network, Key, Server, ToggleLeft, ToggleRight, CheckCircle, RefreshCw, Copy, ExternalLink, ShieldAlert } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { useAppContext } from '../context/AppContext';

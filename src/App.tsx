@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { 
   Upload, LayoutDashboard, Database, Wand2, Settings, BarChart, MessageCircle,
-  Search, Bell, User, Box, ArrowRight, Activity, Cloud, Globe
+  Search, Bell, Box, ArrowRight, Activity, Cloud, Globe, FileText
 } from 'lucide-react';
 import IngestionEngine from './components/IngestionEngine';
 import CatalogManager from './components/CatalogManager';
@@ -11,7 +11,9 @@ import WeChatIntegration from './components/WeChatIntegration';
 import TelemetryBilling from './components/TelemetryBilling';
 import InteractiveMap from './components/InteractiveMap';
 import { useAppContext } from './context/AppContext';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
+import { AreaChart, Area, XAxis, YAxis, Tooltip as RechartsTooltip, ResponsiveContainer } from 'recharts';
+import ProductDocumentation from './components/ProductDocumentation';
 import './index.css';
 
 const MODULES = [
@@ -26,8 +28,18 @@ const MODULES = [
 ];
 
 function DashboardView() {
-  const { catalog, settings } = useAppContext();
+  const { catalog, settings, activityLogs } = useAppContext();
   const missingCount = catalog.filter(c => !c.desc || !c.package || !c.mpn).length;
+
+  const chartData = [
+    { name: 'Mon', apiCalls: 12000, ingestions: 400 },
+    { name: 'Tue', apiCalls: 19000, ingestions: 300 },
+    { name: 'Wed', apiCalls: 15000, ingestions: 800 },
+    { name: 'Thu', apiCalls: 22000, ingestions: 1200 },
+    { name: 'Fri', apiCalls: 28000, ingestions: 900 },
+    { name: 'Sat', apiCalls: 14000, ingestions: 200 },
+    { name: 'Sun', apiCalls: 18000, ingestions: 500 },
+  ];
 
   return (
     <div className="dashboard-grid">
@@ -111,6 +123,88 @@ function DashboardView() {
           </div>
         </div>
       </motion.div>
+
+      {/* RECHARTS AREA CHART */}
+      <motion.div 
+        className="card"
+        initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, ease: 'easeOut', delay: 0.3 }}
+        style={{ gridColumn: '1 / -1' }}
+      >
+        <div className="card-header">
+          <BarChart className="card-icon" size={24} />
+          <h3 className="card-title">Global API Request Volume</h3>
+        </div>
+        <div className="card-body" style={{ height: '300px', marginTop: '16px' }}>
+          <ResponsiveContainer width="100%" height="100%">
+            <AreaChart data={chartData} margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
+              <defs>
+                <linearGradient id="colorApi" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="5%" stopColor="var(--color-cpi)" stopOpacity={0.8}/>
+                  <stop offset="95%" stopColor="var(--color-cpi)" stopOpacity={0}/>
+                </linearGradient>
+                <linearGradient id="colorIngest" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="5%" stopColor="var(--color-partcheck)" stopOpacity={0.8}/>
+                  <stop offset="95%" stopColor="var(--color-partcheck)" stopOpacity={0}/>
+                </linearGradient>
+              </defs>
+              <XAxis dataKey="name" stroke="var(--text-secondary)" fontSize={12} tickLine={false} axisLine={false} />
+              <YAxis stroke="var(--text-secondary)" fontSize={12} tickLine={false} axisLine={false} tickFormatter={(value) => `${value / 1000}k`} />
+              <RechartsTooltip 
+                contentStyle={{ background: 'var(--panel-bg)', borderColor: 'var(--border-color)', borderRadius: '8px', color: 'var(--text-primary)' }}
+                itemStyle={{ color: 'var(--text-primary)' }}
+              />
+              <Area type="monotone" dataKey="apiCalls" stroke="var(--color-cpi)" fillOpacity={1} fill="url(#colorApi)" />
+              <Area type="monotone" dataKey="ingestions" stroke="var(--color-partcheck)" fillOpacity={1} fill="url(#colorIngest)" />
+            </AreaChart>
+          </ResponsiveContainer>
+        </div>
+      </motion.div>
+
+      {/* ACTIVITY FEED */}
+      <motion.div 
+        className="card"
+        initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, ease: 'easeOut', delay: 0.4 }}
+        style={{ gridColumn: '1 / -1' }}
+      >
+        <div className="card-header">
+          <Activity className="card-icon" size={24} />
+          <h3 className="card-title">Real-Time Syndication Log</h3>
+        </div>
+        <div className="card-body" style={{ marginTop: '16px' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+            <AnimatePresence>
+              {activityLogs.map((log) => (
+                <motion.div 
+                  key={log.id} 
+                  initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0 }}
+                  style={{ display: 'flex', alignItems: 'center', gap: '12px', padding: '12px', background: 'rgba(255,255,255,0.02)', borderRadius: '8px', border: '1px solid var(--border-color)' }}
+                >
+                  <div style={{ padding: '6px', borderRadius: '50%', background: log.type === 'error' ? 'rgba(239, 68, 68, 0.1)' : log.type === 'warning' ? 'rgba(245, 158, 11, 0.1)' : 'rgba(16, 185, 129, 0.1)', color: log.type === 'error' ? '#ef4444' : log.type === 'warning' ? '#f59e0b' : '#10b981' }}>
+                    <Activity size={16} />
+                  </div>
+                  <div style={{ flex: 1 }}>
+                    <div style={{ fontSize: '0.9rem', color: 'var(--text-primary)' }}>{log.message}</div>
+                    <div style={{ fontSize: '0.75rem', color: 'var(--text-secondary)', display: 'flex', gap: '8px', marginTop: '4px' }}>
+                      <span style={{ fontWeight: 600, color: 'var(--accent-primary)' }}>{log.source}</span>
+                      <span>•</span>
+                      <span>{new Date(log.timestamp).toLocaleTimeString()}</span>
+                      <button 
+                        onClick={() => {
+                          window.dispatchEvent(new CustomEvent('navigate', { detail: 'catalog' }));
+                        }}
+                        style={{ background: 'none', border: 'none', color: 'var(--accent-primary)', cursor: 'pointer', fontSize: '0.75rem', textDecoration: 'underline' }}
+                      >
+                        View Catalog
+                      </button>
+                    </div>
+                  </div>
+                </motion.div>
+              ))}
+            </AnimatePresence>
+          </div>
+        </div>
+      </motion.div>
+
     </div>
   );
 }
@@ -134,6 +228,16 @@ function DefaultView({ title }: { title: string }) {
 
 export default function App() {
   const [activeModule, setActiveModule] = useState('dashboard');
+  const [showDocModal, setShowDocModal] = useState(false);
+
+  useEffect(() => {
+    const handleNavigate = (e: Event) => {
+      const customEvent = e as CustomEvent;
+      if (customEvent.detail) setActiveModule(customEvent.detail);
+    };
+    window.addEventListener('navigate', handleNavigate);
+    return () => window.removeEventListener('navigate', handleNavigate);
+  }, []);
 
   const activeTitle = MODULES.find(m => m.id === activeModule)?.label || 'Dashboard';
 
@@ -142,7 +246,7 @@ export default function App() {
       <aside className="sidebar">
         <div className="sidebar-header">
           <Box className="logo-icon" size={28} />
-          <span className="logo-text">Adesio Proxy</span>
+          <span className="logo-text">Adesio Sync</span>
         </div>
         
         <div className="sidebar-nav">
@@ -158,8 +262,26 @@ export default function App() {
           ))}
         </div>
 
-        <div className="sidebar-footer">
-          v2.0 Multi-Cloud Build
+        <div className="sidebar-footer" style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+          <span>v2.0 Multi-Cloud Build</span>
+          <button 
+            onClick={() => setShowDocModal(true)}
+            style={{ 
+              background: 'none', 
+              border: 'none', 
+              color: 'var(--accent-primary)', 
+              textDecoration: 'none', 
+              display: 'flex', 
+              alignItems: 'center', 
+              gap: '6px', 
+              cursor: 'pointer',
+              padding: 0,
+              fontFamily: 'inherit',
+              fontSize: 'inherit'
+            }}
+          >
+            <FileText size={14} /> Product Documentation
+          </button>
         </div>
       </aside>
 
@@ -195,6 +317,8 @@ export default function App() {
            : <DefaultView title={activeTitle} />}
         </div>
       </main>
+
+      <ProductDocumentation isOpen={showDocModal} onClose={() => setShowDocModal(false)} />
     </div>
   );
 }

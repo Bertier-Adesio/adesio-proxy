@@ -10,6 +10,7 @@ import AdesioAssist from './components/AdesioAssist';
 import WeChatIntegration from './components/WeChatIntegration';
 import TelemetryBilling from './components/TelemetryBilling';
 import { useAppContext } from './context/AppContext';
+import { motion } from 'framer-motion';
 import './index.css';
 
 const MODULES = [
@@ -28,7 +29,10 @@ function DashboardView() {
 
   return (
     <div className="dashboard-grid">
-      <div className="card">
+      <motion.div 
+        className="card"
+        initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, ease: 'easeOut' }} whileHover={{ scale: 1.02 }}
+      >
         <div className="card-header">
           <Box className="card-icon" size={24} />
           <h3 className="card-title">Network Status</h3>
@@ -54,9 +58,12 @@ function DashboardView() {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
 
-      <div className="card">
+      <motion.div 
+        className="card"
+        initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, ease: 'easeOut', delay: 0.1 }} whileHover={{ scale: 1.02 }}
+      >
         <div className="card-header">
           <Activity className="card-icon" size={24} />
           <h3 className="card-title">Data Health</h3>
@@ -64,22 +71,25 @@ function DashboardView() {
         <div className="card-body">
           <p>AI ingestion metrics for the current billing cycle.</p>
           <div style={{ marginTop: '16px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', color: 'var(--text-primary)' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', color: 'var(--text-primary)' }}>
               <span>Total MPNs Managed</span>
-              <strong>{catalog.length.toLocaleString()}</strong>
+              <strong className="text-3xl font-bold font-mono text-white tracking-tight">{catalog.length.toLocaleString()}</strong>
             </div>
-            <div style={{ display: 'flex', justifyContent: 'space-between', color: 'var(--text-primary)' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', color: 'var(--text-primary)' }}>
               <span>Missing MVP Fields</span>
-              <strong>{missingCount}</strong>
+              <strong className="text-3xl font-bold font-mono text-white tracking-tight">{missingCount}</strong>
             </div>
             <button style={{ marginTop: '12px', padding: '10px', background: 'var(--accent-primary)', color: 'white', border: 'none', borderRadius: '6px', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}>
               <Wand2 size={16} /> Enrich with Adesio Assist
             </button>
           </div>
         </div>
-      </div>
+      </motion.div>
 
-      <div className="card">
+      <motion.div 
+        className="card"
+        initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, ease: 'easeOut', delay: 0.2 }} whileHover={{ scale: 1.02 }}
+      >
         <div className="card-header">
           <Cloud className="card-icon" size={24} />
           <h3 className="card-title">Multi-Cloud Sync</h3>
@@ -98,7 +108,7 @@ function DashboardView() {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }

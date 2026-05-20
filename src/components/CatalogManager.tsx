@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Search, Filter, Edit2, Zap, Save, Download, MoreHorizontal, CheckCircle } from 'lucide-react';
+import { motion } from 'framer-motion';
 import { useAppContext, CatalogItem } from '../context/AppContext';
 
 export default function CatalogManager() {
@@ -43,7 +44,10 @@ export default function CatalogManager() {
       </div>
 
       {/* Tabs & Search */}
-      <div className="card" style={{ padding: '16px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderRadius: '8px' }}>
+      <motion.div 
+        className="card" style={{ padding: '16px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderRadius: '8px' }}
+        initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, ease: 'easeOut', delay: 0.1 }}
+      >
         <div style={{ display: 'flex', background: 'rgba(0,0,0,0.2)', padding: '4px', borderRadius: '8px' }}>
           <button 
             onClick={() => setView('static')}
@@ -72,10 +76,13 @@ export default function CatalogManager() {
             <Filter size={16} />
           </button>
         </div>
-      </div>
+      </motion.div>
 
       {/* Data Grid */}
-      <div className="card" style={{ padding: '0', flex: 1, overflow: 'auto' }}>
+      <motion.div 
+        className="card" style={{ padding: '0', flex: 1, overflow: 'auto' }}
+        initial={{ opacity: 0, y: 15 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, ease: 'easeOut', delay: 0.2 }}
+      >
         <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left' }}>
           <thead style={{ position: 'sticky', top: 0, background: 'var(--panel-bg)', zIndex: 10 }}>
             <tr style={{ borderBottom: '1px solid var(--border-color)' }}>
@@ -105,7 +112,7 @@ export default function CatalogManager() {
               const isEditing = editingId === row.id;
               return (
               <tr key={row.id} style={{ borderBottom: '1px solid var(--border-color)', transition: 'background 0.2s' }} className="table-row-hover">
-                <td style={{ padding: '16px', fontWeight: 600, color: 'var(--text-primary)' }}>{row.mpn}</td>
+                <td style={{ padding: '16px', color: 'var(--text-primary)' }} className="font-mono text-[0.95rem] font-semibold tracking-tight">{row.mpn}</td>
                 
                 {view === 'static' ? (
                   <>
@@ -170,7 +177,7 @@ export default function CatalogManager() {
             <Zap size={14} /> LiveSync enabled. Edits to this grid are pushed instantly via your active connectors.
           </div>
         )}
-      </div>
+      </motion.div>
       
       <style dangerouslySetInnerHTML={{__html: `
         .table-row-hover:hover {

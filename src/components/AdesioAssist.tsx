@@ -1,14 +1,23 @@
 import React, { useState } from 'react';
 import { FileText, UploadCloud, Cpu, CheckCircle, XCircle, Wand2, ArrowRight } from 'lucide-react';
+import { useAppContext } from '../context/AppContext';
 
 export default function AdesioAssist() {
   const [step, setStep] = useState<'upload' | 'processing' | 'review'>('upload');
+  const { updateCatalogItem } = useAppContext();
   
   const handleSimulateUpload = () => {
     setStep('processing');
     setTimeout(() => {
       setStep('review');
     }, 1500);
+  };
+
+  const handleApproveAll = () => {
+    // 3 is STM32F103C8T6, 1 is CRCW040210K0FKED (based on defaultCatalog IDs)
+    updateCatalogItem(3, { package: 'LQFP-48-ENRICHED' });
+    updateCatalogItem(1, { rohs: true, desc: 'Resistor SMD 10K Ohm 1% 1/16W 0402 [AI ENRICHED]' });
+    setStep('upload');
   };
 
   return (
@@ -87,7 +96,7 @@ export default function AdesioAssist() {
                 </div>
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '12px', fontSize: '0.9rem' }}>
                   <div><span style={{ color: 'var(--text-secondary)', fontSize: '0.8rem', display: 'block' }}>Operating Temp</span> <span style={{ color: '#10b981', fontWeight: 500 }}>-40°C to 85°C</span></div>
-                  <div><span style={{ color: 'var(--text-secondary)', fontSize: '0.8rem', display: 'block' }}>Package</span> <span style={{ color: '#10b981', fontWeight: 500 }}>LQFP-48</span></div>
+                  <div><span style={{ color: 'var(--text-secondary)', fontSize: '0.8rem', display: 'block' }}>Package</span> <span style={{ color: '#10b981', fontWeight: 500 }}>LQFP-48-ENRICHED</span></div>
                   <div><span style={{ color: 'var(--text-secondary)', fontSize: '0.8rem', display: 'block' }}>Pin Count</span> <span style={{ color: '#10b981', fontWeight: 500 }}>48</span></div>
                 </div>
               </div>
@@ -111,7 +120,7 @@ export default function AdesioAssist() {
             
             <div style={{ padding: '20px 24px', background: 'rgba(0,0,0,0.2)', display: 'flex', justifyContent: 'flex-end' }}>
               <button 
-                onClick={() => setStep('upload')}
+                onClick={handleApproveAll}
                 style={{ 
                   padding: '10px 20px', background: '#8b5cf6', color: 'white', 
                   border: 'none', borderRadius: '6px', fontWeight: 600, cursor: 'pointer',

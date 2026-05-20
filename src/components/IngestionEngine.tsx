@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { UploadCloud, FileType, CheckCircle, ArrowRight, Sparkles, AlertCircle } from 'lucide-react';
+import { useAppContext } from '../context/AppContext';
 
 export default function IngestionEngine() {
   const [step, setStep] = useState<'upload' | 'mapping' | 'success'>('upload');
   const [isDragging, setIsDragging] = useState(false);
+  const { addCatalogItems } = useAppContext();
 
   const handleDragOver = (e: React.DragEvent) => {
     e.preventDefault();
@@ -17,13 +19,11 @@ export default function IngestionEngine() {
   const handleDrop = (e: React.DragEvent) => {
     e.preventDefault();
     setIsDragging(false);
-    // Simulate processing
     setTimeout(() => setStep('mapping'), 800);
   };
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '24px', maxWidth: '1000px', margin: '0 auto', width: '100%' }}>
-      
       {/* HEADER */}
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <div>
@@ -124,7 +124,10 @@ export default function IngestionEngine() {
           </table>
           <div style={{ padding: '20px 24px', background: 'rgba(0,0,0,0.2)', display: 'flex', justifyContent: 'flex-end' }}>
             <button 
-              onClick={() => setStep('success')}
+              onClick={() => {
+                setStep('success');
+                addCatalogItems([{ mpn: 'AUTO-INGEST-01', desc: 'Mock Ingested Part from ERP', package: '1206', rohs: true, stock: 1500, leadTime: 2, moq: 500, price: 0.12 }]);
+              }}
               style={{ 
                 padding: '12px 24px', background: 'var(--accent-primary)', color: 'white', 
                 border: 'none', borderRadius: '8px', fontWeight: 600, cursor: 'pointer',
@@ -144,7 +147,7 @@ export default function IngestionEngine() {
           </div>
           <h3 style={{ fontSize: '1.5rem', fontWeight: 600, marginBottom: '8px' }}>Ingestion Complete</h3>
           <p style={{ color: 'var(--text-secondary)', marginBottom: '32px', maxWidth: '400px' }}>
-            14,230 parts successfully processed, mapped, and synced to the Global Master Database.
+            1 part successfully processed, mapped, and synced to the Global Master Database. Check the Dashboard metrics.
           </p>
           <div style={{ display: 'flex', gap: '16px' }}>
             <button 

@@ -1,22 +1,27 @@
 import React, { useState } from 'react';
-import { Search, Filter, Edit2, Zap, Save, Download, MoreHorizontal } from 'lucide-react';
-
-const STATIC_DATA = [
-  { id: 1, mpn: 'CRCW040210K0FKED', desc: 'Resistor SMD 10K Ohm 1% 1/16W 0402', package: '0402', rohs: true, lifecycle: 'Active' },
-  { id: 2, mpn: 'C0603C104K5RACTU', desc: 'Capacitor Ceramic 0.1uF 50V X7R 0603', package: '0603', rohs: true, lifecycle: 'Active' },
-  { id: 3, mpn: 'STM32F103C8T6', desc: 'MCU 32-bit ARM Cortex-M3 64KB Flash', package: 'LQFP-48', rohs: true, lifecycle: 'Active' },
-  { id: 4, mpn: 'LM317T', desc: 'Linear Voltage Regulator 1.2V to 37V', package: 'TO-220', rohs: true, lifecycle: 'NRND' },
-];
-
-const DYNAMIC_DATA = [
-  { id: 1, mpn: 'CRCW040210K0FKED', stock: 45000, leadTime: 12, moq: 10000, price: 0.002 },
-  { id: 2, mpn: 'C0603C104K5RACTU', stock: 120000, leadTime: 8, moq: 4000, price: 0.005 },
-  { id: 3, mpn: 'STM32F103C8T6', stock: 450, leadTime: 24, moq: 1, price: 2.45 },
-  { id: 4, mpn: 'LM317T', stock: 0, leadTime: 52, moq: 100, price: 0.45 },
-];
+import { Search, Filter, Edit2, Zap, Save, Download, MoreHorizontal, CheckCircle } from 'lucide-react';
+import { useAppContext, CatalogItem } from '../context/AppContext';
 
 export default function CatalogManager() {
   const [view, setView] = useState<'static' | 'dynamic'>('dynamic');
+  const { catalog, updateCatalogItem } = useAppContext();
+  
+  const [editingId, setEditingId] = useState<string | number | null>(null);
+  const [editValues, setEditValues] = useState<Partial<CatalogItem>>({});
+
+  const handleEdit = (row: CatalogItem) => {
+    setEditingId(row.id);
+    setEditValues(row);
+  };
+
+  const handleSave = () => {
+    if (editingId !== null) {
+      updateCatalogItem(editingId, editValues);
+      setEditingId(null);
+    }
+  };
+
+  const inputStyle = { padding: '4px 8px', background: 'rgba(255,255,255,0.1)', border: '1px solid var(--border-color)', borderRadius: '4px', color: 'var(--text-primary)', width: '100%', minWidth: '60px' };
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', height: '100%' }}>
@@ -96,48 +101,68 @@ export default function CatalogManager() {
             </tr>
           </thead>
           <tbody>
-            {(view === 'static' ? STATIC_DATA : DYNAMIC_DATA).map((row, i) => (
-              <tr key={i} style={{ borderBottom: '1px solid var(--border-color)', transition: 'background 0.2s' }} className="table-row-hover">
+            {catalog.map((row) => {
+              const isEditing = editingId === row.id;
+              return (
+              <tr key={row.id} style={{ borderBottom: '1px solid var(--border-color)', transition: 'background 0.2s' }} className="table-row-hover">
                 <td style={{ padding: '16px', fontWeight: 600, color: 'var(--text-primary)' }}>{row.mpn}</td>
                 
                 {view === 'static' ? (
                   <>
-                    <td style={{ padding: '16px', color: 'var(--text-secondary)', fontSize: '0.9rem' }}>{(row as any).desc}</td>
-                    <td style={{ padding: '16px', color: 'var(--text-secondary)' }}>{(row as any).package}</td>
-                    <td style={{ padding: '16px' }}>
-                      {(row as any).rohs ? <span className="badge badge-green">Compliant</span> : <span className="badge badge-red">Non-Compliant</span>}
+                    <td style={{ padding: '16px', color: 'var(--text-secondary)', fontSize: '0.9rem' }}>
+                      {isEditing ? <input value={editValues.desc || ''} onChange={e => setEditValues({...editValues, desc: e.target.value})} style={inputStyle} /> : row.desc}
+                    </td>
+                    <td style={{ padding: '16px', color: 'var(--text-secondary)' }}>
+                      {isEditing ? <input value={editValues.package || ''} onChange={e => setEditValues({...editValues, package: e.target.value})} style={inputStyle} /> : row.package}
                     </td>
                     <td style={{ padding: '16px' }}>
-                      {(row as any).lifecycle === 'Active' ? <span className="badge badge-green">Active</span> : <span className="badge badge-yellow">{(row as any).lifecycle}</span>}
+                      {isEditing ? <input type="checkbox" checked={editValues.rohs || false} onChange={e => setEditValues({...editValues, rohs: e.target.checked})} /> : (row.rohs ? <span className="badge badge-green">Compliant</span> : <span className="badge badge-red">Non-Compliant</span>)}
+                    </td>
+                    <td style={{ padding: '16px' }}>
+                      {isEditing ? <select value={editValues.lifecycle || 'Active'} onChange={e => setEditValues({...editValues, lifecycle: e.target.value})} style={inputStyle}><option>Active</option><option>NRND</option><option>Obsolete</option></select> : (row.lifecycle === 'Active' ? <span className="badge badge-green">Active</span> : <span className="badge badge-yellow">{row.lifecycle}</span>)}
                     </td>
                   </>
                 ) : (
                   <>
                     <td style={{ padding: '16px' }}>
-                      <div style={{ display: 'inline-flex', alignItems: 'center', background: 'rgba(255,255,255,0.05)', padding: '6px 12px', borderRadius: '4px', border: '1px solid var(--border-color)', color: (row as any).stock > 0 ? '#10b981' : '#ef4444', fontWeight: 600 }}>
-                        {(row as any).stock.toLocaleString()}
-                      </div>
+                      {isEditing ? <input type="number" value={editValues.stock || 0} onChange={e => setEditValues({...editValues, stock: parseInt(e.target.value) || 0})} style={inputStyle} /> : (
+                        <div style={{ display: 'inline-flex', alignItems: 'center', background: 'rgba(255,255,255,0.05)', padding: '6px 12px', borderRadius: '4px', border: '1px solid var(--border-color)', color: row.stock > 0 ? '#10b981' : '#ef4444', fontWeight: 600 }}>
+                          {row.stock.toLocaleString()}
+                        </div>
+                      )}
                     </td>
                     <td style={{ padding: '16px' }}>
-                      <div style={{ display: 'inline-flex', alignItems: 'center', background: 'rgba(255,255,255,0.05)', padding: '6px 12px', borderRadius: '4px', border: '1px solid var(--border-color)', color: 'var(--text-primary)' }}>
-                        {(row as any).leadTime}
-                      </div>
+                      {isEditing ? <input type="number" value={editValues.leadTime || 0} onChange={e => setEditValues({...editValues, leadTime: parseInt(e.target.value) || 0})} style={inputStyle} /> : (
+                        <div style={{ display: 'inline-flex', alignItems: 'center', background: 'rgba(255,255,255,0.05)', padding: '6px 12px', borderRadius: '4px', border: '1px solid var(--border-color)', color: 'var(--text-primary)' }}>
+                          {row.leadTime}
+                        </div>
+                      )}
                     </td>
-                    <td style={{ padding: '16px', color: 'var(--text-secondary)' }}>{(row as any).moq.toLocaleString()}</td>
-                    <td style={{ padding: '16px', color: 'var(--text-primary)', fontWeight: 500 }}>${(row as any).price.toFixed(4)}</td>
+                    <td style={{ padding: '16px', color: 'var(--text-secondary)' }}>
+                      {isEditing ? <input type="number" value={editValues.moq || 0} onChange={e => setEditValues({...editValues, moq: parseInt(e.target.value) || 0})} style={inputStyle} /> : row.moq.toLocaleString()}
+                    </td>
+                    <td style={{ padding: '16px', color: 'var(--text-primary)', fontWeight: 500 }}>
+                      {isEditing ? <input type="number" step="0.001" value={editValues.price || 0} onChange={e => setEditValues({...editValues, price: parseFloat(e.target.value) || 0})} style={inputStyle} /> : `$${row.price.toFixed(4)}`}
+                    </td>
                   </>
                 )}
                 
                 <td style={{ padding: '16px', textAlign: 'right' }}>
-                  <button style={{ background: 'transparent', border: 'none', color: 'var(--text-secondary)', cursor: 'pointer', padding: '4px' }}>
-                    {view === 'dynamic' ? <Save size={18} color="var(--accent-primary)" /> : <Edit2 size={18} />}
-                  </button>
+                  {isEditing ? (
+                    <button onClick={handleSave} style={{ background: 'transparent', border: 'none', color: 'var(--text-secondary)', cursor: 'pointer', padding: '4px' }}>
+                      <Save size={18} color="var(--accent-primary)" />
+                    </button>
+                  ) : (
+                    <button onClick={() => handleEdit(row)} style={{ background: 'transparent', border: 'none', color: 'var(--text-secondary)', cursor: 'pointer', padding: '4px' }}>
+                      <Edit2 size={18} />
+                    </button>
+                  )}
                   <button style={{ background: 'transparent', border: 'none', color: 'var(--text-secondary)', cursor: 'pointer', padding: '4px', marginLeft: '8px' }}>
                     <MoreHorizontal size={18} />
                   </button>
                 </td>
               </tr>
-            ))}
+            )})}
           </tbody>
         </table>
         {view === 'dynamic' && (

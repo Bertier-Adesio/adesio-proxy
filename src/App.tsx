@@ -9,6 +9,7 @@ import LiveSyncSettings from './components/LiveSyncSettings';
 import AdesioAssist from './components/AdesioAssist';
 import WeChatIntegration from './components/WeChatIntegration';
 import TelemetryBilling from './components/TelemetryBilling';
+import { useAppContext } from './context/AppContext';
 import './index.css';
 
 const MODULES = [
@@ -22,6 +23,9 @@ const MODULES = [
 ];
 
 function DashboardView() {
+  const { catalog, settings } = useAppContext();
+  const missingCount = catalog.filter(c => !c.desc || !c.package || !c.mpn).length;
+
   return (
     <div className="dashboard-grid">
       <div className="card">
@@ -34,7 +38,7 @@ function DashboardView() {
           <div style={{ marginTop: '16px', display: 'flex', flexDirection: 'column', gap: '12px' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between' }}>
               <span>Octopart API</span>
-              <span className="badge badge-green">Unlocked</span>
+              {settings.octopartEnabled ? <span className="badge badge-green">Unlocked</span> : <span className="badge badge-red">Locked</span>}
             </div>
             <div style={{ display: 'flex', justifyContent: 'space-between' }}>
               <span>SiliconExpert</span>
@@ -42,7 +46,11 @@ function DashboardView() {
             </div>
             <div style={{ display: 'flex', justifyContent: 'space-between' }}>
               <span>DigiKey EDI</span>
-              <span className="badge badge-red">Locked (Missing Data)</span>
+              {settings.digikeyEnabled ? <span className="badge badge-green">Unlocked</span> : <span className="badge badge-red">Locked</span>}
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+              <span>Avnet API</span>
+              {settings.avnetEnabled ? <span className="badge badge-green">Unlocked</span> : <span className="badge badge-red">Locked</span>}
             </div>
           </div>
         </div>
@@ -58,11 +66,11 @@ function DashboardView() {
           <div style={{ marginTop: '16px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', color: 'var(--text-primary)' }}>
               <span>Total MPNs Managed</span>
-              <strong>14,230</strong>
+              <strong>{catalog.length.toLocaleString()}</strong>
             </div>
             <div style={{ display: 'flex', justifyContent: 'space-between', color: 'var(--text-primary)' }}>
               <span>Missing MVP Fields</span>
-              <strong>124</strong>
+              <strong>{missingCount}</strong>
             </div>
             <button style={{ marginTop: '12px', padding: '10px', background: 'var(--accent-primary)', color: 'white', border: 'none', borderRadius: '6px', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}>
               <Wand2 size={16} /> Enrich with Adesio Assist

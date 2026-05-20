@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import { Network, Key, Server, ToggleLeft, ToggleRight, CheckCircle, RefreshCw, Copy, ExternalLink, ShieldAlert } from 'lucide-react';
+import { useAppContext } from '../context/AppContext';
 
 export default function LiveSyncSettings() {
   const [activeTab, setActiveTab] = useState<'connectors' | 'sftp' | 'api'>('connectors');
-  const [octopartEnabled, setOctopartEnabled] = useState(true);
-  const [avnetEnabled, setAvnetEnabled] = useState(false);
-  const [digikeyEnabled, setDigikeyEnabled] = useState(true);
+  const { settings, updateSettings } = useAppContext();
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '24px', maxWidth: '1000px', margin: '0 auto', width: '100%' }}>
@@ -41,9 +40,9 @@ export default function LiveSyncSettings() {
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '20px' }}>
           {/* Connector Cards */}
           {[
-            { name: 'Octopart API', type: 'Aggregator', enabled: octopartEnabled, setter: setOctopartEnabled, status: 'Active (Synced 5m ago)', color: '#10b981' },
-            { name: 'DigiKey EDI', type: 'Distributor', enabled: digikeyEnabled, setter: setDigikeyEnabled, status: 'Active (Synced 1h ago)', color: '#10b981' },
-            { name: 'Avnet API', type: 'Distributor', enabled: avnetEnabled, setter: setAvnetEnabled, status: 'Disabled', color: 'var(--text-secondary)' },
+            { name: 'Octopart API', type: 'Aggregator', enabled: settings.octopartEnabled, setter: (val: boolean) => updateSettings({octopartEnabled: val}), status: 'Active (Synced 5m ago)', color: '#10b981' },
+            { name: 'DigiKey EDI', type: 'Distributor', enabled: settings.digikeyEnabled, setter: (val: boolean) => updateSettings({digikeyEnabled: val}), status: 'Active (Synced 1h ago)', color: '#10b981' },
+            { name: 'Avnet API', type: 'Distributor', enabled: settings.avnetEnabled, setter: (val: boolean) => updateSettings({avnetEnabled: val}), status: 'Disabled', color: 'var(--text-secondary)' },
           ].map((connector, idx) => (
             <div key={idx} className="card" style={{ padding: '24px', display: 'flex', flexDirection: 'column', gap: '16px' }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
@@ -59,8 +58,8 @@ export default function LiveSyncSettings() {
               </div>
               <div style={{ flex: 1 }}></div>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: '0.85rem' }}>
-                <span style={{ color: connector.color, display: 'flex', alignItems: 'center', gap: '6px' }}>
-                  {connector.enabled ? <CheckCircle size={14} /> : <ShieldAlert size={14} />} {connector.status}
+                <span style={{ color: connector.enabled ? connector.color : 'var(--text-secondary)', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                  {connector.enabled ? <CheckCircle size={14} /> : <ShieldAlert size={14} />} {connector.enabled ? connector.status : 'Disabled'}
                 </span>
                 {connector.enabled && <a href="#" style={{ color: 'var(--accent-primary)', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '4px' }}>Logs <ExternalLink size={12} /></a>}
               </div>

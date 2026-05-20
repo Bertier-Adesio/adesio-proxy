@@ -78,8 +78,8 @@ const FALLBACK_DOC: DocContent = {
         title: '7. User Details', 
         desc: 'A profile administration portal showing operator info, APAC region gate details, and catalog API authority credentials. It consists of three core functional tabs:\n\n• User Profile Details: Maintains operator metadata, assigned regional cloud gateways (such as Alibaba APAC), and active API authority scopes.\n• Role-Based Access Control (RBAC): A secure permissions checklist granting or restricting operational authority (e.g., catalog writes, AI enrichment triggers) per user role.\n• Security Best Practices: Integration compliance status covering SHA256 signature verification, WeChat IAM mappings, and HTTPS-only enforce protocols.' 
       },
-      { title: '8. WeChat Integration (Omnichannel)', desc: 'A dedicated module built for the APAC market. It provides secure Identity & Access Management (IAM) and an interactive simulator to preview component catalog rendering in real-time inside WeChat Mini-Programs for localized buyers.' },
-      { title: '9. LiveSync Settings', desc: 'The routing matrix for outbound data. Users configure their live API endpoints, legacy SFTP connections, and webhook payloads for their downstream partners. It ensures that when a price changes in Adesio, it is instantly reflected on Octopart or DigiKey.' }
+      { title: '8. LiveSync Settings', desc: 'The routing matrix for outbound data. Users configure their live API endpoints, legacy SFTP connections, and webhook payloads for their downstream partners. It ensures that when a price changes in Adesio, it is instantly reflected on Octopart or DigiKey.' },
+      { title: '9. WeChat Integration (Omnichannel)', desc: 'A dedicated module built for the APAC market. It provides secure Identity & Access Management (IAM) and an interactive simulator to preview component catalog rendering in real-time inside WeChat Mini-Programs for localized buyers.' }
     ]
   }
 };

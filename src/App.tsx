@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { 
   Upload, LayoutDashboard, Database, Wand2, Settings, BarChart, MessageCircle,
   Search, Bell, Box, ArrowRight, Activity, Cloud, Globe, FileText,
-  User, Shield, Lock
+  User
 } from 'lucide-react';
 import IngestionEngine from './components/IngestionEngine';
 import CatalogManager from './components/CatalogManager';
@@ -27,17 +27,15 @@ const NAVIGATION_SECTIONS = [
       { id: 'catalog', label: 'Catalog Manager', icon: <Database size={20} /> },
       { id: 'assist', label: 'Adesio Assist', icon: <Wand2 size={20} /> },
       { id: 'map', label: 'Global Network Map', icon: <Globe size={20} /> },
-      { id: 'telemetry', label: 'Telemetry & Billing', icon: <BarChart size={20} /> },
     ]
   },
   {
     title: 'Settings',
     items: [
       { id: 'profile', label: 'User Details', icon: <User size={20} /> },
-      { id: 'rbac', label: 'Role-Based Access', icon: <Shield size={20} /> },
-      { id: 'security', label: 'Security Best Practices', icon: <Lock size={20} /> },
-      { id: 'wechat', label: 'WeChat Integration', icon: <MessageCircle size={20} /> },
       { id: 'integrations', label: 'LiveSync Settings', icon: <Settings size={20} /> },
+      { id: 'wechat', label: 'WeChat Integration', icon: <MessageCircle size={20} /> },
+      { id: 'telemetry', label: 'Telemetry & Billing', icon: <BarChart size={20} /> },
     ]
   }
 ];
@@ -332,43 +330,6 @@ export default function App() {
                             Alibaba Front-Office
                           </span>
                         </div>
-                      </div>
-                    );
-                  }
-
-                  const isSubItem = module.id === 'rbac' || module.id === 'security';
-                  if (isSubItem) {
-                    const isActive = activeModule === module.id;
-                    return (
-                      <div 
-                        key={module.id}
-                        className={`nav-item ${isActive ? 'active' : ''}`}
-                        onClick={() => setActiveModule(module.id)}
-                        style={{
-                          marginLeft: '20px',
-                          paddingLeft: '16px',
-                          paddingTop: '8px',
-                          paddingBottom: '8px',
-                          borderLeft: isActive 
-                            ? '2px solid var(--accent-primary)' 
-                            : '1px solid rgba(255,255,255,0.06)',
-                          borderTop: 'none',
-                          borderRight: 'none',
-                          borderBottom: 'none',
-                          borderTopLeftRadius: 0,
-                          borderBottomLeftRadius: 0,
-                          borderTopRightRadius: 0,
-                          borderBottomRightRadius: 0,
-                          background: isActive ? 'rgba(108, 92, 231, 0.08)' : 'transparent',
-                          display: 'flex',
-                          alignItems: 'center',
-                          gap: '10px',
-                          fontSize: '0.825rem',
-                          color: isActive ? 'white' : 'var(--text-secondary)'
-                        }}
-                      >
-                        {module.icon}
-                        <span>{module.label}</span>
                       </div>
                     );
                   }

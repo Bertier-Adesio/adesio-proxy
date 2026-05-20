@@ -78,8 +78,8 @@ A secure permissions checklist granting or restricting operational authority (e.
 #### 🔒 Security Best Practices
 Integration compliance status covering SHA256 signature verification, WeChat IAM mappings, and HTTPS-only enforce protocols.
 
-### 8. 💬 WeChat Integration (Omnichannel)
-A specialized module acknowledging the importance of the APAC market. It provides Identity & Access Management (IAM) and an interactive simulator to visualize to the user how syndicated component data will render inside a WeChat Mini-Program for localized buyers.
-
-### 9. ⚡ LiveSync Settings
+### 8. ⚡ LiveSync Settings
 The routing matrix for outbound data. Users configure their live API endpoints, legacy SFTP connections, and webhook payloads for their downstream partners. It ensures that when a price changes in Adesio, it is instantly reflected on Octopart or DigiKey.
+
+### 9. 💬 WeChat Integration (Omnichannel)
+A dedicated module built for the APAC market. It provides Identity & Access Management (IAM) and an interactive simulator to visualize to the user how syndicated component data will render inside a WeChat Mini-Program for localized buyers.

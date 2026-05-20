@@ -11,6 +11,7 @@ export interface CatalogItem {
   leadTime: number;
   moq: number;
   price: number;
+  channels?: string[];
 }
 
 export interface AppSettings {
@@ -76,7 +77,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
   // Simulate network fetch of dense catalog
   useEffect(() => {
     const loadCatalog = async () => {
-      const saved = localStorage.getItem('adesio_catalog_v2');
+      const saved = localStorage.getItem('adesio_catalog_v3');
       if (saved) {
         setCatalog(JSON.parse(saved));
         setIsLoadingCatalog(false);
@@ -112,7 +113,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
   ]);
 
   useEffect(() => {
-    localStorage.setItem('adesio_catalog_v2', JSON.stringify(catalog));
+    localStorage.setItem('adesio_catalog_v3', JSON.stringify(catalog));
   }, [catalog]);
 
   useEffect(() => {
@@ -138,6 +139,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
       leadTime: item.leadTime || 0,
       moq: item.moq || 1,
       price: item.price || 0,
+      channels: item.channels || [],
       ...item
     })) as CatalogItem[];
     setCatalog((prev) => [...prev, ...newItems]);

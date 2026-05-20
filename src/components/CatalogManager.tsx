@@ -113,6 +113,7 @@ export default function CatalogManager() {
                 </>
               )}
               
+              <th style={{ padding: '16px', color: 'var(--text-secondary)', fontWeight: 500, fontSize: '0.85rem' }}>SYNC READY</th>
               <th style={{ padding: '16px', color: 'var(--text-secondary)', fontWeight: 500, fontSize: '0.85rem', textAlign: 'right' }}>ACTIONS</th>
             </tr>
           </thead>
@@ -162,6 +163,15 @@ export default function CatalogManager() {
                     </td>
                   </>
                 )}
+                
+                <td style={{ padding: '16px' }}>
+                  <div style={{ display: 'flex', gap: '6px', alignItems: 'center' }}>
+                    {row.channels?.includes('Octopart') && <span title="Octopart Ready" style={{ display: 'inline-block', width: '10px', height: '10px', borderRadius: '50%', background: '#3b82f6', boxShadow: '0 0 8px rgba(59, 130, 246, 0.4)' }}></span>}
+                    {row.channels?.includes('SiliconExpert') && <span title="SiliconExpert Ready" style={{ display: 'inline-block', width: '10px', height: '10px', borderRadius: '50%', background: '#10b981', boxShadow: '0 0 8px rgba(16, 185, 129, 0.4)' }}></span>}
+                    {row.channels?.includes('Distributors') && <span title="Distributor Ready" style={{ display: 'inline-block', width: '10px', height: '10px', borderRadius: '50%', background: '#f59e0b', boxShadow: '0 0 8px rgba(245, 158, 11, 0.4)' }}></span>}
+                    {(!row.channels || row.channels.length === 0) && <span style={{ color: 'var(--text-secondary)', fontSize: '0.75rem', opacity: 0.5 }}>Unmapped</span>}
+                  </div>
+                </td>
                 
                 <td style={{ padding: '16px', textAlign: 'right' }}>
                   {isEditing ? (

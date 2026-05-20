@@ -16,16 +16,28 @@ import { AreaChart, Area, XAxis, YAxis, Tooltip as RechartsTooltip, ResponsiveCo
 import ProductDocumentation from './components/ProductDocumentation';
 import './index.css';
 
-const MODULES = [
-  { id: 'dashboard', label: 'Syndication Dashboard', icon: <LayoutDashboard size={20} /> },
-  { id: 'ingestion', label: 'AI Ingestion Engine', icon: <Upload size={20} /> },
-  { id: 'catalog', label: 'Catalog Manager', icon: <Database size={20} /> },
-  { id: 'assist', label: 'Adesio Assist', icon: <Wand2 size={20} /> },
-  { id: 'integrations', label: 'LiveSync Settings', icon: <Settings size={20} /> },
-  { id: 'telemetry', label: 'Telemetry & Billing', icon: <BarChart size={20} /> },
-  { id: 'wechat', label: 'WeChat Integration', icon: <MessageCircle size={20} /> },
-  { id: 'map', label: 'Global Network Map', icon: <Globe size={20} /> },
+const NAVIGATION_SECTIONS = [
+  {
+    title: 'Core Platform',
+    items: [
+      { id: 'dashboard', label: 'Syndication Dashboard', icon: <LayoutDashboard size={20} /> },
+      { id: 'ingestion', label: 'AI Ingestion Engine', icon: <Upload size={20} /> },
+      { id: 'catalog', label: 'Catalog Manager', icon: <Database size={20} /> },
+      { id: 'assist', label: 'Adesio Assist', icon: <Wand2 size={20} /> },
+      { id: 'map', label: 'Global Network Map', icon: <Globe size={20} /> },
+      { id: 'telemetry', label: 'Telemetry & Billing', icon: <BarChart size={20} /> },
+    ]
+  },
+  {
+    title: 'Settings',
+    items: [
+      { id: 'integrations', label: 'LiveSync Settings', icon: <Settings size={20} /> },
+      { id: 'wechat', label: 'WeChat Integration', icon: <MessageCircle size={20} /> },
+    ]
+  }
 ];
+
+const MODULES = NAVIGATION_SECTIONS.flatMap(section => section.items);
 
 function DashboardView() {
   const { catalog, settings, activityLogs } = useAppContext();
@@ -250,14 +262,23 @@ export default function App() {
         </div>
         
         <div className="sidebar-nav">
-          {MODULES.map((module) => (
-            <div 
-              key={module.id}
-              className={`nav-item ${activeModule === module.id ? 'active' : ''}`}
-              onClick={() => setActiveModule(module.id)}
-            >
-              {module.icon}
-              <span>{module.label}</span>
+          {NAVIGATION_SECTIONS.map((section) => (
+            <div key={section.title} style={{ display: 'flex', flexDirection: 'column', gap: '4px', marginBottom: '12px' }}>
+              <div className="nav-section-header">
+                {section.title}
+              </div>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
+                {section.items.map((module) => (
+                  <div 
+                    key={module.id}
+                    className={`nav-item ${activeModule === module.id ? 'active' : ''}`}
+                    onClick={() => setActiveModule(module.id)}
+                  >
+                    {module.icon}
+                    <span>{module.label}</span>
+                  </div>
+                ))}
+              </div>
             </div>
           ))}
         </div>
